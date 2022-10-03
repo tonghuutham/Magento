@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+
+
+    <table name="magenest_director" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="director_id"  nullable="false" identity="true"
+                comment="director Id"/>
+        <column xsi:type="text" name="name"  nullable="false"
+                comment="Name"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="director_id"/>
+        </constraint>
+    </table>
+
+    <table name="magenest_movie" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="movie_id"  nullable="false" identity="true"
+                comment="Movie Id"/>
+        <column xsi:type="text" name="name"  nullable="false"
+                comment="Name"/>
+        <column xsi:type="text" name="description"  nullable="false"
+                comment="description"/>
+        <column xsi:type="int" name="rating"  nullable="false"
+                comment="rating"/>
+        <column xsi:type="int" name="director_id"  nullable="false"
+                comment="director Id"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="movie_id"/>
+        </constraint>
+
+        <constraint xsi:type="foreign" referenceId="FK1" table="magenest_movie" column="director_id" referenceTable="magenest_director" referenceColumn="director_id" onDelete="CASCADE"/>
+    </table>
+
+    <table name="magenest_actor" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="actor_id"  nullable="false" identity="true"
+                comment="actor Id"/>
+        <column xsi:type="text" name="name"  nullable="false"
+                comment="Name"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="actor_id"/>
+        </constraint>
+    </table>
+
+    <table name="magenest_movie_actor" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="movie_id"  nullable="false"
+                comment="movie_id Id"/>
+        <column xsi:type="int" name="actor_id"  nullable="false"
+                comment="actor_id"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="actor_id"/>
+        </constraint>
+
+        <constraint xsi:type="foreign" referenceId="FK2" table="magenest_movie_actor" column="movie_id" referenceTable="magenest_movie" referenceColumn="movie_id" onDelete="CASCADE"/>
+        <constraint xsi:type="foreign" referenceId="Fk3" table="magenest_movie_actor" column="actor_id" referenceTable="magenest_actor" referenceColumn="actor_id" onDelete="CASCADE"/>
+    </table>
+
+</schema>

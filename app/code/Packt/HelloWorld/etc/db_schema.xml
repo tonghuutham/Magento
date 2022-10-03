@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="packt_helloworld" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="subscription_id" unsigned="true" nullable="false" identity="true"
+                comment="Subscription Id"/>
+        <column xsi:type="datetime" name="created_at"  nullable="false"
+                comment="reated at"/>
+        <column xsi:type="datetime" name="updated_at"
+                comment="Updated at"/>
+        <column xsi:type="varchar" name="firstname"  nullable="false"
+                comment="First name"/>
+        <column xsi:type="varchar" name="lastname"  nullable="false"
+                comment="Last name"/>
+        <column xsi:type="varchar" name="email" nullable="false"
+                comment="Email address"/>
+        <column xsi:type="varchar" name="status"  nullable="false"
+                comment="Status"/>
+        <column xsi:type="text" name="message" nullable="false"
+                comment="Subscription notes"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="subscription_id"/>
+        </constraint>
+    </table>
+</schema>
