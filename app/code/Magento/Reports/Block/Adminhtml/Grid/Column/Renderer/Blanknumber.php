@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Grid\Column\Renderer;
 
 /**
- * Adminhtml grid item renderer number or blank line
+ * adminhtml grid item renderer number or blank line
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

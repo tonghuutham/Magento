@@ -34,7 +34,7 @@
             <comment userInput="Adding the comment to replace CliCacheFlushActionGroup action group ('cache:flush' command) for preserving Backward Compatibility" stepKey="flushCache"/>
             <!--Enable Flat Catalog Category -->
             <magentoCLI stepKey="setFlatCatalogCategory" command="config:set catalog/frontend/flat_catalog_category 1"/>
-            <!--Open Index Management Page and Select Index mode "Update by Schedule" -->
+            <!--Open Index Management Movie and Select Index mode "Update by Schedule" -->
             <magentoCLI stepKey="setIndexerMode" command="indexer:set-mode" arguments="schedule" />
             <!-- Run cron -->
             <magentoCron stepKey="runIndexCronJobs" groups="index"/>
@@ -61,7 +61,7 @@
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="waitForCategoryPageToLoad"/>
         <actionGroup ref="AdminDisableIncludeInMenuConfigActionGroup" stepKey="disableIcludeInMenuOption"/>
         <actionGroup ref="AdminSaveCategoryActionGroup" stepKey="saveSubCategory"/>
-        <!--Verify category is saved and Include In Menu Option is disabled in Category Page -->
+        <!--Verify category is saved and Include In Menu Option is disabled in Category Movie -->
         <actionGroup ref="AssertMessageInAdminPanelActionGroup" stepKey="seeSuccessMessage">
             <argument name="message" value="You saved the category."/>
         </actionGroup>

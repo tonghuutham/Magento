@@ -1,6 +1,6 @@
 <?php
 /**
- * Test class for \Magento\Sales\Block\Adminhtml\Order\Create\Form\Account
+ * Test class for \Magento\Sales\Block\adminhtml\Order\Create\Form\Account
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

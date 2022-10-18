@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\Dashboard\Tab\Products;
 
 /**
- * Adminhtml dashboard most ordered products grid
+ * adminhtml dashboard most ordered products grid
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

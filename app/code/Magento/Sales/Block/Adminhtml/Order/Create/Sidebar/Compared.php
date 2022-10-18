@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Create\Sidebar;
 
 /**
- * Adminhtml sales order create sidebar compared block
+ * adminhtml sales order create sidebar compared block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

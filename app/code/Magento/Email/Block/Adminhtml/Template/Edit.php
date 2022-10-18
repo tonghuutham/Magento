@@ -10,7 +10,7 @@ use Magento\Backend\Block\Widget\ContainerInterface;
 use Magento\Email\Model\BackendTemplate;
 
 /**
- * Adminhtml system template edit block
+ * adminhtml system template edit block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @method array getTemplateOptions()

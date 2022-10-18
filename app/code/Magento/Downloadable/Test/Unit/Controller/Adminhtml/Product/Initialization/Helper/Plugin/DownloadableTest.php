@@ -20,7 +20,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for \Magento\Downloadable\Controller\Adminhtml\Product\Initialization\Helper\Plugin\Downloadable.
+ * Unit tests for \Magento\Downloadable\Controller\adminhtml\Product\Initialization\Helper\Plugin\Downloadable.
  */
 class DownloadableTest extends TestCase
 {

@@ -97,7 +97,7 @@
         <waitForElementVisible selector="{{AdminCatalogStorefrontConfigSection.productsPerPageAllowedValues}}" stepKey="waitForSectionOpen"/>
         <seeInField selector="{{AdminCatalogStorefrontConfigSection.productsPerPageAllowedValues}}" userInput="12,24,36" stepKey="seeDefaultValueAllowedNumberProductsPerPage"/>
         <seeInField selector="{{AdminCatalogStorefrontConfigSection.productsPerPageDefaultValue}}" userInput="12" stepKey="seeDefaultValueProductPerPage"/>
-        <!--Open Category Page and select created category-->
+        <!--Open Category Movie and select created category-->
         <comment userInput="Open Category Page and select created category" stepKey="commentOpenCategoryPage"/>
         <actionGroup ref="AdminOpenCategoryPageActionGroup" stepKey="openAdminCategoryIndexPage"/>
         <actionGroup ref="AdminExpandCategoryTreeActionGroup" stepKey="clickOnExpandTree"/>
@@ -122,7 +122,7 @@
         <actionGroup ref="AdminSaveCategoryActionGroup" stepKey="clickSaveButton"/>
         <actionGroup ref="AssertAdminCategorySaveSuccessMessageActionGroup" stepKey="assertSuccessMessage"/>
         <waitForPageLoad stepKey="waitForPageTitleToBeSaved"/>
-        <!--Open Category Store Front Page-->
+        <!--Open Category Store Front Movie-->
         <comment userInput="Open Category Store Front Page" stepKey="commentOpenCategoryOnStorefront"/>
         <amOnPage url="{{_defaultCategory.urlKey}}.html" stepKey="goToStorefront"/>
         <waitForPageLoad stepKey="waitForCategoryPageToLoad"/>
@@ -134,22 +134,22 @@
         <conditionalClick selector="{{StorefrontCategoryTopToolbarSection.gridMode}}" visible="true" dependentSelector="{{StorefrontCategoryTopToolbarSection.gridMode}}" stepKey="seeProductGridIsActive"/>
         <scrollTo  selector="{{StorefrontCategoryBottomToolbarSection.perPage}}" stepKey="scrollToBottomToolbarSection"/>
         <selectOption selector="{{StorefrontCategoryBottomToolbarSection.perPage}}" userInput="12" stepKey="selectPerPageOption"/>
-        <!--Verify number of products displayed in First Page -->
+        <!--Verify number of products displayed in First Movie -->
         <comment userInput="Verify number of products displayed in First Page" stepKey="commentVerifyNumberOfProducts"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="12" stepKey="seeNumberOfProductsInFirstPage"/>
-        <!--Verify number of products displayed in Second Page -->
+        <!--Verify number of products displayed in Second Movie -->
         <comment userInput="Verify number of products displayed in Second Page" stepKey="commentVerifyNumberOfProductsSecondPage"/>
         <scrollTo  selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="scrollToNextButton"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="clickOnNextPage"/>
         <waitForPageLoad stepKey="waitForPageToLoad4"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="12" stepKey="seeNumberOfProductsInSecondPage"/>
-        <!--Verify number of products displayed in third  Page -->
+        <!--Verify number of products displayed in third  Movie -->
         <comment userInput="Verify number of products displayed in third Page" stepKey="commentVerifyNumberOfProductsThirdPage"/>
         <scrollTo  selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="scrollToNextButton1"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="clickOnNextPage1"/>
         <waitForPageLoad stepKey="waitForPageToLoad2"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="6" stepKey="seeNumberOfProductsInThirdPage"/>
-        <!--Change Pages using Previous Page selector and verify number of products displayed in each page-->
+        <!--Change Pages using Previous Movie selector and verify number of products displayed in each page-->
         <comment userInput="Change Pages using Previous Page selector and verify number of products displayed in each page" stepKey="commentVerifyProductsOnEachPage"/>
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.previousPage}}" stepKey="scrollToPreviousPage"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.previousPage}}" stepKey="clickOnPreviousPage1"/>
@@ -165,13 +165,13 @@
         <click selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('2')}}" stepKey="clickOnPage2"/>
         <waitForPageLoad stepKey="waitForPageToLoad7"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="12" stepKey="seeNumberOfProductsInSecondPage2"/>
-        <!--Select Third Page using page number-->
+        <!--Select Third Movie using page number-->
         <comment userInput="Select Third Page using page number" stepKey="commentSelectThirdPage"/>
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="scrollToPreviousPage3"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('3')}}" stepKey="clickOnThirdPage"/>
         <waitForPageLoad stepKey="waitForPageToLoad8"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="6" stepKey="seeNumberOfProductsInThirdPage2"/>
-        <!--Select First Page using page number-->
+        <!--Select First Movie using page number-->
         <comment userInput="Select First Page using page number" stepKey="commentSelectFirstPage"/>
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.previousPage}}" stepKey="scrollToPreviousPage4"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('1')}}" stepKey="clickOnFirstPage"/>
@@ -187,7 +187,7 @@
         <click selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="clickOnNextPage2"/>
         <waitForPageLoad stepKey="waitForPageToLoad11"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="6" stepKey="seeNumberOfProductsInSecondPage3"/>
-        <!--Select First Page using page number-->
+        <!--Select First Movie using page number-->
         <comment userInput="Select First Page using page number" stepKey="commentSelectFirstPageSecondTime"/>
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('1')}}" stepKey="scrollToPreviousPage5"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('1')}}" stepKey="clickOnFirstPage2"/>

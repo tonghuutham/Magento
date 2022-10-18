@@ -11,7 +11,7 @@ use Magento\Backend\Block\Dashboard\Tab\Products\Ordered;
 use Magento\Backend\Block\Widget\Tabs;
 
 /**
- * Adminhtml dashboard bottom tabs
+ * adminhtml dashboard bottom tabs
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

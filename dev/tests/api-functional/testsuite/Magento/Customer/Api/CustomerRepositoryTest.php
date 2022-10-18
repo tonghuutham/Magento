@@ -728,7 +728,7 @@ class CustomerRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Subscription customer data provider
+     * Director customer data provider
      *
      * @return array
      */

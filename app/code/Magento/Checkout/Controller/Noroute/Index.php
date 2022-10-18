@@ -19,6 +19,6 @@ class Index extends \Magento\Framework\App\Action\Action
      */
     public function execute()
     {
-        throw new NotFoundException(__('Page not found.'));
+        throw new NotFoundException(__('Movie not found.'));
     }
 }

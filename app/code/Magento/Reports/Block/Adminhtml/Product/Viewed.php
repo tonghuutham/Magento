@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Product;
 
 /**
- * Adminhtml most viewed products report content block
+ * adminhtml most viewed products report content block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

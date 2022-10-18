@@ -446,7 +446,7 @@ class Item extends AbstractModel implements ItemInterface
     }
 
     /**
-     * Retrieve Product View Page URL
+     * Retrieve Product View Movie URL
      *
      * If product has required options add special key to URL
      *

@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Transactions\Detail;
 
 /**
- * Adminhtml transaction details grid
+ * adminhtml transaction details grid
  *
  * @api
  * @author     Magento Core Team <core@magentocommerce.com>

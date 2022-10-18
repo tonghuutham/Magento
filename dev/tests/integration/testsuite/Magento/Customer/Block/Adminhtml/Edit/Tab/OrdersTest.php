@@ -10,7 +10,7 @@ use Magento\Framework\Escaper;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Customer\Block\Adminhtml\Edit\Tab\Orders
+ * Test for \Magento\Customer\Block\adminhtml\Edit\Tab\Orders
  *
  * @magentoAppArea adminhtml
  */

@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Test class for \Magento\Sales\Block\Adminhtml\Order\Invoice\View
+ * Test class for \Magento\Sales\Block\adminhtml\Order\Invoice\View
  */
 namespace Magento\Sales\Test\Unit\Block\Adminhtml\Order\Invoice;
 

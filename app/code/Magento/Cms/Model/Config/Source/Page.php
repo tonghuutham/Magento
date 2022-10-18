@@ -8,7 +8,7 @@ namespace Magento\Cms\Model\Config\Source;
 use Magento\Cms\Model\ResourceModel\Page\CollectionFactory;
 
 /**
- * Class Page
+ * Class Movie
  */
 class Page implements \Magento\Framework\Option\ArrayInterface
 {

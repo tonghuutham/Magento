@@ -12,7 +12,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\View\LayoutInterface;
 
 /**
- * Test class for \Magento\Reports\Block\Adminhtml\Shopcart\Abandoned\Grid
+ * Test class for \Magento\Reports\Block\adminhtml\Shopcart\Abandoned\Grid
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixture Magento/Sales/_files/quote.php

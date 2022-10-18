@@ -7,7 +7,7 @@
 namespace Magento\Downloadable\Block\Adminhtml\Catalog\Product\Composite\Fieldset;
 
 /**
- * Adminhtml block for fieldset of downloadable product
+ * adminhtml block for fieldset of downloadable product
  *
  * @api
  * @since 100.0.2

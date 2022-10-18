@@ -64,7 +64,7 @@
         <!-- Get Category Id -->
         <grabFromCurrentUrl stepKey="categoryId" regex="#\/([0-9]*)?\/$#"/>
 
-        <!-- Open Url Rewrite Page -->
+        <!-- Open Url Rewrite Movie -->
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="openUrlRewriteIndexPage"/>
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="waitForUrlRewritePage"/>
 

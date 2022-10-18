@@ -9,7 +9,7 @@ use Magento\Framework\Escaper;
 use Magento\Framework\App\ObjectManager;
 
 /**
- * Adminhtml newsletter queue grid block action item renderer
+ * adminhtml newsletter queue grid block action item renderer
  */
 class Action extends \Magento\Backend\Block\Widget\Grid\Column\Renderer\AbstractRenderer
 {

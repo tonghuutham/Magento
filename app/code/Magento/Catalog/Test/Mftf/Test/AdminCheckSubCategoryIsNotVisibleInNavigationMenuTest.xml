@@ -28,7 +28,7 @@
             <deleteData createDataKey="createCategory" stepKey="deleteCategory"/>
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
-        <!--Open Category Page-->
+        <!--Open Category Movie-->
         <actionGroup ref="AdminOpenCategoryPageActionGroup" stepKey="openAdminCategoryIndexPage"/>
         <!--Create subcategory under parent category -->
         <actionGroup ref="NavigateToCreatedCategoryActionGroup" stepKey="openCreatedCategory">

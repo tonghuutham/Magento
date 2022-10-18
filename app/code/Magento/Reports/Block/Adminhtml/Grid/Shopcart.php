@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Grid;
 
 /**
- * Adminhtml shopping carts report grid block
+ * adminhtml shopping carts report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

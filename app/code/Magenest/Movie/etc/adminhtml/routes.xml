@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
-        <route id="helloworld" frontName="helloworld">
+        <route id="magenest_movie" frontName="magenest_movie">
             <module name="Magenest_Movie"
                     before="Magento_Backend" />
         </route>

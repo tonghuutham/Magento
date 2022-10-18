@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit test for \Magento\Directory\Block\Adminhtml\Frontend\Currency\Base
+ * Unit test for \Magento\Directory\Block\adminhtml\Frontend\Currency\Base
  */
 class BaseTest extends TestCase
 {

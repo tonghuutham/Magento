@@ -6,7 +6,7 @@
 namespace Magento\EncryptionKey\Block\Adminhtml\Crypt\Key;
 
 /**
- * Test class for \Magento\EncryptionKey\Block\Adminhtml\Crypt\Key\Form
+ * Test class for \Magento\EncryptionKey\Block\adminhtml\Crypt\Key\Form
  * @magentoAppArea adminhtml
  */
 class FormTest extends \PHPUnit\Framework\TestCase

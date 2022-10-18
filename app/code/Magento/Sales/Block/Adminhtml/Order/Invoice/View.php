@@ -7,7 +7,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Invoice;
 
 /**
- * Adminhtml invoice create
+ * adminhtml invoice create
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

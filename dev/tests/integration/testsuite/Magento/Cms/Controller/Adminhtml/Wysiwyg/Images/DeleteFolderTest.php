@@ -12,7 +12,7 @@ use Magento\Framework\App\Response\HttpFactory as ResponseFactory;
 use Magento\Framework\Filesystem\Driver\File;
 
 /**
- * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFolder class.
+ * Test for \Magento\Cms\Controller\adminhtml\Wysiwyg\Images\DeleteFolder class.
  *
  * @magentoAppArea adminhtml
  */

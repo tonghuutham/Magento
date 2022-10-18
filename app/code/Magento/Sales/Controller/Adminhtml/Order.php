@@ -24,7 +24,7 @@ use Magento\Framework\Exception\InputException;
 use Psr\Log\LoggerInterface;
 
 /**
- * Adminhtml sales orders controller
+ * adminhtml sales orders controller
  *
  * @api
  * @SuppressWarnings(PHPMD.NumberOfChildren)

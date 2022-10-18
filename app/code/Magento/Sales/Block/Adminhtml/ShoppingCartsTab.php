@@ -12,7 +12,7 @@ use Magento\Ui\Component\Layout\Tabs\TabWrapper;
 /**
  * Class ShoppingCarts
  *
- * @package Magento\Sales\Block\Adminhtml
+ * @package Magento\Sales\Block\adminhtml
  */
 class ShoppingCartsTab extends TabWrapper
 {

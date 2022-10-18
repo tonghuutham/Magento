@@ -6,7 +6,7 @@
 namespace Magento\Paypal\Block\Adminhtml\Billing;
 
 /**
- * Adminhtml billing agreement grid container
+ * adminhtml billing agreement grid container
  *
  * @api
  * @since 100.0.2

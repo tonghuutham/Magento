@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Grid\Column\Renderer;
 
 /**
- * Adminhtml Report Products Reviews renderer
+ * adminhtml Report Products Reviews renderer
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

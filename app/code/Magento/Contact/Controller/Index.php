@@ -62,7 +62,7 @@ abstract class Index extends \Magento\Framework\App\Action\Action
     public function dispatch(RequestInterface $request)
     {
         if (!$this->contactsConfig->isEnabled()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
         return parent::dispatch($request);
     }

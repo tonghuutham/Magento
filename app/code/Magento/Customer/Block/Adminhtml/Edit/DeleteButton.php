@@ -11,7 +11,7 @@ use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 /**
  * Class DeleteButton
  *
- * @package Magento\Customer\Block\Adminhtml\Edit
+ * @package Magento\Customer\Block\adminhtml\Edit
  */
 class DeleteButton extends GenericButton implements ButtonProviderInterface
 {

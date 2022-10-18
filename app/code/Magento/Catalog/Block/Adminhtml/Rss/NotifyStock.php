@@ -10,7 +10,7 @@ use Magento\Framework\App\Rss\DataProviderInterface;
 /**
  * Class NotifyStock
  *
- * @package Magento\Catalog\Block\Adminhtml\Rss
+ * @package Magento\Catalog\Block\adminhtml\Rss
  */
 class NotifyStock extends \Magento\Backend\Block\AbstractBlock implements DataProviderInterface
 {

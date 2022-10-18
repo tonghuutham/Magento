@@ -8,7 +8,7 @@ namespace Magento\Paypal\Controller\Adminhtml\Transparent;
 /**
  * Class RequestSecureToken
  *
- * @package Magento\Paypal\Controller\Adminhtml\Transparent
+ * @package Magento\Paypal\Controller\adminhtml\Transparent
  */
 class RequestSecureToken extends \Magento\Paypal\Controller\Transparent\RequestSecureToken
 {

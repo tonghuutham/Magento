@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Product;
 
 /**
- * Adminhtml product downloads report
+ * adminhtml product downloads report
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

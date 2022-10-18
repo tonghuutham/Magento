@@ -10,7 +10,7 @@ use Magento\Framework\Math\Random;
 use Magento\Framework\View\Helper\SecureHtmlRenderer;
 
 /**
- * Adminhtml customers wishlist grid item action renderer for few action controls in one cell
+ * adminhtml customers wishlist grid item action renderer for few action controls in one cell
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -9,7 +9,7 @@ namespace Magento\Sales\Controller\Adminhtml\Invoice\AbstractInvoice;
 /**
  * Class Email
  *
- * @package Magento\Sales\Controller\Adminhtml\Invoice\AbstractInvoice
+ * @package Magento\Sales\Controller\adminhtml\Invoice\AbstractInvoice
  */
 abstract class Email extends \Magento\Backend\App\Action
 {

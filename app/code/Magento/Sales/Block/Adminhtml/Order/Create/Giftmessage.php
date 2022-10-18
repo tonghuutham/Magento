@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Create;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
- * Adminhtml order create gift message block
+ * adminhtml order create gift message block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order;
 use Magento\Sales\Model\ConfigInterface;
 
 /**
- * Adminhtml sales order view
+ * adminhtml sales order view
  * @api
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @since 100.0.2

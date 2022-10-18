@@ -12,7 +12,7 @@ use Magento\Integration\Block\Adminhtml\Integration\Edit\Tab\Info;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Integration\Block\Adminhtml\Integration\Edit\Tab\Info
+ * Test class for \Magento\Integration\Block\adminhtml\Integration\Edit\Tab\Info
  */
 class InfoTest extends TestCase
 {

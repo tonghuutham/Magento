@@ -9,7 +9,7 @@ use Magento\Security\Model\AdminSessionsManager;
 use Magento\Backend\Controller\Adminhtml\Auth\Login;
 
 /**
- * Magento\Backend\Controller\Adminhtml\Auth\Login decorator
+ * Magento\Backend\Controller\adminhtml\Auth\Login decorator
  */
 class LoginController
 {

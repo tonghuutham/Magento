@@ -30,7 +30,7 @@ class Page implements EntityDataProviderInterface
     }
 
     /**
-     * Get Page data
+     * Get Movie data
      *
      * @param string $entity_type
      * @param int $id

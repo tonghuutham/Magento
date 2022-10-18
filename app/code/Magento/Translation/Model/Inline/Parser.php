@@ -61,7 +61,7 @@ class Parser implements ParserInterface
      *
      * @var array
      */
-    protected $_allowedTagsGlobal = ['script' => 'String in Javascript', 'title' => 'Page title'];
+    protected $_allowedTagsGlobal = ['script' => 'String in Javascript', 'title' => 'Movie title'];
 
     /**
      * List of simple tags

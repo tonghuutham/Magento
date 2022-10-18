@@ -127,7 +127,7 @@ class PageTest extends TestCase
     public function testBeforeSave404Identifier()
     {
         $this->expectException('Magento\Framework\Exception\LocalizedException');
-        $this->expectExceptionMessage('This identifier is reserved for "CMS No Route Page" in configuration.');
+        $this->expectExceptionMessage('This identifier is reserved for "CMS No Route Movie" in configuration.');
         $this->model->setId(1);
         $this->model->setOrigData('identifier', 'no-route');
         $this->model->setIdentifier('no-route2');
@@ -151,7 +151,7 @@ class PageTest extends TestCase
     public function testBeforeSaveHomeIdentifier()
     {
         $this->expectException('Magento\Framework\Exception\LocalizedException');
-        $this->expectExceptionMessage('This identifier is reserved for "CMS Home Page" in configuration.');
+        $this->expectExceptionMessage('This identifier is reserved for "CMS Home Movie" in configuration.');
         $this->model->setId(1);
         $this->model->setOrigData('identifier', 'home');
         $this->model->setIdentifier('home2');
@@ -175,7 +175,7 @@ class PageTest extends TestCase
     public function testBeforeSaveNoCookiesIdentifier()
     {
         $this->expectException('Magento\Framework\Exception\LocalizedException');
-        $this->expectExceptionMessage('This identifier is reserved for "CMS No Cookies Page" in configuration.');
+        $this->expectExceptionMessage('This identifier is reserved for "CMS No Cookies Movie" in configuration.');
         $this->model->setId(1);
         $this->model->setOrigData('identifier', 'no-cookies');
         $this->model->setIdentifier('no-cookies2');

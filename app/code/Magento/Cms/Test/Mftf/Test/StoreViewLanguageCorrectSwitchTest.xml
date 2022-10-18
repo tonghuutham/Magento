@@ -42,17 +42,17 @@
         </actionGroup>
         <magentoCron groups="index" stepKey="reindex"/>
 
-        <!-- Add StoreView To Cms Page-->
+        <!-- Add StoreView To Cms Movie-->
         <actionGroup ref="AddStoreViewToCmsPageActionGroup" stepKey="gotToCmsPage">
             <argument name="CMSPage" value="$$createSecondCmsPage$$"/>
             <argument name="storeViewName" value="{{NewStoreViewData.name}}"/>
         </actionGroup>
 
-        <!-- Check that Cms Page is open -->
+        <!-- Check that Cms Movie is open -->
         <amOnPage url="{{StorefrontHomePage.url}}/$$createFirstCmsPage.identifier$$" stepKey="gotToFirstCmsPage"/>
         <see userInput="$$createFirstCmsPage.title$$" stepKey="seePageTitle"/>
 
-        <!-- Switch StoreView and check that Cms Page is open -->
+        <!-- Switch StoreView and check that Cms Movie is open -->
         <actionGroup ref="StorefrontSwitchStoreViewActionGroup" stepKey="switchToCustomStoreView">
             <argument name="storeView" value="NewStoreViewData"/>
         </actionGroup>

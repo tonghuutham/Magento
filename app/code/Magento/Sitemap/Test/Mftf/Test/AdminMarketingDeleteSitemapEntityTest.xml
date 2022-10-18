@@ -21,12 +21,12 @@
         </annotations>
         <before>
             <actionGroup ref="AdminLoginActionGroup" stepKey="loginAsAdmin"/>
-            <!--Navigate to Marketing->Sitemap Page -->
+            <!--Navigate to Marketing->Sitemap Movie -->
             <actionGroup ref="AdminNavigateMenuActionGroup" stepKey="navigateToMarketingSiteMapPage">
                 <argument name="menuUiId" value="{{AdminMenuMarketing.dataUiId}}"/>
                 <argument name="submenuUiId" value="{{AdminMenuSEOAndSearchSiteMap.dataUiId}}"/>
             </actionGroup>
-            <!-- Navigate To New Sitemap Page -->
+            <!-- Navigate To New Sitemap Movie -->
             <actionGroup ref="AdminMarketingSiteMapNavigateNewActionGroup" stepKey="navigateToNewSitemapPage"/>
             <!-- Create Sitemap Entity -->
             <actionGroup ref="AdminMarketingSiteMapFillFormActionGroup" stepKey="createSitemap">

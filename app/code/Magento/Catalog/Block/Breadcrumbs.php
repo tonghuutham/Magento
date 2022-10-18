@@ -61,7 +61,7 @@ class Breadcrumbs extends \Magento\Framework\View\Element\Template
                 'home',
                 [
                     'label' => __('Home'),
-                    'title' => __('Go to Home Page'),
+                    'title' => __('Go to Home Movie'),
                     'link' => $this->_storeManager->getStore()->getBaseUrl()
                 ]
             );

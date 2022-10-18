@@ -17,7 +17,7 @@ use Magento\Backend\Model\UrlInterface as BackendUrl;
 use Magento\Backend\Model\Auth;
 
 /**
- * Test for \Magento\ImportExport\Controller\Adminhtml\Export\File\Download class.
+ * Test for \Magento\ImportExport\Controller\adminhtml\Export\File\Download class.
  */
 class DownloadTest extends AbstractBackendController
 {

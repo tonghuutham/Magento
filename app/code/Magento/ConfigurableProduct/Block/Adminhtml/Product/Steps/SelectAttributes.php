@@ -6,7 +6,7 @@
 namespace Magento\ConfigurableProduct\Block\Adminhtml\Product\Steps;
 
 /**
- * Adminhtml block for fieldset of configurable product
+ * adminhtml block for fieldset of configurable product
  *
  * @api
  * @since 100.0.2

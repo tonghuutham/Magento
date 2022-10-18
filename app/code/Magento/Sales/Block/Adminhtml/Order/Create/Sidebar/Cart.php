@@ -12,7 +12,7 @@ use Magento\Catalog\Pricing\Price\FinalPrice;
 use Magento\Store\Model\ScopeInterface;
 
 /**
- * Adminhtml sales order create sidebar cart block
+ * adminhtml sales order create sidebar cart block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

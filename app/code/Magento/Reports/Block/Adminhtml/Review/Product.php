@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Review;
 
 /**
- * Adminhtml report review product blocks content block
+ * adminhtml report review product blocks content block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

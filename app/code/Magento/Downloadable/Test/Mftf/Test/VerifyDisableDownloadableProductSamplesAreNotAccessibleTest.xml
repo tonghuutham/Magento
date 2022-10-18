@@ -106,7 +106,7 @@
             <argument name="linkId" value="{$grabDownloadableLinkId}"/>
         </actionGroup>
 
-        <!-- Link Sample url is not accessible. You are redirected to Home Page -->
+        <!-- Link Sample url is not accessible. You are redirected to Home Movie -->
         <seeInCurrentUrl url="{{StorefrontHomePage.url}}" stepKey="seeRedirectToHomePage"/>
 
         <!-- Navigate to Sample url on Storefront -->
@@ -114,7 +114,7 @@
             <argument name="sampleId" value="{$grabDownloadableSampleId}"/>
         </actionGroup>
 
-        <!-- Sample url is not accessible. You are redirected to Home Page -->
+        <!-- Sample url is not accessible. You are redirected to Home Movie -->
         <seeInCurrentUrl url="{{StorefrontHomePage.url}}" stepKey="seeHomePage"/>
     </test>
 </tests>

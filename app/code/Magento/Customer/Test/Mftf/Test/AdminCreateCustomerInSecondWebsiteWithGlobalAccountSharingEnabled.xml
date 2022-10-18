@@ -51,7 +51,7 @@
             <argument name="StoreGroup" value="SecondStoreGroupUnique"/>
             <argument name="customStore" value="SecondStoreUnique"/>
         </actionGroup>
-        <!--Open New Customer Page -->
+        <!--Open New Customer Movie -->
         <actionGroup ref="AdminNavigateNewCustomerActionGroup" stepKey="waitToCustomerPageLoad"/>
         <!--Change customer website to "Second Website"-->
         <actionGroup ref="AdminUpdateCustomerWebsiteInCustomerInformationPageActionGroup" stepKey="updateCustomerWebsite">

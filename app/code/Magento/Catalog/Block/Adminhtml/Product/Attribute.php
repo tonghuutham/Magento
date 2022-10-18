@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product;
 
 /**
- * Adminhtml catalog product attributes block
+ * adminhtml catalog product attributes block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

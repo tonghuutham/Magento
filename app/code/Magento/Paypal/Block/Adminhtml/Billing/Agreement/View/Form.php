@@ -6,7 +6,7 @@
 namespace Magento\Paypal\Block\Adminhtml\Billing\Agreement\View;
 
 /**
- * Adminhtml billing agreement view plane
+ * adminhtml billing agreement view plane
  */
 class Form extends \Magento\Backend\Block\Template
 {

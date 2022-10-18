@@ -13,7 +13,7 @@ use Magento\Framework\App\Action\HttpGetActionInterface as HttpGetActionInterfac
 use Magento\Reports\Controller\Adminhtml\Report\Shopcart\Customer as ShopCartCustomer;
 
 /**
- * Class \Magento\Reports\Controller\Adminhtml\Report\Shopcart\ExportCustomerExcel
+ * Class \Magento\Reports\Controller\adminhtml\Report\Shopcart\ExportCustomerExcel
  */
 class ExportCustomerExcel extends ShopCartCustomer implements HttpGetActionInterface
 {

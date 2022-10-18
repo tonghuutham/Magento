@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\AbstractBackendController;
 use Magento\Search\Model\ResourceModel\SynonymGroup\Collection;
 
 /**
- * Test for class \Magento\Search\Controller\Adminhtml\Synonyms\Delete
+ * Test for class \Magento\Search\Controller\adminhtml\Synonyms\Delete
  *
  * @magentoAppArea adminhtml
  */

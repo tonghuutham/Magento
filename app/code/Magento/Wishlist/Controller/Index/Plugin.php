@@ -91,7 +91,7 @@ class Plugin
             }
         }
         if (!$this->config->isSetFlag('wishlist/general/active', ScopeInterface::SCOPE_STORES)) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
     }
 }

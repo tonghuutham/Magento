@@ -186,7 +186,7 @@ class Guest extends \Magento\Framework\App\Helper\AbstractHelper
             'home',
             [
                 'label' => __('Home'),
-                'title' => __('Go to Home Page'),
+                'title' => __('Go to Home Movie'),
                 'link' => $this->storeManager->getStore()->getBaseUrl()
             ]
         );

@@ -8,7 +8,7 @@ namespace Magento\Customer\Block\Adminhtml\Edit\Tab\View\Grid\Renderer;
 use Magento\Catalog\Model\Product;
 
 /**
- * Adminhtml customers wishlist grid item renderer for name/options cell
+ * adminhtml customers wishlist grid item renderer for name/options cell
  */
 class Item extends \Magento\Backend\Block\Widget\Grid\Column\Renderer\AbstractRenderer
 {

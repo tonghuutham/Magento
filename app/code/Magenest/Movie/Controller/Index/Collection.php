@@ -1,6 +1,6 @@
 <?php
 
-namespace Packt\HelloWorld\Controller\Index;
+namespace Magenest\Movie\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
 

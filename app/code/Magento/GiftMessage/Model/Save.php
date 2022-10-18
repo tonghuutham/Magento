@@ -6,7 +6,7 @@
 namespace Magento\GiftMessage\Model;
 
 /**
- * Adminhtml giftmessage save model
+ * adminhtml giftmessage save model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

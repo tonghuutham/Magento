@@ -15,7 +15,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for \Magento\ImportExport\Controller\Adminhtml\Export\File\Delete class.
+ * Test for \Magento\ImportExport\Controller\adminhtml\Export\File\Delete class.
  *
  * @magentoAppArea adminhtml
  */

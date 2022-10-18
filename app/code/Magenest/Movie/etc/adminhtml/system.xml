@@ -58,6 +58,7 @@
                        showInWebsite="1" showInStore="1">
 
                     <label>Reload Page</label>
+                    <frontend_model>Magenest\Movie\Block\Adminhtml\ReloadPage</frontend_model>
 
 
                 </field>

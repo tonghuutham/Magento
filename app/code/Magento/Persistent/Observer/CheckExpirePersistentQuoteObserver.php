@@ -66,7 +66,7 @@ class CheckExpirePersistentQuoteObserver implements ObserverInterface
     private $request;
 
     /**
-     * Checkout Page path
+     * Checkout Movie path
      *
      * @var string
      */

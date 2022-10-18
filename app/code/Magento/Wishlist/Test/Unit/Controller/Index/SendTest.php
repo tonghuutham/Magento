@@ -313,7 +313,7 @@ class SendTest extends TestCase
             ->method('getWishlist')
             ->willReturn(null);
         $this->expectException(NotFoundException::class);
-        $this->expectExceptionMessage('Page not found');
+        $this->expectExceptionMessage('Movie not found');
 
         $this->model->execute();
     }

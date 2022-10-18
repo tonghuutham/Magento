@@ -22,7 +22,7 @@ use Magento\Framework\View\Helper\SecureHtmlRenderer;
 class Wysiwyg extends \Magento\Framework\Data\Form\Element\Textarea
 {
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var \Magento\Backend\Helper\Data
      */

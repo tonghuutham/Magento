@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml page
+ * adminhtml page
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -11,7 +11,7 @@ use Magento\Framework\Serialize\SerializerInterface;
 /**
  * @api
  *
- * Adminhtml store edit
+ * adminhtml store edit
  * @since 100.0.2
  */
 class Edit extends \Magento\Backend\Block\Widget\Form\Container

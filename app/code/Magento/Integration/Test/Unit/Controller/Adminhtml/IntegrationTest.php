@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 /**
- * \Magento\Integration\Controller\Adminhtml
+ * \Magento\Integration\Controller\adminhtml
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -355,7 +355,7 @@ abstract class IntegrationTest extends TestCase
         ];
         /** Create IntegrationController to test */
         $controller = $this->_objectManagerHelper->getObject(
-            '\\Magento\\Integration\\Controller\\Adminhtml\\Integration\\' . $actionName,
+            '\\Magento\\Integration\\Controller\\adminhtml\\Integration\\' . $actionName,
             $subControllerParams
         );
         if ($actionName == 'Save') {

@@ -68,7 +68,7 @@
             <argument name="emailYouMessage" value="CONST.successCheckoutEmailYouMessage" />
         </actionGroup>
 
-        <!-- Go To My Account Page -->
+        <!-- Go To My Account Movie -->
         <actionGroup ref="StorefrontOpenMyAccountPageActionGroup" stepKey="goToMyAccountPage" />
 
         <!-- Assert That Shipping And Billing Address are the same -->

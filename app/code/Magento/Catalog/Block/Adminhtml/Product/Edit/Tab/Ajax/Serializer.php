@@ -9,7 +9,7 @@ use Magento\Framework\View\Element\Template;
 
 /**
  * Class Serializer
- * @package Magento\Catalog\Block\Adminhtml\Product\Edit\Tab\Ajax
+ * @package Magento\Catalog\Block\adminhtml\Product\Edit\Tab\Ajax
  * @deprecated 102.0.0
  */
 class Serializer extends \Magento\Framework\View\Element\Template

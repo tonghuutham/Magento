@@ -86,7 +86,7 @@
             <!-- Reindex invalidated indices after product attribute has been created/deleted -->
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
-        <!--Open Product in Store Front Page -->
+        <!--Open Product in Store Front Movie -->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openProductInStoreFront">
             <argument name="product" value="$createConfigProduct$"/>
         </actionGroup>
@@ -129,7 +129,7 @@
             <argument name="categoryUrlKey" value="$$createCategory.name$$"/>
             <argument name="productName" value="$$createConfigProduct.name$$"/>
         </actionGroup>
-        <!--Open Product Store Front Page and Verify Product is Out Of Stock -->
+        <!--Open Product Store Front Movie and Verify Product is Out Of Stock -->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openProductInStoreFront1">
             <argument name="product" value="$createConfigProduct$"/>
         </actionGroup>

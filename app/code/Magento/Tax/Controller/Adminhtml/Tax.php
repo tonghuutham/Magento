@@ -9,7 +9,7 @@ namespace Magento\Tax\Controller\Adminhtml;
 use Magento\Framework\Exception\InputException;
 
 /**
- * Adminhtml common tax class controller
+ * adminhtml common tax class controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -19,7 +19,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Base class for testing \Magento\Customer\Block\Adminhtml\Edit\Tab\View\Grid\Renderer\Item block
+ * Base class for testing \Magento\Customer\Block\adminhtml\Edit\Tab\View\Grid\Renderer\Item block
  */
 abstract class AbstractItemTest extends TestCase
 {

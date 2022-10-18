@@ -40,7 +40,7 @@
             <argument name="description" value="cms_default_no_redirect"/>
         </actionGroup>
 
-        <!--Delete the URL Rewrite for CMS Page with No redirects-->
+        <!--Delete the URL Rewrite for CMS Movie with No redirects-->
         <actionGroup ref="AdminDeleteUrlRewriteActionGroup" stepKey="deleteCustomUrlRewrite">
             <argument name="requestPath" value="newrequestpath"/>
         </actionGroup>

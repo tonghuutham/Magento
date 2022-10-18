@@ -15,7 +15,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for class \Magento\Reports\Block\Adminhtml\Grid\Shopcart.
+ * Test for class \Magento\Reports\Block\adminhtml\Grid\Shopcart.
  */
 class ShopcartTest extends TestCase
 {

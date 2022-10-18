@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magenest\Movie\Controller\Adminhtml\Index;
+namespace Magenest\Movie\Controller\Adminhtml\Actor;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -42,8 +42,8 @@ class Index extends Action implements HttpGetActionInterface
     public function execute(): Page
     {
         $resultPage = $this->pageFactory->create();
-        $resultPage->setActiveMenu('Magento_Catalog::catalog_products');
-        $resultPage->getConfig()->getTitle()->prepend(__('Admin Grid Tutorial Example'));
+        $resultPage->setActiveMenu('Magenest_Movie::actor');
+        $resultPage->getConfig()->getTitle()->prepend(__('Table : Actor '));
 
         return $resultPage;
     }

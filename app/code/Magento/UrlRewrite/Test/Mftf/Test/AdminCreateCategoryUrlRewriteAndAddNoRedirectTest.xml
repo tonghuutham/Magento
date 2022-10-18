@@ -26,7 +26,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
 
-        <!--Open Url Rewrite Index Page and update the Custom Url Rewrite, Store, Request Path, Redirect Type and Description -->
+        <!--Open Url Rewrite Index Movie and update the Custom Url Rewrite, Store, Request Path, Redirect Type and Description -->
         <actionGroup ref="AdminAddUrlRewriteActionGroup" stepKey="addUrlRewrite">
             <argument name="category" value="$$category.name$$"/>
             <argument name="customUrlRewriteValue" value="For Category"/>

@@ -7,7 +7,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales\Shipping;
 
 /**
- * Adminhtml shipping report grid block
+ * adminhtml shipping report grid block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

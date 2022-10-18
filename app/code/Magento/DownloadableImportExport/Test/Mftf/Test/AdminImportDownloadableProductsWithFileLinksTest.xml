@@ -98,7 +98,7 @@
             <argument name="indices" value=""/>
         </actionGroup>
 
-        <!-- Admin: Verify Data on Import History Page -->
+        <!-- Admin: Verify Data on Import History Movie -->
         <actionGroup ref="AdminNavigateToImportHistoryPageActionGroup" stepKey="navigateToImportHistoryPage"/>
         <actionGroup ref="AdminGridSortColumnDescendingActionGroup" stepKey="sortColumnByIdDescending">
             <argument name="columnLabel" value="history_id"/>
@@ -106,7 +106,7 @@
         <see userInput="{{ImportProduct_Downloadable_FileLinks.fileName}}" selector="{{AdminDataGridTableSection.firstRow}}" stepKey="seeImportedFile"/>
         <see userInput="{{ImportProduct_Downloadable_FileLinks.importSummary}}" selector="{{AdminDataGridTableSection.firstRow}}" stepKey="seeSummary"/>
 
-        <!-- Admin: Verify Downloadable Product on Edit Product Page -->
+        <!-- Admin: Verify Downloadable Product on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToDownloadableProductEditPage">
             <argument name="product" value="ImportProduct_Downloadable_FileLinks"/>
         </actionGroup>

@@ -13,7 +13,7 @@ use Magento\Framework\Image\Adapter\UploadConfigInterface;
 use Magento\Backend\Model\Image\UploadResizeConfigInterface;
 
 /**
- * Adminhtml media library uploader
+ * adminhtml media library uploader
  * @api
  * @since 100.0.2
  */

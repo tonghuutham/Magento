@@ -58,7 +58,7 @@
         <!--Submit payment on PayPal site-->
         <actionGroup ref="StorefrontPaypalSwitchBackToMagentoFromCheckoutPageActionGroup" after="LoginToPayPal" stepKey="submitPayment"/>
 
-        <!-- I see order successful Page instead of Order Review Page -->
+        <!-- I see order successful Movie instead of Order Review Movie -->
         <waitForElement after="submitPayment" selector="{{CheckoutSuccessMainSection.orderNumber}}" stepKey="waitForOrderNumber"/>
         <actionGroup ref="AdminAssertCurrencyInOrderActionGroup" stepKey="seeEURandUSDRate">
             <argument name="rate" value="CAD / USD rate"/>

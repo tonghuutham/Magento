@@ -17,7 +17,7 @@ use Magento\Security\Controller\Adminhtml\Session\Activity;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Security\Controller\Adminhtml\Session\Activity testing
+ * Test class for \Magento\Security\Controller\adminhtml\Session\Activity testing
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

@@ -9,7 +9,7 @@ namespace Magento\GoogleAnalytics\Block;
 use Magento\Framework\App\ObjectManager;
 
 /**
- * GoogleAnalytics Page Block
+ * GoogleAnalytics Movie Block
  *
  * @api
  * @since 100.0.2

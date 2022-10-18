@@ -26,7 +26,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for \Magento\User\Controller\Adminhtml\User\Role\Delete.
+ * Unit tests for \Magento\User\Controller\adminhtml\User\Role\Delete.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

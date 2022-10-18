@@ -30,11 +30,11 @@
             <!--Logout From Admin Panel -->
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logoutAsAdmin"/>
         </after>
-        <!-- Navigate to Product Page-->
+        <!-- Navigate to Product Movie-->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="navigateToProductIndex"/>
         <!-- Click on Add Product Button -->
         <click selector="#add_new_product-button" stepKey="clickAddProductButton"/>
-        <!-- Wait for Page Load-->
+        <!-- Wait for Movie Load-->
         <waitForPageLoad stepKey="waitForNewProductPageOpened"/>
         <!-- Fill Product Name-->
         <fillField selector="{{AdminProductFormSection.productName}}" userInput="Sample Product" stepKey="fillProductName" />
@@ -54,7 +54,7 @@
         <fillField selector="{{AdminProductFormAdvancedInventorySection.outOfStockThreshold}}" userInput="10" stepKey="fillAdvancedInventoryThresholdValue" />
         <!-- Save Advanced Inventory Section-->
         <actionGroup ref="AdminSubmitAdvancedInventoryFormActionGroup" stepKey="clickOnDoneButton"/>
-        <!-- Save Product Page-->
+        <!-- Save Product Movie-->
         <click selector="{{AdminProductFormActionSection.saveButton}}"  stepKey="saveProductAfterDisableManageStock"/>
     </test>
 </tests>

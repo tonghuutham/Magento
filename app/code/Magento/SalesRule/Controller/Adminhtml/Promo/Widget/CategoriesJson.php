@@ -12,8 +12,8 @@ namespace Magento\SalesRule\Controller\Adminhtml\Promo\Widget;
  * Class for generation of JSON for building tree catalog.
  *
  * Examples of use:
- * \Magento\Catalog\Block\Adminhtml\Category\Tree::getLoadTreeUrl
- * \Magento\Catalog\Block\Adminhtml\Category\Widget\Chooser::getLoadTreeUrl
+ * \Magento\Catalog\Block\adminhtml\Category\Tree::getLoadTreeUrl
+ * \Magento\Catalog\Block\adminhtml\Category\Widget\Chooser::getLoadTreeUrl
  */
 class CategoriesJson extends \Magento\CatalogRule\Controller\Adminhtml\Promo\Widget\CategoriesJson
 {

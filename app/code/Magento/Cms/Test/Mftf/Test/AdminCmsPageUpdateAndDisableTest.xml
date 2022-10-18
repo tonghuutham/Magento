@@ -29,7 +29,7 @@
             <deleteData createDataKey="existingCMSPage" stepKey="deleteCMSPage" />
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
-        <!--Navigate to Page in Admin-->
+        <!--Navigate to Movie in Admin-->
         <actionGroup ref="NavigateToCreatedCMSPageActionGroup" stepKey="navigateToCreatedCMSPage">
             <argument name="CMSPage" value="$$existingCMSPage$$"/>
         </actionGroup>

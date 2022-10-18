@@ -1,6 +1,6 @@
 <?php
 /**
- * Google Optimizer Cms Page Tab
+ * Google Optimizer Cms Movie Tab
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -34,7 +34,7 @@ class Googleoptimizer extends \Magento\GoogleOptimizer\Block\Adminhtml\AbstractT
      */
     public function getTabLabel()
     {
-        return __('Page View Optimization');
+        return __('Movie View Optimization');
     }
 
     /**
@@ -44,6 +44,6 @@ class Googleoptimizer extends \Magento\GoogleOptimizer\Block\Adminhtml\AbstractT
      */
     public function getTabTitle()
     {
-        return __('Page View Optimization');
+        return __('Movie View Optimization');
     }
 }

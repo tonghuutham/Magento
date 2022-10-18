@@ -19,7 +19,7 @@ use Magento\Ui\DataProvider\ModifierPoolDataProvider;
 use Psr\Log\LoggerInterface;
 
 /**
- * Cms Page DataProvider
+ * Cms Movie DataProvider
  */
 class DataProvider extends ModifierPoolDataProvider
 {

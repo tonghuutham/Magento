@@ -6,7 +6,7 @@
 namespace Magento\Review\Block\Adminhtml\Grid\Filter;
 
 /**
- * Adminhtml review grid filter by type
+ * adminhtml review grid filter by type
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -42,4 +42,4 @@ class Type extends \Magento\Backend\Block\Widget\Grid\Column\Filter\Select
             return 3;
         }
     }
-}// Class \Magento\Review\Block\Adminhtml\Grid\Filter\Type END
+}// Class \Magento\Review\Block\adminhtml\Grid\Filter\Type END

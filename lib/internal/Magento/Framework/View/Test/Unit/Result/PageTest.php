@@ -24,7 +24,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Result Page Test
+ * Result Movie Test
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

@@ -12,7 +12,7 @@ use Magento\Backend\Block\Widget\Form;
 /**
  * Form attribute set
  *
- * Class \Magento\Catalog\Block\Adminhtml\Product\Attribute\Set\Main\Formset
+ * Class \Magento\Catalog\Block\adminhtml\Product\Attribute\Set\Main\Formset
  */
 class Formset extends \Magento\Backend\Block\Widget\Form\Generic
 {

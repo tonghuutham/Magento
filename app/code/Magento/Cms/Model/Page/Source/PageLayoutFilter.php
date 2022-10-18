@@ -6,7 +6,7 @@
 namespace Magento\Cms\Model\Page\Source;
 
 /**
- * Page layout filter source
+ * Movie layout filter source
  */
 class PageLayoutFilter extends PageLayout
 {

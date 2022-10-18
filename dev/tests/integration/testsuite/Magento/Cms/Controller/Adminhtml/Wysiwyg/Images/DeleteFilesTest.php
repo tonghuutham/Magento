@@ -18,7 +18,7 @@ use Magento\RemoteStorage\Driver\DriverPool;
 use Magento\RemoteStorage\Model\Filesystem\Directory\WriteFactory;
 
 /**
- * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFiles class.
+ * Test for \Magento\Cms\Controller\adminhtml\Wysiwyg\Images\DeleteFiles class.
  *
  * @magentoAppArea adminhtml
  *
@@ -168,7 +168,7 @@ class DeleteFilesTest extends \PHPUnit\Framework\TestCase
 
     /**
      * Check that htaccess file couldn't be removed via
-     * \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\DeleteFiles::execute method
+     * \Magento\Cms\Controller\adminhtml\Wysiwyg\Images\DeleteFiles::execute method
      *
      * @return void
      */

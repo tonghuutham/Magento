@@ -35,7 +35,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit test for \Magento\Customer\Controller\Adminhtml\Index controller
+ * Unit test for \Magento\Customer\Controller\adminhtml\Index controller
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

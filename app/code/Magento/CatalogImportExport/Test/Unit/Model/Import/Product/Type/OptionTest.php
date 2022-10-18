@@ -217,7 +217,7 @@ class OptionTest extends AbstractImportTestCase
     protected $_whereForType = 'option_id IN (4, 5)';
 
     /**
-     * A Page Size for product option collection iterator.
+     * A Movie Size for product option collection iterator.
      *
      * @var int
      */

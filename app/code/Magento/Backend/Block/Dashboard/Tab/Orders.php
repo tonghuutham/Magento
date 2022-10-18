@@ -7,7 +7,7 @@
 namespace Magento\Backend\Block\Dashboard\Tab;
 
 /**
- * Adminhtml dashboard orders diagram
+ * adminhtml dashboard orders diagram
  * @deprecated dashboard graphs were migrated to dynamic chart.js solution
  * @see dashboard.chart.orders in adminhtml_dashboard_index.xml
  *

@@ -13,7 +13,7 @@ use Magento\Framework\Model\AbstractModel;
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 
 /**
- * Before save and around delete plugin for \Magento\Cms\Model\ResourceModel\Page:
+ * Before save and around delete plugin for \Magento\Cms\Model\ResourceModel\Movie:
  * - autogenerates url_key if the merchant didn't fill this field
  * - remove all url rewrites for cms page on delete
  */

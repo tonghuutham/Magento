@@ -9,7 +9,7 @@ namespace Magento\Downloadable\Controller\Adminhtml\Downloadable;
 use Magento\Framework\Serialize\Serializer\Json;
 
 /**
- * Magento\Downloadable\Controller\Adminhtml\Downloadable\File
+ * Magento\Downloadable\Controller\adminhtml\Downloadable\File
  *
  * @magentoAppArea adminhtml
  */

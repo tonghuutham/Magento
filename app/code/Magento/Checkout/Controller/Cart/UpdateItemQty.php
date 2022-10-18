@@ -180,7 +180,7 @@ class UpdateItemQty extends Action implements HttpPostActionInterface
     private function validateRequest()
     {
         if ($this->getRequest()->isPost() === false) {
-            throw new NotFoundException(__('Page Not Found'));
+            throw new NotFoundException(__('Movie Not Found'));
         }
     }
 

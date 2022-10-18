@@ -7,7 +7,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product\Composite;
 
 /**
- * Adminhtml catalog product composite configure block
+ * adminhtml catalog product composite configure block
  *
  * @api
  * @since 100.0.2

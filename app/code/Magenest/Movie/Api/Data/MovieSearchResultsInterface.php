@@ -3,6 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
+
 namespace Magenest\Movie\Api\Data;
 
 use Magento\Framework\Api\SearchResultsInterface;
@@ -17,14 +18,14 @@ interface MovieSearchResultsInterface extends SearchResultsInterface
     /**
      * Get pages list.
      *
-     * @return \Magento\Cms\Api\Data\PageInterface[]
+     * @return MovieInterface[]
      */
     public function getItems();
 
     /**
      * Set pages list.
      *
-     * @param \Magento\Cms\Api\Data\PageInterface[] $items
+     * @param MovieInterface[] $items
      * @return $this
      */
     public function setItems(array $items);

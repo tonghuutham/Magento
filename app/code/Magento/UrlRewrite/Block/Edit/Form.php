@@ -35,7 +35,7 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
     protected $_formValues = [];
 
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var \Magento\Backend\Helper\Data
      */

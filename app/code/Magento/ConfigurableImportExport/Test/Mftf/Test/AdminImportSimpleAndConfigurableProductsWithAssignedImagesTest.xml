@@ -112,7 +112,7 @@
             <argument name="indices" value=""/>
         </actionGroup>
 
-        <!-- Admin: Verify Data on Import History Page -->
+        <!-- Admin: Verify Data on Import History Movie -->
         <actionGroup ref="AdminNavigateToImportHistoryPageActionGroup" stepKey="navigateToImportHistoryPage"/>
         <actionGroup ref="AdminGridSortColumnDescendingActionGroup" stepKey="sortColumnByIdDescending">
             <argument name="columnLabel" value="history_id"/>
@@ -120,7 +120,7 @@
         <see userInput="{{ImportProduct_Configurable.fileName}}" selector="{{AdminDataGridTableSection.firstRow}}" stepKey="seeImportedFile"/>
         <see userInput="{{ImportProduct_Configurable.importSummary}}" selector="{{AdminDataGridTableSection.firstRow}}" stepKey="seeSummary"/>
 
-        <!-- Admin: Verify Simple Product 1 on Edit Product Page -->
+        <!-- Admin: Verify Simple Product 1 on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToSimpleProduct1EditPage">
             <argument name="product" value="ImportProductSimple1_Configurable"/>
         </actionGroup>
@@ -147,7 +147,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProductSimple1_Configurable.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRole1"/>
 
-        <!-- Admin: Verify Simple Product 2 on Edit Product Page -->
+        <!-- Admin: Verify Simple Product 2 on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToSimpleProduct2EditPage">
             <argument name="product" value="ImportProductSimple2_Configurable"/>
         </actionGroup>
@@ -174,7 +174,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProductSimple2_Configurable.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRole2"/>
 
-        <!-- Admin: Verify Simple Product 3 on Edit Product Page -->
+        <!-- Admin: Verify Simple Product 3 on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToSimpleProduct3EditPage">
             <argument name="product" value="ImportProductSimple3_Configurable"/>
         </actionGroup>
@@ -201,7 +201,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProductSimple3_Configurable.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRole3"/>
 
-        <!-- Admin: Verify Configurable Product Common Data on Edit Product Page -->
+        <!-- Admin: Verify Configurable Product Common Data on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToConfigurableProductEditPage">
             <argument name="product" value="ImportProduct_Configurable"/>
         </actionGroup>
@@ -228,7 +228,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProduct_Configurable.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRoleConfigurable"/>
 
-        <!-- Admin: Verify Configurable Product Information on Edit Product Page -->
+        <!-- Admin: Verify Configurable Product Information on Edit Product Movie -->
         <seeNumberOfElements userInput="3" selector="{{AdminProductFormConfigurationsSection.currentVariationsAllRows}}" stepKey="see3RowsAdmin"/>
         <actionGroup ref="AdminVerifyCurrentVariationsForConfigurableProductActionGroup" stepKey="verifyConfigurableChildProduct1Admin">
             <argument name="image" value="{{ImportProductSimple1_Configurable.thumbnailImageName}}"/>

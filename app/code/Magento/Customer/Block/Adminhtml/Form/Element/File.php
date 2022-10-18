@@ -18,7 +18,7 @@ class File extends \Magento\Framework\Data\Form\Element\AbstractElement
     protected $_assetRepo;
 
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var \Magento\Backend\Helper\Data
      */

@@ -11,7 +11,7 @@ use Magento\TestFramework\Mail\Template\TransportBuilderMock;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\User\Controller\Adminhtml\Auth
+ * Test class for \Magento\User\Controller\adminhtml\Auth
  *
  * @magentoAppArea adminhtml
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

@@ -47,12 +47,14 @@
 
     <table name="magenest_movie_actor" resource="default" engine="innodb"
            comment="Cron Schedule">
+        <column xsi:type="int" name="entity_id"  nullable="false" identity="true"
+                comment="Entity Id Id"/>
         <column xsi:type="int" name="movie_id"  nullable="false"
                 comment="movie_id Id"/>
         <column xsi:type="int" name="actor_id"  nullable="false"
                 comment="actor_id"/>
         <constraint xsi:type="primary" referenceId="PRIMARY">
-            <column name="actor_id"/>
+            <column name="entity_id"/>
         </constraint>
 
         <constraint xsi:type="foreign" referenceId="FK2" table="magenest_movie_actor" column="movie_id" referenceTable="magenest_movie" referenceColumn="movie_id" onDelete="CASCADE"/>

@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml product grid in custom options popup
+ * adminhtml product grid in custom options popup
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

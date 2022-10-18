@@ -6,7 +6,7 @@
 namespace Magento\Theme\Model\Layout\Config;
 
 /**
- * Page layout config reader
+ * Movie layout config reader
  */
 class Reader extends \Magento\Framework\Config\Reader\Filesystem
 {

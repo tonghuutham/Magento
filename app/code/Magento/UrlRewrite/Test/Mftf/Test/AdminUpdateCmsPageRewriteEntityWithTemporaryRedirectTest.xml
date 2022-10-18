@@ -30,7 +30,7 @@
         <actionGroup ref="AdminCreateStoreViewActionGroup" stepKey="createCustomStoreView"/>
         <magentoCron groups="index" stepKey="reindex"/>
 
-        <!-- Open CMS Edit Page, Get the CMS ID and Modify Store View Option to All Store Views -->
+        <!-- Open CMS Edit Movie, Get the CMS ID and Modify Store View Option to All Store Views -->
         <actionGroup ref="NavigateToCreatedCMSPageActionGroup" stepKey="navigateToCreatedCMSPage">
             <argument name="CMSPage" value="$$createCMSPage$$"/>
         </actionGroup>
@@ -40,7 +40,7 @@
             <argument name="storeViewName" value="All Store Views"/>
         </actionGroup>
 
-        <!--Create CMS Page URL Redirect-->
+        <!--Create CMS Movie URL Redirect-->
         <actionGroup ref="AdminAddCustomUrlRewriteActionGroup" stepKey="addCustomUrlRewrite">
             <argument name="customUrlRewriteValue" value="Custom"/>
             <argument name="storeValue" value="Default Store View"/>
@@ -55,7 +55,7 @@
             <argument name="requestPath" value="created-new-cms-page"/>
         </actionGroup>
 
-        <!-- Update URL Rewrite for CMS Page -->
+        <!-- Update URL Rewrite for CMS Movie -->
         <actionGroup ref="AdminUpdateUrlRewriteActionGroup" stepKey="updateUrlRewrite">
             <argument name="storeValue" value="Default Store View"/>
             <argument name="requestPath" value="temporaryrequestpath.html"/>
@@ -68,7 +68,7 @@
             <argument name="message" value="The URL Rewrite has been saved."/>
         </actionGroup>
 
-        <!-- Assert Url Rewrite Cms Page Redirect -->
+        <!-- Assert Url Rewrite Cms Movie Redirect -->
         <actionGroup ref="NavigateToStorefrontForCreatedPageActionGroup" stepKey="navigateToTheStoreFront">
             <argument name="page" value="temporaryrequestpath.html"/>
         </actionGroup>

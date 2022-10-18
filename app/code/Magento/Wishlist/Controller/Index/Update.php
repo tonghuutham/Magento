@@ -66,7 +66,7 @@ class Update extends \Magento\Wishlist\Controller\AbstractIndex implements HttpP
         }
         $wishlist = $this->wishlistProvider->getWishlist();
         if (!$wishlist) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         $post = $this->getRequest()->getPostValue();

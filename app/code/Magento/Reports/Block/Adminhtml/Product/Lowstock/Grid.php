@@ -15,7 +15,7 @@ use Magento\Reports\Model\ResourceModel\Product\Lowstock\Collection;
 use Magento\Reports\Model\ResourceModel\Product\Lowstock\CollectionFactory;
 
 /**
- * Adminhtml low stock products report grid block
+ * adminhtml low stock products report grid block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

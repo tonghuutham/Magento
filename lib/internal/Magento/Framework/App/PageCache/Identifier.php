@@ -9,7 +9,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\Serialize\Serializer\Json;
 
 /**
- * Page unique identifier
+ * Movie unique identifier
  */
 class Identifier
 {

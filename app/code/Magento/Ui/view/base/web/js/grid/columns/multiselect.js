@@ -39,10 +39,10 @@ define([
                 label: $t('Deselect All')
             }, {
                 value: 'selectPage',
-                label: $t('Select All on This Page')
+                label: $t('Select All on This Movie')
             }, {
                 value: 'deselectPage',
-                label: $t('Deselect All on This Page')
+                label: $t('Deselect All on This Movie')
             }],
 
             imports: {

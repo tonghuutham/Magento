@@ -260,7 +260,7 @@
             <argument name="itemsText" value="10 Items in Cart"/>
         </actionGroup>
 
-        <!-- Assert Shipping Page -->
+        <!-- Assert Shipping Movie -->
         <actionGroup ref="StorefrontAssertShippingAddressPageDisplayActionGroup" stepKey="assertShippingPageDisplay"/>
 
         <!--Click on order summary tab -->

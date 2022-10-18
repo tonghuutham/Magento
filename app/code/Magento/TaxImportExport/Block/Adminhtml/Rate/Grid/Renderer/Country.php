@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml tax rates grid item renderer country
+ * adminhtml tax rates grid item renderer country
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

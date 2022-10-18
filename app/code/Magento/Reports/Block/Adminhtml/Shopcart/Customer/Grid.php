@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Shopcart\Customer;
 
 /**
- * Adminhtml items in carts report grid block
+ * adminhtml items in carts report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

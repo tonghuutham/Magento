@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales\Bestsellers;
 
 /**
- * Adminhtml bestsellers report grid block
+ * adminhtml bestsellers report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

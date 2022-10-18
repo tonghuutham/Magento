@@ -21,7 +21,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\User\Controller\Adminhtml\User\Delete testing
+ * Test class for \Magento\User\Controller\adminhtml\User\Delete testing
  */
 class DeleteTest extends TestCase
 {
@@ -119,7 +119,7 @@ class DeleteTest extends TestCase
     }
 
     /**
-     * Test method \Magento\User\Controller\Adminhtml\User\Delete::execute
+     * Test method \Magento\User\Controller\adminhtml\User\Delete::execute
      *
      * @param string $currentUserPassword
      * @param int    $userId

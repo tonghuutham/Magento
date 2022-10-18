@@ -56,7 +56,7 @@
             <argument name="expectedString">{{US_NY_Rate_1.code}}</argument>
         </helper>
 
-        <!-- Export Tax Rates & Validate Export from Tax Rule Page -->
+        <!-- Export Tax Rates & Validate Export from Tax Rule Movie -->
         <actionGroup ref="AdminGoToNewTaxRulePageActionGroup" stepKey="navigateToTaxRulePage"/>
         <actionGroup ref="AdminClickExportTaxRatesActionGroup" stepKey="exportTaxRates2"/>
         <grabAttributeFrom userInput="action" selector="{{AdminImportExportTaxRatesSection.exportTaxRatesButtonForm}}" stepKey="grabExportUrl2"/>
@@ -72,7 +72,7 @@
             <argument name="expectedString">{{US_NY_Rate_1.code}}</argument>
         </helper>
 
-        <!-- Export Tax Rates & Validate Export from Tax Rates Grid Page as CSV -->
+        <!-- Export Tax Rates & Validate Export from Tax Rates Grid Movie as CSV -->
         <actionGroup ref="AdminTaxRateGridOpenPageActionGroup" stepKey="navigateToTaxRatesGridPage"/>
         <actionGroup ref="AdminExportTaxRatesFromGridActionGroup" stepKey="exportTaxRatesCSV"/>
         <grabAttributeFrom userInput="value" selector="{{AdminTaxRateGridSection.exportFileTypeOption('CSV')}}" stepKey="grabExportUrl3"/>
@@ -88,7 +88,7 @@
             <argument name="expectedString">{{US_NY_Rate_1.code}}</argument>
         </helper>
 
-        <!-- Export Tax Rates & Validate Export from Tax Rates Grid Page as XML -->
+        <!-- Export Tax Rates & Validate Export from Tax Rates Grid Movie as XML -->
         <actionGroup ref="AdminExportTaxRatesFromGridActionGroup" stepKey="exportTaxRatesXML">
             <argument name="fileType" value="Excel XML"/>
         </actionGroup>

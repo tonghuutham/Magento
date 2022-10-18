@@ -59,7 +59,7 @@
             <argument name="filePath">pub/media/catalog/product/{$firstCharacterImage2FileName}/{$secondCharacterImage2FileName}/$createProductImage2.entry[content][name]$</argument>
         </helper>
 
-        <!-- Local - Verify Images on Product Storefront Page -->
+        <!-- Local - Verify Images on Product Storefront Movie -->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="goToProductOnStorefront">
             <argument name="product" value="$$createProduct$$"/>
         </actionGroup>
@@ -94,7 +94,7 @@
             <argument name="path">media/catalog/product/cache/</argument>
         </helper>
 
-        <!-- S3 - Clear Caches & Verify Images on Product Storefront Page -->
+        <!-- S3 - Clear Caches & Verify Images on Product Storefront Movie -->
         <actionGroup ref="AdminLoginActionGroup" stepKey="loginAsAdmin"/>
         <actionGroup ref="AdminGoToCacheManagementPageActionGroup" stepKey="goToCacheManagementPage"/>
         <actionGroup ref="AdminClickFlushCatalogImagesCacheActionGroup" stepKey="clearCatalogImageCache"/>
@@ -143,7 +143,7 @@
             <argument name="path">pub/media/catalog/product/cache/</argument>
         </helper>
 
-        <!-- S3 - Clean Cache & Verify Images on Product Storefront Page -->
+        <!-- S3 - Clean Cache & Verify Images on Product Storefront Movie -->
         <actionGroup ref="AdminGoToCacheManagementPageActionGroup" stepKey="goToCacheManagementPage2"/>
         <actionGroup ref="AdminClickFlushCatalogImagesCacheActionGroup" stepKey="clearCatalogImageCache2"/>
         <helper class="Magento\AwsS3\Test\Mftf\Helper\S3FileAssertions" method="assertDirectoryEmpty" stepKey="assertS3CacheDirectoryEmpty2">
@@ -204,7 +204,7 @@
             <argument name="message">Url: "{$secondImageSrc3}" did not render image: {{BluePngImageContent.baseImage_md5}}</argument>
         </helper>
 
-        <!-- Disable AWS S3 Remote Storage, Clean Cache & Verify Images Do Not Appear on Product Storefront Page -->
+        <!-- Disable AWS S3 Remote Storage, Clean Cache & Verify Images Do Not Appear on Product Storefront Movie -->
         <magentoCLI command="setup:config:set {{RemoteStorageAwsS3ConfigData.disable_options}}" stepKey="disableRemoteStorage"/>
         <actionGroup ref="AdminGoToCacheManagementPageActionGroup" stepKey="goToCacheManagementPage3"/>
         <actionGroup ref="AdminClickFlushCatalogImagesCacheActionGroup" stepKey="clearCatalogImageCache3"/>

@@ -88,7 +88,7 @@
         <createData entity="US_NY_Rate_1" stepKey="revertInitialTaxRateNY"/>
         <actionGroup ref="AdminDeleteMultipleTaxRatesActionGroup" stepKey="deleteAllNonDefaultTaxRates"/>
 
-        <!-- Import Tax Rates from Tax Rule Page -->
+        <!-- Import Tax Rates from Tax Rule Movie -->
         <actionGroup ref="AdminGoToNewTaxRulePageActionGroup" stepKey="navigateToTaxRulePage"/>
         <actionGroup ref="AdminImportTaxRatesActionGroup" stepKey="importTaxRates2">
             <argument name="file" value="{{import_tax_rates.filename}}"/>

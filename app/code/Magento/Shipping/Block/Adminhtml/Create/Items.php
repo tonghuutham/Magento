@@ -6,7 +6,7 @@
 namespace Magento\Shipping\Block\Adminhtml\Create;
 
 /**
- * Adminhtml shipment items grid
+ * adminhtml shipment items grid
  *
  * @api
  * @since 100.0.2

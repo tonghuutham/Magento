@@ -12,7 +12,7 @@ use Magento\Framework\View\Result\PageFactory;
 use Magento\Backend\Model\View\Result\ForwardFactory;
 
 /**
- * Adminhtml sales orders creation process controller
+ * adminhtml sales orders creation process controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.NumberOfChildren)

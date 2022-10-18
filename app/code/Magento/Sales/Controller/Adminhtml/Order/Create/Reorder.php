@@ -83,7 +83,7 @@ class Reorder extends Create implements HttpGetActionInterface
     }
 
     /**
-     * Adminhtml controller create order.
+     * adminhtml controller create order.
      *
      * @return Forward|Redirect
      */

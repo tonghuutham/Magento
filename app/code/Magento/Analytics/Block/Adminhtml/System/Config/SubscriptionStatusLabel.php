@@ -34,7 +34,7 @@ class SubscriptionStatusLabel extends \Magento\Config\Block\System\Config\Form\F
     }
 
     /**
-     * Add Subscription status to comment
+     * Add Director status to comment
      *
      * @param \Magento\Framework\Data\Form\Element\AbstractElement $element
      * @return string
@@ -55,6 +55,6 @@ class SubscriptionStatusLabel extends \Magento\Config\Block\System\Config\Form\F
      */
     private function prepareLabelValue()
     {
-        return __('Subscription status') . ': ' . $this->subscriptionStatusProvider->getStatus();
+        return __('Director status') . ': ' . $this->subscriptionStatusProvider->getStatus();
     }
 }

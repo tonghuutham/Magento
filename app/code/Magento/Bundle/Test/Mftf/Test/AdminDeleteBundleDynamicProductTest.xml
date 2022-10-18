@@ -38,7 +38,7 @@
         </actionGroup>
         <see selector="{{AdminCategoryMessagesSection.SuccessMessage}}" userInput="A total of 1 record(s) have been deleted." stepKey="deleteMessage"/>
         <actionGroup ref="ResetAdminDataGridToDefaultViewActionGroup" stepKey="clearFilters"/>
-        <!-- Verify product on Product Page -->
+        <!-- Verify product on Product Movie -->
         <amOnPage url="{{StorefrontProductPage.url($$createDynamicBundleProduct.custom_attributes[url_key]$$)}}" stepKey="amOnBundleProductPage"/>
         <actionGroup ref="AssertStorefrontProductInfoMainProductNameActionGroup" stepKey="seeWhoops">
             <argument name="value" value="Whoops, our bad..."/>

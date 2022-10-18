@@ -119,8 +119,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Page Link',
-            'description' => 'Link to a CMS Page',
+            'name' => 'CMS Movie Link',
+            'description' => 'Link to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [
@@ -129,12 +129,12 @@ class InstanceTest extends TestCase
                     'type' => 'label',
                     'helper_block' => [
                         'type' => Chooser::class,
-                        'data' => ['button' => ['open' => 'Select Page...']],
+                        'data' => ['button' => ['open' => 'Select Movie...']],
                     ],
                     'visible' => 'true',
                     'required' => 'true',
                     'sort_order' => '10',
-                    'label' => 'CMS Page',
+                    'label' => 'CMS Movie',
                 ],
             ],
         ];
@@ -195,8 +195,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Page Link',
-            'description' => 'Link to a CMS Page',
+            'name' => 'CMS Movie Link',
+            'description' => 'Link to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [
@@ -229,8 +229,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Page Link',
-            'description' => 'Link to a CMS Page',
+            'name' => 'CMS Movie Link',
+            'description' => 'Link to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [],
@@ -267,8 +267,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Page Link',
-            'description' => 'Link to a CMS Page',
+            'name' => 'CMS Movie Link',
+            'description' => 'Link to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
         ];
@@ -325,8 +325,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Page Link',
-            'description' => 'Link to a CMS Page',
+            'name' => 'CMS Movie Link',
+            'description' => 'Link to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [

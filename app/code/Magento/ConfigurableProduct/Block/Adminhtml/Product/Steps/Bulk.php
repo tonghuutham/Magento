@@ -17,7 +17,7 @@ use Magento\Framework\View\Element\Template\Context;
 use Magento\Framework\Json\Helper\Data as JsonHelper;
 
 /**
- * Adminhtml block for fieldset of configurable product
+ * adminhtml block for fieldset of configurable product
  *
  * @api
  * @since 100.0.2

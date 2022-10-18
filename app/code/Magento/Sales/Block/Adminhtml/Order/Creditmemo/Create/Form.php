@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Creditmemo\Create;
 
 /**
- * Adminhtml creditmemo create form
+ * adminhtml creditmemo create form
  *
  * @api
  * @since 100.0.2

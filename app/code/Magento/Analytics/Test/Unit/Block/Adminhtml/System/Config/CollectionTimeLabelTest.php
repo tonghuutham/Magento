@@ -19,7 +19,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Analytics\Block\Adminhtml\System\Config\CollectionTimeLabel
+ * Test class for \Magento\Analytics\Block\adminhtml\System\Config\CollectionTimeLabel
  */
 class CollectionTimeLabelTest extends TestCase
 {
@@ -93,7 +93,7 @@ class CollectionTimeLabelTest extends TestCase
     }
 
     /**
-     * Test for \Magento\Analytics\Block\Adminhtml\System\Config\CollectionTimeLabel::render()
+     * Test for \Magento\Analytics\Block\adminhtml\System\Config\CollectionTimeLabel::render()
      */
     public function testRender()
     {

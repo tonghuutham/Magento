@@ -23,7 +23,7 @@ class Index extends \Magento\Rss\Controller\Feed
     public function execute()
     {
         if (!$this->scopeConfig->getValue('rss/config/active', \Magento\Store\Model\ScopeInterface::SCOPE_STORE)) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         $type = $this->getRequest()->getParam('type');
@@ -38,7 +38,7 @@ class Index extends \Magento\Rss\Controller\Feed
         }
 
         if (!$provider->isAllowed()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         /** @var $rss \Magento\Rss\Model\Rss */

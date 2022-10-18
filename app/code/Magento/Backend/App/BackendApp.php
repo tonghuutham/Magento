@@ -54,7 +54,7 @@ class BackendApp
     }
 
     /**
-     * Startup Page of the application to redirect after login
+     * Startup Movie of the application to redirect after login
      *
      * @return string
      */

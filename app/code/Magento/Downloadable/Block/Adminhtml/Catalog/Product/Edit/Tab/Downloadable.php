@@ -12,7 +12,7 @@ use Magento\Catalog\Block\Adminhtml\Product\Edit\Tabs;
 use Magento\Framework\Registry;
 
 /**
- * Adminhtml catalog product downloadable items tab and form
+ * adminhtml catalog product downloadable items tab and form
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @deprecated 100.3.1

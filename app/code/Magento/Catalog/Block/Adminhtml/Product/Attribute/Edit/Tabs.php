@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml product attribute edit page tabs
+ * adminhtml product attribute edit page tabs
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

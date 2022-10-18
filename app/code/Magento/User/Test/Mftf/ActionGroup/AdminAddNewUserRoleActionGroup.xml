@@ -13,7 +13,7 @@
             <argument name="role" type="entity"/>
         </arguments>
 
-        <!-- Navigate to Roles Page -->
+        <!-- Navigate to Roles Movie -->
         <amOnPage url="{{AdminRolesPage.url}}" stepKey="amOnRolesPage"/>
         <waitForPageLoad stepKey="waitForPageLoad"/>
 

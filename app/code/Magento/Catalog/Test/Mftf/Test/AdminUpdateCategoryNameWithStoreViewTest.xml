@@ -59,7 +59,7 @@
             <argument name="categoryName" value="$$category.name$$"/>
         </actionGroup>
 
-        <!--Open Category Page-->
+        <!--Open Category Movie-->
         <actionGroup ref="AdminOpenCategoryPageActionGroup" stepKey="openAdminCategoryIndexPage"/>
         <!--Update Category-->
         <actionGroup ref="AdminExpandCategoryTreeActionGroup" stepKey="expandCategoryTree"/>

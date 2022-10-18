@@ -8,7 +8,7 @@ namespace Magento\Backend\Controller\Adminhtml;
 use Magento\Framework\Message\MessageInterface;
 
 /**
- * Test class for \Magento\Backend\Controller\Adminhtml\Auth
+ * Test class for \Magento\Backend\Controller\adminhtml\Auth
  * @magentoAppArea adminhtml
  * @magentoDbIsolation enabled
  */

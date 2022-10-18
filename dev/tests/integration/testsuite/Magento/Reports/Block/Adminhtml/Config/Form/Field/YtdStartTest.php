@@ -10,7 +10,7 @@ namespace Magento\Reports\Block\Adminhtml\Config\Form\Field;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for \Magento\Reports\Block\Adminhtml\Config\Form\Field\YtdStart.
+ * Test for \Magento\Reports\Block\adminhtml\Config\Form\Field\YtdStart.
  *
  * @magentoAppArea adminhtml
  */

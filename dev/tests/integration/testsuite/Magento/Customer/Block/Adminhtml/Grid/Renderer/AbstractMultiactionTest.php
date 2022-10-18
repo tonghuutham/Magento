@@ -17,7 +17,7 @@ use Magento\TestFramework\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Base class for testing \Magento\Customer\Block\Adminhtml\Grid\Renderer\Multiaction block
+ * Base class for testing \Magento\Customer\Block\adminhtml\Grid\Renderer\Multiaction block
  */
 abstract class AbstractMultiactionTest extends TestCase
 {

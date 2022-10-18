@@ -79,7 +79,7 @@ class InitializeReportEntityTypesAndPages implements DataPatchInterface, PatchVe
          */
         $this->moduleDataSetup->getConnection()->endSetup();
         /**
-         * Cms Page  with 'home' identifier page modification for report pages
+         * Cms Movie  with 'home' identifier page modification for report pages
          */
         /** @var $cms \Magento\Cms\Model\Page */
         $cms = $this->pageFactory->create();

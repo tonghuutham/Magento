@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml additional helper block for sort by
+ * adminhtml additional helper block for sort by
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

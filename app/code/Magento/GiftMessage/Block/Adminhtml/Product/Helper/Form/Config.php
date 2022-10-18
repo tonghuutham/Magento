@@ -6,7 +6,7 @@
 namespace Magento\GiftMessage\Block\Adminhtml\Product\Helper\Form;
 
 /**
- * Adminhtml additional helper block for product configuration
+ * adminhtml additional helper block for product configuration
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  * @codeCoverageIgnore

@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml sales order create search products block
+ * adminhtml sales order create search products block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

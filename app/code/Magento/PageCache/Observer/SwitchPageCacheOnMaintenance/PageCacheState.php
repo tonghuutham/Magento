@@ -15,14 +15,14 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 /**
  * Class PageCacheState
  *
- * Page Cache State Observer
+ * Movie Cache State Observer
  *
  * @deprecated 100.4.0 Originally used by now removed observer SwitchPageCacheOnMaintenance
  */
 class PageCacheState
 {
     /**
-     * Full Page Cache Off state file name.
+     * Full Movie Cache Off state file name.
      */
     private const PAGE_CACHE_STATE_FILENAME = '.maintenance.fpc.state';
 
@@ -40,7 +40,7 @@ class PageCacheState
     }
 
     /**
-     * Saves Full Page Cache state.
+     * Saves Full Movie Cache state.
      *
      * Saves FPC state across requests.
      *
@@ -53,7 +53,7 @@ class PageCacheState
     }
 
     /**
-     * Returns stored Full Page Cache state.
+     * Returns stored Full Movie Cache state.
      *
      * @return bool
      */
@@ -67,7 +67,7 @@ class PageCacheState
     }
 
     /**
-     * Flushes Page Cache state storage.
+     * Flushes Movie Cache state storage.
      *
      * @return void
      */

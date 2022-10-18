@@ -3,12 +3,12 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Block\Adminhtml;
+namespace Magenest\Movie\Block\Adminhtml;
 
 /**
  * adminhtml cms pages content block
  */
-class Page extends \Magento\Backend\Block\Widget\Grid\Container
+class Movie extends \Magento\Backend\Block\Widget\Grid\Container
 {
     /**
      * Block constructor
@@ -18,13 +18,13 @@ class Page extends \Magento\Backend\Block\Widget\Grid\Container
     protected function _construct()
     {
         $this->_controller = 'adminhtml_page';
-        $this->_blockGroup = 'Magento_Cms';
+        $this->_blockGroup = 'Magenest_Movie';
         $this->_headerText = __('Manage Pages');
 
         parent::_construct();
 
-        if ($this->_isAllowedAction('Magento_Cms::save')) {
-            $this->buttonList->update('add', 'label', __('Add New Page'));
+        if ($this->_isAllowedAction('Magenest_Moive::save')) {
+            $this->buttonList->update('add', 'label', __('Add New Movie'));
         } else {
             $this->buttonList->remove('add');
         }

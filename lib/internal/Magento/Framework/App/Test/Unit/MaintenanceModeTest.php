@@ -119,7 +119,7 @@ class MaintenanceModeTest extends TestCase
     /**
      * Maintenance Mode On test
      *
-     * Tests common scenario with Full Page Cache is set to On
+     * Tests common scenario with Full Movie Cache is set to On
      *
      * @return void
      */
@@ -139,7 +139,7 @@ class MaintenanceModeTest extends TestCase
     /**
      * Maintenance Mode Off test
      *
-     * Tests common scenario when before Maintenance Mode Full Page Cache was setted to on
+     * Tests common scenario when before Maintenance Mode Full Movie Cache was setted to on
      *
      * @return void
      */

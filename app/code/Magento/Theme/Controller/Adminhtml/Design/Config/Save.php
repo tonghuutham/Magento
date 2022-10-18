@@ -69,7 +69,7 @@ class Save extends Action
     public function execute()
     {
         if (!$this->getRequest()->isPost()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         $resultRedirect = $this->resultRedirectFactory->create();

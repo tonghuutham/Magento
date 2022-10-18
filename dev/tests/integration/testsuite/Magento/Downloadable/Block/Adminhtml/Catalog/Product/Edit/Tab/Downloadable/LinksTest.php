@@ -8,7 +8,7 @@ namespace Magento\Downloadable\Block\Adminhtml\Catalog\Product\Edit\Tab\Download
 /**
  * Class LinksTest
  *
- * @package Magento\Downloadable\Block\Adminhtml\Catalog\Product\Edit\Tab\Downloadable
+ * @package Magento\Downloadable\Block\adminhtml\Catalog\Product\Edit\Tab\Downloadable
  * @deprecated
  * @see \Magento\Downloadable\Ui\DataProvider\Product\Form\Modifier\Links
  */

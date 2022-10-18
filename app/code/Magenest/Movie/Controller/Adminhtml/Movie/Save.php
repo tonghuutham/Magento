@@ -5,14 +5,17 @@
  */
 declare(strict_types=1);
 
-namespace Magento\Cms\Controller\Adminhtml\Page;
+namespace Magenest\Movie\Controller\Adminhtml\Movie;
 
+use Magenest\Movie\Api\Data\MovieInterface;
+use Magenest\Movie\Api\MovieRepositoryInterface;
+use Magenest\Movie\Model\Movie;
+use Magenest\Movie\Model\MovieActorFactory;
+use Magenest\Movie\Model\MovieFactory;
+use Magenest\Movie\Model\ResourceModel\MovieActor as MovieActorResourceModel;
 use Magento\Backend\App\Action;
+use Magento\Backend\App\Action\Context;
 use Magento\Backend\Model\View\Result\Redirect;
-use Magento\Cms\Api\Data\PageInterface;
-use Magento\Cms\Api\PageRepositoryInterface;
-use Magento\Cms\Model\Page;
-use Magento\Cms\Model\PageFactory;
 use Magento\Framework\App\Action\HttpPostActionInterface;
 use Magento\Framework\App\ObjectManager;
 use Magento\Framework\App\Request\DataPersistorInterface;
@@ -20,7 +23,7 @@ use Magento\Framework\Controller\ResultInterface;
 use Magento\Framework\Exception\LocalizedException;
 
 /**
- * Save CMS page action.
+ * Save CMS movie action.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
@@ -31,7 +34,7 @@ class Save extends Action implements HttpPostActionInterface
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'Magento_Cms::save';
+    const ADMIN_RESOURCE = 'Magenest_Movie::save';
 
     /**
      * @var PostDataProcessor
@@ -44,33 +47,42 @@ class Save extends Action implements HttpPostActionInterface
     protected $dataPersistor;
 
     /**
-     * @var PageFactory
+     * @var MovieFactory
      */
-    private $pageFactory;
+    private $movieFactory;
 
     /**
-     * @var PageRepositoryInterface
+     * @var MovieRepositoryInterface
      */
-    private $pageRepository;
+    private $movieRepository;
+    /**
+     * @var MovieActorFactory
+     */
+    private $movieActorFactory;
 
     /**
-     * @param Action\Context $context
+     * @var MovieActorResourceModel
+     */
+    private $movieActorResourceModel;
+
+    /**
+     * @param Context $context
      * @param PostDataProcessor $dataProcessor
      * @param DataPersistorInterface $dataPersistor
-     * @param PageFactory|null $pageFactory
-     * @param PageRepositoryInterface|null $pageRepository
+     * @param MovieActorResourceModel $movieActorResourceModel
+     * @param MovieFactory|null $movieFactory
+     * @param MovieActorFactory|null $movieActorFactory
+     * @param MovieRepositoryInterface|null $movieRepository
      */
-    public function __construct(
-        Action\Context $context,
-        PostDataProcessor $dataProcessor,
-        DataPersistorInterface $dataPersistor,
-        PageFactory $pageFactory = null,
-        PageRepositoryInterface $pageRepository = null
-    ) {
+    public function __construct(Action\Context $context, PostDataProcessor $dataProcessor, DataPersistorInterface $dataPersistor, MovieActorResourceModel $movieActorResourceModel, MovieFactory $movieFactory = null, MovieActorFactory $movieActorFactory = null, MovieRepositoryInterface $movieRepository = null)
+    {
         $this->dataProcessor = $dataProcessor;
+        $this->movieActorResourceModel = $movieActorResourceModel;
         $this->dataPersistor = $dataPersistor;
-        $this->pageFactory = $pageFactory ?: ObjectManager::getInstance()->get(PageFactory::class);
-        $this->pageRepository = $pageRepository ?: ObjectManager::getInstance()->get(PageRepositoryInterface::class);
+        $this->movieFactory = $movieFactory ?: ObjectManager::getInstance()->get(MovieFactory::class);
+        $this->movieActorFactory = $movieActorFactory ?: ObjectManager::getInstance()->get(MovieActorFactory::class);
+
+        $this->movieRepository = $movieRepository ?: ObjectManager::getInstance()->get(MovieRepositoryInterface::class);
         parent::__construct($context);
     }
 
@@ -87,47 +99,48 @@ class Save extends Action implements HttpPostActionInterface
         $resultRedirect = $this->resultRedirectFactory->create();
         if ($data) {
             $data = $this->dataProcessor->filter($data);
-            if (isset($data['is_active']) && $data['is_active'] === 'true') {
-                $data['is_active'] = Page::STATUS_ENABLED;
+            if (isset($data['movie_id']) && $data['movie_id'] === 'true') {
+//                $data['movie_id'] = Movie::STATUS_ENABLED;
             }
-            if (empty($data['page_id'])) {
-                $data['page_id'] = null;
+            if (empty($data['movie_id'])) {
+                $data['movie_id'] = null;
             }
 
-            /** @var Page $model */
-            $model = $this->pageFactory->create();
+            /** @var Movie $model */
+            $model = $this->movieFactory->create();
 
-            $id = $this->getRequest()->getParam('page_id');
+            $id = $this->getRequest()->getParam('movie_id');
             if ($id) {
                 try {
-                    $model = $this->pageRepository->getById($id);
+                    $model = $this->movieRepository->getById($id);
                 } catch (LocalizedException $e) {
-                    $this->messageManager->addErrorMessage(__('This page no longer exists.'));
+                    $this->messageManager->addErrorMessage(__('This movie no longer exists.'));
                     return $resultRedirect->setPath('*/*/');
                 }
             }
 
-            $data['layout_update_xml'] = $model->getLayoutUpdateXml();
-            $data['custom_layout_update_xml'] = $model->getCustomLayoutUpdateXml();
             $model->setData($data);
 
             try {
-                $this->_eventManager->dispatch(
-                    'cms_page_prepare_save',
-                    ['page' => $model, 'request' => $this->getRequest()]
-                );
+                $this->_eventManager->dispatch('movie_movie_prepare_save', ['movie' => $model, 'request' => $this->getRequest()]);
 
-                $this->pageRepository->save($model);
-                $this->messageManager->addSuccessMessage(__('You saved the page.'));
+                $this->movieRepository->save($model);
+
+                foreach ($data['actor_ids'] as $actorId) {
+                    $movieActor = $this->movieActorFactory->create();
+                    $movieActor->setData(['movie_id' => $model->getMovieId(), 'actor_id' => $actorId]);
+                    $this->movieActorResourceModel->save($movieActor);
+                }
+                $this->messageManager->addSuccessMessage(__('You saved the movie.'));
                 return $this->processResultRedirect($model, $resultRedirect, $data);
             } catch (LocalizedException $e) {
                 $this->messageManager->addExceptionMessage($e->getPrevious() ?: $e);
-            } catch (\Throwable $e) {
-                $this->messageManager->addErrorMessage(__('Something went wrong while saving the page.'));
+            } catch (Throwable $e) {
+                $this->messageManager->addErrorMessage(__('Something went wrong while saving the movie.'));
             }
 
-            $this->dataPersistor->set('cms_page', $data);
-            return $resultRedirect->setPath('*/*/edit', ['page_id' => $this->getRequest()->getParam('page_id')]);
+            $this->dataPersistor->set('movie_movie', $data);
+            return $resultRedirect->setPath('*/*/edit', ['movie_id' => $this->getRequest()->getParam('movie_id')]);
         }
         return $resultRedirect->setPath('*/*/');
     }
@@ -135,7 +148,7 @@ class Save extends Action implements HttpPostActionInterface
     /**
      * Process result redirect
      *
-     * @param PageInterface $model
+     * @param MovieInterface $model
      * @param Redirect $resultRedirect
      * @param array $data
      * @return Redirect
@@ -144,25 +157,19 @@ class Save extends Action implements HttpPostActionInterface
     private function processResultRedirect($model, $resultRedirect, $data)
     {
         if ($this->getRequest()->getParam('back', false) === 'duplicate') {
-            $newPage = $this->pageFactory->create(['data' => $data]);
-            $newPage->setId(null);
+            $newMovie = $this->movieFactory->create(['data' => $data]);
+            $newMovie->setId(null);
             $identifier = $model->getIdentifier() . '-' . uniqid();
-            $newPage->setIdentifier($identifier);
-            $newPage->setIsActive(false);
-            $this->pageRepository->save($newPage);
-            $this->messageManager->addSuccessMessage(__('You duplicated the page.'));
-            return $resultRedirect->setPath(
-                '*/*/edit',
-                [
-                    'page_id' => $newPage->getId(),
-                    '_current' => true,
-                ]
-            );
+            $newMovie->setIdentifier($identifier);
+            $newMovie->setIsActive(false);
+            $this->movieRepository->save($newMovie);
+            $this->messageManager->addSuccessMessage(__('You duplicated the movie.'));
+            return $resultRedirect->setPath('*/*/edit', ['movie_id' => $newMovie->getId(), '_current' => true]);
         }
-        $this->dataPersistor->clear('cms_page');
+        $this->dataPersistor->clear('movie_movie');
         if ($this->getRequest()->getParam('back')) {
-            return $resultRedirect->setPath('*/*/edit', ['page_id' => $model->getId(), '_current' => true]);
+            return $resultRedirect->setPath('*/*/index', ['movie_id' => $model->getId(), '_current' => true]);
         }
-        return $resultRedirect->setPath('*/*/');
+        return $resultRedirect->setPath('*/*/index');
     }
 }

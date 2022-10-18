@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml Currency Symbols Controller
+ * adminhtml Currency Symbols Controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

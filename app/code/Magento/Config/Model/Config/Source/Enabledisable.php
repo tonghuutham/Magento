@@ -20,7 +20,7 @@ class Enabledisable implements \Magento\Framework\Option\ArrayInterface
     /**
      * Value which equal Disable for Enabledisable dropdown.
      */
-    const DISABLE_VALUE = 0;
+    const DISABLE_VALUE = 2;
 
     /**
      * @return array
@@ -28,8 +28,8 @@ class Enabledisable implements \Magento\Framework\Option\ArrayInterface
     public function toOptionArray()
     {
         return [
-            ['value' => self::ENABLE_VALUE, 'label' => __('Enable')],
-            ['value' => self::DISABLE_VALUE, 'label' => __('Disable')],
+            ['value' => self::ENABLE_VALUE, 'label' => __('Show')],
+            ['value' => self::DISABLE_VALUE, 'label' => __('Not-show')],
         ];
     }
 }

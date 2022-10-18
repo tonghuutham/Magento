@@ -6,7 +6,7 @@
 namespace Magento\Framework\View\Asset;
 
 /**
- * Page asset residing outside of the local file system
+ * Movie asset residing outside of the local file system
  */
 class Remote implements AssetInterface
 {

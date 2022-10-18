@@ -120,6 +120,6 @@ class DesignAbstraction extends \Magento\Framework\View\Element\Html\Select
         }
         $params = [];
         $this->addOption($customLayouts, __('Custom Layouts'), $params);
-        $this->addOption($pageLayouts, __('Page Layouts'), $params);
+        $this->addOption($pageLayouts, __('Movie Layouts'), $params);
     }
 }

@@ -33,7 +33,7 @@
             <deleteData createDataKey="createSimpleProduct" stepKey="deleteSimpleProduct"/>
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
-        <!--Open Product Index Page and filter the product-->
+        <!--Open Product Index Movie and filter the product-->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="openProductIndexPage"/>
 
         <actionGroup ref="FilterProductGridBySkuActionGroup" stepKey="filterProduct">

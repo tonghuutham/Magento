@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Catalog\Helper\Product\Edit\Action;
 
 /**
- * Adminhtml catalog product action attribute update helper.
+ * adminhtml catalog product action attribute update helper.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.CookieAndSessionMisuse)

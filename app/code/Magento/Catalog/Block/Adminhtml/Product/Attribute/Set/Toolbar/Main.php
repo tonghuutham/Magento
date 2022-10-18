@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml catalog product sets main page toolbar
+ * adminhtml catalog product sets main page toolbar
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

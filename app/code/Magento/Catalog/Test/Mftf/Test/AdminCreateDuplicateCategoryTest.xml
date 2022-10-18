@@ -27,7 +27,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
 
-        <!-- Open Category Page and select Add category -->
+        <!-- Open Category Movie and select Add category -->
         <actionGroup ref="GoToCreateCategoryPageActionGroup" stepKey="goToCategoryPage"/>
 
         <!-- Fill the Category form with same name and urlKey as initially created category(SimpleSubCategory) -->

@@ -39,7 +39,7 @@
             <argument name="description" value="Update Category Url Rewrite"/>
         </actionGroup>
 
-        <!-- Open Category Page and Get Category ID -->
+        <!-- Open Category Movie and Get Category ID -->
         <actionGroup ref="OpenCategoryFromCategoryTreeActionGroup" stepKey="getCategoryId">
             <argument name="category"  value="$$category.name$$"/>
         </actionGroup>

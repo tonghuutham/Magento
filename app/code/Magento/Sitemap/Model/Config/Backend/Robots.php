@@ -21,7 +21,7 @@ use Magento\Store\Model\StoreManagerInterface;
 /**
  * Backend model for sitemap/search_engines/submission_robots configuration value.
  *
- * Required to implement Page Cache functionality.
+ * Required to implement Movie Cache functionality.
  */
 class Robots extends Value implements IdentityInterface
 {

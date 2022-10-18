@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order;
 use Magento\Payment\Model\Info;
 
 /**
- * Adminhtml sales order payment information
+ * adminhtml sales order payment information
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

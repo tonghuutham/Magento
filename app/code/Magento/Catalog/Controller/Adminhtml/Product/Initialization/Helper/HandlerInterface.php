@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Controller\Adminhtml\Product\Initialization\Helper;
 
 /**
- * Interface \Magento\Catalog\Controller\Adminhtml\Product\Initialization\Helper\HandlerInterface
+ * Interface \Magento\Catalog\Controller\adminhtml\Product\Initialization\Helper\HandlerInterface
  *
  * @api
  */

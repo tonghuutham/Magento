@@ -34,7 +34,7 @@
         <!-- Login to Admin Panel -->
         <actionGroup ref="AdminLoginActionGroup" stepKey="LoginAsAdmin" />
 
-        <!-- Open Product Page by ID -->
+        <!-- Open Product Movie by ID -->
         <actionGroup ref="AdminProductPageOpenByIdActionGroup" stepKey="goToProductEditPage">
             <argument name="productId" value="$$createSimpleProduct.id$$"/>
         </actionGroup>
@@ -58,12 +58,12 @@
         <!-- Click on Save Button -->
         <actionGroup ref="AdminProductFormSaveActionGroup" stepKey="clickOnSaveButton"/>
 
-        <!-- Navigate to Category Page on StoreFront -->
+        <!-- Navigate to Category Movie on StoreFront -->
         <actionGroup ref="StorefrontNavigateCategoryPageActionGroup" stepKey="navigateToCategoryPage">
             <argument name="category" value="$$testCategory$$"/>
         </actionGroup>
 
-        <!-- Add Product to Cart from Category Page -->
+        <!-- Add Product to Cart from Category Movie -->
         <actionGroup ref="StorefrontAddProductToCartFromCategoryActionGroup" stepKey="addProductToCart">
             <argument name="productName" value="$$createSimpleProduct.name$$"/>
         </actionGroup>
@@ -81,11 +81,11 @@
             <expectedResult type="string">0.5</expectedResult>
         </assertEquals>
 
-        <!-- Navigate to Product Page on StoreFront -->
+        <!-- Navigate to Product Movie on StoreFront -->
         <actionGroup ref="StorefrontOpenProductPageActionGroup" stepKey="openStorefrontProductPage">
             <argument name="productUrl" value="$$createSimpleProduct.custom_attributes[url_key]$$"/>
         </actionGroup>
-        <!-- Add Product to Cart from Category Page -->
+        <!-- Add Product to Cart from Category Movie -->
         <click selector="{{StorefrontProductActionSection.addToCart}}" stepKey="addToCart"/>
 
         <!-- Grab Quantity Value from MiniCart-->

@@ -8,7 +8,7 @@ namespace Magento\Customer\Block\Adminhtml\Edit;
 use Magento\Customer\Controller\RegistryConstants;
 
 /**
- * Adminhtml customer edit form block
+ * adminhtml customer edit form block
  */
 class Form extends \Magento\Backend\Block\Widget\Form\Generic
 {

@@ -7,7 +7,7 @@
 namespace Magento\Review\Block\Adminhtml\Edit;
 
 /**
- * Adminhtml Review Edit Form
+ * adminhtml Review Edit Form
  */
 class Form extends \Magento\Backend\Block\Widget\Form\Generic
 {

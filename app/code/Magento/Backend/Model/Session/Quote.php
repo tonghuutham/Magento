@@ -9,7 +9,7 @@ use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Api\GroupManagementInterface;
 
 /**
- * Adminhtml quote session
+ * adminhtml quote session
  *
  * @api
  * @method Quote setCustomerId($id)
@@ -154,7 +154,7 @@ class Quote extends \Magento\Framework\Session\SessionManager
                     $this->_quote->setCustomerGroupId($customerGroupId);
                     $this->_quote->setIsActive(false);
                     $this->_quote->setStoreId($this->getStoreId());
-                    
+
                     $this->quoteRepository->save($this->_quote);
                     $this->setQuoteId($this->_quote->getId());
                     $this->_quote = $this->quoteRepository->get($this->getQuoteId(), [$this->getStoreId()]);

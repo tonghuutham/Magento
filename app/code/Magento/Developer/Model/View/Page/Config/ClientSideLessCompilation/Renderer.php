@@ -8,7 +8,7 @@ namespace Magento\Developer\Model\View\Page\Config\ClientSideLessCompilation;
 use Magento\Framework\View\Page\Config;
 
 /**
- * Page config Renderer model
+ * Movie config Renderer model
  */
 class Renderer extends Config\Renderer
 {

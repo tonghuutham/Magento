@@ -3,47 +3,47 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Block\Adminhtml\Page;
+namespace Magenest\Movie\Block\Adminhtml\Movie;
 
 /**
- * adminhtml cms pages grid
+ * adminhtml movie movie grid
  */
 class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 {
     /**
-     * @var \Magento\Cms\Model\ResourceModel\Page\CollectionFactory
+     * @var \Magenest\Movie\Model\ResourceModel\Movie\CollectionFactory
      */
     protected $_collectionFactory;
 
     /**
-     * @var \Magento\Cms\Model\Page
+     * @var \Magenest\Movie\Model\Movie
      */
-    protected $_cmsPage;
+    protected $_movieMovie;
 
     /**
-     * @var \Magento\Framework\View\Model\PageLayout\Config\BuilderInterface
+     * @var \Magento\Framework\View\Model\MovieLayout\Config\BuilderInterface
      */
-    protected $pageLayoutBuilder;
+    protected $movieLayoutBuilder;
 
     /**
      * @param \Magento\Backend\Block\Template\Context $context
      * @param \Magento\Backend\Helper\Data $backendHelper
-     * @param \Magento\Cms\Model\Page $cmsPage
-     * @param \Magento\Cms\Model\ResourceModel\Page\CollectionFactory $collectionFactory
-     * @param \Magento\Framework\View\Model\PageLayout\Config\BuilderInterface $pageLayoutBuilder
+     * @param \Magenest\Movie\Model\Movie $movieMovie
+     * @param \Magenest\Movie\Model\ResourceModel\Movie\CollectionFactory $collectionFactory
+     * @param \Magento\Framework\View\Model\MovieLayout\Config\BuilderInterface $movieLayoutBuilder
      * @param array $data
      */
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
         \Magento\Backend\Helper\Data $backendHelper,
-        \Magento\Cms\Model\Page $cmsPage,
-        \Magento\Cms\Model\ResourceModel\Page\CollectionFactory $collectionFactory,
-        \Magento\Framework\View\Model\PageLayout\Config\BuilderInterface $pageLayoutBuilder,
+        \Magenest\Movie\Model\Movie $movieMovie,
+        \Magenest\Movie\Model\ResourceModel\Movie\CollectionFactory $collectionFactory,
+        \Magento\Framework\View\Model\MovieLayout\Config\BuilderInterface $movieLayoutBuilder,
         array $data = []
     ) {
         $this->_collectionFactory = $collectionFactory;
-        $this->_cmsPage = $cmsPage;
-        $this->pageLayoutBuilder = $pageLayoutBuilder;
+        $this->_movieMovie = $movieMovie;
+        $this->movieLayoutBuilder = $movieLayoutBuilder;
         parent::__construct($context, $backendHelper, $data);
     }
 
@@ -53,7 +53,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected function _construct()
     {
         parent::_construct();
-        $this->setId('cmsPageGrid');
+        $this->setId('movieMovieGrid');
         $this->setDefaultSort('identifier');
         $this->setDefaultDir('ASC');
     }
@@ -66,7 +66,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected function _prepareCollection()
     {
         $collection = $this->_collectionFactory->create();
-        /* @var $collection \Magento\Cms\Model\ResourceModel\Page\Collection */
+        /* @var $collection \Magenest\Movie\Model\ResourceModel\Movie\Collection */
         $collection->setFirstStoreFlag(true);
         $this->setCollection($collection);
 
@@ -80,79 +80,74 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      */
     protected function _prepareColumns()
     {
-        $this->addColumn('title', ['header' => __('Title'), 'index' => 'title']);
 
-        $this->addColumn('identifier', ['header' => __('URL Key'), 'index' => 'identifier']);
-
-        $this->addColumn(
-            'page_layout',
-            [
-                'header' => __('Layout'),
-                'index' => 'page_layout',
-                'type' => 'options',
-                'options' => $this->pageLayoutBuilder->getPageLayoutsConfig()->getOptions()
-            ]
-        );
+//        $this->addColumn('title', ['header' => __('Title'), 'index' => 'title']);
+//
+//        $this->addColumn('identifier', ['header' => __('URL Key'), 'index' => 'identifier']);
+//
+//        $this->addColumn(
+//            'movie_layout',
+//            [
+//                'header' => __('Layout'),
+//                'index' => 'movie_layout',
+//                'type' => 'options',
+//                'options' => $this->movieLayoutBuilder->getMovieLayoutsConfig()->getOptions()
+//            ]
+//        );
 
         /**
          * Check is single store mode
          */
         if (!$this->_storeManager->isSingleStoreMode()) {
             $this->addColumn(
-                'store_id',
+                'movie_id',
                 [
                     'header' => __('Store View'),
-                    'index' => 'store_id',
-                    'type' => 'store',
-                    'store_all' => true,
-                    'store_view' => true,
-                    'sortable' => false,
+                    'index' => 'movie_id',
+                    'type' => 'movie',
+//                    'store_all' => true,
+//                    'store_view' => true,
+//                    'sortable' => false,
                     'filter_condition_callback' => [$this, '_filterStoreCondition']
                 ]
             );
         }
 
         $this->addColumn(
-            'is_active',
+            'name',
             [
                 'header' => __('Status'),
-                'index' => 'is_active',
+                'index' => 'name',
                 'type' => 'options',
-                'options' => $this->_cmsPage->getAvailableStatuses()
+                'options' => $this->_movieMovie->getAvailableStatuses()
             ]
         );
 
         $this->addColumn(
-            'creation_time',
+            'description',
             [
-                'header' => __('Created'),
-                'index' => 'creation_time',
-                'type' => 'datetime',
-                'header_css_class' => 'col-date',
-                'column_css_class' => 'col-date'
+                'header' => __('description'),
+                'index' => 'description',
             ]
         );
 
         $this->addColumn(
-            'update_time',
+            'rating',
             [
                 'header' => __('Modified'),
-                'index' => 'update_time',
-                'type' => 'datetime',
-                'header_css_class' => 'col-date',
-                'column_css_class' => 'col-date'
+                'index' => 'rating',
+
             ]
         );
 
         $this->addColumn(
-            'page_actions',
+            'director_id',
             [
                 'header' => __('Action'),
-                'sortable' => false,
-                'filter' => false,
-                'renderer' => \Magento\Cms\Block\Adminhtml\Page\Grid\Renderer\Action::class,
-                'header_css_class' => 'col-action',
-                'column_css_class' => 'col-action'
+                'index' => 'director_id',
+
+                'renderer' => \Magenest\Movie\Block\Adminhtml\Movie\Grid\Renderer\Action::class,
+
             ]
         );
 
@@ -195,6 +190,6 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
      */
     public function getRowUrl($row)
     {
-        return $this->getUrl('*/*/edit', ['page_id' => $row->getId()]);
+        return $this->getUrl('*/*/edit', ['movie_id' => $row->getId()]);
     }
 }

@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Wishlist;
 
 /**
- * Adminhtml wishlist report grid block
+ * adminhtml wishlist report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

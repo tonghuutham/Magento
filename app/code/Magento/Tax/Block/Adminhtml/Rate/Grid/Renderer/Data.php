@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml grid item renderer number
+ * adminhtml grid item renderer number
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

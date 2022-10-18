@@ -11,7 +11,7 @@ use Magento\Framework\App\Request\Http as HttpRequest;
 use Magento\TestFramework\Bootstrap;
 
 /**
- * \Magento\Integration\Controller\Adminhtml\Integration
+ * \Magento\Integration\Controller\adminhtml\Integration
  *
  * @magentoDataFixture Magento/Integration/_files/integration_all_permissions.php
  * @magentoAppArea adminhtml

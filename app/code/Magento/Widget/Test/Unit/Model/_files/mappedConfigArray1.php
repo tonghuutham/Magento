@@ -9,8 +9,8 @@ use Magento\Cms\Block\Widget\Page\Link;
  */
 return [
     '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-    'name' => 'CMS Page Link',
-    'description' => 'Link to a CMS Page',
+    'name' => 'CMS Movie Link',
+    'description' => 'Link to a CMS Movie',
     'is_email_compatible' => '1',
     'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
     'parameters' => [
@@ -19,18 +19,18 @@ return [
             'type' => 'label',
             'helper_block' => [
                 'type' => Chooser::class,
-                'data' => ['button' => ['open' => 'Select Page...']],
+                'data' => ['button' => ['open' => 'Select Movie...']],
             ],
             'visible' => '1',
             'required' => '1',
             'sort_order' => '10',
-            'label' => 'CMS Page',
+            'label' => 'CMS Movie',
         ],
         'anchor_text' => [
             'type' => 'text',
             'visible' => '1',
             'label' => 'Anchor Custom Text',
-            'description' => 'If empty, the Page Title will be used',
+            'description' => 'If empty, the Movie Title will be used',
             'depends' => ['show_pager' => ['value' => '1']],
         ],
         'template' => [

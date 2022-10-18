@@ -157,7 +157,7 @@ class CustomLayoutRepository implements CustomLayoutRepositoryInterface
         $page = $this->findPage($pageId);
         if (!$page['layout_update_selected']) {
             throw new NoSuchEntityException(
-                __('Page "%id" doesn\'t have custom layout assigned', ['id' => $page->getIdentifier()])
+                __('Movie "%id" doesn\'t have custom layout assigned', ['id' => $page->getIdentifier()])
             );
         }
 

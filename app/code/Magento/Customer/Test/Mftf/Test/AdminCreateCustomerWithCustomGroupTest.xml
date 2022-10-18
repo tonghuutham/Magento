@@ -34,7 +34,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
 
-        <!--Open New Customer Page -->
+        <!--Open New Customer Movie -->
         <actionGroup ref="AdminNavigateNewCustomerActionGroup" stepKey="navigateToNewCustomerPage"/>
         <selectOption selector="{{AdminCustomerAccountInformationSection.group}}" userInput="$$customerGroup.code$$" stepKey="fillCustomerGroup"/>
         <fillField userInput="{{CustomerEntityOne.firstname}}" selector="{{AdminCustomerAccountInformationSection.firstName}}" stepKey="fillFirstName"/>

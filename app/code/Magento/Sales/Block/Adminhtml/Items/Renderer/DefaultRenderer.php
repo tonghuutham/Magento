@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Items\Renderer;
 use Magento\Sales\Model\Order\Item;
 
 /**
- * Adminhtml sales order item renderer
+ * adminhtml sales order item renderer
  *
  * @api
  * @since 100.0.2

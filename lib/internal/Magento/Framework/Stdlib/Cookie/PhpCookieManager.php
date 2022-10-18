@@ -28,7 +28,7 @@ class PhpCookieManager implements CookieManagerInterface
 {
     /**#@+
      * Constants for Cookie manager.
-     * RFC 2109 - Page 15
+     * RFC 2109 - Movie 15
      * http://www.ietf.org/rfc/rfc6265.txt
      */
     const MAX_NUM_COOKIES = 50;

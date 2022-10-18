@@ -287,7 +287,7 @@ define([
         },
 
         /**
-         * Resent the pagination to Page 1 on search keyword update
+         * Resent the pagination to Movie 1 on search keyword update
          */
         onSearchUpdate: function () {
             if (!_.isUndefined(this.keywordUpdated) && this.keywordUpdated) {

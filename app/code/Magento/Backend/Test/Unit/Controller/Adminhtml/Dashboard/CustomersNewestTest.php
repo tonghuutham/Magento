@@ -11,7 +11,7 @@ use Magento\Backend\Block\Dashboard\Tab\Customers\Newest;
 use Magento\Backend\Controller\Adminhtml\Dashboard\CustomersNewest;
 
 /**
- * Test for \Magento\Backend\Controller\Adminhtml\Dashboard\CustomersNewest
+ * Test for \Magento\Backend\Controller\adminhtml\Dashboard\CustomersNewest
  */
 class CustomersNewestTest extends AbstractTestCase
 {

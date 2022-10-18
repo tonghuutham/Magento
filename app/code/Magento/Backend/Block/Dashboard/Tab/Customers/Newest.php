@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\Dashboard\Tab\Customers;
 
 /**
- * Adminhtml dashboard most recent customers grid
+ * adminhtml dashboard most recent customers grid
  *
  * @SuppressWarnings(PHPMD.DepthOfInheritance)
  * @api

@@ -5,13 +5,13 @@
  */
 
 /**
- * Page cache data helper
+ * Movie cache data helper
  *
  */
 namespace Magento\PageCache\Helper;
 
 /**
- * Helper for Page Cache module
+ * Helper for Movie Cache module
  */
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {

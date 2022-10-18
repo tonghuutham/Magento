@@ -10,7 +10,7 @@ use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 /**
  * Class InvalidateTokenButton
  *
- * @package Magento\Customer\Block\Adminhtml\Edit
+ * @package Magento\Customer\Block\adminhtml\Edit
  */
 class InvalidateTokenButton extends GenericButton implements ButtonProviderInterface
 {

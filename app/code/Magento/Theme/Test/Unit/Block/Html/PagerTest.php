@@ -16,7 +16,7 @@ use Magento\Theme\Block\Html\Pager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test For Page class
+ * Test For Movie class
  */
 class PagerTest extends TestCase
 {

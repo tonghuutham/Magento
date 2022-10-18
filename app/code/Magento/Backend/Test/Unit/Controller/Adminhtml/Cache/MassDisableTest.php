@@ -148,7 +148,7 @@ class MassDisableTest extends TestCase
             ->willReturn([
                 'pageCache' => [
                     'id' => 'pageCache',
-                    'label' => 'Cache of Page'
+                    'label' => 'Cache of Movie'
                 ]
             ]);
 
@@ -198,7 +198,7 @@ class MassDisableTest extends TestCase
             ->willReturn([
                 'pageCache' => [
                     'id' => 'pageCache',
-                    'label' => 'Cache of Page'
+                    'label' => 'Cache of Movie'
                 ]
             ]);
 

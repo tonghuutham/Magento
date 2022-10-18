@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\System\Store;
 
 /**
- * Adminhtml store content block
+ * adminhtml store content block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

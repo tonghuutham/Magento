@@ -6,7 +6,7 @@
 namespace Magento\ImportExport\Block\Adminhtml;
 
 /**
- * Adminhtml import history page content block
+ * adminhtml import history page content block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

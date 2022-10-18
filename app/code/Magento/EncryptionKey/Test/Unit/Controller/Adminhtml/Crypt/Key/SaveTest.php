@@ -20,7 +20,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for Magento\EncryptionKey\Controller\Adminhtml\Crypt\Key\Save
+ * Test class for Magento\EncryptionKey\Controller\adminhtml\Crypt\Key\Save
  */
 class SaveTest extends TestCase
 {

@@ -17,7 +17,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\ImportExport\Block\Adminhtml\Grid\Column\Renderer\Download class.
+ * Test for \Magento\ImportExport\Block\adminhtml\Grid\Column\Renderer\Download class.
  */
 class DownloadTest extends TestCase
 {

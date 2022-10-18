@@ -16,7 +16,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Customer\Block\Adminhtml\From\Element\Image
+ * Test class for \Magento\Customer\Block\adminhtml\From\Element\Image
  */
 class ImageTest extends TestCase
 {

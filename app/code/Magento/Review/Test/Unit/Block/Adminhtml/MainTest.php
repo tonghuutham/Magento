@@ -22,7 +22,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Unit Test For Main Block
  *
- * Class \Magento\Review\Test\Unit\Block\Adminhtml\MainTest
+ * Class \Magento\Review\Test\Unit\Block\adminhtml\MainTest
  */
 class MainTest extends TestCase
 {

@@ -19,7 +19,7 @@ use Magento\Theme\Model\Theme\Data;
 use Magento\Framework\Serialize\SerializerInterface;
 
 /**
- * Page layout config builder
+ * Movie layout config builder
  */
 class Builder implements BuilderInterface
 {

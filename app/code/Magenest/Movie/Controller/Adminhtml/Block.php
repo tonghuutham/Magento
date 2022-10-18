@@ -3,29 +3,35 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Controller\Adminhtml;
 
-abstract class Block extends \Magento\Backend\App\Action
+namespace Magenest\Movie\Controller\Adminhtml;
+
+use Magento\Backend\App\Action;
+use Magento\Backend\App\Action\Context;
+use Magento\Backend\Model\View\Result\Page;
+use Magento\Framework\Registry;
+
+abstract class Block extends Action
 {
     /**
      * Authorization level of a basic admin session
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'Magento_Cms::block';
+    const ADMIN_RESOURCE = 'Magenest_Movie::block';
 
     /**
      * Core registry
      *
-     * @var \Magento\Framework\Registry
+     * @var Registry
      */
     protected $_coreRegistry;
 
     /**
-     * @param \Magento\Backend\App\Action\Context $context
-     * @param \Magento\Framework\Registry $coreRegistry
+     * @param Context $context
+     * @param Registry $coreRegistry
      */
-    public function __construct(\Magento\Backend\App\Action\Context $context, \Magento\Framework\Registry $coreRegistry)
+    public function __construct(Context $context, Registry $coreRegistry)
     {
         $this->_coreRegistry = $coreRegistry;
         parent::__construct($context);
@@ -34,14 +40,14 @@ abstract class Block extends \Magento\Backend\App\Action
     /**
      * Init page
      *
-     * @param \Magento\Backend\Model\View\Result\Page $resultPage
-     * @return \Magento\Backend\Model\View\Result\Page
+     * @param Page $resultMovie
+     * @return Page
      */
-    protected function initPage($resultPage)
+    protected function initPage($resultMovie)
     {
-        $resultPage->setActiveMenu('Magento_Cms::cms_block')
-            ->addBreadcrumb(__('CMS'), __('CMS'))
+        $resultMovie->setActiveMenu('Magenest_Movie::movie_block')
+            ->addBreadcrumb(__('MOVIE'), __('MOVIE'))
             ->addBreadcrumb(__('Static Blocks'), __('Static Blocks'));
-        return $resultPage;
+        return $resultMovie;
     }
 }

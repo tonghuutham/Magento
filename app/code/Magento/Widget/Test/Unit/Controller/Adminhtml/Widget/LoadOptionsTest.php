@@ -23,7 +23,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Widget\Controller\Adminhtml\Widget\LoadOptions
+ * Test class for \Magento\Widget\Controller\adminhtml\Widget\LoadOptions
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class LoadOptionsTest extends TestCase

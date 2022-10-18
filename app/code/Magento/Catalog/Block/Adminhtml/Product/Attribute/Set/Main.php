@@ -11,7 +11,7 @@ namespace Magento\Catalog\Block\Adminhtml\Product\Attribute\Set;
 use Magento\Catalog\Model\Entity\Product\Attribute\Group\AttributeMapperInterface;
 
 /**
- * Adminhtml Catalog Attribute Set Main Block.
+ * adminhtml Catalog Attribute Set Main Block.
  *
  * @api
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

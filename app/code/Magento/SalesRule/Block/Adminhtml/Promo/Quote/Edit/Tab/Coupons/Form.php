@@ -12,7 +12,7 @@ namespace Magento\SalesRule\Block\Adminhtml\Promo\Quote\Edit\Tab\Coupons;
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  *
- * Class \Magento\SalesRule\Block\Adminhtml\Promo\Quote\Edit\Tab\Coupons\Form
+ * Class \Magento\SalesRule\Block\adminhtml\Promo\Quote\Edit\Tab\Coupons\Form
  */
 class Form extends \Magento\Backend\Block\Widget\Form\Generic
 {

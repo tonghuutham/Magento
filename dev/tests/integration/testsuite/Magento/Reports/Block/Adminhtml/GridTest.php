@@ -11,7 +11,7 @@ use Magento\Framework\App\RequestInterface;
 use Magento\Reports\Model\ResourceModel\Product\Sold\Collection\Initial;
 
 /**
- * Test class for \Magento\Reports\Block\Adminhtml\Grid
+ * Test class for \Magento\Reports\Block\adminhtml\Grid
  * @magentoAppArea adminhtml
  */
 class GridTest extends \PHPUnit\Framework\TestCase

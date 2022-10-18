@@ -18,7 +18,7 @@ class ImportExport extends \Magento\TaxImportExport\Controller\Adminhtml\Rate im
     const ADMIN_RESOURCE = 'Magento_TaxImportExport::import_export';
 
     /**
-     * Import and export Page
+     * Import and export Movie
      *
      * @return \Magento\Backend\Model\View\Result\Page
      */

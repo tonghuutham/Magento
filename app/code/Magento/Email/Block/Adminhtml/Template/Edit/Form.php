@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml system template edit form
+ * adminhtml system template edit form
  */
 namespace Magento\Email\Block\Adminhtml\Template\Edit;
 
@@ -13,7 +13,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\View\Helper\SecureHtmlRenderer;
 
 /**
- * Adminhtml email template edit form block
+ * adminhtml email template edit form block
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

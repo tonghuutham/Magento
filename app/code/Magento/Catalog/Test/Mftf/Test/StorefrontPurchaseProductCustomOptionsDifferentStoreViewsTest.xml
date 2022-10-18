@@ -138,7 +138,7 @@
             <argument name="Customer" value="$$createCustomer$$" />
         </actionGroup>
 
-        <!-- Go to Product Page -->
+        <!-- Go to Product Movie -->
 
         <amOnPage url="{{StorefrontHomePage.url}}$$createProduct.custom_attributes[url_key]$$.html" stepKey="amOnProduct1Page"/>
         <waitForPageLoad time="30" stepKey="waitForPageLoad7"/>
@@ -308,7 +308,7 @@
         <checkOption selector="{{AdminProductCustomizableOptionsSection.useDefaultOptionTitleByIndex('1')}}" stepKey="checkUseDefaultOptionValueTitle2"/>
         <actionGroup ref="AdminProductFormSaveActionGroup" stepKey="clickSaveButton3"/>
 
-        <!--Go to Product Page-->
+        <!--Go to Product Movie-->
 
         <amOnPage url="{{StorefrontProductPage.url($$createProduct.custom_attributes[url_key]$$)}}" stepKey="amOnProduct2Page2"/>
 

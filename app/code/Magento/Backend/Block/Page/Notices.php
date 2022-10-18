@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml header notices block
+ * adminhtml header notices block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

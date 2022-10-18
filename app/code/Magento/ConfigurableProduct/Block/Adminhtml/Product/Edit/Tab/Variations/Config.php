@@ -11,7 +11,7 @@ use Magento\Catalog\Model\Product;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable;
 
 /**
- * Adminhtml catalog super product configurable tab
+ * adminhtml catalog super product configurable tab
  */
 class Config extends Widget implements TabInterface
 {

@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml product edit price block
+ * adminhtml product edit price block
  */
 namespace Magento\Catalog\Block\Adminhtml\Product\Edit\Tab;
 

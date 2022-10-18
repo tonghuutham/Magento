@@ -77,7 +77,7 @@ class Wishlist extends \Magento\Wishlist\Block\AbstractBlock
     }
 
     /**
-     * Retrieve Page Header
+     * Retrieve Movie Header
      *
      * @return \Magento\Framework\Phrase
      */

@@ -95,7 +95,7 @@
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
 
-        <!--Open Product Index Page-->
+        <!--Open Product Index Movie-->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="navigateToProductIndex"/>
 
         <!--Select SimpleProduct -->
@@ -130,7 +130,7 @@
             <argument name="message" value="You saved the product."/>
         </actionGroup>
 
-        <!--Go to Product Index Page -->
+        <!--Go to Product Index Movie -->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="clickOnBackButton"/>
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="waitForProductsToBeLoaded"/>
 

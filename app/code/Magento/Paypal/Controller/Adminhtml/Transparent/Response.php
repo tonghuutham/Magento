@@ -8,7 +8,7 @@ namespace Magento\Paypal\Controller\Adminhtml\Transparent;
 /**
  * Class Response
  *
- * @package Magento\Paypal\Controller\Adminhtml\Transparent
+ * @package Magento\Paypal\Controller\adminhtml\Transparent
  */
 class Response extends \Magento\Paypal\Controller\Transparent\Response
 {

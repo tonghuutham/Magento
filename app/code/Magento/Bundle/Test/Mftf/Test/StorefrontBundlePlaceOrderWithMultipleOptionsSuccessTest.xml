@@ -57,7 +57,7 @@
             <argument name="Customer" value="$$createCustomer$$" />
         </actionGroup>
 
-        <!--Open Product Page-->
+        <!--Open Product Movie-->
         <actionGroup ref="StorefrontOpenProductPageActionGroup" stepKey="openStorefrontProductPage">
             <argument name="productUrl" value="{{BundleProduct.urlKey}}"/>
         </actionGroup>

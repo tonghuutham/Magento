@@ -37,7 +37,7 @@ class Index extends \Magento\Wishlist\Controller\AbstractIndex
     public function execute()
     {
         if (!$this->wishlistProvider->getWishlist()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
         /** @var \Magento\Framework\View\Result\Page resultPage */
         $resultPage = $this->resultFactory->create(ResultFactory::TYPE_PAGE);

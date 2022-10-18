@@ -11,7 +11,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Store\Model\System\Store as SystemStore;
 
 /**
- * Adminhtml customer groups edit form
+ * adminhtml customer groups edit form
  */
 class Form extends \Magento\Backend\Block\Widget\Form\Generic
 {

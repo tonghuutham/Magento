@@ -12,7 +12,7 @@ use Magento\Framework\Module\Manager;
 use Magento\Reports\Model\ResourceModel\Order\CollectionFactory;
 
 /**
- * Adminhtml dashboard sales statistics bar
+ * adminhtml dashboard sales statistics bar
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

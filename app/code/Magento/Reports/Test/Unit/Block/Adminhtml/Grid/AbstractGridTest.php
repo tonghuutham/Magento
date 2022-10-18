@@ -15,7 +15,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for class \Magento\Reports\Block\Adminhtml\Grid\AbstractGrid.
+ * Test for class \Magento\Reports\Block\adminhtml\Grid\AbstractGrid.
  */
 class AbstractGridTest extends TestCase
 {

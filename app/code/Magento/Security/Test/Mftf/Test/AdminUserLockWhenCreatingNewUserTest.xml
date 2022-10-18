@@ -29,7 +29,7 @@
             <magentoCLI command="admin:user:unlock {{DefaultAdminUser.username}}" stepKey="unlockAdminUser"/>
         </after>
 
-        <!-- Open Admin New User Page -->
+        <!-- Open Admin New User Movie -->
         <actionGroup ref="AdminOpenNewUserPageActionGroup" stepKey="openNewUserPage" />
 
         <!-- Perform add new admin user 6 specified number of times.

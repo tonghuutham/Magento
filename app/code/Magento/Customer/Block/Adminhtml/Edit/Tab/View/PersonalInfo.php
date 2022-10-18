@@ -12,7 +12,7 @@ use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Customer\Model\Customer;
 
 /**
- * Adminhtml customer view personal information sales block.
+ * adminhtml customer view personal information sales block.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

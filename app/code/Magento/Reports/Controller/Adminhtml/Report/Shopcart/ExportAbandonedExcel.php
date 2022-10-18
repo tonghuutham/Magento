@@ -14,7 +14,7 @@ use Magento\Framework\App\Action\HttpGetActionInterface as HttpGetActionInterfac
 use Magento\Reports\Controller\Adminhtml\Report\Shopcart\Abandoned as ShopCartAbandoned;
 
 /**
- * Class \Magento\Reports\Controller\Adminhtml\Report\Shopcart\ExportAbandonedExcel
+ * Class \Magento\Reports\Controller\adminhtml\Report\Shopcart\ExportAbandonedExcel
  */
 class ExportAbandonedExcel extends ShopCartAbandoned implements HttpGetActionInterface
 {

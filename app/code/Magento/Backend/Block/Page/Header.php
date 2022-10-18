@@ -7,7 +7,7 @@
 namespace Magento\Backend\Block\Page;
 
 /**
- * Adminhtml header block
+ * adminhtml header block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

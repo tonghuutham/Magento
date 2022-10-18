@@ -19,7 +19,7 @@ class BillingAddressDisplayOptions implements ArrayInterface
      * @return array:
      * [
      *  ['label' => 'Payment Method', 'value' => 0],
-     *  ['label' => 'Payment Page', 'value' => 1]
+     *  ['label' => 'Payment Movie', 'value' => 1]
      * ]
      */
     public function toOptionArray()
@@ -30,7 +30,7 @@ class BillingAddressDisplayOptions implements ArrayInterface
                 'value' => 0
             ],
             [
-                'label' => __('Payment Page'),
+                'label' => __('Payment Movie'),
                 'value' => 1
             ]
         ];

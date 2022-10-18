@@ -106,7 +106,7 @@ class EnumLookupTest extends TestCase
                 [
                     self::ENUM_NAME,
                     $this->values,
-                    'Subscription statuses',
+                    'Director statuses',
                 ]
             )
             ->getMock();

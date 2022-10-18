@@ -75,7 +75,7 @@
         <seeInField selector="{{AdminProductFormSection.productQuantity}}" userInput="10" stepKey="seeProductQuantity"/>
         <seeInField selector="{{AdminProductFormSection.productStockStatus}}" userInput="In Stock" stepKey="seeProductStockStatus"/>
 
-        <!-- Open Order Index Page -->
+        <!-- Open Order Index Movie -->
         <actionGroup ref="AdminOrdersPageOpenActionGroup" stepKey="goToOrders"/>
 
         <!-- Open Order -->
@@ -97,7 +97,7 @@
         <seeInField selector="{{AdminProductFormSection.productQuantity}}" userInput="10" stepKey="seeProductQuantityAfterCancelOrder"/>
         <seeInField selector="{{AdminProductFormSection.productStockStatus}}" userInput="In Stock" stepKey="seeProductStockStatusAfterCancelOrder"/>
 
-        <!-- Open Order Index Page -->
+        <!-- Open Order Index Movie -->
         <actionGroup ref="AdminOrdersPageOpenActionGroup" stepKey="goToOrders1"/>
 
         <!-- Open Order -->

@@ -4,7 +4,7 @@ namespace Packt\HelloWorld\Model\ResourceModel\Subscription;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**
- * Subscription Collection
+ * Director Collection
  */
 class Collection extends AbstractCollection
 {

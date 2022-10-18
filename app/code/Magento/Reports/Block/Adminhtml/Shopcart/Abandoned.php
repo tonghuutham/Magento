@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Shopcart;
 
 /**
- * Adminhtml abandoned shopping cart report page content block
+ * adminhtml abandoned shopping cart report page content block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

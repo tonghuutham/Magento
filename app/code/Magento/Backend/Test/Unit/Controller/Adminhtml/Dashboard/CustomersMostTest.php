@@ -11,7 +11,7 @@ use Magento\Backend\Block\Dashboard\Tab\Customers\Most;
 use Magento\Backend\Controller\Adminhtml\Dashboard\CustomersMost;
 
 /**
- * Test for \Magento\Backend\Controller\Adminhtml\Dashboard\CustomersMost
+ * Test for \Magento\Backend\Controller\adminhtml\Dashboard\CustomersMost
  */
 class CustomersMostTest extends AbstractTestCase
 {

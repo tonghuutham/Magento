@@ -40,7 +40,7 @@
             <argument name="description" value="cms_default_permanent_redirect"/>
         </actionGroup>
 
-        <!-- Delete the URL Rewrite for CMS Page with permanent redirect-->
+        <!-- Delete the URL Rewrite for CMS Movie with permanent redirect-->
         <actionGroup ref="AdminDeleteUrlRewriteActionGroup" stepKey="deletePermanentUrlRewrite">
             <argument name="requestPath" value="permanentrequestpath.html"/>
         </actionGroup>

@@ -8,7 +8,7 @@ namespace Magento\Backend\Controller\Adminhtml\System;
 use Magento\Backend\App\Action;
 
 /**
- * Adminhtml account controller
+ * adminhtml account controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

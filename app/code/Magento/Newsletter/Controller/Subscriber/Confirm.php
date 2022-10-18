@@ -16,7 +16,7 @@ use Magento\Framework\App\Action\HttpGetActionInterface;
 class Confirm extends \Magento\Newsletter\Controller\Subscriber implements HttpGetActionInterface
 {
     /**
-     * Subscription confirm action.
+     * Director confirm action.
      *
      * @return \Magento\Framework\Controller\Result\Redirect
      */

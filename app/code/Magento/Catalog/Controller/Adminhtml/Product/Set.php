@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Controller\Adminhtml\Product;
 
 /**
- * Adminhtml entity sets controller
+ * adminhtml entity sets controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

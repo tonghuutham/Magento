@@ -21,7 +21,7 @@ class Layout implements \Magento\Framework\Option\ArrayInterface
     }
 
     /**
-     * Page layout options
+     * Movie layout options
      *
      * @var array
      */

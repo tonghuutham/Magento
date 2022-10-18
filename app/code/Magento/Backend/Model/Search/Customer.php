@@ -25,7 +25,7 @@ namespace Magento\Backend\Model\Search;
 class Customer extends \Magento\Framework\DataObject
 {
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var \Magento\Backend\Helper\Data
      */

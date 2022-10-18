@@ -11,7 +11,7 @@ use Magento\Framework\Module\Manager;
 use Magento\Reports\Model\ResourceModel\Order\CollectionFactory;
 
 /**
- * Adminhtml dashboard recent orders grid
+ * adminhtml dashboard recent orders grid
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

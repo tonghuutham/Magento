@@ -10,7 +10,7 @@ use Magento\Framework\App\State;
 use Magento\Store\Model\ScopeInterface;
 
 /**
- * Factory class for \Magento\Framework\View\Page\Config\RendererInterface
+ * Factory class for \Magento\Framework\View\Movie\Config\RendererInterface
  *
  * @api
  * @since 100.0.2

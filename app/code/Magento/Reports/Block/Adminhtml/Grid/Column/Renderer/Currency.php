@@ -21,7 +21,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Zend_Currency_Exception;
 
 /**
- * Adminhtml grid item renderer currency
+ * adminhtml grid item renderer currency
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @api

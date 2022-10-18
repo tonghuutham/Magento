@@ -110,10 +110,10 @@
         <seeElement selector="{{StorefrontMinicartSection.emptyMiniCart}}"  stepKey="assertEmptyCart" />
         <grabTextFrom selector="{{CheckoutSuccessMainSection.orderLink}}" stepKey="orderId"/>
 
-        <!-- Login to Admin Page -->
+        <!-- Login to Admin Movie -->
         <actionGroup ref="AdminLoginActionGroup" stepKey="loginToAdminPanel"/>
 
-        <!-- Open Order Index Page -->
+        <!-- Open Order Index Movie -->
         <actionGroup ref="AdminOrdersPageOpenActionGroup" stepKey="goToOrders"/>
 
         <!-- Filter Order using orderId and assert order-->

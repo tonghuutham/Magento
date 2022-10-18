@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Test class for \Magento\Framework\View\Page\Layout\Reader
+ * Test class for \Magento\Framework\View\Movie\Layout\Reader
  */
 namespace Magento\Framework\View\Test\Unit\Page\Layout;
 

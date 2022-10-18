@@ -94,7 +94,7 @@ class WidgetTest extends TestCase
         $this->dataStorageMock->expects($this->once())
             ->method('get')
             ->willReturn($widgets);
-        $result = $this->widget->getWidgets(['name' => 'CMS Page Link', 'description' => 'Link to a CMS Page']);
+        $result = $this->widget->getWidgets(['name' => 'CMS Movie Link', 'description' => 'Link to a CMS Movie']);
         $configFileOne = __DIR__ . '/_files/mappedConfigArray1.php';
         $expected = ['cms_page_link' => include $configFileOne];
         $this->assertEquals($expected, $result);
@@ -143,8 +143,8 @@ class WidgetTest extends TestCase
         $resultObject = $this->widget->getConfigAsObject(Link::class);
         $this->assertInstanceOf(DataObject::class, $resultObject);
 
-        $this->assertSame('CMS Page Link', $resultObject->getName());
-        $this->assertSame('Link to a CMS Page', $resultObject->getDescription());
+        $this->assertSame('CMS Movie Link', $resultObject->getName());
+        $this->assertSame('Link to a CMS Movie', $resultObject->getDescription());
         $this->assertSame('1', $resultObject->getIsEmailCompatible());
         $this->assertSame('Magento_Cms::images/widget_page_link.png', $resultObject->getPlaceholderImage());
 

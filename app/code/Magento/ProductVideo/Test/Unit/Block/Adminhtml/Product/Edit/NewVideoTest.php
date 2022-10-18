@@ -58,7 +58,7 @@ class NewVideoTest extends TestCase
 
     /**
      * @var ObjectManager
-     * |\Magento\ProductVideo\Block\Adminhtml\Product\Edit\NewVideo
+     * |\Magento\ProductVideo\Block\adminhtml\Product\Edit\NewVideo
      */
     protected $block;
 

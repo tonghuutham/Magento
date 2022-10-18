@@ -67,7 +67,7 @@ class HttpMethodValidator implements ValidatorInterface
         );
 
         throw new InvalidRequestException(
-            new NotFoundException(new Phrase('Page not found.'))
+            new NotFoundException(new Phrase('Movie not found.'))
         );
     }
 

@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Block\Adminhtml\Page\Edit;
+namespace Magenest\Movie\Block\Adminhtml\Movie\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 
@@ -20,11 +20,11 @@ class DeleteButton extends GenericButton implements ButtonProviderInterface
         $data = [];
         if ($this->getPageId()) {
             $data = [
-                'label' => __('Delete Page'),
+                'label' => __('Delete Movie'),
                 'class' => 'delete',
                 'on_click' => 'deleteConfirm(\'' . __(
-                    'Are you sure you want to do this?'
-                ) . '\', \'' . $this->getDeleteUrl() . '\', {"data": {}})',
+                        'Are you sure you want to do this?'
+                    ) . '\', \'' . $this->getDeleteUrl() . '\', {"data": {}})',
                 'sort_order' => 20,
             ];
         }
@@ -38,6 +38,6 @@ class DeleteButton extends GenericButton implements ButtonProviderInterface
      */
     public function getDeleteUrl()
     {
-        return $this->getUrl('*/*/delete', ['page_id' => $this->getPageId()]);
+        return $this->getUrl('*/*/delete', ['movie_id' => $this->getPageId()]);
     }
 }

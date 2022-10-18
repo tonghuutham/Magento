@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Creditmemo\View;
 
 /**
- * Adminhtml sales shipment comment view block
+ * adminhtml sales shipment comment view block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

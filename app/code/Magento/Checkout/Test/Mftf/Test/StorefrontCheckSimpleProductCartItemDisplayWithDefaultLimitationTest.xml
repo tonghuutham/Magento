@@ -281,7 +281,7 @@
         <conditionalClick selector="{{CheckoutOrderSummarySection.miniCartTab}}" dependentSelector="{{CheckoutOrderSummarySection.miniCartTabClosed}}" visible="true" stepKey="clickOnOrderSummaryTab"/>
         <waitForPageLoad stepKey="waitForPageToLoad"/>
 
-        <!-- Assert Shipping Page -->
+        <!-- Assert Shipping Movie -->
         <actionGroup ref="StorefrontAssertShippingAddressPageDisplayActionGroup" stepKey="assertShippingPageDisplay"/>
 
         <!-- Assert Product2 displayed in Order Summary -->

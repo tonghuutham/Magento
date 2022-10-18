@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Creditmemo;
 use Magento\Sales\Model\Order\Creditmemo;
 
 /**
- * Adminhtml order creditmemo totals block
+ * adminhtml order creditmemo totals block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

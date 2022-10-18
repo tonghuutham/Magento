@@ -15,7 +15,7 @@
         <arguments>
             <argument name="InterfaceLocaleByValue" defaultValue="en_US" type="string"/>
         </arguments>
-        <!-- Navigate to admin System Account Page-->
+        <!-- Navigate to admin System Account Movie-->
         <amOnPage url="{{AdminSystemAccountPage.url}}" stepKey="openAdminSystemAccountPage" />
         <waitForElementVisible selector="{{AdminSystemAccountSection.interfaceLocale}}" stepKey="waitForInterfaceLocale"/>
         <!-- Change Admin locale to Français (France) / French (France) -->

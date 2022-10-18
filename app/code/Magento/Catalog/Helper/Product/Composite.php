@@ -15,7 +15,7 @@ use Magento\Customer\Controller\RegistryConstants;
 use Magento\Framework\Registry;
 
 /**
- * Adminhtml catalog product composite helper
+ * adminhtml catalog product composite helper
  *
  * @api
  *

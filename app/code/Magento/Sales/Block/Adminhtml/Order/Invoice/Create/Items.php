@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Invoice\Create;
 
 /**
- * Adminhtml invoice items grid
+ * adminhtml invoice items grid
  *
  * @api
  * @since 100.0.2

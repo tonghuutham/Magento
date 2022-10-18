@@ -40,7 +40,7 @@
         <!-- Login into Admin Panel-->
         <actionGroup ref="AdminLoginActionGroup" stepKey="adminLogin"/>
 
-        <!-- Open Product Page-->
+        <!-- Open Product Movie-->
         <actionGroup ref="AdminProductPageOpenByIdActionGroup" stepKey="openProductPagebyID">
             <argument name="productId" value="$createFirstSimpleProduct.id$"/>
         </actionGroup>
@@ -50,7 +50,7 @@
             <argument name="price" value="{{specialProductPrice3.price}}"/>
         </actionGroup>
 
-        <!-- Save Product Page-->
+        <!-- Save Product Movie-->
         <actionGroup ref="SaveProductFormActionGroup" stepKey="saveProductForm"/>
 
         <!-- Login to StoreFront-->
@@ -63,27 +63,27 @@
             <argument name="category" value="$$createCategory$$"/>
         </actionGroup>
 
-        <!-- Grab Value of Product Price from Category Page-->
+        <!-- Grab Value of Product Price from Category Movie-->
         <grabTextFrom selector=" {{StorefrontCategoryMainSection.productPrice}}" stepKey="grabProductPrice"/>
 
-        <!-- Open Product Page -->
+        <!-- Open Product Movie -->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openProductPage">
             <argument name="product" value="$$createFirstSimpleProduct$$"/>
         </actionGroup>
 
-        <!-- Grab Value of Special Price from Product Page-->
+        <!-- Grab Value of Special Price from Product Movie-->
         <waitForElementVisible selector="{{StorefrontProductInfoMainSection.specialPriceValue}}" stepKey="waitForProductSpecialPrice"/>
         <grabTextFrom selector="{{StorefrontProductInfoMainSection.specialPriceValue}}" stepKey="grabSpecialPricefromProductPage"/>
 
-        <!-- Add Product To WishList from Product Page-->
+        <!-- Add Product To WishList from Product Movie-->
         <actionGroup ref="StorefrontCustomerAddProductToWishlistActionGroup" stepKey="wishlist">
             <argument name="productVar" value="$$createFirstSimpleProduct$$"/>
         </actionGroup>
 
-        <!-- Grab Value of Special Price from WishList Page-->
+        <!-- Grab Value of Special Price from WishList Movie-->
         <grabTextFrom selector="{{StorefrontProductInfoMainSection.productSpecialPrice}}"  stepKey="grabspecialPriceFromWishListPage"/>
 
-        <!-- Check Special Price on the Catalog Page is same as Special Price on WishList Page-->
+        <!-- Check Special Price on the Catalog Movie is same as Special Price on WishList Movie-->
         <assertEquals stepKey="assertProductPriceValuesAreEqual">
             <actualResult type="const">$grabSpecialPricefromProductPage</actualResult>
             <expectedResult type="string">$grabspecialPriceFromWishListPage</expectedResult>

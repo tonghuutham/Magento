@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\Dashboard;
 
 /**
- * Adminhtml dashboard diagram tabs
+ * adminhtml dashboard diagram tabs
  * @deprecated dashboard graphs were migrated to dynamic chart.js solution
  * @see dashboard.diagrams in adminhtml_dashboard_index.xml
  *

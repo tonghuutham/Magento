@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml block for fieldset of grouped product
+ * adminhtml block for fieldset of grouped product
  */
 namespace Magento\GroupedProduct\Block\Adminhtml\Product\Composite\Fieldset;
 

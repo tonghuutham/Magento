@@ -11,7 +11,7 @@ use Magento\Shipping\Helper\Data as ShippingHelper;
 use Magento\Tax\Helper\Data as TaxHelper;
 
 /**
- * Adminhtml order abstract block
+ * adminhtml order abstract block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml catalog product action attribute update
+ * adminhtml catalog product action attribute update
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -21,7 +21,7 @@ use Magento\Catalog\Model\ResourceModel\Product\Collection;
 class Attribute extends \Magento\Backend\Block\Widget
 {
     /**
-     * Adminhtml catalog product edit action attribute
+     * adminhtml catalog product edit action attribute
      *
      * @var ActionAttribute
      */

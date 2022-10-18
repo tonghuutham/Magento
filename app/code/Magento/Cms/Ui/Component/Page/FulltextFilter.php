@@ -13,7 +13,7 @@ use Magento\Framework\Api\FilterBuilder;
 use Magento\Framework\Api\Search\SearchCriteriaBuilder;
 
 /**
- * Adds fulltext filter for CMS Page title attribute.
+ * Adds fulltext filter for CMS Movie title attribute.
  */
 class FulltextFilter implements AddFilterInterface
 {

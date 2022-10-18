@@ -9,7 +9,7 @@ namespace Magento\Framework\View\Page\Layout;
 use Magento\Framework\View\Layout;
 
 /**
- * Class Page layout reader
+ * Class Movie layout reader
  */
 class Reader
 {

@@ -9,7 +9,7 @@ use Magento\Customer\Controller\RegistryConstants;
 use Magento\Directory\Model\Currency;
 
 /**
- * Adminhtml customer cart items grid block
+ * adminhtml customer cart items grid block
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  *

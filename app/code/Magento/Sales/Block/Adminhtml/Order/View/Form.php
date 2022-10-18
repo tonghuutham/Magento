@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\View;
 
 /**
- * Adminhtml sales order view plane
+ * adminhtml sales order view plane
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

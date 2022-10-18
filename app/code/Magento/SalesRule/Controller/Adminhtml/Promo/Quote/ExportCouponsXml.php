@@ -20,7 +20,7 @@ use Magento\Framework\App\Action\HttpPostActionInterface;
 /**
  * Export coupons to xml file
  *
- * Class \Magento\SalesRule\Controller\Adminhtml\Promo\Quote\ExportCouponsXml
+ * Class \Magento\SalesRule\Controller\adminhtml\Promo\Quote\ExportCouponsXml
  */
 class ExportCouponsXml extends Quote implements HttpGetActionInterface, HttpPostActionInterface
 {

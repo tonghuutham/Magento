@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Block\Adminhtml\Page\Grid\Renderer\Action;
+namespace Magenest\Movie\Block\Adminhtml\Movie\Grid\Renderer\Action;
 
 /**
  * Url builder class used to compose dynamic urls.

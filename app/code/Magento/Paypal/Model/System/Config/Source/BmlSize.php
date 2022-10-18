@@ -9,7 +9,7 @@ namespace Magento\Paypal\Model\System\Config\Source;
 class BmlSize
 {
     /**
-     * Options getter for Home Page and position Header
+     * Options getter for Home Movie and position Header
      *
      * @return array
      */
@@ -26,7 +26,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Home Page and position Sidebar (right)
+     * Options getter for Home Movie and position Sidebar (right)
      *
      * @return array
      */
@@ -44,7 +44,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Catalog Category Page and position Center
+     * Options getter for Catalog Category Movie and position Center
      *
      * @return array
      */
@@ -61,7 +61,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Catalog Category Page and position Sidebar (right)
+     * Options getter for Catalog Category Movie and position Sidebar (right)
      *
      * @return array
      */
@@ -79,7 +79,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Catalog Product Page and position Center
+     * Options getter for Catalog Product Movie and position Center
      *
      * @return array
      */
@@ -96,7 +96,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Catalog Product Page and position Near Bill Me Later checkout button
+     * Options getter for Catalog Product Movie and position Near Bill Me Later checkout button
      *
      * @return array
      */
@@ -114,7 +114,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Checkout Cart Page and position Center
+     * Options getter for Checkout Cart Movie and position Center
      *
      * @return array
      */
@@ -130,7 +130,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Checkout Cart Page and position Near Bill Me Later checkout button
+     * Options getter for Checkout Cart Movie and position Near Bill Me Later checkout button
      *
      * @return array
      */

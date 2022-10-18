@@ -20,7 +20,7 @@ use Magento\Framework\App\Action\HttpPostActionInterface;
 /**
  * Export Coupons to csv file
  *
- * Class \Magento\SalesRule\Controller\Adminhtml\Promo\Quote\ExportCouponsCsv
+ * Class \Magento\SalesRule\Controller\adminhtml\Promo\Quote\ExportCouponsCsv
  */
 class ExportCouponsCsv extends Quote implements HttpGetActionInterface, HttpPostActionInterface
 {

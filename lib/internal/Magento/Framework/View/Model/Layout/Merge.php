@@ -89,7 +89,7 @@ class Merge implements \Magento\Framework\View\Layout\ProcessorInterface
     protected $handles = [];
 
     /**
-     * Page handle names sorted by from parent to child
+     * Movie handle names sorted by from parent to child
      *
      * @var array
      */
@@ -339,7 +339,7 @@ class Merge implements \Magento\Framework\View\Layout\ProcessorInterface
     }
 
     /**
-     * Page layout type
+     * Movie layout type
      *
      * @return string|null
      */

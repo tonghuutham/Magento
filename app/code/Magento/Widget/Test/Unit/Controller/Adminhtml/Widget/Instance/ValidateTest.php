@@ -23,7 +23,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Widget\Controller\Adminhtml\Widget\Instance\Validate.
+ * Test for \Magento\Widget\Controller\adminhtml\Widget\Instance\Validate.
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ValidateTest extends TestCase

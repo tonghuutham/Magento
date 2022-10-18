@@ -9,7 +9,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\View\Helper\SecureHtmlRenderer;
 
 /**
- * Adminhtml add product review form
+ * adminhtml add product review form
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

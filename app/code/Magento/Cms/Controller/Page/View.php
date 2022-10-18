@@ -70,7 +70,7 @@ class View extends Action implements HttpGetActionInterface, HttpPostActionInter
     }
 
     /**
-     * Returns Page ID if provided or null
+     * Returns Movie ID if provided or null
      *
      * @return int|null
      */

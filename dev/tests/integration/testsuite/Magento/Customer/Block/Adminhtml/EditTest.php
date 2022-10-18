@@ -9,7 +9,7 @@ use Magento\Customer\Controller\RegistryConstants;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test for \Magento\Customer\Block\Adminhtml\Edit
+ * Test for \Magento\Customer\Block\adminhtml\Edit
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixture Magento/Customer/_files/customer.php

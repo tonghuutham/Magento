@@ -1,6 +1,6 @@
 <?php
 /**
- * Page layout Config Converter
+ * Movie layout Config Converter
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

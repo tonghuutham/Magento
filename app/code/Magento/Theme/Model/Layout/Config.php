@@ -6,7 +6,7 @@
 namespace Magento\Theme\Model\Layout;
 
 /**
- * Page layout config model
+ * Movie layout config model
  */
 class Config
 {

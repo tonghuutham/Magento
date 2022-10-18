@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\System\Store\Edit\Form;
 
 /**
- * Adminhtml store edit form for group
+ * adminhtml store edit form for group
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  *

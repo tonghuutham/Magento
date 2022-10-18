@@ -78,7 +78,7 @@ class CheckUserForgotPasswordBackendObserver implements ObserverInterface
     }
 
     /**
-     * Check Captcha On User Login Backend Page
+     * Check Captcha On User Login Backend Movie
      *
      * @param Event $observer
      * @return $this

@@ -35,7 +35,7 @@
         <!-- Click save and duplicate action -->
         <actionGroup ref="SaveAndDuplicateCMSBlockWithSplitButtonActionGroup" stepKey="clickSaveAndDuplicateButton" />
 
-        <!--Verify duplicated CMS Block Page-->
+        <!--Verify duplicated CMS Block Movie-->
         <seeElement selector="{{BlockNewPageBasicFieldsSection.isActive('0')}}" stepKey="seeBlockNotEnable" />
         <actionGroup ref="AssertBlockContent" stepKey="assertContent"/>
         <!-- Click save and close button -->

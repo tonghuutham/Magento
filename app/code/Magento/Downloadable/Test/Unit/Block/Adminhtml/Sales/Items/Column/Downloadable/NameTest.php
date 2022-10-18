@@ -19,7 +19,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests Magento\Downloadable\Block\Adminhtml\Sales\Items\Column\Downloadable\Name
+ * Tests Magento\Downloadable\Block\adminhtml\Sales\Items\Column\Downloadable\Name
  */
 class NameTest extends TestCase
 {

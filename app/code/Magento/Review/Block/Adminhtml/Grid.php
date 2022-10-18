@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Review\Block\Adminhtml;
 
 /**
- * Adminhtml reviews grid
+ * adminhtml reviews grid
  *
  * @method int getProductId()
  * @method Grid setProductId(int $productId)

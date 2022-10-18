@@ -83,7 +83,7 @@
         </actionGroup>
         <actionGroup ref="AdminProductGridSectionClickFirstRowActionGroup" stepKey="openCreatedGroupedProduct"/>
 
-        <!-- Admin: Verify Grouped Product Information and Associated Products on Edit Product Page -->
+        <!-- Admin: Verify Grouped Product Information and Associated Products on Edit Product Movie -->
         <seeNumberOfElements userInput="2" selector="{{AdminGroupedProductOptionGridSection.allRows}}" stepKey="see2RowsAdmin"/>
         <actionGroup ref="AdminVerifyAssociatedProductForGroupedProductActionGroup" stepKey="verifyAssociatedProduct1Admin">
             <argument name="name" value="$$createProductOne.name$$"/>

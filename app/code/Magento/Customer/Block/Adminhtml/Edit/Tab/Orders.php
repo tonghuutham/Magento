@@ -8,7 +8,7 @@ namespace Magento\Customer\Block\Adminhtml\Edit\Tab;
 use Magento\Customer\Controller\RegistryConstants;
 
 /**
- * Adminhtml customer orders grid block
+ * adminhtml customer orders grid block
  *
  * @api
  * @since 100.0.2

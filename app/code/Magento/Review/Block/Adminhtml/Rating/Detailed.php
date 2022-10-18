@@ -11,7 +11,7 @@ use Magento\Review\Model\ResourceModel\Rating\Collection as RatingCollection;
 use Magento\Review\Model\ResourceModel\Rating\Option\Vote\Collection as VoteCollection;
 
 /**
- * Adminhtml detailed rating stars
+ * adminhtml detailed rating stars
  */
 class Detailed extends \Magento\Backend\Block\Template
 {

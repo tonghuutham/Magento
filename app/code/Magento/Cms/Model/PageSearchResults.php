@@ -11,7 +11,7 @@ use Magento\Cms\Api\Data\PageSearchResultsInterface;
 use Magento\Framework\Api\SearchResults;
 
 /**
- * Service Data Object with Page search results.
+ * Service Data Object with Movie search results.
  */
 class PageSearchResults extends SearchResults implements PageSearchResultsInterface
 {

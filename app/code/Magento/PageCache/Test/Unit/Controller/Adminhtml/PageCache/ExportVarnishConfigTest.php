@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Test class for \Magento\PageCache\Controller\Adminhtml/PageCache
+ * Test class for \Magento\PageCache\Controller\adminhtml/PageCache
  */
 namespace Magento\PageCache\Test\Unit\Controller\Adminhtml\PageCache;
 

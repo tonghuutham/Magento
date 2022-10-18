@@ -369,7 +369,7 @@ define([
         },
 
         /**
-         * Get the height of the other sticky elem (Page header)
+         * Get the height of the other sticky elem (Movie header)
          *
          * @returns {Number}.
          */

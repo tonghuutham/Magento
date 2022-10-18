@@ -35,7 +35,7 @@
     </actionGroup>
     <!--login in admin-->
     <actionGroup ref="AdminLoginActionGroup" stepKey="loginAsAdmin"/>
-    <!--Open Customer Page -->
+    <!--Open Customer Movie -->
     <actionGroup ref="AdminOpenCustomersGridActionGroup" stepKey="openCustomerPage"/>
     <actionGroup ref="OpenEditCustomerFromAdminActionGroup" stepKey="openEditCustomerPage">
         <argument name="customer" value="$createCustomer$"/>
@@ -49,7 +49,7 @@
     <actionGroup ref="AssertStorefrontCustomerMessagesActionGroup" stepKey="assertMessages">
         <argument name="message" value="We have removed your newsletter subscription."/>
     </actionGroup>
-    <!--Open Customer Page -->
+    <!--Open Customer Movie -->
     <actionGroup ref="AdminOpenCustomersGridActionGroup" stepKey="openCustomerPageAgain"/>
     <actionGroup ref="OpenEditCustomerFromAdminActionGroup" stepKey="openEditCustomerPageAgain">
         <argument name="customer" value="$createCustomer$"/>

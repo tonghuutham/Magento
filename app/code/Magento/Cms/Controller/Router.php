@@ -30,7 +30,7 @@ class Router implements \Magento\Framework\App\RouterInterface
     protected $_storeManager;
 
     /**
-     * Page factory
+     * Movie factory
      *
      * @var \Magento\Cms\Model\PageFactory
      */
@@ -82,7 +82,7 @@ class Router implements \Magento\Framework\App\RouterInterface
     }
 
     /**
-     * Validate and Match Cms Page and modify request
+     * Validate and Match Cms Movie and modify request
      *
      * @param \Magento\Framework\App\RequestInterface $request
      * @return \Magento\Framework\App\ActionInterface|null

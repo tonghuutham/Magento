@@ -22,7 +22,7 @@ class Index extends \Magento\Rss\Controller\Index
             $this->_view->loadLayout();
             $this->_view->renderLayout();
         } else {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
     }
 }

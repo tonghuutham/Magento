@@ -18,7 +18,7 @@ use Magento\Framework\Validator\HTML\WYSIWYGValidatorInterface;
 use Magento\Backend\Model\Validator\UrlKey\CompositeUrlKey;
 
 /**
- * Cms Page Model
+ * Cms Movie Model
  *
  * @api
  * @method Page setStoreId(int $storeId)
@@ -30,12 +30,12 @@ use Magento\Backend\Model\Validator\UrlKey\CompositeUrlKey;
 class Page extends AbstractModel implements PageInterface, IdentityInterface
 {
     /**
-     * Page ID for the 404 page.
+     * Movie ID for the 404 page.
      */
     const NOROUTE_PAGE_ID = 'no-route';
 
     /**#@+
-     * Page's Statuses
+     * Movie's Statuses
      */
     const STATUS_ENABLED = 1;
     const STATUS_DISABLED = 0;
@@ -133,7 +133,7 @@ class Page extends AbstractModel implements PageInterface, IdentityInterface
     }
 
     /**
-     * Load No-Route Page
+     * Load No-Route Movie
      *
      * @return \Magento\Cms\Model\Page
      */
@@ -599,15 +599,15 @@ class Page extends AbstractModel implements PageInterface, IdentityInterface
             switch ($originalIdentifier) {
                 case $this->getScopeConfig()->getValue(PageHelper::XML_PATH_NO_ROUTE_PAGE):
                     throw new LocalizedException(
-                        __('This identifier is reserved for "CMS No Route Page" in configuration.')
+                        __('This identifier is reserved for "CMS No Route Movie" in configuration.')
                     );
                 case $this->getScopeConfig()->getValue(PageHelper::XML_PATH_HOME_PAGE):
                     throw new LocalizedException(
-                        __('This identifier is reserved for "CMS Home Page" in configuration.')
+                        __('This identifier is reserved for "CMS Home Movie" in configuration.')
                     );
                 case $this->getScopeConfig()->getValue(PageHelper::XML_PATH_NO_COOKIES_PAGE):
                     throw new LocalizedException(
-                        __('This identifier is reserved for "CMS No Cookies Page" in configuration.')
+                        __('This identifier is reserved for "CMS No Cookies Movie" in configuration.')
                     );
             }
         }

@@ -10,7 +10,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\View\Helper\SecureHtmlRenderer;
 
 /**
- * Adminhtml sales create order product search grid product name column renderer
+ * adminhtml sales create order product search grid product name column renderer
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -10,7 +10,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for Magento\User\Controller\Adminhtml\User\InvalidateToken.
+ * Test class for Magento\User\Controller\adminhtml\User\InvalidateToken.
  *
  * @magentoAppArea adminhtml
  */

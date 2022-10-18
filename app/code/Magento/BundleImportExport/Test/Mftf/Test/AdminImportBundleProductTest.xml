@@ -81,7 +81,7 @@
             <argument name="indices" value=""/>
         </actionGroup>
 
-        <!-- Admin: Verify Data on Import History Page -->
+        <!-- Admin: Verify Data on Import History Movie -->
         <actionGroup ref="AdminNavigateToImportHistoryPageActionGroup" stepKey="navigateToImportHistoryPage"/>
         <actionGroup ref="AdminGridSortColumnDescendingActionGroup" stepKey="sortColumnByIdDescending">
             <argument name="columnLabel" value="history_id"/>
@@ -89,7 +89,7 @@
         <see userInput="{{ImportProduct_Bundle.fileName}}" selector="{{AdminDataGridTableSection.firstRow}}" stepKey="seeImportedFile"/>
         <see userInput="{{ImportProduct_Bundle.importSummary}}" selector="{{AdminDataGridTableSection.firstRow}}" stepKey="seeSummary"/>
 
-        <!-- Admin: Verify Simple Product 1 on Edit Product Page -->
+        <!-- Admin: Verify Simple Product 1 on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToSimpleProduct1EditPage">
             <argument name="product" value="ImportProductSimple1_Bundle"/>
         </actionGroup>
@@ -116,7 +116,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProductSimple1_Bundle.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRoleSimple1"/>
 
-        <!-- Admin: Verify Simple Product 2 on Edit Product Page -->
+        <!-- Admin: Verify Simple Product 2 on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToSimpleProduct2EditPage">
             <argument name="product" value="ImportProductSimple2_Bundle"/>
         </actionGroup>
@@ -143,7 +143,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProductSimple2_Bundle.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRoleSimple2"/>
 
-        <!-- Admin: Verify Simple Product 3 on Edit Product Page -->
+        <!-- Admin: Verify Simple Product 3 on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToSimpleProduct3EditPage">
             <argument name="product" value="ImportProductSimple3_Bundle"/>
         </actionGroup>
@@ -170,7 +170,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProductSimple3_Bundle.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRoleSimple3"/>
 
-        <!-- Admin: Verify Bundle Product Common Data on Edit Product Page -->
+        <!-- Admin: Verify Bundle Product Common Data on Edit Product Movie -->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToBundleProductEditPage">
             <argument name="product" value="ImportProduct_Bundle"/>
         </actionGroup>
@@ -200,7 +200,7 @@
         </actionGroup>
         <seeElement selector="{{AdminProductImagesSection.imageFileRoleByImage(ImportProduct_Bundle.thumbnailImageName, 'thumbnail')}}" stepKey="seeThumbnailImageRoleBundle"/>
 
-        <!-- Admin: Verify Bundle Product Information on Edit Product Page -->
+        <!-- Admin: Verify Bundle Product Information on Edit Product Movie -->
         <seeOptionIsSelected userInput="{{ImportProduct_Bundle.bundleOptionShipmentType}}" selector="{{AdminProductFormBundleSection.shipmentType}}" stepKey="seeShipBundleItemsTogether"/>
         <seeNumberOfElements userInput="{{ImportProduct_Bundle.totalBundleOptions}}" selector="{{AdminProductFormBundleSection.allBundleOptions}}" stepKey="see2BundleOptionsAdmin"/>
         <actionGroup ref="AdminVerifyBundleProductOptionActionGroup" stepKey="verifyBundleProductOption1">

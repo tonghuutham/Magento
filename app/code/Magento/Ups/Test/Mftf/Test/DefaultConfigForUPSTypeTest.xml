@@ -31,7 +31,7 @@
         <!-- Set shipping methods UPS type to default -->
         <comment userInput="Set shipping methods UPS type to default" stepKey="setToDefaultShippingMethodsUpsType"/>
         <createData entity="ShippingMethodsUpsTypeSetDefault" stepKey="setShippingMethodsUpsTypeToDefault"/>
-        <!-- Navigate to Stores -> Configuration -> Sales -> Shipping Methods Page -->
+        <!-- Navigate to Stores -> Configuration -> Sales -> Shipping Methods Movie -->
         <comment userInput="Navigate to Stores -> Configuration -> Sales -> Shipping Methods Page" stepKey="goToAdminShippingMethodsPage"/>
         <amOnPage url="{{AdminShippingMethodsConfigPage.url}}" stepKey="navigateToAdminShippingMethodsPage"/>
         <waitForPageLoad stepKey="waitPageToLoad"/>

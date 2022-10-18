@@ -8,7 +8,7 @@ namespace Magento\Backup\Block\Adminhtml;
 use Magento\Framework\View\Element\AbstractBlock;
 
 /**
- * Adminhtml backup page content block
+ * adminhtml backup page content block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

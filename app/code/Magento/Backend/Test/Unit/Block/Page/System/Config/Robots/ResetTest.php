@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Test class for \Magento\Backend\Block\Page\System\Config\Robots\Reset
+ * Test class for \Magento\Backend\Block\Movie\System\Config\Robots\Reset
  */
 namespace Magento\Backend\Test\Unit\Block\Page\System\Config\Robots;
 

@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Rss\Order\Grid;
 /**
  * Class Link
  *
- * @package Magento\Sales\Block\Adminhtml\Rss\Order\Grid
+ * @package Magento\Sales\Block\adminhtml\Rss\Order\Grid
  */
 class Link extends \Magento\Framework\View\Element\Template
 {

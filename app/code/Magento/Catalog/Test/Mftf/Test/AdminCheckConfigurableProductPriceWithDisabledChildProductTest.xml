@@ -123,7 +123,7 @@
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
 
-        <!-- Open Product in Store Front Page -->
+        <!-- Open Product in Store Front Movie -->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openProductInStoreFront">
             <argument name="product" value="$createConfigProduct$"/>
         </actionGroup>
@@ -171,7 +171,7 @@
         <actionGroup ref="StorefrontAssertProductPriceOnProductPageActionGroup" stepKey="seeChildProduct3PriceInStoreFront">
             <argument name="productPrice" value="$$createConfigChildProduct3.price$$"/>
         </actionGroup>
-        <!-- Open Product Index Page and Filter First Child product  -->
+        <!-- Open Product Index Movie and Filter First Child product  -->
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="navigateToProductIndex"/>
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="filterProduct"/>
         <actionGroup ref="AdminProductPageOpenByIdActionGroup" stepKey="selectFirstRow">
@@ -186,7 +186,7 @@
             <argument name="message" value="You saved the product."/>
         </actionGroup>
 
-        <!-- Open Product Store Front Page -->
+        <!-- Open Product Store Front Movie -->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openProductInStoreFront1">
             <argument name="product" value="$createConfigProduct$"/>
         </actionGroup>

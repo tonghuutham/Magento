@@ -37,7 +37,7 @@
         </actionGroup>
         <actionGroup ref="ResetAdminDataGridToDefaultViewActionGroup" stepKey="clearFilters"/>
 
-        <!--Verify product on Product Page -->
+        <!--Verify product on Product Movie -->
         <actionGroup ref="StorefrontOpenProductPageActionGroup" stepKey="amOnSimpleProductPage">
             <argument name="productUrl" value="$$createSimpleProduct.custom_attributes[url_key]$$"/>
         </actionGroup>

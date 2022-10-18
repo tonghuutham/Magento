@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Framework\View\Model\PageLayout\Config;
 
 /**
- * Interface Page Layout Config Builder
+ * Interface Movie Layout Config Builder
  *
  * @api
  */

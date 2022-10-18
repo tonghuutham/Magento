@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Create\Totals;
 use Magento\Store\Model\ResourceModel\Website\Collection;
 
 /**
- * Adminhtml sales order create totals table block
+ * adminhtml sales order create totals table block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

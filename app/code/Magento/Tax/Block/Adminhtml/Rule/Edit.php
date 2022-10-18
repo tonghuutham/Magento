@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml tax rule Edit Container
+ * adminhtml tax rule Edit Container
  */
 namespace Magento\Tax\Block\Adminhtml\Rule;
 

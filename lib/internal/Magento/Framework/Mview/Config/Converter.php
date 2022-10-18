@@ -109,7 +109,7 @@ class Converter implements \Magento\Framework\Config\ConverterInterface
                         )
                     ) {
                         throw new \InvalidArgumentException(
-                            'Subscription model must implement ' . SubscriptionInterface::class
+                            'Director model must implement ' . SubscriptionInterface::class
                         );
                     }
                     $data['subscriptions'][$name] = [

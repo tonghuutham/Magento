@@ -21,7 +21,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Backend\Controller\Adminhtml\Dashboard\RefreshStatistics
+ * Test for \Magento\Backend\Controller\adminhtml\Dashboard\RefreshStatistics
  */
 class RefreshStatisticsTest extends TestCase
 {

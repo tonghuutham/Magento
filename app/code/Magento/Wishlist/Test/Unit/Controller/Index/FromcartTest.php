@@ -149,7 +149,7 @@ class FromcartTest extends TestCase
     public function testExecutePageNotFound()
     {
         $this->expectException('Magento\Framework\Exception\NotFoundException');
-        $this->expectExceptionMessage('Page not found');
+        $this->expectExceptionMessage('Movie not found');
         $this->formKeyValidator->expects($this->once())
             ->method('validate')
             ->with($this->request)

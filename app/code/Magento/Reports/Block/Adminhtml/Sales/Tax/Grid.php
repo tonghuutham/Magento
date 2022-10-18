@@ -7,7 +7,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales\Tax;
 
 /**
- * Adminhtml tax report grid block
+ * adminhtml tax report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

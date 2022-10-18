@@ -11,7 +11,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Create\Sidebar;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
- * Adminhtml sales order create sidebar block
+ * adminhtml sales order create sidebar block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

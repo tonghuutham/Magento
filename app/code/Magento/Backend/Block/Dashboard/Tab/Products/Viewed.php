@@ -9,7 +9,7 @@ use Magento\Catalog\Model\Product;
 use Magento\Catalog\Pricing\Price\FinalPrice;
 
 /**
- * Adminhtml dashboard most viewed products grid
+ * adminhtml dashboard most viewed products grid
  *
  * @api
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

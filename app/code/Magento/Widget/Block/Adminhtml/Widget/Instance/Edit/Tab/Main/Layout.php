@@ -187,8 +187,8 @@ class Layout extends Template implements RendererInterface
             'label' => $this->escapeHtmlAttr(__('Generic Pages')),
             'value' => [
                 ['value' => 'all_pages', 'label' => $this->escapeHtmlAttr(__('All Pages'))],
-                ['value' => 'pages', 'label' => $this->escapeHtmlAttr(__('Specified Page'))],
-                ['value' => 'page_layouts', 'label' => $this->escapeHtmlAttr(__('Page Layouts'))],
+                ['value' => 'pages', 'label' => $this->escapeHtmlAttr(__('Specified Movie'))],
+                ['value' => 'page_layouts', 'label' => $this->escapeHtmlAttr(__('Movie Layouts'))],
             ],
         ];
         return $options;

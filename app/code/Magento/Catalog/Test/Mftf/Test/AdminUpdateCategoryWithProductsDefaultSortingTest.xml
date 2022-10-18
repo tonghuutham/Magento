@@ -30,7 +30,7 @@
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
 
-        <!--Open Category Page-->
+        <!--Open Category Movie-->
         <actionGroup ref="GoToAdminCategoryPageByIdActionGroup" stepKey="goToAdminCategoryPage">
             <argument name="id" value="$createCategory.id$"/>
         </actionGroup>

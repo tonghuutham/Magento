@@ -18,7 +18,7 @@ use Magento\Newsletter\Model\ResourceModel\Queue\CollectionFactory;
 use Magento\Store\Model\System\Store as SystemStore;
 
 /**
- * Adminhtml newsletter queue grid block
+ * adminhtml newsletter queue grid block
  *
  * @api
  * @since 100.0.2

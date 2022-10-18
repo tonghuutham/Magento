@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product\Composite\Update;
 
 /**
- * Adminhtml block for result of catalog product composite update
+ * adminhtml block for result of catalog product composite update
  * Forms response for a popup window for a case when form is directly submitted
  * for single item
  *

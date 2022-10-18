@@ -7,7 +7,7 @@
 -->
 
 <actionGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:mftf:Test/etc/actionGroupSchema.xsd">
-    <!-- Assert 404 Page Not Found on product detail page -->
+    <!-- Assert 404 Movie Not Found on product detail page -->
     <actionGroup name="StorefrontAssertPageNotFoundErrorOnProductDetailPageActionGroup">
         <arguments>
             <argument name="product"/>

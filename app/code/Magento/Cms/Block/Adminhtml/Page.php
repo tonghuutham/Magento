@@ -6,7 +6,7 @@
 namespace Magento\Cms\Block\Adminhtml;
 
 /**
- * Adminhtml cms pages content block
+ * adminhtml cms pages content block
  */
 class Page extends \Magento\Backend\Block\Widget\Grid\Container
 {
@@ -24,7 +24,7 @@ class Page extends \Magento\Backend\Block\Widget\Grid\Container
         parent::_construct();
 
         if ($this->_isAllowedAction('Magento_Cms::save')) {
-            $this->buttonList->update('add', 'label', __('Add New Page'));
+            $this->buttonList->update('add', 'label', __('Add New Movie'));
         } else {
             $this->buttonList->remove('add');
         }

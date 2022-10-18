@@ -9,7 +9,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\Math\Random;
 
 /**
- * Adminhtml order tax totals block
+ * adminhtml order tax totals block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

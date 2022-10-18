@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Create\Giftmessage;
 use Magento\Framework\Data\Form\Element\Fieldset;
 
 /**
- * Adminhtml order creating gift message item form
+ * adminhtml order creating gift message item form
  *
  * @SuppressWarnings(PHPMD.DepthOfInheritance)
  */

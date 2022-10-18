@@ -137,7 +137,7 @@ class CssTest extends TestCase
     }
 
     /**
-     * cover \Magento\Theme\Block\Adminhtml\System\Design\Theme\Edit\Tab\Css::getDownloadUrl
+     * cover \Magento\Theme\Block\adminhtml\System\Design\Theme\Edit\Tab\Css::getDownloadUrl
      */
     public function testGetterDownloadUrl()
     {

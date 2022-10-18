@@ -10,7 +10,7 @@ namespace Magento\Integration\Block\Adminhtml\Integration;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Integration\Block\Adminhtml\Integration\Grid
+ * Test class for \Magento\Integration\Block\adminhtml\Integration\Grid
  *
  * @magentoAppArea adminhtml
  */

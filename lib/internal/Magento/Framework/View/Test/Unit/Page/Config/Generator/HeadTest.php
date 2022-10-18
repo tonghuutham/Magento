@@ -144,7 +144,7 @@ class HeadTest extends TestCase
             ->method('getAssets')
             ->willReturn($assets);
 
-        $title = 'Page title';
+        $title = 'Movie title';
         $structureMock->expects($this->atLeastOnce())
             ->method('getTitle')
             ->willReturn($title);

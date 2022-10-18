@@ -87,7 +87,7 @@
             </createData>
 
             <!-- ConfigProduct -->
-            <!-- Go to Product Page (ConfigProduct) -->
+            <!-- Go to Product Movie (ConfigProduct) -->
             <actionGroup ref="AdminProductPageOpenByIdActionGroup" stepKey="goToConfigProduct">
                 <argument name="productId" value="$$createConfigProduct.id$$"/>
             </actionGroup>
@@ -113,7 +113,7 @@
             <actionGroup ref="SaveProductFormActionGroup" stepKey="saveConfigProductProduct"/>
 
             <!-- ChildProduct1 -->
-            <!-- Go to Product Page (ChildProduct1) -->
+            <!-- Go to Product Movie (ChildProduct1) -->
             <actionGroup ref="AdminProductPageOpenByIdActionGroup" stepKey="goToChildProduct1">
                 <argument name="productId" value="$$createConfigChildProduct1.id$$"/>
             </actionGroup>
@@ -138,7 +138,7 @@
             <actionGroup ref="SaveProductFormActionGroup" stepKey="saveChildProduct1Product"/>
 
             <!-- ChildProduct2 -->
-            <!-- Go to Product Page (ChildProduct2) -->
+            <!-- Go to Product Movie (ChildProduct2) -->
             <actionGroup ref="AdminProductPageOpenByIdActionGroup" stepKey="goToChildProduct2">
                 <argument name="productId" value="$$createConfigChildProduct2.id$$"/>
             </actionGroup>
@@ -169,7 +169,7 @@
            <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
 
-        <!-- Open ConfigProduct in Store Front Page -->
+        <!-- Open ConfigProduct in Store Front Movie -->
         <amOnPage url="$$createConfigProduct.custom_attributes[url_key]$$.html" stepKey="openProductInStoreFront"/>
         <waitForPageLoad stepKey="waitForProductToLoad"/>
 

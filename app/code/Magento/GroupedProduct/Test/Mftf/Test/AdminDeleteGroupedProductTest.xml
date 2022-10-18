@@ -41,7 +41,7 @@
             <argument name="message" value="A total of 1 record(s) have been deleted."/>
         </actionGroup>
         <actionGroup ref="ResetProductGridToDefaultViewActionGroup" stepKey="clearFilters"/>
-        <!--Verify product on Product Page -->
+        <!--Verify product on Product Movie -->
         <actionGroup ref="StorefrontOpenProductPageActionGroup" stepKey="amOnGroupedProductPage">
             <argument name="productUrl" value="$$createGroupedProduct.custom_attributes[url_key]$$"/>
         </actionGroup>

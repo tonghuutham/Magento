@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Creditmemo\View;
 
 /**
- * Adminhtml sales item renderer
+ * adminhtml sales item renderer
  *
  * @api
  * @since 100.0.2

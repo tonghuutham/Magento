@@ -43,7 +43,7 @@
         <actionGroup ref="CustomerLoginOnStorefrontWithRememberMeCheckedActionGroup" stepKey="loginToStorefrontAccountWithRememberMeChecked">
             <argument name="Customer" value="$$createCustomer$$"/>
         </actionGroup>
-        <!--Step 2: Open the Product Page and add the product to shopping cart-->
+        <!--Step 2: Open the Product Movie and add the product to shopping cart-->
         <amOnPage url="{{StorefrontProductPage.url($$createProduct.custom_attributes[url_key]$$)}}" stepKey="navigateToProductPageAsLoggedUser"/>
         <actionGroup ref="AddToCartFromStorefrontProductPageActionGroup" stepKey="addProductToCartAsLoggedUser">
             <argument name="productName" value="$$createProduct.name$$"/>

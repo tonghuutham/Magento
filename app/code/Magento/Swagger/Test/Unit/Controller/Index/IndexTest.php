@@ -83,7 +83,7 @@ class IndexTest extends TestCase
     public function testDispatchRejectsWhenDisabled()
     {
         $this->expectException(NotFoundException::class);
-        $this->expectExceptionMessage('Page not found.');
+        $this->expectExceptionMessage('Movie not found.');
 
         $request = self::getMockBuilder(Http::class)
             ->disableOriginalConstructor()

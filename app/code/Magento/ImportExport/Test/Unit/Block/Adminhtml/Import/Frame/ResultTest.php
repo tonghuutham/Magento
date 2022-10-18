@@ -15,7 +15,7 @@ use Magento\Backend\Block\Template\Context;
 use Magento\Framework\Json\EncoderInterface;
 
 /**
- * Unit test for Magento\ImportExport\Block\Adminhtml\Import\Frame\Result
+ * Unit test for Magento\ImportExport\Block\adminhtml\Import\Frame\Result
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

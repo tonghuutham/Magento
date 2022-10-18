@@ -14,7 +14,7 @@ namespace Magento\Cms\Api;
 interface GetUtilityPageIdentifiersInterface
 {
     /**
-     * Get List Page Identifiers
+     * Get List Movie Identifiers
      * @return array
      * @since 102.0.4
      */

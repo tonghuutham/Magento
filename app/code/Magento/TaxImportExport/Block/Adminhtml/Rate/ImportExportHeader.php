@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml import/export header block
+ * adminhtml import/export header block
  */
 namespace Magento\TaxImportExport\Block\Adminhtml\Rate;
 

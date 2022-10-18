@@ -13,7 +13,7 @@ namespace Magento\Paypal\Model\System\Config\Source\PayLater;
 class Position
 {
     /**
-     * PayLater positions source getter for Catalog Product Page
+     * PayLater positions source getter for Catalog Product Movie
      *
      * @return array
      */
@@ -26,7 +26,7 @@ class Position
     }
 
     /**
-     * PayLater positions source getter for Home Page
+     * PayLater positions source getter for Home Movie
      *
      * @return array
      */
@@ -39,7 +39,7 @@ class Position
     }
 
     /**
-     * PayLater positions source getter for Checkout Page
+     * PayLater positions source getter for Checkout Movie
      *
      * @return array
      */
@@ -51,7 +51,7 @@ class Position
     }
 
     /**
-     * PayLater positions source getter for Catalog Category Page
+     * PayLater positions source getter for Catalog Category Movie
      *
      * @return array
      */
@@ -64,7 +64,7 @@ class Position
     }
 
     /**
-     * PayLater positions source getter for Checkout Cart Page
+     * PayLater positions source getter for Checkout Cart Movie
      *
      * @return array
      */

@@ -16,7 +16,7 @@ use Magento\GoogleGtag\Model\Config\GtagConfig as GtagConfiguration;
 use Magento\Sales\Api\OrderRepositoryInterface;
 
 /**
- * GoogleAnalytics Page Block
+ * GoogleAnalytics Movie Block
  *
  * @api
  */

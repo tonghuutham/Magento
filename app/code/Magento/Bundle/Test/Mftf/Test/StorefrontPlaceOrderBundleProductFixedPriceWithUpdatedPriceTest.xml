@@ -67,7 +67,7 @@
         <actionGroup ref="LoginToStorefrontActionGroup" stepKey="loginCustomer">
             <argument name="Customer" value="$$createCustomer$$" />
         </actionGroup>
-        <!--Open Product Page-->
+        <!--Open Product Movie-->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openBundleProductPage">
             <argument name="product" value="$createFixedBundleProduct$"/>
         </actionGroup>
@@ -84,7 +84,7 @@
         <fillField selector="{{AdminProductFormBundleSection.bundleOptionXProductYPrice('0', '0')}}" userInput="9" stepKey="fillBundleOption1Price"/>
         <!--Save the bundle product-->
         <actionGroup ref="SaveProductFormActionGroup" stepKey="saveProduct"/>
-        <!--Open Product Page-->
+        <!--Open Product Movie-->
         <actionGroup ref="StorefrontOpenProductEntityPageActionGroup" stepKey="openBundleProductPage2">
             <argument name="product" value="$createFixedBundleProduct$"/>
         </actionGroup>

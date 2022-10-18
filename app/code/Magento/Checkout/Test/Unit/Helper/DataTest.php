@@ -122,7 +122,7 @@ class DataTest extends TestCase
                         'checkout/options/onepage_checkout_enabled',
                         ScopeInterface::SCOPE_STORE,
                         null,
-                        'One Page Checkout',
+                        'One Movie Checkout',
                     ],
                 ]
             );

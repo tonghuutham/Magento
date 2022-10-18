@@ -9,7 +9,7 @@
     <update handle="editor"/>
     <body>
         <referenceContainer name="content">
-            <uiComponent name="cms_page_form"/>
+            <uiComponent name="magenest_movie_movie_form"/>
         </referenceContainer>
     </body>
 </page>

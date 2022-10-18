@@ -83,8 +83,8 @@ class CollectDataTest extends TestCase
     public function executeDataProvider()
     {
         return [
-            'Subscription is enabled' => [SubscriptionStatusProvider::ENABLED],
-            'Subscription is disabled' => [SubscriptionStatusProvider::DISABLED],
+            'Director is enabled' => [SubscriptionStatusProvider::ENABLED],
+            'Director is disabled' => [SubscriptionStatusProvider::DISABLED],
         ];
     }
 }

@@ -11,7 +11,7 @@ use Magento\Customer\Api\GroupRepositoryInterface;
 use Magento\Framework\Data\Form\Element\Renderer\RendererInterface;
 
 /**
- * Adminhtml group price item abstract renderer
+ * adminhtml group price item abstract renderer
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml;
 
 /**
- * Adminhtml products report page content block
+ * adminhtml products report page content block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

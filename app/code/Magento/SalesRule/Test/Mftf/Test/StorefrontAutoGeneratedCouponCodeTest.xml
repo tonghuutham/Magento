@@ -78,7 +78,7 @@
             <argument name="Customer" value="$$createCustomer$$"/>
         </actionGroup>
 
-        <!-- Step: 6-7. Open the Product Page, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
+        <!-- Step: 6-7. Open the Product Movie, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="openProductPage"/>
         <waitForPageLoad stepKey="waitForPageLoad2"/>
         <actionGroup ref="ApplyCartRuleOnStorefrontActionGroup" stepKey="applyCartPriceRule">
@@ -108,7 +108,7 @@
             <argument name="maxMessages" value="{{SalesRuleConsumerData.messageLimit}}"/>
         </actionGroup>
 
-        <!-- Step: 9-10. Open the Product Page, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
+        <!-- Step: 9-10. Open the Product Movie, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="openProductPage1"/>
         <waitForPageLoad stepKey="waitForPageLoad3"/>
         <actionGroup ref="ApplyCartRuleOnStorefrontActionGroup" stepKey="applyCartPriceRule1">
@@ -124,7 +124,7 @@
         <!-- Step 11. Log out from storefront -->
         <actionGroup ref="StorefrontCustomerLogoutActionGroup" stepKey="storefrontSignOut"/>
 
-        <!-- Step: 12-13. Open the Product Page, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
+        <!-- Step: 12-13. Open the Product Movie, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="openProductPage2"/>
         <waitForPageLoad stepKey="waitForPageLoad4"/>
         <actionGroup ref="ApplyCartRuleOnStorefrontActionGroup" stepKey="applyCartPriceRule2">
@@ -154,7 +154,7 @@
             <argument name="maxMessages" value="{{SalesRuleConsumerData.messageLimit}}"/>
         </actionGroup>
 
-        <!-- Step; 15-16. Open the Product Page, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
+        <!-- Step; 15-16. Open the Product Movie, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="openProductPage3"/>
         <waitForPageLoad stepKey="waitForPageLoad5"/>
         <actionGroup ref="ApplyCartRuleOnStorefrontActionGroup" stepKey="applyCartPriceRule3">
@@ -170,7 +170,7 @@
         <!-- Step: 17. Reset Cookie -->
         <resetCookie userInput="PHPSESSID" stepKey="resetCookie"/>
 
-        <!-- Step: 18-19. Open the Product Page, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
+        <!-- Step: 18-19. Open the Product Movie, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="openProductPage4"/>
         <waitForPageLoad stepKey="waitForPageLoad6"/>
         <actionGroup ref="ApplyCartRuleOnStorefrontActionGroup" stepKey="applyCartPriceRule4">

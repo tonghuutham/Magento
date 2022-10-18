@@ -21,7 +21,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class AbstractEnableTest
  *
- * Test for class \Magento\Paypal\Block\Adminhtml\System\Config\Field\Enable\AbstractEnable
+ * Test for class \Magento\Paypal\Block\adminhtml\System\Config\Field\Enable\AbstractEnable
  */
 class AbstractEnableTest extends TestCase
 {

@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales\Coupons;
 
 /**
- * Adminhtml coupons report grid block
+ * adminhtml coupons report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

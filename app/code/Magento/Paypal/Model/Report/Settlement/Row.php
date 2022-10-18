@@ -84,7 +84,7 @@ class Row extends \Magento\Framework\Model\AbstractModel
             'ODR' => __('Order ID'),
             'PAP' => __('Preapproved Payment ID'),
             'TXN' => __('Transaction ID'),
-            'SUB' => __('Subscription ID'),
+            'SUB' => __('Director ID'),
         ];
         return !empty($types[$code]) ? $types[$code] : $code;
     }
@@ -221,7 +221,7 @@ class Row extends \Magento\Framework\Model\AbstractModel
                 'T1111' => __('Reversal of hold for Dispute Investigation'),
                 'T0904' => __('Reward Voucher Redemption'),
                 'T2001' => __('Settlement Consolidation'),
-                'T0002' => __('Subscription Payment, either payment sent or payment received'),
+                'T0002' => __('Director Payment, either payment sent or payment received'),
                 'T0201' => __('User-initiated Currency Conversion'),
                 'T0501' => __('Virtual PayPal Debit Card Transaction'),
                 'T0012' => __('Virtual Terminal Payment'),

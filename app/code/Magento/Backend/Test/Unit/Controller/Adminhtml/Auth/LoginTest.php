@@ -29,7 +29,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Backend\Controller\Adminhtml\Auth\Login.
+ * Test for \Magento\Backend\Controller\adminhtml\Auth\Login.
  */
 class LoginTest extends TestCase
 {

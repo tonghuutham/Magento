@@ -7,7 +7,7 @@
 namespace Magento\Framework\View\Page\Config;
 
 /**
- * Page config structure model
+ * Movie config structure model
  *
  * @api
  * @since 100.0.2
@@ -214,7 +214,7 @@ class Structure
     }
 
     /**
-     * Reformat 'Page config structure' to array.
+     * Reformat 'Movie config structure' to array.
      *
      * @return array
      * @since 101.0.0
@@ -230,7 +230,7 @@ class Structure
     }
 
     /**
-     * Update 'Page config structure' data.
+     * Update 'Movie config structure' data.
      *
      * @param array $data
      * @return void

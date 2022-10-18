@@ -39,7 +39,7 @@
             <argument name="menuUiId" value="{{AdminMenuMarketing.dataUiId}}"/>
             <argument name="submenuUiId" value="{{AdminMenuMarketingCommunicationsNewsletterTemplate.dataUiId}}"/>
         </actionGroup>
-        <!-- Navigate To Create Newsletter Template Page -->
+        <!-- Navigate To Create Newsletter Template Movie -->
         <actionGroup ref="AdminNavigateToCreateNewsletterTemplatePageActionGroup" stepKey="navigateToCreateNewsletterPage"/>
         <!-- Create Newsletter Template -->
         <actionGroup ref="AdminMarketingCreateNewsletterTemplateActionGroup" stepKey="updateNewsletterTemplate">

@@ -92,12 +92,12 @@ class Edit extends \Magento\Backend\App\Action implements HttpGetActionInterface
         /** @var \Magento\Backend\Model\View\Result\Page $resultPage */
         $resultPage = $this->_initAction();
         $resultPage->addBreadcrumb(
-            $id ? __('Edit Page') : __('New Page'),
-            $id ? __('Edit Page') : __('New Page')
+            $id ? __('Edit Movie') : __('New Movie'),
+            $id ? __('Edit Movie') : __('New Movie')
         );
         $resultPage->getConfig()->getTitle()->prepend(__('Pages'));
         $resultPage->getConfig()->getTitle()
-            ->prepend($model->getId() ? $model->getTitle() : __('New Page'));
+            ->prepend($model->getId() ? $model->getTitle() : __('New Movie'));
 
         return $resultPage;
     }

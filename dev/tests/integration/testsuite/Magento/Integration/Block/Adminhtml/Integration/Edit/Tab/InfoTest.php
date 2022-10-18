@@ -10,7 +10,7 @@ use Magento\Integration\Controller\Adminhtml\Integration;
 use Magento\Integration\Model\Integration as IntegrationModel;
 
 /**
- * Test for \Magento\Integration\Block\Adminhtml\Integration\Edit\Tab\Info
+ * Test for \Magento\Integration\Block\adminhtml\Integration\Edit\Tab\Info
  */
 class InfoTest extends \PHPUnit\Framework\TestCase
 {

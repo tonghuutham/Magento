@@ -35,7 +35,7 @@
                 <requiredEntity createDataKey="createVisualSwatchAttribute"/>
             </createData>
 
-            <!-- Create CMS Page -->
+            <!-- Create CMS Movie -->
             <createData entity="_defaultCmsPage" stepKey="createCmsPage"/>
 
             <!-- Login to Admin -->
@@ -69,7 +69,7 @@
             <!-- Reindex invalidated indices after product attribute has been created/deleted -->
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
 
-            <!-- Open edit CMS Page -->
+            <!-- Open edit CMS Movie -->
             <actionGroup ref="AdminOpenCmsPageActionGroup" stepKey="openEditCmsPage">
                 <argument name="page_id" value="$createCmsPage.id$"/>
             </actionGroup>
@@ -87,7 +87,7 @@
             </actionGroup>
             <actionGroup ref="AdminClickInsertWidgetActionGroup" stepKey="clickInsertWidgetButton"/>
 
-            <!-- Save CMS Page -->
+            <!-- Save CMS Movie -->
             <actionGroup ref="AdminSaveAndContinueEditCmsPageActionGroup" stepKey="saveCmsPage"/>
         </before>
 
@@ -98,7 +98,7 @@
             <deleteData createDataKey="createConfigurableProduct" stepKey="deleteConfigurableProduct"/>
             <!-- Delete Attribute -->
             <deleteData createDataKey="createVisualSwatchAttribute" stepKey="deleteVisualSwatchAttribute"/>
-            <!-- Delete CMS Page -->
+            <!-- Delete CMS Movie -->
             <deleteData createDataKey="createCmsPage" stepKey="deleteCmsPage"/>
             <!-- Reindex invalidated indices after product attribute has been created/deleted -->
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>

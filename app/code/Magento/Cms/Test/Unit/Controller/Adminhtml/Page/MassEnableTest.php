@@ -86,7 +86,7 @@ class MassEnableTest extends AbstractMassActionTest
     }
 
     /**
-     * Create Cms Page Collection Mock
+     * Create Cms Movie Collection Mock
      *
      * @return \Magento\Cms\Model\ResourceModel\Page\Collection|MockObject
      */

@@ -1,6 +1,6 @@
 <?php
 /**
- * Google Optimizer Page Block
+ * Google Optimizer Movie Block
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
@@ -34,7 +34,7 @@ class Page extends \Magento\GoogleOptimizer\Block\AbstractCode
         \Magento\Cms\Model\Page $page,
         array $data = []
     ) {
-        // \Magento\Cms\Model\Page is singleton
+        // \Magento\Cms\Model\Movie is singleton
         $this->_page = $page;
         parent::__construct($context, $helper, $registry, $codeHelper, $data);
     }

@@ -121,7 +121,7 @@ class PostDataProcessor
     public function validateRequireEntry(array $data)
     {
         $requiredFields = [
-            'title' => __('Page Title'),
+            'title' => __('Movie Title'),
             'stores' => __('Store View'),
             'is_active' => __('Status')
         ];

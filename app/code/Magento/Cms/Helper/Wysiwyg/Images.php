@@ -62,7 +62,7 @@ class Images extends AbstractHelper
     protected $_directory;
 
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var Data
      */

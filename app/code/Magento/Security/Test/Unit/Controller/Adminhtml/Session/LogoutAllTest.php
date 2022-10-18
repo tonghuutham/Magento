@@ -22,7 +22,7 @@ use Magento\Security\Model\AdminSessionsManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Security\Test\Unit\Controller\Adminhtml\Session\LogoutAll testing
+ * Test class for \Magento\Security\Test\Unit\Controller\adminhtml\Session\LogoutAll testing
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

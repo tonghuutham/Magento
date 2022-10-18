@@ -32,7 +32,7 @@
         <actionGroup ref="FillOutCMSPageContent" stepKey="FillOutPageContent"/>
         <!-- Click save and duplicate action -->
         <actionGroup ref="AdminSaveAndDuplicateCMSPageWithSplitButtonActionGroup" stepKey="clickSaveAndDuplicateButton"/>
-        <!--Verify duplicated CMS Page-->
+        <!--Verify duplicated CMS Movie-->
         <seeElement selector="{{BlockNewPageBasicFieldsSection.isActive('0')}}" stepKey="seeBlockNotEnable" />
         <actionGroup ref="AssertCMSPageContentActionGroup" stepKey="assertContent"/>
         <!-- Click Save Button -->

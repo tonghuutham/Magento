@@ -6,7 +6,7 @@
 namespace Magento\Cms\Block\Adminhtml\Page;
 
 /**
- * Adminhtml cms pages grid
+ * adminhtml cms pages grid
  */
 class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 {

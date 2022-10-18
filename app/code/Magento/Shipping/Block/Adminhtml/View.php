@@ -6,7 +6,7 @@
 namespace Magento\Shipping\Block\Adminhtml;
 
 /**
- * Adminhtml shipment create
+ * adminhtml shipment create
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

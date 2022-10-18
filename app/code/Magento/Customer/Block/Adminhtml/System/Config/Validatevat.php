@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml VAT ID validation block
+ * adminhtml VAT ID validation block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

@@ -6,7 +6,7 @@
 namespace Magento\Sitemap\Block\Adminhtml;
 
 /**
- * Adminhtml catalog (google) sitemaps block
+ * adminhtml catalog (google) sitemaps block
  *
  * @api
  * @since 100.0.2

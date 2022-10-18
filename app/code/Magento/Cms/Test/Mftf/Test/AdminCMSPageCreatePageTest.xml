@@ -27,7 +27,7 @@
         <after>
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
-        <!--Go to New CMS Page page-->
+        <!--Go to New CMS Movie page-->
         <actionGroup ref="AdminOpenCreateNewCMSPageActionGroup" stepKey="navigateToCreateNewPage"/>
         <actionGroup ref="FillOutCMSPageContent" stepKey="fillBasicPageData"/>
         <!--verify successfully saved-->

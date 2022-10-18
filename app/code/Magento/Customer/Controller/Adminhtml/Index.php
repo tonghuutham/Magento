@@ -19,7 +19,7 @@ use Magento\Framework\DataObjectFactory as ObjectFactory;
 use Magento\Framework\Api\DataObjectHelper;
 
 /**
- * Class \Magento\Customer\Controller\Adminhtml\Index
+ * Class \Magento\Customer\Controller\adminhtml\Index
  *
  * @api
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)

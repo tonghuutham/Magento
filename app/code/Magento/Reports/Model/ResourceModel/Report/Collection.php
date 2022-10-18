@@ -55,7 +55,7 @@ class Collection extends \Magento\Framework\Data\Collection
     protected $_reports;
 
     /**
-     * Page size
+     * Movie size
      *
      * @var int
      */

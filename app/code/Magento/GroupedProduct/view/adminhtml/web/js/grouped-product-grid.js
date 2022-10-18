@@ -197,7 +197,7 @@ define([
         },
 
         /**
-         * Return Page Boundary
+         * Return Movie Boundary
          *
          * @return {Number}
          */

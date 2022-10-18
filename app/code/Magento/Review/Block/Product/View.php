@@ -9,7 +9,7 @@ use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Review\Model\ResourceModel\Review\Collection as ReviewCollection;
 
 /**
- * Product Reviews Page
+ * Product Reviews Movie
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

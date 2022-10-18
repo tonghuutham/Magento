@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Create\Shipping\Method;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
- * Adminhtml sales order create shipping method form block
+ * adminhtml sales order create shipping method form block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

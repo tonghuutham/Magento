@@ -40,7 +40,7 @@
             <argument name="description" value="cms_default_temporary_redirect"/>
         </actionGroup>
 
-        <!-- Delete the URL Rewrite for CMS Page with with temporary redirect-->
+        <!-- Delete the URL Rewrite for CMS Movie with with temporary redirect-->
         <actionGroup ref="AdminDeleteUrlRewriteActionGroup" stepKey="deleteTemporaryUrlRewrite">
             <argument name="requestPath" value="temporaryrequestpath.html"/>
         </actionGroup>

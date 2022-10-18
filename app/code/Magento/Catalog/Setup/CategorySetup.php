@@ -166,7 +166,7 @@ class CategorySetup extends EavSetup
                     ],
                     'meta_title' => [
                         'type' => 'varchar',
-                        'label' => 'Page Title',
+                        'label' => 'Movie Title',
                         'input' => 'text',
                         'required' => false,
                         'sort_order' => 6,
@@ -289,7 +289,7 @@ class CategorySetup extends EavSetup
                     ],
                     'page_layout' => [
                         'type' => 'varchar',
-                        'label' => 'Page Layout',
+                        'label' => 'Movie Layout',
                         'input' => 'select',
                         'source' => Layout::class,
                         'required' => false,
@@ -772,7 +772,7 @@ class CategorySetup extends EavSetup
                     ],
                     'page_layout' => [
                         'type' => 'varchar',
-                        'label' => 'Page Layout',
+                        'label' => 'Movie Layout',
                         'input' => 'select',
                         'source' => LayoutModel::class,
                         'required' => false,

@@ -76,7 +76,7 @@ abstract class Product extends \Magento\Framework\App\Action\Action
         $session = $this->_objectManager->get(\Magento\Customer\Model\Session::class);
 
         if (!$helper->isEnabled()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         if (!$helper->isAllowForGuest() && !$session->authenticate()) {

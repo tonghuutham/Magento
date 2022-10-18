@@ -9,7 +9,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\Framework\App\TemplateTypesInterface;
 
 /**
- * Test class for \Magento\Email\Block\Adminhtml\Template\Edit\Form
+ * Test class for \Magento\Email\Block\adminhtml\Template\Edit\Form
  * @magentoAppArea adminhtml
  * @magentoAppIsolation enabled
  */

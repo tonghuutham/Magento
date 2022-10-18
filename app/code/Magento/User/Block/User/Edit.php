@@ -97,7 +97,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
     /**
      * Returns the URL that is used for user deletion.
      * The following Action is executed if admin navigates to returned url
-     * Magento\User\Controller\Adminhtml\User\Delete
+     * Magento\User\Controller\adminhtml\User\Delete
      *
      * @return string
      * @since 101.0.0

@@ -9,7 +9,7 @@ use Magento\Directory\Model\Currency;
 use Magento\Store\Model\Store;
 
 /**
- * Adminhtml dashboard bar block
+ * adminhtml dashboard bar block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

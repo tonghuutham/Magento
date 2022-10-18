@@ -115,7 +115,7 @@ class BlockInstantiationTest extends \Magento\TestFramework\TestCase\AbstractInt
         $area = 'frontend';
         if ($module == 'Magento_Backend' || strpos(
             $blockClass,
-            '\\Adminhtml\\'
+            '\\adminhtml\\'
         ) !== false || strpos(
             $blockClass,
             '_Backend_'

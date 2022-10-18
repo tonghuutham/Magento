@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml text list block
+ * adminhtml text list block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

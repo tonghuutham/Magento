@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\View;
 use Magento\Sales\Model\ResourceModel\Order\Item\Collection;
 
 /**
- * Adminhtml order items grid
+ * adminhtml order items grid
  *
  * @api
  * @since 100.0.2

@@ -4,13 +4,13 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Controller\Adminhtml\Page;
+namespace Magenest\Movie\Controller\Adminhtml\Movie;
 
-use Magento\Cms\Model\Page\DomValidationState;
+use Magenest\Movie\Model\Movie\DomValidationState;
 use Magento\Framework\App\ObjectManager;
 use Magento\Framework\Config\Dom\ValidationException;
 use Magento\Framework\Config\Dom\ValidationSchemaException;
-use Magento\Cms\Model\Page\CustomLayout\CustomLayoutValidator;
+use Magenest\Movie\Model\Movie\CustomLayout\CustomLayoutValidator;
 
 /**
  * Controller helper for user input.
@@ -121,7 +121,7 @@ class PostDataProcessor
     public function validateRequireEntry(array $data)
     {
         $requiredFields = [
-            'title' => __('Page Title'),
+            'title' => __('Movie Title'),
             'stores' => __('Store View'),
             'is_active' => __('Status')
         ];

@@ -23,11 +23,11 @@ return [
                 'values' => [
                     'default' => [
                         'value' => 'hierarchy/widget/link/link_block.phtml',
-                        'label' => 'CMS Page Link Block Template',
+                        'label' => 'CMS Movie Link Block Template',
                     ],
                     'link_inline' => [
                         'value' => 'hierarchy/widget/link/link_inline.phtml',
-                        'label' => 'CMS Page Link Inline Template',
+                        'label' => 'CMS Movie Link Inline Template',
                     ],
                 ],
                 'visible' => '0',

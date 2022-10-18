@@ -15,7 +15,7 @@ use Magento\Sales\Api\OrderManagementInterface;
 /**
  * Class MassUnhold, change status for select orders
  *
- * @package Magento\Sales\Controller\Adminhtml\Order
+ * @package Magento\Sales\Controller\adminhtml\Order
  */
 class MassUnhold extends AbstractMassAction implements HttpPostActionInterface
 {
@@ -23,7 +23,7 @@ class MassUnhold extends AbstractMassAction implements HttpPostActionInterface
      * Authorization level of a basic admin session
      */
     const ADMIN_RESOURCE = 'Magento_Sales::unhold';
-    
+
     /**
      * @var OrderManagementInterface
      */

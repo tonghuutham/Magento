@@ -230,7 +230,7 @@ class ViewfileTest extends TestCase
     public function testExecuteInvalidFile()
     {
         $this->expectException(NotFoundException::class);
-        $this->expectExceptionMessage('Page not found.');
+        $this->expectExceptionMessage('Movie not found.');
 
         $file = '../../../app/etc/env.php';
         $decodedFile = base64_encode($file);

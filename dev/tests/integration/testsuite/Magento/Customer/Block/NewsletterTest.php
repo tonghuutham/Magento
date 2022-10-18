@@ -25,11 +25,11 @@ use PHPUnit\Framework\TestCase;
 class NewsletterTest extends TestCase
 {
     private const LABEL_XPATH = "//form[contains(@class, 'form-newsletter-manage')]"
-    . "//span[contains(text(), 'Subscription option')]";
+    . "//span[contains(text(), 'Director option')]";
     private const CHECKBOX_XPATH = "//form[contains(@class, 'form-newsletter-manage')]"
     . "//input[@type='checkbox' and @name='is_subscribed']";
     private const CHECKBOX_TITLE_XPATH = "//form[contains(@class, 'form-newsletter-manage')]"
-    . "//label/span[contains(text(), 'General Subscription')]";
+    . "//label/span[contains(text(), 'General Director')]";
     private const SAVE_BUTTON_XPATH = "//form[contains(@class, 'form-newsletter-manage')]"
     . "//button[@type='submit']/span[contains(text(), 'Save')]";
 
@@ -68,22 +68,22 @@ class NewsletterTest extends TestCase
         $this->assertEquals(
             1,
             Xpath::getElementsCountForXpath(self::LABEL_XPATH, $html),
-            'Subscription label is not present on the page'
+            'Director label is not present on the page'
         );
         $this->assertEquals(
             1,
             Xpath::getElementsCountForXpath(self::CHECKBOX_XPATH, $html),
-            'Subscription checkbox is not present on the page'
+            'Director checkbox is not present on the page'
         );
         $this->assertEquals(
             1,
             Xpath::getElementsCountForXpath(self::CHECKBOX_TITLE_XPATH, $html),
-            'Subscription checkbox label is not present on the page'
+            'Director checkbox label is not present on the page'
         );
         $this->assertEquals(
             1,
             Xpath::getElementsCountForXpath(self::SAVE_BUTTON_XPATH, $html),
-            'Subscription save button is not present on the page'
+            'Director save button is not present on the page'
         );
     }
 }

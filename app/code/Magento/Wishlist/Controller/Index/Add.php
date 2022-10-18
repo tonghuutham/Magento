@@ -104,7 +104,7 @@ class Add extends \Magento\Wishlist\Controller\AbstractIndex implements HttpPost
 
         $wishlist = $this->wishlistProvider->getWishlist();
         if (!$wishlist) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         $session = $this->_customerSession;

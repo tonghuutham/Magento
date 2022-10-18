@@ -10,7 +10,7 @@ namespace Magento\Theme\Block\Adminhtml\Wysiwyg\Files\Content;
  *
  * @api
  * @method
- *  \Magento\Theme\Block\Adminhtml\Wysiwyg\Files\Content\Files setStorage(\Magento\Theme\Model\Wysiwyg\Storage $storage)
+ *  \Magento\Theme\Block\adminhtml\Wysiwyg\Files\Content\Files setStorage(\Magento\Theme\Model\Wysiwyg\Storage $storage)
  * @method \Magento\Theme\Model\Wysiwyg\Storage getStorage()
  * @since 100.0.2
  */

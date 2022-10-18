@@ -129,7 +129,7 @@ class CmsPageUrlPathGeneratorTest extends TestCase
          */
         $page = [
             'identifier' => 'home',
-            'title' => 'Home Page'
+            'title' => 'Home Movie'
         ];
 
         /* @var PageInterface $cmsPageMock*/

@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Create;
 
 /**
- * Adminhtml sales order create sidebar
+ * adminhtml sales order create sidebar
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

@@ -3,35 +3,25 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
+namespace Magenest\Movie\Controller\Adminhtml\Movie;
 
-namespace Magenest\Movie\Controller\Adminhtml\Category;
-
-use Magento\Backend\App\Action;
-use Magento\Backend\App\Action\Context;
-use Magento\Backend\Model\View\Result\Redirect;
-use Magento\Catalog\Model\ResourceModel\Category\CollectionFactory;
-use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Magento\Framework\App\Action\HttpPostActionInterface;
 use Magento\Framework\Controller\ResultFactory;
-use Magento\Framework\Exception\NotFoundException;
+use Magento\Backend\App\Action\Context;
 use Magento\Ui\Component\MassAction\Filter;
+use Magento\Cms\Model\ResourceModel\Page\CollectionFactory;
 
-class MassDelete extends Action implements HttpPostActionInterface
+/**
+ * Class MassDelete
+ */
+class MassDelete extends \Magento\Backend\App\Action implements HttpPostActionInterface
 {
     /**
-     * Authorization level
+     * Authorization level of a basic admin session
+     *
+     * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'Magento_Catalog::categories';
-
-    /**
-     * @var CollectionFactory
-     */
-    protected $collectionFactory;
-
-    /**
-     * @var CategoryRepositoryInterface
-     */
-    private $categoryRepository;
+    const ADMIN_RESOURCE = 'Magenest_Movie::movie_delete';
 
     /**
      * @var Filter
@@ -39,47 +29,42 @@ class MassDelete extends Action implements HttpPostActionInterface
     protected $filter;
 
     /**
-     * Constructor
-     *
+     * @var CollectionFactory
+     */
+    protected $collectionFactory;
+
+    /**
      * @param Context $context
      * @param Filter $filter
      * @param CollectionFactory $collectionFactory
-     * @param CategoryRepositoryInterface $categoryRepository
      */
-    public function __construct(
-        Context $context,
-        Filter $filter,
-        CollectionFactory $collectionFactory,
-        CategoryRepositoryInterface $categoryRepository
-    ) {
+    public function __construct(Context $context, Filter $filter, CollectionFactory $collectionFactory)
+    {
         $this->filter = $filter;
         $this->collectionFactory = $collectionFactory;
-        $this->categoryRepository = $categoryRepository;
         parent::__construct($context);
     }
 
     /**
-     * Category delete action
+     * Execute action
      *
-     * @return Redirect
+     * @return \Magento\Backend\Model\View\Result\Redirect
+     * @throws \Magento\Framework\Exception\LocalizedException|\Exception
      */
-    public function execute(): Redirect
+    public function execute()
     {
-        if (!$this->getRequest()->isPost()) {
-            throw new NotFoundException(__('Page not found'));
-        }
         $collection = $this->filter->getCollection($this->collectionFactory->create());
-        $categoryDeleted = 0;
-        foreach ($collection->getItems() as $category) {
-            $this->categoryRepository->delete($category);
-            $categoryDeleted++;
+        $collectionSize = $collection->getSize();
+
+        foreach ($collection as $page) {
+            $page->delete();
         }
 
-        if ($categoryDeleted) {
-            $this->messageManager->addSuccessMessage(
-                __('A total of %1 record(s) have been deleted.', $categoryDeleted)
-            );
-        }
-        return $this->resultFactory->create(ResultFactory::TYPE_REDIRECT)->setPath('magenest_movie/index/index');
+        $this->messageManager->addSuccessMessage(__('A total of %1 record(s) have been deleted.', $collectionSize));
+
+        /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
+        $resultRedirect = $this->resultFactory->create(ResultFactory::TYPE_REDIRECT);
+
+        return $resultRedirect->setPath('*/*/');
     }
 }

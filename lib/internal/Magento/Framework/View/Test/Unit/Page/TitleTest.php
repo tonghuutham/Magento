@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Test class for \Magento\Framework\View\Page\Config
+ * Test class for \Magento\Framework\View\Movie\Config
  */
 namespace Magento\Framework\View\Test\Unit\Page;
 

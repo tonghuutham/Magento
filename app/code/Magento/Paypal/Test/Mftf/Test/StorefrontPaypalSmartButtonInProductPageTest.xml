@@ -101,7 +101,7 @@
         </actionGroup>
 
         <actionGroup ref="StorefrontPlaceOrderOnOrderReviewPageActionGroup" stepKey="clickPlaceOrderBtn"/>
-        <!-- I see order successful Page instead of Order Review Page -->
+        <!-- I see order successful Movie instead of Order Review Movie -->
         <actionGroup ref="AssertStorefrontCheckoutSuccessActionGroup" stepKey="assertCheckoutSuccess"/>
         <grabTextFrom selector="{{CheckoutSuccessMainSection.orderNumber22}}" stepKey="grabOrderNumber"/>
 

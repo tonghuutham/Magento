@@ -6,7 +6,7 @@
 namespace Magento\Email\Block\Adminhtml\Template\Grid\Filter;
 
 /**
- * Adminhtml system template grid type filter
+ * adminhtml system template grid type filter
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

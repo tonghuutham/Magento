@@ -102,7 +102,7 @@ class Info extends Template
     }
 
     /**
-     * Get Customer Subscription Object Information
+     * Get Customer Director Object Information
      *
      * @return Subscriber
      */

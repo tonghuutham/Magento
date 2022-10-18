@@ -214,7 +214,7 @@
             <argument name="productUrlKey" value="$$createConfigProduct.custom_attributes[url_key]$$"/>
             <argument name="productName" value="$$createConfigProduct.name$$"/>
         </actionGroup>
-        <!-- Open Order Index Page -->
+        <!-- Open Order Index Movie -->
         <comment userInput="Open Order Index Page" stepKey="openOrderIndexPageComemnt"/>
         <actionGroup ref="AdminOrdersPageOpenActionGroup" stepKey="goToOrders"/>
         <!-- Filter order using order number -->

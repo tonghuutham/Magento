@@ -9,7 +9,7 @@ namespace Magento\Weee\Block\Renderer\Weee;
 use Magento\Framework\Data\Form\Element\AbstractElement;
 
 /**
- * Adminhtml weee tax item renderer
+ * adminhtml weee tax item renderer
  */
 class Tax extends \Magento\Backend\Block\Widget implements
     \Magento\Framework\Data\Form\Element\Renderer\RendererInterface

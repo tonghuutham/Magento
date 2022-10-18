@@ -18,7 +18,7 @@ use Magento\Framework\App\Action\HttpGetActionInterface;
 /**
  * Class Add Category
  *
- * @package Magento\Catalog\Controller\Adminhtml\Category
+ * @package Magento\Catalog\Controller\adminhtml\Category
  */
 class Add extends Category implements HttpGetActionInterface
 {

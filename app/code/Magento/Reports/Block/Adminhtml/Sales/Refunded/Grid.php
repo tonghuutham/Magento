@@ -7,7 +7,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales\Refunded;
 
 /**
- * Adminhtml refunded report grid block
+ * adminhtml refunded report grid block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

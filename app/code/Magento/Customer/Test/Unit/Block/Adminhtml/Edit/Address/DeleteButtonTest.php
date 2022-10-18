@@ -18,7 +18,7 @@ use Magento\Framework\UrlInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
-/** \Magento\Customer\Block\Adminhtml\Edit\Address\DeleteButton unit tests
+/** \Magento\Customer\Block\adminhtml\Edit\Address\DeleteButton unit tests
  */
 class DeleteButtonTest extends TestCase
 {
@@ -85,7 +85,7 @@ class DeleteButtonTest extends TestCase
     }
 
     /**
-     * Unit test for \Magento\Customer\Block\Adminhtml\Edit\Address\DeleteButton::getButtonData() method
+     * Unit test for \Magento\Customer\Block\adminhtml\Edit\Address\DeleteButton::getButtonData() method
      */
     public function testGetButtonData()
     {

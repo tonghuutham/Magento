@@ -25,7 +25,7 @@ use Magento\Framework\View\Result\PageFactory;
 use Magento\Framework\DataObject;
 
 /**
- * Tests for \Magento\Sales\Controller\Adminhtml\Order\Create\ConfigureProductToAdd
+ * Tests for \Magento\Sales\Controller\adminhtml\Order\Create\ConfigureProductToAdd
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

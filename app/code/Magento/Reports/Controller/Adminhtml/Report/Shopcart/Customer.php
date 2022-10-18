@@ -11,7 +11,7 @@ namespace Magento\Reports\Controller\Adminhtml\Report\Shopcart;
 use Magento\Framework\App\Action\HttpGetActionInterface as HttpGetActionInterface;
 
 /**
- * Class \Magento\Reports\Controller\Adminhtml\Report\Shopcart\Customer
+ * Class \Magento\Reports\Controller\adminhtml\Report\Shopcart\Customer
  */
 class Customer extends \Magento\Reports\Controller\Adminhtml\Report\Shopcart implements HttpGetActionInterface
 {

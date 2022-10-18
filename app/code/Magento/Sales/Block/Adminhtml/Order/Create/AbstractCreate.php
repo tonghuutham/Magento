@@ -10,7 +10,7 @@ use Magento\Catalog\Model\Product;
 use Magento\Catalog\Pricing\Price\FinalPrice;
 
 /**
- * Adminhtml sales order create abstract block
+ * adminhtml sales order create abstract block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.NumberOfChildren)

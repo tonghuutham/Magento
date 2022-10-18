@@ -7,7 +7,7 @@
 namespace Magento\Framework\View\Page\Config;
 
 /**
- * Factory class for \Magento\Framework\View\Page\Config\Renderer
+ * Factory class for \Magento\Framework\View\Movie\Config\Renderer
  */
 class RendererFactory
 {

@@ -62,7 +62,7 @@ class Page extends \Magento\Framework\View\Element\AbstractBlock implements
         array $data = []
     ) {
         parent::__construct($context, $data);
-        // used singleton (instead factory) because there exist dependencies on \Magento\Cms\Helper\Page
+        // used singleton (instead factory) because there exist dependencies on \Magento\Cms\Helper\Movie
         $this->_page = $page;
         $this->_filterProvider = $filterProvider;
         $this->_storeManager = $storeManager;
@@ -71,7 +71,7 @@ class Page extends \Magento\Framework\View\Element\AbstractBlock implements
     }
 
     /**
-     * Retrieve Page instance
+     * Retrieve Movie instance
      *
      * @return \Magento\Cms\Model\Page
      */
@@ -148,7 +148,7 @@ class Page extends \Magento\Framework\View\Element\AbstractBlock implements
                 'home',
                 [
                     'label' => __('Home'),
-                    'title' => __('Go to Home Page'),
+                    'title' => __('Go to Home Movie'),
                     'link' => $this->_storeManager->getStore()->getBaseUrl()
                 ]
             );

@@ -67,7 +67,7 @@
             <argument name="value" value="newurlkey"/>
         </actionGroup>
 
-        <!--Open Category Store Front Page-->
+        <!--Open Category Store Front Movie-->
         <actionGroup ref="StorefrontOpenHomePageActionGroup" stepKey="openHomepage"/>
         <actionGroup ref="StorefrontAssertCategoryNameIsShownInMenuActionGroup" stepKey="seeCatergoryNameInStoreFront">
             <argument name="categoryName" value="{{SimpleRootSubCategory.name}}"/>

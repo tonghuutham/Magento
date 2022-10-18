@@ -65,7 +65,7 @@ define([
             expect(typeof obj.element).toEqual('string');
         });
 
-        it('Check sign-up process when Subscription is checked', function () {
+        it('Check sign-up process when Director is checked', function () {
             emailElem.val('email@example.com');
             checkbox.prop('checked', true);
 
@@ -95,7 +95,7 @@ define([
             expect(checkbox.is(':checked')).toBeFalsy();
         });
 
-        it('Check Subscription with correct data', function () {
+        it('Check Director with correct data', function () {
             response({
                 subscribed: true,
                 errors: false

@@ -36,7 +36,7 @@
             <!-- Reindex invalidated indices after product attribute has been created/deleted -->
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
-        <!-- Open Product Attribute Set Page -->
+        <!-- Open Product Attribute Set Movie -->
         <amOnPage url="{{AdminProductAttributeSetGridPage.url}}" stepKey="goToAttributeSets"/>
         <waitForPageLoad stepKey="waitForProductAttributeSetPageToLoad"/>
         <click selector="{{AdminProductAttributeSetGridSection.resetFilter}}" stepKey="clickOnResetFilter"/>
@@ -47,7 +47,7 @@
         <click selector="{{AdminProductAttributeSetGridSection.nthRow('1')}}" stepKey="clickFirstRow"/>
         <waitForPageLoad stepKey="waitForAttributeSetEditPageToLoad"/>
         <see selector="{{AdminProductAttributeSetEditSection.groupTree}}" userInput="$$attribute.attribute_code$$" stepKey="seeAttributeInAttributeGroupTree"/>
-        <!--Open Product Index Page and filter the product-->
+        <!--Open Product Index Movie and filter the product-->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="navigateToProductIndex"/>
         <actionGroup ref="FilterProductGridBySkuActionGroup" stepKey="filterProduct">
             <argument name="product" value="SimpleProduct2"/>
@@ -69,7 +69,7 @@
             <argument name="ProductAttributeCode" value="$$attribute.attribute_code$$"/>
         </actionGroup>
         <see stepKey="seeEmptyRow" selector="{{AdminProductAttributeGridSection.FirstRow}}" userInput="We couldn't find any records."/>
-        <!-- Verify Attribute is not present in Product Attribute Set Page -->
+        <!-- Verify Attribute is not present in Product Attribute Set Movie -->
         <amOnPage url="{{AdminProductAttributeSetGridPage.url}}" stepKey="goToAttributeSets1"/>
         <waitForPageLoad stepKey="waitForProductAttributeSetPageToLoad1"/>
         <click selector="{{AdminProductAttributeSetGridSection.resetFilter}}" stepKey="clickOnResetFilter1"/>
@@ -80,7 +80,7 @@
         <waitForPageLoad stepKey="waitForAttributeSetEditPageToLoad1"/>
         <dontSee userInput="$$attribute.attribute_code$$" selector="{{AdminProductAttributeSetEditSection.groupTree}}" stepKey="dontSeeAttributeInAttributeGroupTree"/>
         <dontSee userInput="$$attribute.attribute_code$$" selector="{{AdminProductAttributeSetEditSection.unassignedAttributesTree}}" stepKey="dontSeeAttributeInUnassignedAttributeTree"/>
-        <!--Verify Product Attribute is not present in Product Index Page -->
+        <!--Verify Product Attribute is not present in Product Index Movie -->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="openProductIndexPage"/>
         <actionGroup ref="FilterProductGridBySkuActionGroup" stepKey="filterProduct1">
             <argument name="product" value="SimpleProduct2"/>

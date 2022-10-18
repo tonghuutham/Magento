@@ -12,7 +12,7 @@ use Magento\Framework\View;
 use Magento\Framework\View\Model\PageLayout\Config\BuilderInterface;
 
 /**
- * Page Layout Builder
+ * Movie Layout Builder
  */
 class Builder extends View\Layout\Builder
 {

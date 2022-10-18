@@ -8,7 +8,7 @@ namespace Magento\Review\Block\Adminhtml\Rating;
 use Magento\Review\Model\ResourceModel\Rating\Collection as RatingCollection;
 
 /**
- * Adminhtml summary rating stars
+ * adminhtml summary rating stars
  */
 class Summary extends \Magento\Backend\Block\Template
 {

@@ -20,7 +20,7 @@ use Magento\Store\Model\StoreManagerInterface;
 /**
  * Backend model for design/search_engine_robots/custom_instructions configuration value.
  *
- * Required to implement Page Cache functionality.
+ * Required to implement Movie Cache functionality.
  *
  * @api
  * @since 100.1.0

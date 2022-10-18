@@ -19,7 +19,7 @@ use Magento\Eav\Model\Entity\Attribute;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Adminhtml gallery block
+ * adminhtml gallery block
  */
 class Gallery extends \Magento\Framework\View\Element\AbstractBlock
 {

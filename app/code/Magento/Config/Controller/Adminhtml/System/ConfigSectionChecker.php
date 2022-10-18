@@ -45,7 +45,7 @@ class ConfigSectionChecker
             }
             return true;
         } catch (\Zend_Acl_Exception $e) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         } catch (\Exception $e) {
             return false;
         }

@@ -72,11 +72,11 @@ class Remove extends \Magento\Wishlist\Controller\AbstractIndex implements Actio
         /** @var Item $item */
         $item = $this->_objectManager->create(Item::class)->load($id);
         if (!$item->getId()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
         $wishlist = $this->wishlistProvider->getWishlist($item->getWishlistId());
         if (!$wishlist) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
         try {
             $item->delete();

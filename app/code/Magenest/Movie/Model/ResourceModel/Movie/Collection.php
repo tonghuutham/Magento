@@ -1,9 +1,10 @@
 <?php
 
-namespace Magenest\Movie\Model\ResourceModel\Director;
+namespace Magenest\Movie\Model\ResourceModel\Movie;
+
+use Magenest\Movie\Model\Movie;
+use Magenest\Movie\Model\ResourceModel\Movie as MovieResourceModel;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
-use Magenest\Movie\Model\Director;
-use Magenest\Movie\Model\ResourceModel\Director as DirectorResourceModel;
 
 /**
  * Director Collection
@@ -17,6 +18,11 @@ class Collection extends AbstractCollection
      */
     public function _construct()
     {
-        $this->_init(Director::class, DirectorResourceModel::class);
+        $this->_init(Movie::class, MovieResourceModel::class);
     }
+
+
+
+
+
 }

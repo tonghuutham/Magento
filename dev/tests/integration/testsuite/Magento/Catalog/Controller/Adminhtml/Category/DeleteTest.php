@@ -12,7 +12,7 @@ use Magento\Framework\Message\MessageInterface;
 use Magento\TestFramework\TestCase\AbstractBackendController;
 
 /**
- * Test for class \Magento\Catalog\Controller\Adminhtml\Category\Delete
+ * Test for class \Magento\Catalog\Controller\adminhtml\Category\Delete
  *
  * @magentoAppArea adminhtml
  */

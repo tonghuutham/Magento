@@ -19,7 +19,7 @@ use Magento\Security\Model\ResourceModel\AdminSessionInfo\CollectionFactory;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Security\Block\Adminhtml\Session\Activity testing
+ * Test class for \Magento\Security\Block\adminhtml\Session\Activity testing
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

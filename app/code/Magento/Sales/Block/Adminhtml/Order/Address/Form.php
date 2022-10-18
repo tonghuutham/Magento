@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Address;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
- * Adminhtml sales order address block
+ * adminhtml sales order address block
  * @SuppressWarnings(PHPMD.DepthOfInheritance)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

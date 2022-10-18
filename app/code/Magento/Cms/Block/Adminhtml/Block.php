@@ -6,7 +6,7 @@
 namespace Magento\Cms\Block\Adminhtml;
 
 /**
- * Adminhtml cms blocks content block
+ * adminhtml cms blocks content block
  */
 class Block extends \Magento\Backend\Block\Widget\Grid\Container
 {

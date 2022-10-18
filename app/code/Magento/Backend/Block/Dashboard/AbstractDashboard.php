@@ -9,7 +9,7 @@ namespace Magento\Backend\Block\Dashboard;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**
- * Adminhtml dashboard tab abstract
+ * adminhtml dashboard tab abstract
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

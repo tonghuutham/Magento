@@ -7,7 +7,7 @@
 namespace Magento\Review\Block\Adminhtml;
 
 /**
- * Adminhtml add Review main block
+ * adminhtml add Review main block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

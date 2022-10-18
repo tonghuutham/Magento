@@ -6,7 +6,7 @@
 namespace Magento\Swatches\Plugin\Eav\System\Config\Source;
 
 /**
- * Plugin for \Magento\Eav\Model\Adminhtml\System\Config\Source\Inputtype
+ * Plugin for \Magento\Eav\Model\adminhtml\System\Config\Source\Inputtype
  *
  * @package Magento\Swatches\Plugin\Eav\System\Config\Source
  */

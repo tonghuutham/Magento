@@ -9,7 +9,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Tax\Helper\Data as TaxHelper;
 
 /**
- * Adminhtml invoice create form
+ * adminhtml invoice create form
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

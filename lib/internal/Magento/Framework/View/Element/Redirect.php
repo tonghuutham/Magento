@@ -6,7 +6,7 @@
 namespace Magento\Framework\View\Element;
 
 /**
- * Customer Redirect Page
+ * Customer Redirect Movie
  */
 class Redirect extends Template
 {

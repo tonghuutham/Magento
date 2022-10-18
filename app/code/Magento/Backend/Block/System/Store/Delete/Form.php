@@ -9,7 +9,7 @@ use Magento\Backup\Helper\Data as BackupHelper;
 use Magento\Framework\App\ObjectManager;
 
 /**
- * Adminhtml cms block edit form
+ * adminhtml cms block edit form
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

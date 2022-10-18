@@ -33,7 +33,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
 
-        <!--Open Store Page -->
+        <!--Open Store Movie -->
         <actionGroup ref="AdminSystemStoreOpenPageActionGroup" stepKey="amOnAdminSystemStorePage"/>
 
         <!--Create Custom Store -->
@@ -63,7 +63,7 @@
         <click selector="{{AdminCategorySEOSection.SectionHeader}}" stepKey="selectSearchEngineOptimization1"/>
         <waitForPageLoad stepKey="waitForPageToLoad2"/>
         <seeInField selector="{{AdminCategorySEOSection.UrlKeyInput}}" stepKey="seeCategoryUrlKey" userInput="{{SimpleRootSubCategory.name_lwr}}2" />
-        <!--Open Category in Store Front  Page-->
+        <!--Open Category in Store Front  Movie-->
         <amOnPage url="/{{NewRootCategory.urlKey}}/{{_defaultCategory.urlKey}}.html" stepKey="seeTheCategoryInStoreFront"/>
         <waitForPageLoad stepKey="waitForCategoryPageToLoad"/>
         <click selector="{{StorefrontFooterSection.switchStoreButton}}" stepKey="clickSwitchStoreButtonOnDefaultStore"/>

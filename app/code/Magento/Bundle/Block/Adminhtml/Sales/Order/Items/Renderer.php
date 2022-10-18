@@ -11,7 +11,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Catalog\Helper\Data as CatalogHelper;
 
 /**
- * Adminhtml sales order item renderer
+ * adminhtml sales order item renderer
  *
  * @api
  * @since 100.0.2

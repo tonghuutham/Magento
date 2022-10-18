@@ -17,7 +17,7 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\CatalogUrlRewrite\Plugin\Catalog\Block\Adminhtml\Category\Tab\Attributes.
+ * Test for \Magento\CatalogUrlRewrite\Plugin\Catalog\Block\adminhtml\Category\Tab\Attributes.
  */
 class AttributesTest extends TestCase
 {

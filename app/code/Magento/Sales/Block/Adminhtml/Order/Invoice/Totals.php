@@ -9,7 +9,7 @@ use Magento\Framework\DataObject;
 use Magento\Sales\Model\Order\Invoice;
 
 /**
- * Adminhtml order invoice totals block
+ * adminhtml order invoice totals block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

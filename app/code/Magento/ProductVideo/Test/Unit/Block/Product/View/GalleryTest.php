@@ -49,7 +49,7 @@ class GalleryTest extends TestCase
 
     /**
      * @var ObjectManager
-     * |\Magento\ProductVideo\Block\Adminhtml\Product\Video\Gallery
+     * |\Magento\ProductVideo\Block\adminhtml\Product\Video\Gallery
      */
     protected $gallery;
 

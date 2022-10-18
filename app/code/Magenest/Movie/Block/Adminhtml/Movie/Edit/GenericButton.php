@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Block\Adminhtml\Page\Edit;
+namespace Magenest\Movie\Block\Adminhtml\Movie\Edit;
 
 use Magento\Backend\Block\Widget\Context;
 use Magento\Cms\Api\PageRepositoryInterface;
@@ -45,7 +45,7 @@ class GenericButton
     {
         try {
             return $this->pageRepository->getById(
-                $this->context->getRequest()->getParam('page_id')
+                $this->context->getRequest()->getParam('movie_id')
             )->getId();
         } catch (NoSuchEntityException $e) {
         }

@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Block\Adminhtml\Page\Edit;
+namespace Magenest\Movie\Block\Adminhtml\Movie\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 use Magento\Ui\Component\Control\Container;
@@ -25,7 +25,7 @@ class SaveButton extends GenericButton implements ButtonProviderInterface
                     'buttonAdapter' => [
                         'actions' => [
                             [
-                                'targetName' => 'cms_page_form.cms_page_form',
+                                'targetName' => 'magenest_movie_movie_form.magenest_movie_movie_form',
                                 'actionName' => 'save',
                                 'params' => [
                                     false
@@ -58,7 +58,7 @@ class SaveButton extends GenericButton implements ButtonProviderInterface
                         'buttonAdapter' => [
                             'actions' => [
                                 [
-                                    'targetName' => 'cms_page_form.cms_page_form',
+                                    'targetName' => 'magenest_movie_movie_form.magenest_movie_movie_form',
                                     'actionName' => 'save',
                                     'params' => [
                                         true,
@@ -80,7 +80,7 @@ class SaveButton extends GenericButton implements ButtonProviderInterface
                         'buttonAdapter' => [
                             'actions' => [
                                 [
-                                    'targetName' => 'cms_page_form.cms_page_form',
+                                    'targetName' => 'magenest_movie_movie_form.magenest_movie_movie_form',
                                     'actionName' => 'save',
                                     'params' => [
                                         true

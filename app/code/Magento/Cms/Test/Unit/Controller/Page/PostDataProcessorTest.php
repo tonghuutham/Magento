@@ -66,7 +66,7 @@ class PostDataProcessorTest extends TestCase
         ];
         $this->messageManagerMock->expects($this->once())
             ->method('addErrorMessage')
-            ->with(__('To apply changes you should fill in hidden required "%1" field', 'Page Title'));
+            ->with(__('To apply changes you should fill in hidden required "%1" field', 'Movie Title'));
 
         $this->assertFalse($this->postDataProcessor->validateRequireEntry($postData));
     }

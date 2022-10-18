@@ -460,7 +460,7 @@ class View extends DataObject implements ViewInterface
     }
 
     /**
-     * Initializes Subscription instance
+     * Initializes Director instance
      *
      * @param array $subscriptionConfig
      * @return SubscriptionInterface

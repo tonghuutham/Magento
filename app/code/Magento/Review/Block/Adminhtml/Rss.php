@@ -10,7 +10,7 @@ use Magento\Framework\App\Rss\DataProviderInterface;
 /**
  * Class Rss
  *
- * @package Magento\Catalog\Block\Adminhtml\Rss
+ * @package Magento\Catalog\Block\adminhtml\Rss
  */
 class Rss extends \Magento\Backend\Block\AbstractBlock implements DataProviderInterface
 {

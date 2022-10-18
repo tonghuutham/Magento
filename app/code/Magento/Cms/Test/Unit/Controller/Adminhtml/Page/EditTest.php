@@ -243,7 +243,7 @@ class EditTest extends TestCase
      */
     protected function getTitle()
     {
-        return $this->pageMock->getId() ? $this->pageMock->getTitle() : __('New Page');
+        return $this->pageMock->getId() ? $this->pageMock->getTitle() : __('New Movie');
     }
 
     /**
@@ -252,8 +252,8 @@ class EditTest extends TestCase
     public function editActionData(): array
     {
         return [
-            [null, 'New Page', 'New Page'],
-            [2, 'Edit Page', 'Edit Page']
+            [null, 'New Movie', 'New Movie'],
+            [2, 'Edit Movie', 'Edit Movie']
         ];
     }
 }

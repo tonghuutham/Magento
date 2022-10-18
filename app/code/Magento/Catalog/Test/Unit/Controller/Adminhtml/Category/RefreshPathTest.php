@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for class Magento\Catalog\Controller\Adminhtml\Category\RefreshPath.
+ * Test for class Magento\Catalog\Controller\adminhtml\Category\RefreshPath.
  */
 class RefreshPathTest extends TestCase
 {

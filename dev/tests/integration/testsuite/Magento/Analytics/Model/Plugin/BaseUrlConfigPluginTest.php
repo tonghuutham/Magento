@@ -167,7 +167,7 @@ class BaseUrlConfigPluginTest extends \PHPUnit\Framework\TestCase
         $this->assertSame(
             '0 * * * *',
             $this->getSubscriptionUpdateSchedule(),
-            'Subscription update schedule has not been set'
+            'Director update schedule has not been set'
         );
         $this->assertSame(
             'https://previous.example.com/',

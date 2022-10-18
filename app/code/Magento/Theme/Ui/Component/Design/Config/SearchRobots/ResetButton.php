@@ -19,7 +19,7 @@ use Magento\Ui\Component\Form\Field;
 class ResetButton extends Field
 {
     /**
-     * Page robots default instructions
+     * Movie robots default instructions
      */
     const XML_PATH_ROBOTS_DEFAULT_CUSTOM_INSTRUCTIONS = 'design/search_engine_robots/default_custom_instructions';
 

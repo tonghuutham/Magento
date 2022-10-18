@@ -52,7 +52,7 @@
         <actionGroup ref="AdminSearchDeletedUrlRewriteActionGroup" stepKey="searchDeletedURLRewriteInGrid">
             <argument name="requestPath" value="{{FirstLevelSubCat.name_lwr}}/{{_defaultProduct.urlKey}}.html"/>
         </actionGroup>
-        <!-- Assert Page By Url Rewrite is Not Found -->
+        <!-- Assert Movie By Url Rewrite is Not Found -->
         <actionGroup ref="AssertPageByUrlRewriteIsNotFoundActionGroup" stepKey="amOnPage">
             <argument name="requestPath" value="{{FirstLevelSubCat.name_lwr}}/{{_defaultProduct.urlKey}}.html"/>
         </actionGroup>

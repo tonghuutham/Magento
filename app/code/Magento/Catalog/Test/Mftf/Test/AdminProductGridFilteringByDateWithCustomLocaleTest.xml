@@ -75,7 +75,7 @@
         <!-- Save attribute set -->
         <actionGroup ref="SaveAttributeSetActionGroup" stepKey="SaveAttributeSet"/>
 
-        <!-- Open Product Edit Page and set custom attribute value -->
+        <!-- Open Product Edit Movie and set custom attribute value -->
         <actionGroup ref="SearchForProductOnBackendActionGroup" stepKey="searchForProduct">
             <argument name="product" value="$createProduct$"/>
         </actionGroup>
@@ -92,7 +92,7 @@
             <argument name="password" value="{{activeAdmin.password}}"/>
         </actionGroup>
 
-        <!-- Open Product Index Page and filter the product -->
+        <!-- Open Product Index Movie and filter the product -->
         <actionGroup ref="AdminOpenProductIndexPageActionGroup" stepKey="navigateToProductIndex2"/>
         <actionGroup ref="FilterProductGridByCustomDateRangeActionGroup" stepKey="filterProductGridByCustomDateRange">
             <argument name="code" value="{{dateProductAttribute.attribute_code}}"/>

@@ -2,31 +2,31 @@
 
 namespace Magenest\Movie\Block\Adminhtml;
 
-use Magenest\Movie\Model\ResourceModel\Actor\CollectionFactory as ActorCollectionFactory;
+use Magenest\Movie\Model\ResourceModel\Movie\CollectionFactory as MovieCollectionFactory;
 use Magento\Backend\Block\Template\Context;
 use Magento\Config\Block\System\Config\Form\Field;
 use Magento\Framework\Data\Form\Element\AbstractElement;
 use Magento\Framework\View\Helper\SecureHtmlRenderer;
 
-class CountActor extends Field
+class CountMovie extends Field
 {
-    private $actorCollectionFactory;
+    private $movieCollectionFactory;
 
     public function __construct(
-        ActorCollectionFactory $actorCollectionFactory,
+        MovieCollectionFactory $movieCollectionFactory,
         Context                $context,
         array                  $data = [],
         ?SecureHtmlRenderer    $secureRenderer = null
     ) {
         parent::__construct($context, $data, $secureRenderer);
-        $this->actorCollectionFactory = $actorCollectionFactory;
+        $this->movieCollectionFactory = $movieCollectionFactory;
     }
 
     protected function _getElementHtml(AbstractElement $element)
     {
-        $collection = $this->actorCollectionFactory->create();
+        $collection = $this->movieCollectionFactory->create();
 
-        $countActor = $collection->count();
-        return $countActor;
+        $countMovie = $collection->count();
+        return $countMovie;
     }
 }

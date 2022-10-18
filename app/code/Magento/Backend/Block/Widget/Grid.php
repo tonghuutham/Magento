@@ -19,7 +19,7 @@ namespace Magento\Backend\Block\Widget;
 class Grid extends \Magento\Backend\Block\Widget
 {
     /**
-     * Page and sorting var names
+     * Movie and sorting var names
      *
      * @var string
      */
@@ -542,7 +542,7 @@ class Grid extends \Magento\Backend\Block\Widget
     }
 
     /**
-     * Set Page request key
+     * Set Movie request key
      *
      * @param string $name
      * @return $this

@@ -15,7 +15,7 @@ use Magento\Reports\Model\ResourceModel\Order\CollectionFactory;
 use Magento\Store\Model\Store;
 
 /**
- * Adminhtml dashboard totals bar
+ * adminhtml dashboard totals bar
  * @api
  * @since 100.0.2
  */

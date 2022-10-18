@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml catalog product edit action attributes update tab block
+ * adminhtml catalog product edit action attributes update tab block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

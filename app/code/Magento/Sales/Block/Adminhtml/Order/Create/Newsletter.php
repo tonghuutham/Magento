@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Create;
 
 /**
- * Adminhtml sales order create newsletter block
+ * adminhtml sales order create newsletter block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>
@@ -32,7 +32,7 @@ class Newsletter extends \Magento\Sales\Block\Adminhtml\Order\Create\AbstractCre
      */
     public function getHeaderText()
     {
-        return __('Newsletter Subscription');
+        return __('Newsletter Director');
     }
 
     /**

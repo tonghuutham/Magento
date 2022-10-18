@@ -4,7 +4,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Controller\Adminhtml\Page;
+namespace Magenest\Movie\Controller\Adminhtml\Movie;
 
 use Magento\Framework\App\Action\HttpGetActionInterface;
 
@@ -18,7 +18,7 @@ class NewAction extends \Magento\Backend\App\Action implements HttpGetActionInte
      *
      * @see _isAllowed()
      */
-    const ADMIN_RESOURCE = 'Magento_Cms::save';
+    const ADMIN_RESOURCE = 'Magenest_Movie::save';
 
     /**
      * @var \Magento\Backend\Model\View\Result\Forward

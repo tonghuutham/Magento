@@ -98,7 +98,7 @@ class Fromcart extends \Magento\Wishlist\Controller\AbstractIndex implements Act
 
         $wishlist = $this->wishlistProvider->getWishlist();
         if (!$wishlist) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         try {

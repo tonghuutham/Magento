@@ -9,7 +9,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\Locale\OptionInterface;
 
 /**
- * Adminhtml edit admin user account form
+ * adminhtml edit admin user account form
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml system templates page content block
+ * adminhtml system templates page content block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

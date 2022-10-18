@@ -19,7 +19,7 @@
             <group value="pr_exclude"/>
         </annotations>
         <before>
-            <!--Login to Admin Page-->
+            <!--Login to Admin Movie-->
             <actionGroup ref="AdminLoginActionGroup" stepKey="loginAsAdmin"/>
         </before>
         <after>

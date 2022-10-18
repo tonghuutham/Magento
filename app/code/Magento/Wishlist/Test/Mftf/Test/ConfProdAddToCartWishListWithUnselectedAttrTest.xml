@@ -62,7 +62,7 @@
         </actionGroup>
         <waitForPageLoad stepKey="waitForLogin"/>
 
-        <!--Go To Created Product Page-->
+        <!--Go To Created Product Movie-->
         <amOnPage stepKey="goToCreatedProductPage" url="{{_defaultProduct.urlKey}}.html"/>
         <waitForPageLoad stepKey="waitForProductPageLoad2"/>
 

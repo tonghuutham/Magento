@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml tag edit form
+ * adminhtml tag edit form
  *
  */
 declare(strict_types=1);
@@ -15,7 +15,7 @@ namespace Magento\Search\Block\Adminhtml\Term\Edit;
 /**
  * Edit Form Block
  *
- * Class \Magento\Search\Block\Adminhtml\Term\Edit\Form
+ * Class \Magento\Search\Block\adminhtml\Term\Edit\Form
  */
 class Form extends \Magento\Backend\Block\Widget\Form\Generic
 {

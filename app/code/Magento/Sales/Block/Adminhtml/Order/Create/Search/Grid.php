@@ -9,7 +9,7 @@ use Magento\Sales\Block\Adminhtml\Order\Create\Search\Grid\DataProvider\ProductC
 use Magento\Framework\App\ObjectManager;
 
 /**
- * Adminhtml sales order create search products block
+ * adminhtml sales order create search products block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

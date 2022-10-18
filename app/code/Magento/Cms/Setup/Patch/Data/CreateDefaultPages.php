@@ -50,8 +50,8 @@ class CreateDefaultPages implements DataPatchInterface, PatchVersionInterface
             [
                 'title' => '404 Not Found',
                 'page_layout' => '2columns-right',
-                'meta_keywords' => 'Page keywords',
-                'meta_description' => 'Page description',
+                'meta_keywords' => 'Movie keywords',
+                'meta_description' => 'Movie description',
                 'identifier' => 'no-route',
                 'content_heading' => 'Whoops, our bad...',
                 'content' => "<dl>\r\n<dt>The page you requested was not found, and we have a fine guess why.</dt>\r\n"
@@ -72,7 +72,7 @@ class CreateDefaultPages implements DataPatchInterface, PatchVersionInterface
                 'title' => 'Home page',
                 'page_layout' => '1column',
                 'identifier' => 'home',
-                'content_heading' => 'Home Page',
+                'content_heading' => 'Home Movie',
                 'content' => "<p>CMS homepage content goes here.</p>\r\n",
                 'is_active' => 1,
                 'stores' => [0],

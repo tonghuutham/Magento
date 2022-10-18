@@ -53,7 +53,7 @@ class Tabs extends WidgetTabs
     protected $_catalogData = null;
 
     /**
-     * Adminhtml catalog
+     * adminhtml catalog
      *
      * @var Catalog
      */

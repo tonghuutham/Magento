@@ -11,7 +11,7 @@ use Magento\Sales\Model\Order\Item;
 use Magento\Quote\Model\Quote\Item\AbstractItem as QuoteItem;
 
 /**
- * Adminhtml sales order column renderer
+ * adminhtml sales order column renderer
  *
  * @api
  * @author     Magento Core Team <core@magentocommerce.com>

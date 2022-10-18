@@ -14,7 +14,7 @@ use Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregatorI
 use Magento\ImportExport\Controller\Adminhtml\Import\HttpFactoryMock;
 
 /**
- * Test for \Magento\ImportExport\Controller\Adminhtml\ImportResult class.
+ * Test for \Magento\ImportExport\Controller\adminhtml\ImportResult class.
  *
  * @magentoAppArea adminhtml
  */

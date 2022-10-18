@@ -6,7 +6,7 @@
 namespace Magento\Sales\Controller\Adminhtml\Order\View;
 
 /**
- * Adminhtml sales order view gift messages controller
+ * adminhtml sales order view gift messages controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -8,7 +8,7 @@ namespace Magento\Customer\Block\Adminhtml\Edit\Tab\View;
 use Magento\Customer\Controller\RegistryConstants;
 
 /**
- * Adminhtml customer view wishlist block
+ * adminhtml customer view wishlist block
  *
  * @api
  * @since 100.0.2

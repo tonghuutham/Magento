@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order;
 
 /**
- * Adminhtml creditmemo bar
+ * adminhtml creditmemo bar
  *
  * @deprecated 101.0.6
  * @api

@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Test class for \Magento\Config\Model\Config\Source\Admin\Page
+ * Test class for \Magento\Config\Model\Config\Source\Admin\Movie
  */
 namespace Magento\Config\Test\Unit\Model\Config\Source\Admin;
 

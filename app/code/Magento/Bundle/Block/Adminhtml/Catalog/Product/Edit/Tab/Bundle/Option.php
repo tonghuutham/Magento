@@ -15,7 +15,7 @@ use Magento\Framework\Json\Helper\Data as JsonHelper;
 /**
  * Block for rendering option of bundle product
  *
- * Class \Magento\Bundle\Block\Adminhtml\Catalog\Product\Edit\Tab\Bundle\Option
+ * Class \Magento\Bundle\Block\adminhtml\Catalog\Product\Edit\Tab\Bundle\Option
  */
 class Option extends \Magento\Backend\Block\Widget
 {

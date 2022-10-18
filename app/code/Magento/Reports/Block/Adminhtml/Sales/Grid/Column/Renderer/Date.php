@@ -9,7 +9,7 @@ use Magento\Framework\Locale\Bundle\DataBundle;
 use Magento\Framework\Stdlib\DateTime\DateTimeFormatterInterface;
 
 /**
- * Adminhtml grid item renderer date
+ * adminhtml grid item renderer date
  */
 class Date extends \Magento\Backend\Block\Widget\Grid\Column\Renderer\Date
 {

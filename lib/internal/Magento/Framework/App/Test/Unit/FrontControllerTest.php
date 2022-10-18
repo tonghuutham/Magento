@@ -271,7 +271,7 @@ class FrontControllerTest extends TestCase
             ->method('match')
             ->withConsecutive([$this->request], [$this->request])
             ->willReturnOnConsecutiveCalls(
-                $this->throwException(new NotFoundException(new Phrase('Page not found.'))),
+                $this->throwException(new NotFoundException(new Phrase('Movie not found.'))),
                 $controllerInstance
             );
 

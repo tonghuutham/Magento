@@ -11,7 +11,7 @@ namespace Magento\Widget\Controller\Adminhtml;
 class WidgetTest extends \Magento\TestFramework\TestCase\AbstractBackendController
 {
     /**
-     * Partially covers \Magento\Widget\Block\Adminhtml\Widget\Options::_addField()
+     * Partially covers \Magento\Widget\Block\adminhtml\Widget\Options::_addField()
      */
     public function testLoadOptionsAction()
     {

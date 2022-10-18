@@ -46,7 +46,7 @@ class Page implements ResolverInterface
         array $args = null
     ) {
         if (!isset($args['id']) && !isset($args['identifier'])) {
-            throw new GraphQlInputException(__('"Page id/identifier should be specified'));
+            throw new GraphQlInputException(__('"Movie id/identifier should be specified'));
         }
 
         $pageData = [];

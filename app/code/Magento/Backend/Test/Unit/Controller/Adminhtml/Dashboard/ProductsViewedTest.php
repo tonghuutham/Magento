@@ -11,7 +11,7 @@ use Magento\Backend\Block\Dashboard\Tab\Products\Viewed;
 use Magento\Backend\Controller\Adminhtml\Dashboard\ProductsViewed;
 
 /**
- * Test for \Magento\Backend\Controller\Adminhtml\Dashboard\ProductViewed
+ * Test for \Magento\Backend\Controller\adminhtml\Dashboard\ProductViewed
  */
 class ProductsViewedTest extends AbstractTestCase
 {

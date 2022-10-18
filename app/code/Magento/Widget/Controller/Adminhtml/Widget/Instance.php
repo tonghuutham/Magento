@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml Manage Widgets Instance Controller
+ * adminhtml Manage Widgets Instance Controller
  */
 namespace Magento\Widget\Controller\Adminhtml\Widget;
 

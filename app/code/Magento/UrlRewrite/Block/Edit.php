@@ -30,7 +30,7 @@ class Edit extends \Magento\Backend\Block\Widget\Container
     protected $_buttonsHtml;
 
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var \Magento\Backend\Helper\Data
      */

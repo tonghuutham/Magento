@@ -6,7 +6,7 @@
 namespace Magento\Bundle\Block\Adminhtml\Catalog\Product\Edit;
 
 /**
- * Adminhtml product edit tabs
+ * adminhtml product edit tabs
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

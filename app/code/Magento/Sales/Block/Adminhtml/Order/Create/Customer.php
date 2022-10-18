@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Create;
 
 /**
- * Adminhtml sales order create block
+ * adminhtml sales order create block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

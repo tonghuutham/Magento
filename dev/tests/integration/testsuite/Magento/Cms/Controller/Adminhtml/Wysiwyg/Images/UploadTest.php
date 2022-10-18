@@ -16,7 +16,7 @@ use Magento\Framework\App\Response\Http as Response;
 use Magento\Framework\Filesystem\Driver\File;
 
 /**
- * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\Upload class.
+ * Test for \Magento\Cms\Controller\adminhtml\Wysiwyg\Images\Upload class.
  *
  * @magentoAppArea adminhtml
  */

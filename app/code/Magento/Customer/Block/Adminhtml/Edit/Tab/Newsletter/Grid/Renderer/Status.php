@@ -6,7 +6,7 @@
 namespace Magento\Customer\Block\Adminhtml\Edit\Tab\Newsletter\Grid\Renderer;
 
 /**
- * Adminhtml newsletter queue grid block status item renderer
+ * adminhtml newsletter queue grid block status item renderer
  */
 class Status extends \Magento\Backend\Block\Widget\Grid\Column\Renderer\AbstractRenderer
 {

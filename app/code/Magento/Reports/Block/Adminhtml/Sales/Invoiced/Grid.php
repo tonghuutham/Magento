@@ -7,7 +7,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales\Invoiced;
 
 /**
- * Adminhtml invoiced report grid block
+ * adminhtml invoiced report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

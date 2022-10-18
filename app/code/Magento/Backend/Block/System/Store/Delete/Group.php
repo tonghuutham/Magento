@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\System\Store\Delete;
 
 /**
- * Adminhtml store delete group block
+ * adminhtml store delete group block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

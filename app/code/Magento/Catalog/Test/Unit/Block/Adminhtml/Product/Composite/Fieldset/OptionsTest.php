@@ -21,7 +21,7 @@ use Magento\Framework\View\Layout;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Catalog\Block\Adminhtml\Product\Composite\Fieldset\Options
+ * Test class for \Magento\Catalog\Block\adminhtml\Product\Composite\Fieldset\Options
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

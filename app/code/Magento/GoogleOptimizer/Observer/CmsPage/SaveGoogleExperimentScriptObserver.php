@@ -1,6 +1,6 @@
 <?php
 /**
- * Google Experiment Cms Page Save observer
+ * Google Experiment Cms Movie Save observer
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

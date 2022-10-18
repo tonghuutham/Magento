@@ -6,7 +6,7 @@
 namespace Magento\Backend\Helper\Dashboard;
 
 /**
- * Adminhtml abstract  dashboard helper.
+ * adminhtml abstract  dashboard helper.
  *
  * phpcs:disable Magento2.Classes.AbstractApi
  * @api

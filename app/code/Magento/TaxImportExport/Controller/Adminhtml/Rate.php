@@ -6,7 +6,7 @@
 namespace Magento\TaxImportExport\Controller\Adminhtml;
 
 /**
- * Adminhtml tax rate controller
+ * adminhtml tax rate controller
  */
 abstract class Rate extends \Magento\Backend\App\Action
 {

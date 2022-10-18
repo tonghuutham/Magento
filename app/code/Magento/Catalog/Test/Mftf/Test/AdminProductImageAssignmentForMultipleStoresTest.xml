@@ -106,7 +106,7 @@
         <fillField selector="{{AdminProductContentSection.shortDescriptionTextArea}}" userInput="This is the short description" stepKey="fillShortDescription"/>
         <actionGroup ref="SaveProductFormActionGroup" stepKey="saveProduct"/>
 
-        <!-- Go to Product Page and see Default Store View-->
+        <!-- Go to Product Movie and see Default Store View-->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="goToDefaultStorefrontProductPage"/>
         <waitForElementVisible selector="{{StorefrontProductMediaSection.productImageActive(TestImageNew.filename)}}" time="30" stepKey="waitImageToBeLoaded"/>
         <seeElement selector="{{StorefrontProductMediaSection.productImageActive(TestImageNew.filename)}}" stepKey="seeActiveImageDefault"/>

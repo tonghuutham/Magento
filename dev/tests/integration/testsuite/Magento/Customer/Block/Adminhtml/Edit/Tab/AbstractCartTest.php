@@ -21,7 +21,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Base class for testing \Magento\Customer\Block\Adminhtml\Edit\Tab\Cart block
+ * Base class for testing \Magento\Customer\Block\adminhtml\Edit\Tab\Cart block
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

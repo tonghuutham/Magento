@@ -10,7 +10,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Shipping\Helper\Carrier;
 
 /**
- * Adminhtml shipment packaging
+ * adminhtml shipment packaging
  *
  * @api
  * @since 100.0.2

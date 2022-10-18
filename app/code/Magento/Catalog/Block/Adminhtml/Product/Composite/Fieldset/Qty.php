@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product\Composite\Fieldset;
 
 /**
- * Adminhtml block for fieldset of product custom options
+ * adminhtml block for fieldset of product custom options
  *
  * @api
  * @since 100.0.2

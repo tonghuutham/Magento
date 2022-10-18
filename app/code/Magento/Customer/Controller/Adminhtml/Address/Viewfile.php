@@ -107,7 +107,7 @@ class Viewfile extends Action implements HttpGetActionInterface
         if (mb_strpos($path, '..') !== false
             || (!$directory->isFile($fileName) && !$this->storage->processStorageFile($path))
         ) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         $pathInfo = $this->ioFile->getPathInfo($path);
@@ -172,7 +172,7 @@ class Viewfile extends Action implements HttpGetActionInterface
             );
             $plain = true;
         } else {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         return [$file, $plain];

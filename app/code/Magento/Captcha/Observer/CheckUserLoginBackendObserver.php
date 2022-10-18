@@ -41,7 +41,7 @@ class CheckUserLoginBackendObserver implements ObserverInterface
     }
 
     /**
-     * Check Captcha On User Login Backend Page
+     * Check Captcha On User Login Backend Movie
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @throws \Magento\Framework\Exception\Plugin\AuthenticationException

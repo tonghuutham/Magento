@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace Magento\Backend\Block\System\Store\Edit\Form;
 
 /**
- * Adminhtml store edit form for website
+ * adminhtml store edit form for website
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  *

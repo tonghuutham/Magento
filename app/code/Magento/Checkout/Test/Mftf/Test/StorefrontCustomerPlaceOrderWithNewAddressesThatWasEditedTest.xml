@@ -69,7 +69,7 @@
         <click selector="{{StorefrontCheckoutAddressPopupSection.closeAddressModalPopup}}" stepKey="closePopup"/>
         <actionGroup ref="StorefrontCheckoutClickNextButtonActionGroup" stepKey="clickNext"/>
 
-        <!--Refresh Page and Place Order-->
+        <!--Refresh Movie and Place Order-->
         <actionGroup ref="CheckoutSelectCheckMoneyOrderPaymentActionGroup" stepKey="selectCheckMoneyPayment"/>
         <reloadPage stepKey="reloadPage"/>
         <comment userInput="Comment is added to preserve the step key for backward compatibility" stepKey="waitForPlaceOrderButton"/>

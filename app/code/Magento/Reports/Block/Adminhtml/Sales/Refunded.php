@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales;
 
 /**
- * Adminhtml refunded report page content block
+ * adminhtml refunded report page content block
  *
  * @api
  * @author     Magento Core Team <core@magentocommerce.com>

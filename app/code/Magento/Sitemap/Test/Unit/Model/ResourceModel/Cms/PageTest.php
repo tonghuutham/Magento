@@ -23,7 +23,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Provide tests for Cms Page resource model.
+ * Provide tests for Cms Movie resource model.
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class PageTest extends TestCase
@@ -95,7 +95,7 @@ class PageTest extends TestCase
     }
 
     /**
-     * Test Page::getCollection() build correct query to get cms page collection array.
+     * Test Movie::getCollection() build correct query to get cms page collection array.
      *
      * @return void
      */

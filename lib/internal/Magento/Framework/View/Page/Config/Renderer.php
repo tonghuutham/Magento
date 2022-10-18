@@ -12,7 +12,7 @@ use Magento\Framework\View\Page\Config;
 use Magento\Framework\View\Page\Config\Metadata\MsApplicationTileImage;
 
 /**
- * Page config Renderer model
+ * Movie config Renderer model
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

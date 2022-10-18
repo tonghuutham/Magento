@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Adminhtml review main block
+ * adminhtml review main block
  */
 namespace Magento\Review\Block\Adminhtml;
 
@@ -14,7 +14,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory as ProductCollectionFactory;
 
 /**
- * Class \Magento\Review\Block\Adminhtml\Main
+ * Class \Magento\Review\Block\adminhtml\Main
  */
 class Main extends \Magento\Backend\Block\Widget\Grid\Container
 {

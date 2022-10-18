@@ -13,7 +13,7 @@ use Magento\Framework\Exception\LocalizedException;
 /**
  * Class Upload
  *
- * @package Magento\Downloadable\Controller\Adminhtml\Downloadable\File
+ * @package Magento\Downloadable\Controller\adminhtml\Downloadable\File
  */
 class Upload extends \Magento\Downloadable\Controller\Adminhtml\Downloadable\File implements HttpPostActionInterface
 {

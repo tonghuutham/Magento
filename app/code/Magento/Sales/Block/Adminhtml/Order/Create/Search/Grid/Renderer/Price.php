@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Create\Search\Grid\Renderer;
 
 /**
- * Adminhtml sales create order product search grid price column renderer
+ * adminhtml sales create order product search grid price column renderer
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

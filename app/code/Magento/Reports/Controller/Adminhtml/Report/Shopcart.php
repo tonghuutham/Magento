@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace Magento\Reports\Controller\Adminhtml\Report;
 
 /**
- * Class \Magento\Reports\Controller\Adminhtml\Report\Shopcart
+ * Class \Magento\Reports\Controller\adminhtml\Report\Shopcart
  *
  * phpcs:disable Magento2.Classes.AbstractApi
  * @api

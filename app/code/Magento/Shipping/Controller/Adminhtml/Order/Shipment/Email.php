@@ -12,7 +12,7 @@ use Magento\Framework\Controller\ResultFactory;
 /**
  * Class Email
  *
- * @package Magento\Shipping\Controller\Adminhtml\Order\Shipment
+ * @package Magento\Shipping\Controller\adminhtml\Order\Shipment
  */
 class Email extends \Magento\Backend\App\Action
 {

@@ -14,7 +14,7 @@ use Magento\Newsletter\Block\Adminhtml\Template\Grid\Renderer\Sender;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Newsletter\Block\Adminhtml\Template\Grid\Renderer\Sender.
+ * Test for \Magento\Newsletter\Block\adminhtml\Template\Grid\Renderer\Sender.
  */
 class SenderTest extends TestCase
 {

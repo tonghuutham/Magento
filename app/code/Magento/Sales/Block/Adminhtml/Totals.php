@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml;
 use Magento\Framework\DataObject;
 
 /**
- * Adminhtml sales totals block
+ * adminhtml sales totals block
  */
 class Totals extends \Magento\Sales\Block\Order\Totals
 {

@@ -15,7 +15,7 @@ use Magento\Backend\Helper\Data as BackendHelper;
 use Magento\Framework\Registry;
 
 /**
- * Adminhtml billing agreement related orders tab
+ * adminhtml billing agreement related orders tab
  * @api
  * @since 100.0.2
  */

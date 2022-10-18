@@ -26,7 +26,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
 
-        <!--Open CMS Edit Page and Get the CMS ID -->
+        <!--Open CMS Edit Movie and Get the CMS ID -->
         <actionGroup ref="NavigateToCreatedCMSPageActionGroup" stepKey="navigateToCreatedCMSPage">
             <argument name="CMSPage" value="$$createCMSPage$$"/>
         </actionGroup>
@@ -39,7 +39,7 @@
             <argument name="targetPath" value="cms/page/view/page_id/{$cmsId}"/>
         </actionGroup>
 
-        <!-- Assert initial request path directs to the CMS Page on Store Front -->
+        <!-- Assert initial request path directs to the CMS Movie on Store Front -->
         <actionGroup ref="NavigateToStorefrontForCreatedPageActionGroup" stepKey="navigateToTheStoreFront1">
             <argument name="page" value="$$createCMSPage.identifier$$"/>
         </actionGroup>

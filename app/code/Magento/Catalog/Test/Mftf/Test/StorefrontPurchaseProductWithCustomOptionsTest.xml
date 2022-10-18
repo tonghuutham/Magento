@@ -173,7 +173,7 @@
 
         <see selector="{{AdminOrderTotalSection.subTotal}}" userInput="{$finalProductPrice}" stepKey="seeOrderSubTotal"/>
 
-        <!-- Go to Customer Order Page and Checking the correctness of displayed custom options for user parameters on Order -->
+        <!-- Go to Customer Order Movie and Checking the correctness of displayed custom options for user parameters on Order -->
 
         <actionGroup ref="StorefrontGoToCustomerOrderDetailsPageActionGroup" stepKey="amOnOrderPage">
             <argument name="orderId" value="$orderId"/>

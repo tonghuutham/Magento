@@ -34,7 +34,7 @@ class DataProvider
         $result['page_view_optimization']['arguments']['data']['disabled'] = !$this->helper->isGoogleExperimentActive();
         $result['page_view_optimization']['arguments']['data']['config']['componentType'] =
             \Magento\Ui\Component\Form\Fieldset::NAME;
-        $result['page_view_optimization']['arguments']['data']['config']['label'] = __('Page View Optimization');
+        $result['page_view_optimization']['arguments']['data']['config']['label'] = __('Movie View Optimization');
         return $result;
     }
 }

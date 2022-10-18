@@ -93,7 +93,7 @@
         <!-- Navigate to product 3 on store front -->
         <amOnPage url="{{StorefrontProductPage.url($createSimpleProduct2.custom_attributes[url_key]$)}}" stepKey="goToStore1ProductPage2"/>
         <amOnPage url="{{StorefrontProductPage.url($createSimpleProduct3.custom_attributes[url_key]$)}}" stepKey="goToStore1ProductPage3"/>
-        <!-- Go to Home Page -->
+        <!-- Go to Home Movie -->
         <actionGroup ref="StorefrontOpenHomePageActionGroup" stepKey="amOnHomePage"/>
         <actionGroup ref="AssertSeeProductDetailsOnStorefrontRecentlyViewedWidgetActionGroup" stepKey="assertStore1RecentlyViewedProduct2">
             <argument name="productName" value="$$createSimpleProduct2.name$$"/>
@@ -113,7 +113,7 @@
         <amOnPage url="{{StorefrontProductPage.url($createSimpleProduct1.custom_attributes[url_key]$)}}" stepKey="goToStore2ProductPage1"/>
         <amOnPage url="{{StorefrontProductPage.url($createSimpleProduct2.custom_attributes[url_key]$)}}" stepKey="goToStore2ProductPage2"/>
 
-        <!-- Go to Home Page -->
+        <!-- Go to Home Movie -->
         <actionGroup ref="StorefrontOpenHomePageActionGroup" stepKey="amOnStoreViewHomePage"/>
         <actionGroup ref="AssertSeeProductDetailsOnStorefrontRecentlyViewedWidgetActionGroup" stepKey="assertNextStore1RecentlyViewedProduct1">
             <argument name="productName" value="$$createSimpleProduct1.name$$"/>

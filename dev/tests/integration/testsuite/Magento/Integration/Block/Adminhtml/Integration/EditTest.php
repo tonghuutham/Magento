@@ -12,7 +12,7 @@ use Magento\Integration\Model\Integration;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Integration\Block\Adminhtml\Integration\Edit
+ * Test class for \Magento\Integration\Block\adminhtml\Integration\Edit
  *
  * @magentoAppArea adminhtml
  */

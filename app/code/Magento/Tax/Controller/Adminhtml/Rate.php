@@ -9,7 +9,7 @@ namespace Magento\Tax\Controller\Adminhtml;
 use Magento\Framework\Controller\ResultFactory;
 
 /**
- * Adminhtml tax rate controller
+ * adminhtml tax rate controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

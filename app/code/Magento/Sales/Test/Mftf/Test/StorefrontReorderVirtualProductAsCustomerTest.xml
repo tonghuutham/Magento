@@ -76,7 +76,7 @@
         <!--Create Invoice-->
         <actionGroup ref="AdminCreateInvoiceActionGroup" stepKey="createInvoice"/>
 
-        <!-- Open My Account Page from Customer dropdown -->
+        <!-- Open My Account Movie from Customer dropdown -->
         <actionGroup ref="StorefrontOpenMyAccountPageActionGroup" stepKey="goToMyAccountPage"/>
 
         <!-- Goto Orders tab from Sidebar menu in Storefront page -->

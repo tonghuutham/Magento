@@ -7,7 +7,7 @@
 namespace Magento\Shipping\Block\Adminhtml\View;
 
 /**
- * Adminhtml sales item renderer
+ * adminhtml sales item renderer
  *
  * @api
  * @since 100.0.2

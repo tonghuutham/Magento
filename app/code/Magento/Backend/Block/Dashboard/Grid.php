@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\Dashboard;
 
 /**
- * Adminhtml dashboard grid
+ * adminhtml dashboard grid
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @api

@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Report\Filter;
 
 /**
- * Sales Adminhtml report filter form
+ * Sales adminhtml report filter form
  *
  * @api
  * @author     Magento Core Team <core@magentocommerce.com>

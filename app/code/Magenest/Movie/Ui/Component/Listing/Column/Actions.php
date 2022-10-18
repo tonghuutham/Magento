@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magenest\Movie\Ui\Component\Category\Listing\Column;
+namespace Magenest\Movie\Ui\Component\Listing\Column;
 
 use Magento\Backend\Model\UrlInterface;
 use Magento\Framework\Url;
@@ -60,7 +60,7 @@ class Actions extends Column
                 $name = $this->getData('name');
                 if (isset($item['entity_id'])) {
                     $item[$name]['view'] = [
-                        'href' => $this->_urlBuilder->getUrl($this->_viewUrl, ['id' => $item['entity_id']]),
+                        'href' => $this->_urlBuilder->getUrl($this->_viewUrl, ['id' => $item['movie_id']]),
                         'target' => '_blank',
                         'label' => __('View on Frontend')
                     ];

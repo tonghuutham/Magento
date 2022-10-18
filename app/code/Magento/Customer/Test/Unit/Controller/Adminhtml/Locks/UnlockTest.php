@@ -20,7 +20,7 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Customer\Controller\Adminhtml\Locks\Unlock testing
+ * Test class for \Magento\Customer\Controller\adminhtml\Locks\Unlock testing
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

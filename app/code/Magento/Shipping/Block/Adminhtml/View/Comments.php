@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml sales shipment comment view block
+ * adminhtml sales shipment comment view block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -108,7 +108,7 @@
         <see selector="{{StorefrontCustomerAddressesSection.shippingAddress}}" userInput="{{updateCustomerUKAddress.country}}" stepKey="seeCountryInShippingAddress"/>
         <see selector="{{StorefrontCustomerAddressesSection.shippingAddress}}" userInput="T: {{updateCustomerUKAddress.telephone}}" stepKey="seeTelephoneInShippingAddress"/>
 
-        <!--Open Order Index Page -->
+        <!--Open Order Index Movie -->
         <actionGroup ref="AdminOrdersPageOpenActionGroup" stepKey="goToOrders"/>
 
         <!-- Filter Order using orderId and assert order-->

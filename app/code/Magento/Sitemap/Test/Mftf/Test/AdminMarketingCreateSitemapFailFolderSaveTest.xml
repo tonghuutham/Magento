@@ -27,12 +27,12 @@
         </after>
 
         <!--TEST BODY -->
-        <!--Navigate to Marketing->Sitemap Page -->
+        <!--Navigate to Marketing->Sitemap Movie -->
         <actionGroup ref="AdminNavigateMenuActionGroup" stepKey="navigateToMarketingSiteMapPage">
             <argument name="menuUiId" value="{{AdminMenuMarketing.dataUiId}}"/>
             <argument name="submenuUiId" value="{{AdminMenuSEOAndSearchSiteMap.dataUiId}}"/>
         </actionGroup>
-        <!-- Navigate to New Sitemap Creation Page -->
+        <!-- Navigate to New Sitemap Creation Movie -->
         <actionGroup ref="AdminMarketingNavigateToNewSitemapPageActionGroup" stepKey="navigateToAddNewSitemap"/>
         <!-- Create Sitemap Entity With Incorrect Folder-->
         <actionGroup ref="AdminMarketingCreateSitemapEntityActionGroup" stepKey="createSitemap">

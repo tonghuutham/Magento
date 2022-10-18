@@ -24,7 +24,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Tests \Magento\Backup\Controller\Adminhtml\Index\Create class.
+ * Tests \Magento\Backup\Controller\adminhtml\Index\Create class.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

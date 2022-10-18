@@ -8,7 +8,7 @@ namespace Magento\Backend\Helper\Dashboard;
 use Magento\Framework\App\ObjectManager;
 
 /**
- * Adminhtml dashboard helper for orders
+ * adminhtml dashboard helper for orders
  *
  * @api
  * @since 100.0.2

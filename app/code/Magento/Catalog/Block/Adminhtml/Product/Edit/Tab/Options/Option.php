@@ -22,7 +22,7 @@ use Magento\Store\Model\Store;
 /**
  * Block for rendering option of product
  *
- * Class \Magento\Catalog\Block\Adminhtml\Product\Edit\Tab\Options\Option
+ * Class \Magento\Catalog\Block\adminhtml\Product\Edit\Tab\Options\Option
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

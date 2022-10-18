@@ -39,7 +39,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="adminLogout"/>
         </after>
 
-        <!--Go to admin Marketing > Cart Price Rule Page-->
+        <!--Go to admin Marketing > Cart Price Rule Movie-->
         <actionGroup ref="AdminOpenCartPriceRulesPageActionGroup" stepKey="amOnCartPriceList"/>
 
         <!--Create a new rule with specified details below-->
@@ -86,7 +86,7 @@
         <!--Grab a coupon code and hold on to it for later -->
         <grabTextFrom selector="{{AdminCartPriceRulesFormSection.generatedCouponByIndex('1')}}" stepKey="couponCode"/>
 
-        <!--Open the Product Page, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
+        <!--Open the Product Movie, add the product to Cart, go to Shopping Cart and Apply the same coupon code -->
         <amOnPage url="{{StorefrontProductPage.url($$createSimpleProduct.custom_attributes[url_key]$$)}}" stepKey="openProductPage"/>
         <actionGroup ref="ApplyCartRuleOnStorefrontActionGroup" stepKey="applyCartPriceRule">
             <argument name="product" value="$$createSimpleProduct$$"/>

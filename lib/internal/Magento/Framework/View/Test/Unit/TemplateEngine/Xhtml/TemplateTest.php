@@ -40,7 +40,7 @@ class TemplateTest extends TestCase
     {
         $body = <<<HTML
 <body>
-    <h1>Home Page</h1>
+    <h1>Home Movie</h1>
     <p>CMS homepage content goes here.</p>
 </body>
 HTML;
@@ -52,10 +52,10 @@ HTML;
  */
 --><html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Home Page</title>
+        <title>Home Movie</title>
     </head>
 <body>
-    <h1>Home Page</h1>
+    <h1>Home Movie</h1>
     <p>CMS homepage content goes here.</p>
 </body></html>
 

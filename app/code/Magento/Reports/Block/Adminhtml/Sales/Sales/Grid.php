@@ -13,7 +13,7 @@ use Magento\Sales\Model\Order\ConfigFactory;
 use Magento\Sales\Model\Order;
 
 /**
- * Adminhtml sales report grid block
+ * adminhtml sales report grid block
  *
  * @SuppressWarnings(PHPMD.DepthOfInheritance)
  */

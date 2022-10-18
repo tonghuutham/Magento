@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\AbstractController;
 
 /**
- * Magento\Customer\Block\Adminhtml\Group\Edit
+ * Magento\Customer\Block\adminhtml\Group\Edit
  *
  * @magentoAppArea adminhtml
  */

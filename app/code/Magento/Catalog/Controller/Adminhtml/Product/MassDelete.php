@@ -21,7 +21,7 @@ use Magento\Ui\Component\MassAction\Filter;
 use Psr\Log\LoggerInterface;
 
 /**
- * Class \Magento\Catalog\Controller\Adminhtml\Product\MassDelete
+ * Class \Magento\Catalog\Controller\adminhtml\Product\MassDelete
  */
 class MassDelete extends Product implements HttpPostActionInterface
 {

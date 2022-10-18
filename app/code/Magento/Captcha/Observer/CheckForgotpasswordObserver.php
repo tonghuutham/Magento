@@ -59,7 +59,7 @@ class CheckForgotpasswordObserver implements ObserverInterface
     }
 
     /**
-     * Check Captcha On Forgot Password Page
+     * Check Captcha On Forgot Password Movie
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return $this

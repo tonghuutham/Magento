@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Product\Viewed;
 
 /**
- * Adminhtml most viewed products report grid block
+ * adminhtml most viewed products report grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

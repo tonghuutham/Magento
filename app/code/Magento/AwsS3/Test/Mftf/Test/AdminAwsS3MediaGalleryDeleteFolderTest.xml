@@ -73,7 +73,7 @@
             <argument name="filePath">pub/media/.thumbswysiwyg/{{AdminMediaGalleryFolderData.name}}/{{AdminMediaGalleryFolder2Data.name}}/{{ImageUpload.file}}</argument>
         </helper>
 
-        <!-- Create CMS Page w/ Uploaded Image & Trigger Local Sync -->
+        <!-- Create CMS Movie w/ Uploaded Image & Trigger Local Sync -->
         <actionGroup ref="NavigateToCreatedCMSPageActionGroup" stepKey="navigateToCreatedCMSPage">
             <argument name="CMSPage" value="$$createCMSPage$$"/>
         </actionGroup>

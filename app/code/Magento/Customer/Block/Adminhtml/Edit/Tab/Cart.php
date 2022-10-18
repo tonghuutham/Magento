@@ -23,7 +23,7 @@ use Magento\Quote\Model\QuoteFactory;
 use Magento\Store\Model\System\Store as SystemStore;
 
 /**
- * Adminhtml customer orders grid block
+ * adminhtml customer orders grid block
  *
  * @api
  * @since 100.0.2

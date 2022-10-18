@@ -3,60 +3,65 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Api;
 
+namespace Magenest\Movie\Api;
+
+use Magenest\Movie\Api\Data\MovieInterface;
+use Magenest\Movie\Api\Data\MovieSearchResultsInterface;
 use Magento\Framework\Api\SearchCriteriaInterface;
+use Magento\Framework\Exception\LocalizedException;
+use Magento\Framework\Exception\NoSuchEntityException;
 
 /**
- * CMS page CRUD interface.
+ * MOVIE movie CRUD interface.
  * @api
  * @since 100.0.2
  */
-interface PageRepositoryInterface
+interface MovieRepositoryInterface
 {
     /**
-     * Save page.
+     * Save movie
      *
-     * @param \Magento\Cms\Api\Data\PageInterface $page
-     * @return \Magento\Cms\Api\Data\PageInterface
-     * @throws \Magento\Framework\Exception\LocalizedException
+     * @param MovieInterface $movie
+     * @return MovieInterface
+     * @throws LocalizedException
      */
-    public function save(\Magento\Cms\Api\Data\PageInterface $page);
+    public function save(MovieInterface $movie);
 
     /**
-     * Retrieve page.
+     * Retrieve movie.
      *
-     * @param int $pageId
-     * @return \Magento\Cms\Api\Data\PageInterface
-     * @throws \Magento\Framework\Exception\LocalizedException
+     * @param int $movieId
+     * @return MovieInterface
+     * @throws LocalizedException
      */
-    public function getById($pageId);
+    public function getById($movieId);
 
     /**
-     * Retrieve pages matching the specified criteria.
+     * Retrieve movies matching the specified criteria.
      *
-     * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
-     * @return \Magento\Cms\Api\Data\PageSearchResultsInterface
-     * @throws \Magento\Framework\Exception\LocalizedException
+     * @param SearchCriteriaInterface $searchCriteria
+     * @return MovieSearchResultsInterface
+     * @throws LocalizedException
      */
-    public function getList(\Magento\Framework\Api\SearchCriteriaInterface $searchCriteria);
+    public function getList(SearchCriteriaInterface $searchCriteria);
 
     /**
-     * Delete page.
+     * Delete movie.
      *
-     * @param \Magento\Cms\Api\Data\PageInterface $page
+     * @param MovieInterface $movie
      * @return bool true on success
-     * @throws \Magento\Framework\Exception\LocalizedException
+     * @throws LocalizedException
      */
-    public function delete(\Magento\Cms\Api\Data\PageInterface $page);
+    public function delete(MovieInterface $movie);
 
     /**
-     * Delete page by ID.
+     * Delete movie by ID.
      *
-     * @param int $pageId
+     * @param int $movieId
      * @return bool true on success
-     * @throws \Magento\Framework\Exception\NoSuchEntityException
-     * @throws \Magento\Framework\Exception\LocalizedException
+     * @throws NoSuchEntityException
+     * @throws LocalizedException
      */
-    public function deleteById($pageId);
+    public function deleteById($movieId);
 }

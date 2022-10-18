@@ -6,7 +6,7 @@
 namespace Magento\Paypal\Block\Adminhtml\Settlement;
 
 /**
- * Adminhtml paypal settlement reports grid block
+ * adminhtml paypal settlement reports grid block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

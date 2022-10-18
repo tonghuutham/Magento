@@ -9,7 +9,7 @@ namespace Magento\Sales\Block\Adminhtml\Transactions;
 use Magento\Sales\Api\OrderPaymentRepositoryInterface;
 
 /**
- * Adminhtml transaction detail
+ * adminhtml transaction detail
  *
  * @api
  * @author     Magento Core Team <core@magentocommerce.com>

@@ -7,7 +7,7 @@
 namespace Magento\Reports\Block\Adminhtml;
 
 /**
- * Adminhtml wishlist report page content block
+ * adminhtml wishlist report page content block
  *
  * @deprecated 100.3.3
  * @author      Magento Core Team <core@magentocommerce.com>

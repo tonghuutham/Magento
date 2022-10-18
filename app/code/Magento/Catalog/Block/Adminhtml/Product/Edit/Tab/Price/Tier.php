@@ -11,7 +11,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\Json\Helper\Data as JsonHelper;
 
 /**
- * Adminhtml tier price item renderer
+ * adminhtml tier price item renderer
  *
  * @SuppressWarnings(PHPMD.ExcessiveParameterList)
  */

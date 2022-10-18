@@ -8,7 +8,7 @@ namespace Magento\Paypal\Block\Adminhtml\Billing\Agreement\View\Tab;
 use Magento\Customer\Api\CustomerRepositoryInterface;
 
 /**
- * Adminhtml billing agreement info tab
+ * adminhtml billing agreement info tab
  */
 class Info extends \Magento\Backend\Block\Template implements \Magento\Backend\Block\Widget\Tab\TabInterface
 {

@@ -25,7 +25,7 @@
             <actionGroup ref="AdminLoginActionGroup" stepKey="loginAsAdmin"/>
         </before>
         <after>
-            <!-- Clear filter on Design Config Page -->
+            <!-- Clear filter on Design Config Movie -->
             <amOnPage url="{{DesignConfigPage.url}}" stepKey="navigateToDesignConfigPage" />
             <waitForPageLoad stepKey="waitForPageLoadToViewDesignConfigPage"/>
             <actionGroup ref="ClearFiltersAdminDataGridActionGroup" stepKey="clearFilter"/>

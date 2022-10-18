@@ -166,20 +166,20 @@
         <conditionalClick selector="{{StorefrontCategoryTopToolbarSection.gridMode}}" visible="true" dependentSelector="{{StorefrontCategoryTopToolbarSection.gridMode}}" stepKey="seeProductGridIsActive"/>
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.perPage}}" stepKey="scrollToBottomToolbarSection"/>
         <selectOption selector="{{StorefrontCategoryBottomToolbarSection.perPage}}" userInput="12" stepKey="selectPerPageOption"/>
-        <!--Verify number of products displayed in First Page -->
+        <!--Verify number of products displayed in First Movie -->
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="12" stepKey="seeNumberOfProductsInFirstPage"/>
-        <!--Verify number of products displayed in Second Page -->
+        <!--Verify number of products displayed in Second Movie -->
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="scrollToNextButton"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="clickOnNextPage"/>
         <waitForPageLoad stepKey="waitForPageToLoad4"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="12" stepKey="seeNumberOfProductsInSecondPage"/>
-        <!--Verify number of products displayed in third  Page -->
+        <!--Verify number of products displayed in third  Movie -->
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="scrollToNextButton1"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="clickOnNextPage1"/>
         <waitForPageLoad stepKey="waitForPageToLoad2"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="6" stepKey="seeNumberOfProductsInThirdPage"/>
 
-        <!--Select First Page using page number-->
+        <!--Select First Movie using page number-->
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.previousPage}}" stepKey="scrollToPreviousPage4"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('1')}}" stepKey="clickOnFirstPage"/>
         <waitForPageLoad stepKey="waitForPageToLoad9"/>
@@ -193,7 +193,7 @@
         <click selector="{{StorefrontCategoryBottomToolbarSection.nextPage}}" stepKey="clickOnNextPage2"/>
         <waitForPageLoad stepKey="waitForPageToLoad11"/>
         <seeNumberOfElements selector="{{StorefrontCategoryMainSection.productLink}}" userInput="6" stepKey="seeNumberOfProductsInSecondPage3"/>
-        <!--Select First Page using page number-->
+        <!--Select First Movie using page number-->
         <scrollTo selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('1')}}" stepKey="scrollToPreviousPage5"/>
         <click selector="{{StorefrontCategoryBottomToolbarSection.pageNumber('1')}}" stepKey="clickOnFirstPage2"/>
         <waitForPageLoad stepKey="waitForPageToLoad13"/>

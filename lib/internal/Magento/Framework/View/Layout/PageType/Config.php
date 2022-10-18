@@ -1,6 +1,6 @@
 <?php
 /**
- * Page layout config model
+ * Movie layout config model
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

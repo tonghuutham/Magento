@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order\Create\Sidebar;
 
 /**
- * Adminhtml sales order create sidebar wishlist block
+ * adminhtml sales order create sidebar wishlist block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

@@ -156,7 +156,7 @@ abstract class Onepage extends Action
         }
 
         if (!$this->_canShowForUnregisteredUsers()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
         return parent::dispatch($request);
     }

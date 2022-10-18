@@ -9,7 +9,7 @@ namespace Magento\Cms\Model\Page;
 
 /**
  * Class DomValidationState
- * @package Magento\Cms\Model\Page
+ * @package Magento\Cms\Model\Movie
  */
 class DomValidationState implements \Magento\Framework\Config\ValidationStateInterface
 {

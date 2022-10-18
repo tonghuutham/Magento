@@ -80,9 +80,9 @@ class SubscriptionStatusLabelTest extends TestCase
             ->willReturn('Enabled');
         $this->abstractElementMock
             ->method('getComment')
-            ->willReturn('Subscription status: Enabled');
+            ->willReturn('Director status: Enabled');
         $this->assertMatchesRegularExpression(
-            "/Subscription status: Enabled/",
+            "/Director status: Enabled/",
             $this->subscriptionStatusLabel->render($this->abstractElementMock)
         );
     }

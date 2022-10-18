@@ -3,13 +3,13 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceBlock name="footer_links">
-            <block class="Magento\Framework\View\Element\Html\Link\Current" name="helloworld-link">
+            <block class="Magento\Framework\View\Element\Html\Link\Current" name="movie-link">
                 <arguments>
                     <argument name="label" translate="true"
-                              xsi:type="string">Helloworld landing
+                              xsi:type="string">Movie landing
                     </argument>
                     <argument name="path"
-                              xsi:type="string">helloworld/index/index
+                              xsi:type="string">movie/index/index
                     </argument>
                 </arguments>
             </block>

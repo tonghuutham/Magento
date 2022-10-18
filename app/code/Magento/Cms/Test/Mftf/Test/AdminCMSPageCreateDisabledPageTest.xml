@@ -26,7 +26,7 @@
         <after>
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
-        <!--Go to New CMS Page page-->
+        <!--Go to New CMS Movie page-->
         <actionGroup ref="AdminOpenCreateNewCMSPageActionGroup" stepKey="navigateToCreateNewPage"/>
         <!--Set page disabled-->
         <actionGroup ref="AdminDisableCMSPageActionGroup" stepKey="setCMSPageDisabled"/>

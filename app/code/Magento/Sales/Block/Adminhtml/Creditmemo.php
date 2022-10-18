@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml;
 
 /**
- * Adminhtml sales creditmemos block
+ * adminhtml sales creditmemos block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

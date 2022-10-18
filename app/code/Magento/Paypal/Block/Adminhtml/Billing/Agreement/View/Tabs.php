@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml billing agreements tabs view
+ * adminhtml billing agreements tabs view
  */
 namespace Magento\Paypal\Block\Adminhtml\Billing\Agreement\View;
 

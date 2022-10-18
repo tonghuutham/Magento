@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for class \Magento\Reports\Block\Adminhtml\Sales\Coupons\Grid
+ * Test for class \Magento\Reports\Block\adminhtml\Sales\Coupons\Grid
  */
 class GridTest extends TestCase
 {

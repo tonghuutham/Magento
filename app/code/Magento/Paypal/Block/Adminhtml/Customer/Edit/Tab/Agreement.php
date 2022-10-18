@@ -9,7 +9,7 @@ use Magento\Customer\Controller\RegistryConstants;
 use Magento\Ui\Component\Layout\Tabs\TabInterface;
 
 /**
- * Adminhtml customer billing agreement tab
+ * adminhtml customer billing agreement tab
  *
  * @api
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

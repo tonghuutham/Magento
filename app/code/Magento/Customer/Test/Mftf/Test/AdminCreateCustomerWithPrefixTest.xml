@@ -29,7 +29,7 @@
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
 
-        <!--Open New Customer Page  and create a customer with Prefix and Suffix-->
+        <!--Open New Customer Movie  and create a customer with Prefix and Suffix-->
         <actionGroup ref="AdminNavigateNewCustomerActionGroup" stepKey="navigateToNewCustomerPage"/>
         <selectOption selector="{{AdminCustomerAccountInformationSection.group}}" userInput="Wholesale" stepKey="fillCustomerGroup"/>
         <fillField selector="{{AdminCustomerAccountInformationSection.namePrefix}}" userInput="{{CustomerEntityOne.prefix}}" stepKey="fillNamePrefix"/>

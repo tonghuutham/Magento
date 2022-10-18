@@ -54,7 +54,7 @@
         <!-- Press Add Attribute button -->
         <click selector="{{AdminProductFormSection.addAttributeBtn}}" stepKey="clickAddAttributeBtn"/>
         <waitForPageLoad stepKey="waitForAttributeAdded"/>
-        <!-- Filter By Attribute Label on Add Attribute Page -->
+        <!-- Filter By Attribute Label on Add Attribute Movie -->
         <click selector="{{AdminProductFiltersSection.filter}}" stepKey="clickOnFilter"/>
         <actionGroup ref="FilterProductAttributeByAttributeLabelActionGroup" stepKey="filterByAttributeLabel">
             <argument name="productAttributeLabel" value="$$createProductAttribute.default_frontend_label$$"/>

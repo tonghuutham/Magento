@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Magenest\Movie\Controller\Adminhtml\Movie;
+namespace Magenest\Movie\Controller\Adminhtml\Director;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
@@ -66,7 +66,7 @@ class MassDelete extends Action implements HttpPostActionInterface
     public function execute(): Redirect
     {
         if (!$this->getRequest()->isPost()) {
-            throw new NotFoundException(__('Page not found'));
+            throw new NotFoundException(__('Movie not found'));
         }
         $collection = $this->filter->getCollection($this->collectionFactory->create());
         $categoryDeleted = 0;
@@ -80,6 +80,6 @@ class MassDelete extends Action implements HttpPostActionInterface
                 __('A total of %1 record(s) have been deleted.', $categoryDeleted)
             );
         }
-        return $this->resultFactory->create(ResultFactory::TYPE_REDIRECT)->setPath('magenest_movie/movie/index');
+        return $this->resultFactory->create(ResultFactory::TYPE_REDIRECT)->setPath('magenest_movie/director/index');
     }
 }

@@ -6,7 +6,7 @@
 namespace Magento\Customer\Block\Adminhtml\Edit\Tab\Wishlist\Grid\Renderer;
 
 /**
- * Adminhtml customers wishlist grid item renderer for item visibility
+ * adminhtml customers wishlist grid item renderer for item visibility
  */
 class Description extends \Magento\Backend\Block\Widget\Grid\Column\Renderer\AbstractRenderer
 {

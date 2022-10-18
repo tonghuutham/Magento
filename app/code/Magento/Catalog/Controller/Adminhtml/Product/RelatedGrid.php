@@ -12,7 +12,7 @@ use Magento\Framework\App\Action\HttpPostActionInterface;
 /**
  * Class RelatedGrid
  *
- * @package Magento\Catalog\Controller\Adminhtml\Product
+ * @package Magento\Catalog\Controller\adminhtml\Product
  * @deprecated Not used since related products grid moved to UI components.
  * @see Magento_Catalog::view/adminhtml/ui_component/related_product_listing.xml
  */

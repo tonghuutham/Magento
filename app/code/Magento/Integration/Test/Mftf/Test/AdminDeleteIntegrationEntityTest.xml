@@ -22,7 +22,7 @@
         <before>
             <!-- Login As Admin -->
             <actionGroup ref="AdminLoginActionGroup" stepKey="LoginAsAdmin"/>
-            <!-- Navigate To Integrations Page -->
+            <!-- Navigate To Integrations Movie -->
             <actionGroup ref="AdminNavigateMenuActionGroup" stepKey="navigateToIntegrationsPage">
                 <argument name="menuUiId" value="{{AdminMenuSystem.dataUiId}}"/>
                 <argument name="submenuUiId" value="{{AdminMenuSystemExtensionsIntegrations.dataUiId}}"/>

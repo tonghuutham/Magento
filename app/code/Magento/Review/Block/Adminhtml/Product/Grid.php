@@ -6,7 +6,7 @@
 namespace Magento\Review\Block\Adminhtml\Product;
 
 /**
- * Adminhtml product grid block
+ * adminhtml product grid block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

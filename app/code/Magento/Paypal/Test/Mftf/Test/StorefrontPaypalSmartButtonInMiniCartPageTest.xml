@@ -90,7 +90,7 @@
         <!--SubmitOrder-->
         <actionGroup ref="StorefrontPlaceOrderOnOrderReviewPageActionGroup" stepKey="clickPlaceOrderBtn"/>
 
-        <!-- I see order successful Page instead of Order Review Page -->
+        <!-- I see order successful Movie instead of Order Review Movie -->
         <actionGroup ref="AssertStorefrontCheckoutSuccessActionGroup" stepKey="assertCheckoutSuccess"/>
     </test>
 </tests>

@@ -6,7 +6,7 @@
 namespace Magento\Downloadable\Block\Adminhtml\Catalog\Product\Edit\Tab\Downloadable;
 
 /**
- * Adminhtml catalog product downloadable items tab links section
+ * adminhtml catalog product downloadable items tab links section
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  *

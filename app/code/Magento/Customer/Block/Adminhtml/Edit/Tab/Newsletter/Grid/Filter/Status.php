@@ -8,7 +8,7 @@ namespace Magento\Customer\Block\Adminhtml\Edit\Tab\Newsletter\Grid\Filter;
 use Magento\Newsletter\Model\Queue;
 
 /**
- * Adminhtml newsletter subscribers grid website filter
+ * adminhtml newsletter subscribers grid website filter
  */
 class Status extends \Magento\Backend\Block\Widget\Grid\Column\Filter\Select
 {

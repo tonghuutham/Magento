@@ -6,7 +6,7 @@
 namespace Magento\Backend\Block\Dashboard\Tab\Customers;
 
 /**
- * Adminhtml dashboard most active buyers
+ * adminhtml dashboard most active buyers
  *
  * @api
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

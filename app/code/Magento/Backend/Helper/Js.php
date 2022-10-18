@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml JavaScript helper
+ * adminhtml JavaScript helper
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

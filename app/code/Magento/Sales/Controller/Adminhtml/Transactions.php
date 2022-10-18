@@ -12,7 +12,7 @@ use Magento\Framework\View\Result\LayoutFactory;
 use Magento\Sales\Api\OrderPaymentRepositoryInterface;
 
 /**
- * Adminhtml sales transactions controller
+ * adminhtml sales transactions controller
  *
  * @author Magento Core Team <core@magentocommerce.com>
  */

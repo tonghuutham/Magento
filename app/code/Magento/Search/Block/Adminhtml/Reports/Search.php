@@ -6,7 +6,7 @@
 namespace Magento\Search\Block\Adminhtml\Reports;
 
 /**
- * Adminhtml search report page content block
+ * adminhtml search report page content block
  *
  * @api
  * @since 100.0.2

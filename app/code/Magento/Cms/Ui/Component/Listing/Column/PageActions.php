@@ -14,7 +14,7 @@ use Magento\Framework\View\Element\UiComponentFactory;
 use Magento\Ui\Component\Listing\Columns\Column;
 
 /**
- * Class prepare Page Actions
+ * Class prepare Movie Actions
  */
 class PageActions extends Column
 {

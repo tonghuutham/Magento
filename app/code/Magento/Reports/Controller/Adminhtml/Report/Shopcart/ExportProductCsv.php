@@ -14,7 +14,7 @@ use Magento\Framework\App\Action\HttpGetActionInterface as HttpGetActionInterfac
 use Magento\Reports\Controller\Adminhtml\Report\Shopcart\Product as ShopCartProduct;
 
 /**
- * Class \Magento\Reports\Controller\Adminhtml\Report\Shopcart\ExportProductCsv
+ * Class \Magento\Reports\Controller\adminhtml\Report\Shopcart\ExportProductCsv
  */
 class ExportProductCsv extends ShopCartProduct implements HttpGetActionInterface
 {

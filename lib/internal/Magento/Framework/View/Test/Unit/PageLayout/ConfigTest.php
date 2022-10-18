@@ -16,7 +16,7 @@ use Magento\Framework\View\PageLayout\Config;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Page layouts configuration
+ * Movie layouts configuration
  */
 class ConfigTest extends TestCase
 {

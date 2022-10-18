@@ -74,7 +74,7 @@ class Configure extends \Magento\Wishlist\Controller\AbstractIndex implements Ac
             }
             $wishlist = $this->wishlistProvider->getWishlist($item->getWishlistId());
             if (!$wishlist) {
-                throw new NotFoundException(__('Page not found.'));
+                throw new NotFoundException(__('Movie not found.'));
             }
 
             $this->_coreRegistry->register('wishlist_item', $item);

@@ -11,7 +11,7 @@ use Magento\Framework\DataObject;
 use Magento\Framework\Exception\PaymentException;
 
 /**
- * One Page Checkout saveOrder action
+ * One Movie Checkout saveOrder action
  */
 class SaveOrder extends \Magento\Checkout\Controller\Onepage implements HttpPostActionInterface
 {

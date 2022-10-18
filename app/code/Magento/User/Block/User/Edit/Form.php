@@ -6,7 +6,7 @@
 namespace Magento\User\Block\User\Edit;
 
 /**
- * Adminhtml permissions user edit form
+ * adminhtml permissions user edit form
  *
  * @SuppressWarnings(PHPMD.DepthOfInheritance)
  */

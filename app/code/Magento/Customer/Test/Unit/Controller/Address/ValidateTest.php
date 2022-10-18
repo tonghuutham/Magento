@@ -75,7 +75,7 @@ class ValidateTest extends TestCase
     }
 
     /**
-     * Test method \Magento\Customer\Controller\Adminhtml\Address\Save::execute
+     * Test method \Magento\Customer\Controller\adminhtml\Address\Save::execute
      *
      * @throws NoSuchEntityException
      */

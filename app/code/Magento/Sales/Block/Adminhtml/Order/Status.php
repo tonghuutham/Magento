@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Order;
 
 /**
- * Adminhtml sales order's status management block
+ * adminhtml sales order's status management block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

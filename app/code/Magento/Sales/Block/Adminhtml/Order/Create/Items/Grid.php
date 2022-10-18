@@ -15,7 +15,7 @@ use Magento\Quote\Model\Quote\Item;
 use Magento\Catalog\Helper\Data as CatalogHelper;
 
 /**
- * Adminhtml sales order create items grid block
+ * adminhtml sales order create items grid block
  * @api
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @since 100.0.2

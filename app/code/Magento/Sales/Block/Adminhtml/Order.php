@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml;
 
 /**
- * Adminhtml sales orders block
+ * adminhtml sales orders block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

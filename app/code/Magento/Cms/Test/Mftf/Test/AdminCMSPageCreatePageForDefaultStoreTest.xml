@@ -26,7 +26,7 @@
         <after>
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logout"/>
         </after>
-        <!--Go to New CMS Page page-->
+        <!--Go to New CMS Movie page-->
         <actionGroup ref="AdminOpenCreateNewCMSPageActionGroup" stepKey="navigateToCreateNewPage"/>
         <!--Fill the CMS page form-->
         <actionGroup ref="FillOutCMSPageContent" stepKey="fillBasicPageDataForPageWithDefaultStore"/>
@@ -39,7 +39,7 @@
         <actionGroup ref="NavigateToCreatedCMSPageActionGroup" stepKey="navigateToCMSPageWithDefaultStoreInAdmin">
             <argument name="CMSPage" value="_duplicatedCMSPage"/>
         </actionGroup>
-        <!--Verify Page Data in Admin-->
+        <!--Verify Movie Data in Admin-->
         <actionGroup ref="AssertCMSPageContentActionGroup" stepKey="verifyPageWithDefaultStoreDataInAdmin"/>
         <!--Verify Store ID-->
         <actionGroup ref="AssertCMSPageStoreIdActionGroup" stepKey="verifyStoreId">

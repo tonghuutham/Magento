@@ -9,7 +9,7 @@ namespace Magento\Catalog\Controller\Adminhtml\Product\Action;
 use Magento\Backend\App\Action;
 
 /**
- * Adminhtml catalog product action attribute update controller
+ * adminhtml catalog product action attribute update controller
  */
 abstract class Attribute extends Action
 {

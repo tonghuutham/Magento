@@ -147,7 +147,7 @@ class Viewfile extends \Magento\Customer\Controller\Adminhtml\Index
         if (mb_strpos($path, '..') !== false || (!$directory->isFile($fileName)
             && !$this->_objectManager->get(\Magento\MediaStorage\Helper\File\Storage::class)->processStorageFile($path))
         ) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         if ($plain) {
@@ -212,7 +212,7 @@ class Viewfile extends \Magento\Customer\Controller\Adminhtml\Index
             );
             $plain = true;
         } else {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         return [$file, $plain];

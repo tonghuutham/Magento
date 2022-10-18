@@ -49,7 +49,7 @@
             <argument name="sku" value="$createDynamicBundleProduct.sku$"/>
         </actionGroup>
         <actionGroup ref="ResetAdminDataGridToDefaultViewActionGroup" stepKey="clearFilters"/>
-        <!-- Verify product on Product Page -->
+        <!-- Verify product on Product Movie -->
         <actionGroup ref="StorefrontOpenProductPageActionGroup" stepKey="openBundleProductPage">
             <argument name="productUrl" value="$$createDynamicBundleProduct.custom_attributes[url_key]$$"/>
         </actionGroup>

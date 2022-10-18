@@ -1,6 +1,6 @@
 <?php
 /**
- * Adminhtml AdminNotification controller
+ * adminhtml AdminNotification controller
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

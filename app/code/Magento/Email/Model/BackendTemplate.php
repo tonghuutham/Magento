@@ -8,7 +8,7 @@ namespace Magento\Email\Model;
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
 /**
- * Adminhtml email template model
+ * adminhtml email template model
  *
  * @api
  *

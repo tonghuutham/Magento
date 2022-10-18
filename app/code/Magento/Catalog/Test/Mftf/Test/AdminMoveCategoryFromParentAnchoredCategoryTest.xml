@@ -78,7 +78,7 @@
             <argument name="value" value="{{defaultSimpleProduct.name}}"/>
         </actionGroup>
 
-        <!--Open Category Page-->
+        <!--Open Category Movie-->
         <actionGroup ref="AdminOpenCategoryPageActionGroup" stepKey="openAdminCategoryIndexPage1"/>
         <actionGroup ref="AdminExpandCategoryTreeActionGroup" stepKey="clickOnExpandTree2"/>
 

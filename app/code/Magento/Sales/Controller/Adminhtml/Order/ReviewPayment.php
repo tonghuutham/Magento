@@ -11,7 +11,7 @@ namespace Magento\Sales\Controller\Adminhtml\Order;
 use Magento\Framework\App\Action\HttpGetActionInterface as HttpGetActionInterface;
 
 /**
- * Class \Magento\Sales\Controller\Adminhtml\Order\ReviewPayment
+ * Class \Magento\Sales\Controller\adminhtml\Order\ReviewPayment
  */
 class ReviewPayment extends \Magento\Sales\Controller\Adminhtml\Order implements HttpGetActionInterface
 {

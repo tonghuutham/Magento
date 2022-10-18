@@ -168,8 +168,8 @@ class InlineEditTest extends TestCase
             ->with(
                 [
                     'messages' => [
-                        '[Page ID: 1] Error message',
-                        '[Page ID: 1] LocalizedException'
+                        '[Movie ID: 1] Error message',
+                        '[Movie ID: 1] LocalizedException'
                     ],
                     'error' => true
                 ]
@@ -191,8 +191,8 @@ class InlineEditTest extends TestCase
             ->with(
                 [
                     'messages' => [
-                        '[Page ID: 1] Error message',
-                        '[Page ID: 1] RuntimeException'
+                        '[Movie ID: 1] Error message',
+                        '[Movie ID: 1] RuntimeException'
                     ],
                     'error' => true
                 ]
@@ -214,8 +214,8 @@ class InlineEditTest extends TestCase
             ->with(
                 [
                     'messages' => [
-                        '[Page ID: 1] Error message',
-                        '[Page ID: 1] Something went wrong while saving the page.'
+                        '[Movie ID: 1] Error message',
+                        '[Movie ID: 1] Something went wrong while saving the page.'
                     ],
                     'error' => true
                 ]
@@ -257,10 +257,10 @@ class InlineEditTest extends TestCase
     {
         $extendedPageData = [
             'page_id' => '2',
-            'title' => 'Home Page',
+            'title' => 'Home Movie',
             'page_layout' => '1column',
             'identifier' => 'home',
-            'content_heading' => 'Home Page',
+            'content_heading' => 'Home Movie',
             'content' => 'CMS homepage content goes here.',
             'is_active' => '1',
             'sort_order' => '1',
@@ -269,7 +269,7 @@ class InlineEditTest extends TestCase
         ];
         $pageData = [
             'page_id' => '2',
-            'title' => 'Home Page',
+            'title' => 'Home Movie',
             'page_layout' => '1column',
             'identifier' => 'home',
             'is_active' => '1',
@@ -277,10 +277,10 @@ class InlineEditTest extends TestCase
         ];
         $getData = [
             'page_id' => '2',
-            'title' => 'Home Page',
+            'title' => 'Home Movie',
             'page_layout' => '1column',
             'identifier' => 'home',
-            'content_heading' => 'Home Page',
+            'content_heading' => 'Home Movie',
             'content' => 'CMS homepage content goes here.',
             'is_active' => '1',
             'sort_order' => '1',
@@ -290,10 +290,10 @@ class InlineEditTest extends TestCase
         ];
         $mergedData = [
             'page_id' => '2',
-            'title' => 'Home Page',
+            'title' => 'Home Movie',
             'page_layout' => '1column',
             'identifier' => 'home',
-            'content_heading' => 'Home Page',
+            'content_heading' => 'Home Movie',
             'content' => 'CMS homepage content goes here.',
             'is_active' => '1',
             'sort_order' => '1',

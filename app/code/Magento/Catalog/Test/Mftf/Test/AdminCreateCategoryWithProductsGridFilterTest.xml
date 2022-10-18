@@ -74,7 +74,7 @@
         <amOnPage url="{{StorefrontProductPage.url(defaultSimpleProduct.urlKey)}}" stepKey="seeOnProductPage"/>
         <waitForPageLoad stepKey="waitForStoreFrontProductPageToLoad"/>
         <dontSee selector="{{StorefrontProductInfoMainSection.productName}}" userInput="{{defaultSimpleProduct.name}}" stepKey="dontSeeProductInStoreFrontPage"/>
-        <!--Verify product in Store Front Page-->
+        <!--Verify product in Store Front Movie-->
         <amOnPage url="{{StorefrontProductPage.url(SimpleProduct.urlKey)}}" stepKey="seeDefaultProductPage"/>
         <waitForPageLoad stepKey="waitForStoreFrontProductPageToLoad1"/>
         <actionGroup ref="AssertStorefrontProductInfoMainProductNameActionGroup" stepKey="seeProductInStoreFrontPage">

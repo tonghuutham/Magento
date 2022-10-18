@@ -9,7 +9,7 @@ namespace Magento\Paypal\Model\System\Config\Source;
 class BmlPosition
 {
     /**
-     * Bml positions source getter for Home Page
+     * Bml positions source getter for Home Movie
      *
      * @return array
      */
@@ -22,7 +22,7 @@ class BmlPosition
     }
 
     /**
-     * Bml positions source getter for Catalog Category Page
+     * Bml positions source getter for Catalog Category Movie
      *
      * @return array
      */
@@ -35,7 +35,7 @@ class BmlPosition
     }
 
     /**
-     * Bml positions source getter for Catalog Product Page
+     * Bml positions source getter for Catalog Product Movie
      *
      * @return array
      */
@@ -48,7 +48,7 @@ class BmlPosition
     }
 
     /**
-     * Bml positions source getter for Checkout Cart Page
+     * Bml positions source getter for Checkout Cart Movie
      *
      * @return array
      */

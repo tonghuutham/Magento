@@ -8,7 +8,7 @@ namespace Magento\Sales\Block\Adminhtml\Order\Create;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
- * Adminhtml sales order create form block
+ * adminhtml sales order create form block
  *
  * @api
  * @since 100.0.2

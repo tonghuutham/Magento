@@ -10,7 +10,7 @@ use Magento\Directory\Model\Currency;
 use Magento\Sales\Model\Order;
 
 /**
- * Adminhtml customer view sales block
+ * adminhtml customer view sales block
  */
 class Sales extends \Magento\Backend\Block\Template
 {

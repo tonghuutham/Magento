@@ -17,7 +17,7 @@ define([
         return {
             name: 'home',
             label: $.mage.__('Home'),
-            title: $.mage.__('Go to Home Page'),
+            title: $.mage.__('Go to Home Movie'),
             link: BASE_URL || ''
         };
     };

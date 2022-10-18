@@ -172,7 +172,7 @@ class PageRepository implements PageRepositoryInterface
     }
 
     /**
-     * Save Page data
+     * Save Movie data
      *
      * @param PageInterface|Page $page
      * @return Page
@@ -208,7 +208,7 @@ class PageRepository implements PageRepositoryInterface
     }
 
     /**
-     * Load Page data by given Page Identity
+     * Load Movie data by given Movie Identity
      *
      * @param string $pageId
      * @return Page
@@ -227,7 +227,7 @@ class PageRepository implements PageRepositoryInterface
     }
 
     /**
-     * Load Page data collection by given search criteria
+     * Load Movie data collection by given search criteria
      *
      * @SuppressWarnings(PHPMD.CyclomaticComplexity)
      * @SuppressWarnings(PHPMD.NPathComplexity)
@@ -248,7 +248,7 @@ class PageRepository implements PageRepositoryInterface
     }
 
     /**
-     * Delete Page
+     * Delete Movie
      *
      * @param PageInterface $page
      * @return bool
@@ -268,7 +268,7 @@ class PageRepository implements PageRepositoryInterface
     }
 
     /**
-     * Delete Page by given Page Identity
+     * Delete Movie by given Movie Identity
      *
      * @param string $pageId
      * @return bool

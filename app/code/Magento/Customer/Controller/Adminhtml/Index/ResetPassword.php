@@ -12,7 +12,7 @@ use Magento\Framework\Exception\SecurityViolationException;
 /**
  * Reset password controller
  *
- * @package Magento\Customer\Controller\Adminhtml\Index
+ * @package Magento\Customer\Controller\adminhtml\Index
  */
 class ResetPassword extends \Magento\Customer\Controller\Adminhtml\Index implements HttpGetActionInterface
 {

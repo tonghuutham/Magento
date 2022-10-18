@@ -6,7 +6,7 @@
 namespace Magento\Paypal\Controller\Adminhtml\Billing;
 
 /**
- * Adminhtml billing agreement controller
+ * adminhtml billing agreement controller
  */
 abstract class Agreement extends \Magento\Backend\App\Action
 {

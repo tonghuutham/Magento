@@ -29,7 +29,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit test for \Magento\Backend\Controller\Adminhtml\System\Account controller.
+ * Unit test for \Magento\Backend\Controller\adminhtml\System\Account controller.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

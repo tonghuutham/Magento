@@ -20,7 +20,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Sales\Block\Adminhtml\Order\Totals\Tax
+ * Test for \Magento\Sales\Block\adminhtml\Order\Totals\Tax
  */
 class TaxTest extends TestCase
 {

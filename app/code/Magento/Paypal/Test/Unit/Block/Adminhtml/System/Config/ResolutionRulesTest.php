@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * Class ResolutionRulesTest
  *
- * Test for class \Magento\Paypal\Block\Adminhtml\System\Config\ResolutionRules
+ * Test for class \Magento\Paypal\Block\adminhtml\System\Config\ResolutionRules
  */
 class ResolutionRulesTest extends TestCase
 {

@@ -3,7 +3,7 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Cms\Api;
+namespace Magenest\Movie\Api;
 
 /**
  * Utility Cms Pages
@@ -11,10 +11,10 @@ namespace Magento\Cms\Api;
  * @api
  * @since 102.0.4
  */
-interface GetUtilityPageIdentifiersInterface
+interface GetUtilityMovieIdentifiersInterface
 {
     /**
-     * Get List Page Identifiers
+     * Get List Movie Identifiers
      * @return array
      * @since 102.0.4
      */

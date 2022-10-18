@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml account controller
+ * adminhtml account controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

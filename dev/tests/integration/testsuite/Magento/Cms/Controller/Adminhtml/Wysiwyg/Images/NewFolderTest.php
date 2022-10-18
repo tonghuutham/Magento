@@ -11,7 +11,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 use Magento\Framework\Filesystem\Driver\File;
 
 /**
- * Test for \Magento\Cms\Controller\Adminhtml\Wysiwyg\Images\NewFolder class.
+ * Test for \Magento\Cms\Controller\adminhtml\Wysiwyg\Images\NewFolder class.
  *
  * @magentoAppArea adminhtml
  */

@@ -84,7 +84,7 @@ define([
                     thumbnailPreviewTemplate,
                     {
                         src: this.getOrigSrc(row), alt: this.getAlt(row), link: this.getLink(row),
-                        linkText: $.mage.__('Go to Details Page')
+                        linkText: $.mage.__('Go to Details Movie')
                     }
                 ),
                 previewPopup = $('<div></div>').html(modalHtml);

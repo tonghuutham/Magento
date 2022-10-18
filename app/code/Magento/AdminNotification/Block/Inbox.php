@@ -1,6 +1,6 @@
 <?php
 /**
- * Adminhtml AdminNotification inbox grid
+ * adminhtml AdminNotification inbox grid
  *
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.

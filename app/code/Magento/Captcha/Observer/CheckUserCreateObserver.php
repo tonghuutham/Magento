@@ -78,7 +78,7 @@ class CheckUserCreateObserver implements ObserverInterface
     }
 
     /**
-     * Check Captcha On User Login Page
+     * Check Captcha On User Login Movie
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return $this

@@ -5,7 +5,7 @@
  */
 
 /**
- * Adminhtml customers group page content block
+ * adminhtml customers group page content block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

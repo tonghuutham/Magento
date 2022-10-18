@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Sales;
 
 /**
- * Adminhtml invoiced report page content block
+ * adminhtml invoiced report page content block
  *
  * @api
  * @author      Magento Core Team <core@magentocommerce.com>

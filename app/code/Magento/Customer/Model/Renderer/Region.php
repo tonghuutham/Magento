@@ -27,7 +27,7 @@ class Region implements \Magento\Framework\Data\Form\Element\Renderer\RendererIn
     protected static $_regionCollections;
 
     /**
-     * Adminhtml data
+     * adminhtml data
      *
      * @var \Magento\Framework\Escaper
      */

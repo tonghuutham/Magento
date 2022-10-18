@@ -33,7 +33,7 @@
             <!-- Reindex invalidated indices after product attribute has been created/deleted -->
             <magentoCron groups="index" stepKey="reindexInvalidatedIndices"/>
         </after>
-        <!-- Open Product Attribute Set Page -->
+        <!-- Open Product Attribute Set Movie -->
         <amOnPage url="{{AdminProductAttributeSetGridPage.url}}" stepKey="goToAttributeSets"/>
         <waitForPageLoad stepKey="waitForProductAttributeSetPageToLoad"/>
         <click selector="{{AdminProductAttributeSetGridSection.resetFilter}}" stepKey="clickOnResetFilter"/>
@@ -64,7 +64,7 @@
             <argument name="ProductAttributeCode" value="$$attribute.attribute_code$$"/>
         </actionGroup>
         <see selector="{{AdminProductAttributeGridSection.FirstRow}}" userInput="We couldn't find any records." stepKey="seeEmptyRow"/>
-        <!-- Verify Attribute is not present in Product Attribute Set Page  -->
+        <!-- Verify Attribute is not present in Product Attribute Set Movie  -->
         <amOnPage url="{{AdminProductAttributeSetGridPage.url}}" stepKey="goToAttributeSets1"/>
         <waitForPageLoad stepKey="waitForProductAttributeSetPageToLoad1"/>
         <click selector="{{AdminProductAttributeSetGridSection.resetFilter}}" stepKey="clickOnResetFilter1"/>

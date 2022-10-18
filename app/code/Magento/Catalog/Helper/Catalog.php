@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Helper;
 
 /**
- * Adminhtml Catalog helper
+ * adminhtml Catalog helper
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

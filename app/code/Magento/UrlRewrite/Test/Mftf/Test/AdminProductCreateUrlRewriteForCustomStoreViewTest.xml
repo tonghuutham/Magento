@@ -44,7 +44,7 @@
             <magentoCron groups="index" stepKey="reindex"/>
             <actionGroup ref="AdminLogoutActionGroup" stepKey="logoutFromAdmin"/>
         </after>
-        <!--Step 1. Navigate as Admin on Product Page for edit product`s Url Key-->
+        <!--Step 1. Navigate as Admin on Product Movie for edit product`s Url Key-->
         <actionGroup ref="NavigateToCreatedProductEditPageActionGroup" stepKey="goToProductForUrlRewrite">
             <argument name="product" value="$$createProductForUrlRewrite$$"/>
         </actionGroup>

@@ -183,7 +183,7 @@ class InlineEdit extends \Magento\Backend\App\Action implements HttpPostActionIn
      */
     protected function getErrorWithPageId(PageInterface $page, $errorText)
     {
-        return '[Page ID: ' . $page->getId() . '] ' . $errorText;
+        return '[Movie ID: ' . $page->getId() . '] ' . $errorText;
     }
 
     /**

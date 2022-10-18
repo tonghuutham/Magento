@@ -1,6 +1,40 @@
-<h2>New Products</h2>
-<ul>
+
+<h3> Table: Magenest  : </h3>
+<table border="1">
+    <tr>
+
+        <th><?= __("movie_id") ?></th>
+        <th><?= __("director_id") ?></th>
+        <th><?= __("description") ?></th>
+        <th><?= __("movie name") ?></th>
+        <th><?= __("name") ?></th>
+        <th><?= __("rating") ?></th>
+        <th><?= __("actor_name") ?></th>
+
+
+
+    </tr>
+
     <?php foreach ($block->getProducts() as $product): ?>
-        <li><?php echo $product->getName() ?></li>
+
+        <tr>
+
+            <td><?= $product->getMovieId() ?>
+            <td><?= $product->getDirectorId() ?>
+            <td><?= $product->getDescription() ?>
+            <td><?= $product->getMovieName() ?>
+            <td><?= $product->getName() ?>
+            <td><?= $product->getRating() ?>
+            <td><?= $block->getNameActor($product->getMovieId()) ?>
+
+
+        </tr>
+
     <?php endforeach; ?>
-</ul>
+
+</table>
+
+
+
+
+

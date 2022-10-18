@@ -68,7 +68,7 @@ class Index extends Action implements HttpGetActionInterface
     public function dispatch(RequestInterface $request)
     {
         if (!$this->config->isEnabled()) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Movie not found.'));
         }
 
         return parent::dispatch($request);

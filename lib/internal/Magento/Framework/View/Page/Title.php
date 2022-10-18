@@ -9,7 +9,7 @@ namespace Magento\Framework\View\Page;
 use Magento\Framework\App;
 
 /**
- * Page title
+ * Movie title
  *
  * @api
  * @since 100.0.2
