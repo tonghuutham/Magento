@@ -17,7 +17,7 @@ use Magento\Framework\Exception\CouldNotSaveException;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Reflection\DataObjectProcessor;
 use Magento\Store\Model\StoreManagerInterface;
-use Throwable;
+
 
 class MovieRepository implements MovieRepositoryInterface
 {

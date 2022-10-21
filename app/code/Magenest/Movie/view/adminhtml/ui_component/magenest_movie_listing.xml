@@ -142,6 +142,7 @@
                 <resizeDefaultWidth>55</resizeDefaultWidth>
             </settings>
         </selectionsColumn>
+
         <column name="movie_id">
             <settings>
                 <filter>textRange</filter>
@@ -149,6 +150,8 @@
                 <sorting>asc</sorting>
             </settings>
         </column>
+
+
         <column name="name">
             <settings>
                 <filter>text</filter>
@@ -161,6 +164,9 @@
                 <label translate="true">Name</label>
             </settings>
         </column>
+
+
+
 
         <column name="rating">
             <settings>

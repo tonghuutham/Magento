@@ -58,6 +58,9 @@
                        showInWebsite="1" showInStore="1">
 
                     <label>Reload Page</label>
+<!--                    <depends>-->
+<!--                        <field id="field_id1">Ping</field>-->
+<!--                    </depends>-->
                     <frontend_model>Magenest\Movie\Block\Adminhtml\ReloadPage</frontend_model>
 
 

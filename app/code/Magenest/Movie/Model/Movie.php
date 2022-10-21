@@ -15,6 +15,21 @@ class Movie extends AbstractModel implements MovieInterface
     const STATUS_APPROVED = 'approved';
     const STATUS_DECLINED = 'declined';
 
+
+
+    //$_eventPrefix
+
+    /**
+     * Model event prefix
+     *
+     * @var string
+     */
+    protected $_eventPrefix = 'movie';
+
+
+
+
+
     public function __construct(Context $context, Registry $registry, AbstractResource $resource = null, AbstractDb $resourceCollection = null, array $data = [])
     {
         parent::__construct($context, $registry, $resource, $resourceCollection, $data);
@@ -57,12 +72,16 @@ class Movie extends AbstractModel implements MovieInterface
         // TODO: Implement getDirectorId() method.
     }
 
+
+
+
     /**
      * @inheritDoc
      */
     public function setName($name)
     {
-        // TODO: Implement setName() method.
+        return $this->setData(self::NAME, $name);
+
     }
 
     /**
@@ -70,7 +89,8 @@ class Movie extends AbstractModel implements MovieInterface
      */
     public function setDescription($description)
     {
-        // TODO: Implement setDescription() method.
+        return $this->setData(self::DESCRIPTION, $description);
+
     }
 
     /**
@@ -78,7 +98,7 @@ class Movie extends AbstractModel implements MovieInterface
      */
     public function setRating($rating)
     {
-        // TODO: Implement setRating() method.
+        return $this->setData(self::RATING, $rating);
     }
 
     /**
@@ -86,6 +106,7 @@ class Movie extends AbstractModel implements MovieInterface
      */
     public function setDirectorId($director_id)
     {
-        // TODO: Implement setDirectorId() method.
+        return $this->setData(self::DIRECTOR_ID, $director_id);
+
     }
 }

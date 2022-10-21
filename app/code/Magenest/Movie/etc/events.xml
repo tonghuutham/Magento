@@ -1,0 +1,14 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+
+    <event name="customer_save_before">
+        <observer name="customer_save_before_observer" instance="Magenest\Movie\Observer\CustomerEvent"/>
+    </event>
+
+    <event name="admin_system_config_changed_section_section_id">
+        <observer name="custom_admin_system_config_changed_section_section_id" instance="Magenest\Movie\Observer\ConfigChange"/>
+    </event>
+
+
+</config>
