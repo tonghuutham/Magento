@@ -13,7 +13,7 @@ use Magento\Sales\Block\Guest\Link;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test class for \Magento\Sales\Block\Guest\Link
+ * Test class for \Magento\Sales\Block\Guest\Account
  */
 class LinkTest extends TestCase
 {

@@ -19,7 +19,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Downloadable\Model\Product\TypeHandler\Link
+ * Test for \Magento\Downloadable\Model\Product\TypeHandler\Account
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class LinkTest extends TestCase
@@ -110,7 +110,7 @@ class LinkTest extends TestCase
                             'link_id' => 0,
                             'product_id' => 1,
                             'sort_order' => '0',
-                            'title' => 'Downloadable Product Link',
+                            'title' => 'Downloadable Product Account',
                             'sample' => [
                                 'type' => Download::LINK_TYPE_FILE,
                                 'url' => null,
@@ -157,7 +157,7 @@ class LinkTest extends TestCase
                 'modelData' => [
                     'product_id' => 1,
                     'sort_order' => '0',
-                    'title' => 'Downloadable Product Link',
+                    'title' => 'Downloadable Product Account',
                     'type' => Download::LINK_TYPE_FILE,
                     'is_shareable' => \Magento\Downloadable\Model\Link::LINK_SHAREABLE_CONFIG,
                     'link_url' => null,

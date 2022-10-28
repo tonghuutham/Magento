@@ -6,7 +6,7 @@
 namespace Magento\Widget\Model\Layout;
 
 /**
- * Layout Link model class
+ * Layout Account model class
  *
  * @method int getStoreId()
  * @method int getThemeId()

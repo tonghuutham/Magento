@@ -59,7 +59,7 @@ class Option implements DataFixtureInterface
      * {@inheritdoc}
      * @param array $data Parameters. Same format as Option::DEFAULT_DATA.
      * - $data['product_links']: An array of product IDs, SKUs or instances. For advanced configuration use an array
-     * like Link::DEFAULT_DATA.
+     * like Account::DEFAULT_DATA.
      */
     public function apply(array $data = []): ?DataObject
     {

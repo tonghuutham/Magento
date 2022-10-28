@@ -191,7 +191,7 @@
         <!-- Go to FR website home page -->
         <amOnPage url="$grabStoreViewCode" stepKey="navigateToHomePageOfFRStore"/>
         <waitForPageLoad stepKey="waitForHomePageLoad"/>
-        <!-- Sign In FR Members Group customer using Sign In header Link -->
+        <!-- Sign In FR Members Group customer using Sign In header Account -->
         <actionGroup ref="StorefrontLoginAsCustomerUsingHeaderSignInLinkActionGroup" stepKey="FrCustomerMembersGroupLogin">
             <argument name="Customer" value="$$customerAssignedToFrenchWebsiteMembersGroup$$"/>
         </actionGroup>
@@ -212,7 +212,7 @@
         <!-- Go to FR website home page -->
         <amOnPage url="$grabStoreViewCode" stepKey="navigateToHomePageOfFRStore2"/>
         <waitForPageLoad stepKey="waitForHomePageLoad2"/>
-        <!-- Sign In FR Family Group Customer using Sign In header Link -->
+        <!-- Sign In FR Family Group Customer using Sign In header Account -->
         <actionGroup ref="StorefrontLoginAsCustomerUsingHeaderSignInLinkActionGroup" stepKey="FrCustomerFamilyGroupLogin">
             <argument name="Customer" value="$$customerAssignedToFrenchWebsiteFamilyGroup$$"/>
         </actionGroup>
@@ -233,7 +233,7 @@
         <!-- Go to Main Website home page with Family Group customer -->
         <actionGroup ref="StorefrontOpenHomePageActionGroup" stepKey="goToHomePage1"/>
         <waitForPageLoad stepKey="waitForHomePageLoad3"/>
-        <!-- Sign In Main Website Family Group Customer using Sign In header Link -->
+        <!-- Sign In Main Website Family Group Customer using Sign In header Account -->
         <actionGroup ref="StorefrontLoginAsCustomerUsingHeaderSignInLinkActionGroup" stepKey="MainWebsiteCustomerFamilyGroupLogin">
             <argument name="Customer" value="$$customerAssignedToMainWebsiteFamilyGroup$$"/>
         </actionGroup>
@@ -252,7 +252,7 @@
         <!-- Go to Main Website home page with Members Group customer -->
         <actionGroup ref="StorefrontOpenHomePageActionGroup" stepKey="goToHomePage2"/>
         <waitForPageLoad stepKey="waitForHomePageLoad4"/>
-        <!-- Sign In Main Website Members Group Customer using Sign In header Link -->
+        <!-- Sign In Main Website Members Group Customer using Sign In header Account -->
         <actionGroup ref="StorefrontLoginAsCustomerUsingHeaderSignInLinkActionGroup" stepKey="MainWebsiteCustomerMembersGroupLogin">
             <argument name="Customer" value="$$customerAssignedToMainWebsiteMembersGroup$$"/>
         </actionGroup>

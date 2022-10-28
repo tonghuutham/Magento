@@ -6,7 +6,7 @@
 declare(strict_types=1);
 
 /**
- * Tests for \Magento\Framework\Data\Form\Element\Link
+ * Tests for \Magento\Framework\Data\Form\Element\Account
  */
 namespace Magento\Framework\Data\Test\Unit\Form\Element;
 
@@ -74,11 +74,11 @@ class LinkTest extends TestCase
         $this->_link->setAfterElementHtml('link_after');
         $this->_link->setId('link_id');
         $this->_link->setData('ui_id', 'ui_id');
-        $this->_link->setValue('Link Text');
+        $this->_link->setValue('Account Text');
         $html = $this->_link->getElementHtml();
         $this->assertEquals(
             "link_before<a id=\"link_id\" formelementhookid=\"elemId" .self::RANDOM_STRING
-            ."\" data-ui-id=\"form-element-\">Link Text</a>\nlink_after",
+            ."\" data-ui-id=\"form-element-\">Account Text</a>\nlink_after",
             $html
         );
     }

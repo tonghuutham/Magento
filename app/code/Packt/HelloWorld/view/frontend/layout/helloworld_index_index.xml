@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+      layout="2columns-left" xsi:noNamespaceSchemaLocation=
+          "urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
         <title>Helloworld Landingspage</title>
     </head>
-    <referenceContainer name="content">
-        <block class="Packt\HelloWorld\Block\Landingspage"
-               name="landingsblock" template="Packt_HelloWorld::landingspage.phtml" />
-        <block class="Packt\HelloWorld\Block\Newproducts"
-               name="new_products" template="Packt_HelloWorld::newproducts.phtml"/>
-    </referenceContainer>
-
+    <body>
+        <remove name="wishlist_sidebar" />
+        <referenceContainer name="content">
+            <block class="Packt\HelloWorld\Block\Landingspage"
+                   name="landingsblock" template="Packt_HelloWorld::landingspage.phtml" />
+        </referenceContainer>
+    </body>
 </page>

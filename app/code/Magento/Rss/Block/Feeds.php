@@ -38,7 +38,7 @@ class Feeds extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Add Link elements to head
+     * Add Account elements to head
      *
      * @return $this
      */

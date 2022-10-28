@@ -9,8 +9,8 @@ use Magento\Cms\Model\Config\Source\Page;
  */
 return [
     '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-    'name' => 'CMS Link 2',
-    'description' => 'Second Link Example',
+    'name' => 'CMS Account 2',
+    'description' => 'Second Account Example',
     'parameters' => [
         'types' => [
             'type' => 'multiselect',

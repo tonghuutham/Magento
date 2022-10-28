@@ -22,14 +22,14 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     protected $_product;
 
     /**
-     * Product Link model class
+     * Product Account model class
      *
      * @var \Magento\Catalog\Model\Product\Link
      */
     protected $_linkModel;
 
     /**
-     * Product Link Type identifier
+     * Product Account Type identifier
      *
      * @var \Magento\Catalog\Model\Product\Type
      */

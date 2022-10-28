@@ -51,7 +51,7 @@ class FilterEmulateTest extends TestCase
     {
         $result = 'some text';
         $construction = [
-            '{{widget type="Widget\\Link" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
+            '{{widget type="Widget\\Account" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
             'widget',
             ' type="" anchor_text="Test" template="block.phtml" id_path="p/1"'
         ];

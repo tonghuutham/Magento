@@ -5,7 +5,7 @@
  */
 
 /**
- * Renderer for Payflow Link information
+ * Renderer for Payflow Account information
  */
 namespace Magento\Paypal\Block\Adminhtml\System\Config\Payflowlink;
 

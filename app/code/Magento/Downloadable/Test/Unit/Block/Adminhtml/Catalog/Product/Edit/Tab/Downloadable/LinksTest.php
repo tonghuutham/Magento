@@ -167,7 +167,7 @@ class LinksTest extends TestCase
         $this->downloadableLinkModel->expects($this->any())->method('getId')
             ->willReturn(1);
         $this->downloadableLinkModel->expects($this->any())->method('getTitle')
-            ->willReturn('Link Title');
+            ->willReturn('Account Title');
         $this->downloadableLinkModel->expects($this->any())->method('getPrice')
             ->willReturn('10');
         $this->downloadableLinkModel->expects($this->any())->method('getNumberOfDownloads')
@@ -187,7 +187,7 @@ class LinksTest extends TestCase
         $this->downloadableLinkModel->expects($this->any())->method('getStoreTitle')
             ->willReturn('Store Title');
         $this->escaper->expects($this->any())->method('escapeHtml')
-            ->willReturn('Link Title');
+            ->willReturn('Account Title');
         $this->fileHelper->expects($this->any())->method('getFilePath')
             ->willReturn('/file/path/link.gif');
         $this->fileHelper->expects($this->any())->method('ensureFileInFilesystem')

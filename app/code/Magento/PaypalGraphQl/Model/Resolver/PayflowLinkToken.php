@@ -134,7 +134,7 @@ class PayflowLinkToken implements ResolverInterface
     }
 
     /**
-     * Get Payflow Link url
+     * Get Payflow Account url
      *
      * @param Payment $payment
      * @return string

@@ -440,7 +440,7 @@ class DataProvider
      * Return all product children ids
      *
      * @param int $productId Product Entity Id
-     * @param string $typeId Super Product Link Type
+     * @param string $typeId Super Product Account Type
      * @return array|null
      * @since 100.0.3
      */

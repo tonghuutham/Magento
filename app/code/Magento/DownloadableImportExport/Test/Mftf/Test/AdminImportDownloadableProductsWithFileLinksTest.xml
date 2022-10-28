@@ -182,7 +182,7 @@
         <seeElement selector="{{StorefrontProductInfoMainSection.productImageSrc(ImportProduct_Downloadable_FileLinks.smallImageName)}}" stepKey="seeSmallImage"/>
         <seeElement selector="{{StorefrontProductInfoMainSection.productImageSrc(ImportProduct_Downloadable_FileLinks.thumbnailImageName)}}" stepKey="seeThumbnailImage"/>
 
-        <!-- Storefront: Verify Downloadable Product Link Data -->
+        <!-- Storefront: Verify Downloadable Product Account Data -->
         <seeElement selector="{{StorefrontDownloadableProductSection.downloadableSampleLabel(ImportProduct_Downloadable_FileLinks.sampleTitle)}}" stepKey="seeDownloadableSampleLink"/>
         <click selector="{{StorefrontDownloadableProductSection.downloadableSampleLabel(ImportProduct_Downloadable_FileLinks.sampleTitle)}}" stepKey="clickDownloadableSampleLink"/>
         <switchToNextTab stepKey="switchToDownloadedLinkTab"/>
@@ -213,7 +213,7 @@
         <actionGroup ref="StartCreateInvoiceFromOrderPageActionGroup" stepKey="startInvoice"/>
         <actionGroup ref="SubmitInvoiceActionGroup" stepKey="submitInvoice"/>
 
-        <!-- Storefront: Go to Purchased Downloadable Product & Verify Link -->
+        <!-- Storefront: Go to Purchased Downloadable Product & Verify Account -->
         <actionGroup ref="StorefrontNavigateToCustomerDownloadableProductsPageActionGroup" stepKey="goToCustomerDownloadableProductsPage"/>
         <waitForText userInput="{{ImportProduct_Downloadable_FileLinks.linkTitle}}" selector="{{StorefrontCustomerDownloadableProductsSection.downloadableLinkByOrderNumber({$grabOrderNumber})}}" stepKey="seeDownloadableLink2"/>
         <click selector="{{StorefrontCustomerDownloadableProductsSection.downloadableLinkByOrderNumber({$grabOrderNumber})}}" stepKey="clickDownloadableLink"/>

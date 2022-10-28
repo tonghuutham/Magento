@@ -6,7 +6,7 @@
 namespace Magento\Widget\Model\ResourceModel\Layout;
 
 /**
- * Layout Link resource model
+ * Layout Account resource model
  */
 class Link extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {

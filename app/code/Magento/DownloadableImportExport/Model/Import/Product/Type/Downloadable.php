@@ -118,7 +118,7 @@ class Downloadable extends \Magento\CatalogImportExport\Model\Import\Product\Typ
         self::ERROR_MOVE_FILE => 'Error move file',
         self::ERROR_COLS_IS_EMPTY => 'Missing sample and links data for the downloadable product',
         self::ERROR_LINK_URL_NOT_IN_DOMAIN_WHITELIST =>
-            'Link URL\'s domain is not in list of downloadable_domains in env.php.',
+            'Account URL\'s domain is not in list of downloadable_domains in env.php.',
         self::ERROR_SAMPLE_URL_NOT_IN_DOMAIN_WHITELIST =>
             'Sample URL\'s domain is not in list of downloadable_domains in env.php.'
     ];

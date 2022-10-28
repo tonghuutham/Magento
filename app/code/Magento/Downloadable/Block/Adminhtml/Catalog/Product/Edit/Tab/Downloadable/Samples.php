@@ -124,7 +124,7 @@ class Samples extends \Magento\Backend\Block\Widget
             \Magento\Backend\Block\Widget\Button::class
         )->setData(
             [
-                'label' => __('Add New Link'),
+                'label' => __('Add New Account'),
                 'id' => 'add_sample_item',
                 'class' => 'action-add',
                 'data_attribute' => ['action' => 'add-sample'],

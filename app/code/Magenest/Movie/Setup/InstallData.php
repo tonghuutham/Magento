@@ -55,7 +55,7 @@ class InstallData implements InstallDataInterface
             'type' => 'varchar',
             'label' => 'Avatar',
             'input' => 'image',
-            'backend' => 'Magenest\Movie\Model\Attribute\Backend\Avatar',
+            'backend' => 'Magento\Customer\Model\Attribute\Backend\Avatar',
             'required' => false,
             'visible' => true,
             'user_defined' => true,

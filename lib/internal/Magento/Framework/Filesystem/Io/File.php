@@ -819,7 +819,7 @@ class File extends AbstractIo
         } elseif ($mode & 0x8000) {
             $type = '-'; /* Regular */
         } elseif ($mode & 0xA000) {
-            $type = 'l'; /* Symbolic Link */
+            $type = 'l'; /* Symbolic Account */
         } elseif ($mode & 0xC000) {
             $type = 's'; /* Socket */
         } else {

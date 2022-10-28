@@ -15,7 +15,7 @@ use Magento\Framework\Url\Validator as UrlValidator;
 use Magento\Downloadable\Model\Url\DomainValidator;
 
 /**
- * Class to validate Link Content.
+ * Class to validate Account Content.
  */
 class ContentValidator
 {
@@ -69,7 +69,7 @@ class ContentValidator
     public function isValid(LinkInterface $link, $validateLinkContent = true, $validateSampleContent = true)
     {
         if (!is_numeric($link->getPrice()) || $link->getPrice() < 0) {
-            throw new InputException(__('Link price must have numeric positive value.'));
+            throw new InputException(__('Account price must have numeric positive value.'));
         }
         if (filter_var($link->getNumberOfDownloads(), FILTER_VALIDATE_INT) === false
             || $link->getNumberOfDownloads() < 0) {
@@ -101,18 +101,18 @@ class ContentValidator
     {
         if ($link->getLinkType() === 'url') {
             if (!$this->urlValidator->isValid($link->getLinkUrl())) {
-                throw new InputException(__('Link URL must have valid format.'));
+                throw new InputException(__('Account URL must have valid format.'));
             }
 
             if (!$this->domainValidator->isValid($link->getLinkUrl())) {
-                throw new InputException(__('Link URL\'s domain is not in list of downloadable_domains in env.php.'));
+                throw new InputException(__('Account URL\'s domain is not in list of downloadable_domains in env.php.'));
             }
         } elseif ($link->getLinkFileContent()) {
             if (!$this->fileContentValidator->isValid($link->getLinkFileContent())) {
                 throw new InputException(__('Provided file content must be valid base64 encoded data.'));
             }
         } elseif (!$this->isFileValid($link->getBasePath() . $link->getLinkFile())) {
-            throw new InputException(__('Link file not found. Please try again.'));
+            throw new InputException(__('Account file not found. Please try again.'));
         }
     }
 
@@ -138,7 +138,7 @@ class ContentValidator
                 throw new InputException(__('Provided file content must be valid base64 encoded data.'));
             }
         } elseif (!$this->isFileValid($link->getBaseSamplePath() . $link->getSampleFile())) {
-            throw new InputException(__('Link sample file not found. Please try again.'));
+            throw new InputException(__('Account sample file not found. Please try again.'));
         }
     }
 

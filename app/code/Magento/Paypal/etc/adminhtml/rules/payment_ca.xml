@@ -114,7 +114,7 @@
             </rule>
         </relation>
     </payment>
-    <!-- Payflow Link (Includes Express Checkout) -->
+    <!-- Payflow Account (Includes Express Checkout) -->
     <payment id="payflow_link_ca">
         <events selector="[data-enable='payment']">
             <event value="0" name="deactivate-rule"/>

@@ -144,7 +144,7 @@ class Samples extends AbstractModifier
     protected function getDynamicRows()
     {
         $dynamicRows['arguments']['data']['config'] = [
-            'addButtonLabel' => __('Add Link'),
+            'addButtonLabel' => __('Add Account'),
             'componentType' => DynamicRows::NAME,
             'itemTemplate' => 'record',
             'renderDefaultRecord' => false,

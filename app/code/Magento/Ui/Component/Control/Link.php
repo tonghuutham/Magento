@@ -9,7 +9,7 @@ use Magento\Ui\Component\AbstractComponent;
 use Magento\Framework\View\Element\UiComponent\Control\ControlInterface;
 
 /**
- * Class Link
+ * Class Account
  */
 class Link extends AbstractComponent implements ControlInterface
 {

@@ -10,7 +10,7 @@ use Magento\Catalog\Model\Product;
 use Magento\Downloadable\Model\ComponentInterface;
 
 /**
- * Class Link
+ * Class Account
  * @api
  * @since 100.0.2
  */

@@ -119,8 +119,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Movie Link',
-            'description' => 'Link to a CMS Movie',
+            'name' => 'CMS Movie Account',
+            'description' => 'Account to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [
@@ -181,11 +181,11 @@ class InstanceTest extends TestCase
         $expectedTemplates = [
             'default' => [
                 'value' => 'product/widget/link/link_block.phtml',
-                'label' => 'Product Link Block Template',
+                'label' => 'Product Account Block Template',
             ],
             'link_inline' => [
                 'value' => 'product/widget/link/link_inline.phtml',
-                'label' => 'Product Link Inline Template',
+                'label' => 'Product Account Inline Template',
             ],
         ];
         $this->assertEquals($expectedTemplates, $this->_model->getWidgetTemplates());
@@ -195,8 +195,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Movie Link',
-            'description' => 'Link to a CMS Movie',
+            'name' => 'CMS Movie Account',
+            'description' => 'Account to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [
@@ -229,8 +229,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Movie Link',
-            'description' => 'Link to a CMS Movie',
+            'name' => 'CMS Movie Account',
+            'description' => 'Account to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [],
@@ -267,8 +267,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Movie Link',
-            'description' => 'Link to a CMS Movie',
+            'name' => 'CMS Movie Account',
+            'description' => 'Account to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
         ];
@@ -297,8 +297,8 @@ class InstanceTest extends TestCase
         );
         $this->_viewFileSystemMock->expects($this->once())->method('getFilename')->willReturn('');
         $expectedTemplates = [
-            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Product Link Block Template'],
-            ['value' => 'product/widget/link/link_inline.phtml', 'label' => 'Product Link Inline Template'],
+            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Product Account Block Template'],
+            ['value' => 'product/widget/link/link_inline.phtml', 'label' => 'Product Account Inline Template'],
         ];
         $this->assertEquals($expectedTemplates, $this->_model->getWidgetSupportedTemplatesByContainer('left'));
     }
@@ -316,7 +316,7 @@ class InstanceTest extends TestCase
         );
         $this->_viewFileSystemMock->expects($this->once())->method('getFilename')->willReturn('');
         $expectedTemplates = [
-            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Product Link Block Template'],
+            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Product Account Block Template'],
         ];
         $this->assertEquals($expectedTemplates, $this->_model->getWidgetSupportedTemplatesByContainer('content'));
     }
@@ -325,8 +325,8 @@ class InstanceTest extends TestCase
     {
         $widget = [
             '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-            'name' => 'CMS Movie Link',
-            'description' => 'Link to a CMS Movie',
+            'name' => 'CMS Movie Account',
+            'description' => 'Account to a CMS Movie',
             'is_email_compatible' => 'true',
             'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
             'parameters' => [

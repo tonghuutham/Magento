@@ -21,7 +21,7 @@ use Magento\Catalog\Model\ResourceModel\Product\Link\Product\CollectionFactory a
 class LinkedMapProvider implements MapProviderInterface
 {
     /**
-     * Link types supported.
+     * Account types supported.
      */
     private const TYPES = ['crosssell', 'related', 'upsell'];
 
@@ -158,7 +158,7 @@ class LinkedMapProvider implements MapProviderInterface
      *
      * @param Product[] $forProducts
      * @param Product[][] $map
-     * @param int[] $linkTypesRequested Link types that were queried.
+     * @param int[] $linkTypesRequested Account types that were queried.
      * @return void
      */
     private function cacheLinked(array $forProducts, array $map, array $linkTypesRequested): void

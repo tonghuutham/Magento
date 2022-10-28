@@ -108,7 +108,7 @@ class Builder
         );
         if ($link->getLinkType() === \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE) {
             if (!isset($this->data['file'])) {
-                throw new \Magento\Framework\Exception\LocalizedException(__('Link file not provided'));
+                throw new \Magento\Framework\Exception\LocalizedException(__('Account file not provided'));
             }
             $linkFileName = $this->downloadableFile->moveFileFromTmp(
                 $this->getComponent()->getBaseTmpPath(),

@@ -272,7 +272,7 @@ class LinkRepository implements \Magento\Downloadable\Api\LinkRepositoryInterfac
     }
 
     /**
-     * Update existing Link.
+     * Update existing Account.
      *
      * @param \Magento\Catalog\Api\Data\ProductInterface $product
      * @param LinkInterface $link
@@ -347,7 +347,7 @@ class LinkRepository implements \Magento\Downloadable\Api\LinkRepositoryInterfac
     }
 
     /**
-     * Check that Link type exist.
+     * Check that Account type exist.
      *
      * @param LinkInterface $link
      * @return void
@@ -361,7 +361,7 @@ class LinkRepository implements \Magento\Downloadable\Api\LinkRepositoryInterfac
     }
 
     /**
-     * Check that Link sample type exist.
+     * Check that Account sample type exist.
      *
      * @param LinkInterface $link
      * @return void

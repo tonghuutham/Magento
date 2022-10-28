@@ -13,7 +13,7 @@ use Magento\QuoteGraphQl\Model\Cart\Payment\AdditionalDataProviderInterface;
 use Magento\PaypalGraphQl\Model\Resolver\Store\Url;
 
 /**
- * Get payment additional data for Paypal Payflow Link payment method
+ * Get payment additional data for Paypal Payflow Account payment method
  */
 class PayflowLinkAdditionalDataProvider implements AdditionalDataProviderInterface
 {

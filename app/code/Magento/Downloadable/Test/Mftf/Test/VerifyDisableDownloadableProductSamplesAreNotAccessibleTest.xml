@@ -72,13 +72,13 @@
         <grabFromCurrentUrl regex="~/sample_id/(\d+)/~" stepKey="grabDownloadableSampleId"/>
         <closeTab stepKey="closeSampleTab"/>
 
-        <!-- Link Sample url is accessible -->
+        <!-- Account Sample url is accessible -->
         <actionGroup ref="AssertStorefrontSeeElementActionGroup" stepKey="seeDownloadableLink">
             <argument name="selector" value="{{StorefrontDownloadableProductSection.downloadableLinkLabel(downloadableLink1.title)}}"/>
         </actionGroup>
         <click selector="{{StorefrontDownloadableProductSection.downloadableLinkSampleByTitle(downloadableLink1.title)}}" stepKey="clickDownloadableLinkSample"/>
 
-        <!-- Grab Link Sample id -->
+        <!-- Grab Account Sample id -->
         <switchToNextTab stepKey="switchToLinkSampleTab"/>
         <grabFromCurrentUrl regex="~/link_id/(\d+)/~" stepKey="grabDownloadableLinkId"/>
         <closeTab stepKey="closeLinkSampleTab"/>
@@ -101,12 +101,12 @@
         </actionGroup>
         <see selector="{{StorefrontCategoryMainSection.emptyProductMessage}}" userInput="We can't find products matching the selection." stepKey="seeEmptyProductMessage"/>
 
-        <!-- Navigate to Link Sample url on Storefront -->
+        <!-- Navigate to Account Sample url on Storefront -->
         <actionGroup ref="StorefrontOpenDownloadableLinkActionGroup" stepKey="openDownloadableLinkSample">
             <argument name="linkId" value="{$grabDownloadableLinkId}"/>
         </actionGroup>
 
-        <!-- Link Sample url is not accessible. You are redirected to Home Movie -->
+        <!-- Account Sample url is not accessible. You are redirected to Home Movie -->
         <seeInCurrentUrl url="{{StorefrontHomePage.url}}" stepKey="seeRedirectToHomePage"/>
 
         <!-- Navigate to Sample url on Storefront -->

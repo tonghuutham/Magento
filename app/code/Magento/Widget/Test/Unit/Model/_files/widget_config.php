@@ -23,11 +23,11 @@ return [
                 'values' => [
                     'default' => [
                         'value' => 'hierarchy/widget/link/link_block.phtml',
-                        'label' => 'CMS Movie Link Block Template',
+                        'label' => 'CMS Movie Account Block Template',
                     ],
                     'link_inline' => [
                         'value' => 'hierarchy/widget/link/link_inline.phtml',
-                        'label' => 'CMS Movie Link Inline Template',
+                        'label' => 'CMS Movie Account Inline Template',
                     ],
                 ],
                 'visible' => '0',
@@ -37,7 +37,7 @@ return [
                 'type' => 'select',
                 'visible' => '1',
                 'sort_order' => '10',
-                'label' => 'Display a Link to Loading a Spreadsheet',
+                'label' => 'Display a Account to Loading a Spreadsheet',
                 'description' => "Defines whether a link to My Account",
             ],
             'link_text' => [
@@ -46,7 +46,7 @@ return [
                 'visible' => '1',
                 'required' => '1',
                 'sort_order' => '20',
-                'label' => 'Link Text',
+                'label' => 'Account Text',
                 'description' => 'The text of the link to the My Account &gt; Order by SKU page',
                 'depends' => ['link_display' => ['value' => '1']],
             ],

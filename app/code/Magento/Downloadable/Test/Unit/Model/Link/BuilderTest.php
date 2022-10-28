@@ -189,7 +189,7 @@ class BuilderTest extends TestCase
     public function testBuildFileNotProvided()
     {
         $this->expectException('Magento\Framework\Exception\LocalizedException');
-        $this->expectExceptionMessage('Link file not provided');
+        $this->expectExceptionMessage('Account file not provided');
         $data = [
             'type' => 'file',
             'sample' => [

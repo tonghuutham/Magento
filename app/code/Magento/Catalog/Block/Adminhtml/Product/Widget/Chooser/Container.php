@@ -5,7 +5,7 @@
  */
 
 /**
- * Chooser Container for "Product Link" Cms Widget Plugin
+ * Chooser Container for "Product Account" Cms Widget Plugin
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

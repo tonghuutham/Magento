@@ -46,7 +46,7 @@ interface LinkInterface extends \Magento\Framework\Api\ExtensibleDataInterface
     public function setSortOrder($sortOrder);
 
     /**
-     * Link shareable status
+     * Account shareable status
      * 0 -- No
      * 1 -- Yes
      * 2 -- Use config default value
@@ -62,7 +62,7 @@ interface LinkInterface extends \Magento\Framework\Api\ExtensibleDataInterface
     public function setIsShareable($isShareable);
 
     /**
-     * Link price
+     * Account price
      *
      * @return float
      */

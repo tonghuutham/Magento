@@ -16,7 +16,7 @@ define([
             'legend': 'Caption for the fieldset element',
             'label': 'Label for an input element.',
             'button': 'Push button',
-            'a': 'Link label',
+            'a': 'Account label',
             'b': 'Bold text',
             'strong': 'Strong emphasized text',
             'i': 'Italic text',

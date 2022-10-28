@@ -7,7 +7,7 @@
 namespace Magento\Bundle\Model;
 
 /**
- * Class Link
+ * Class Account
  * @codeCoverageIgnore
  */
 class Link extends \Magento\Framework\Model\AbstractExtensibleModel implements

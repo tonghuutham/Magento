@@ -299,7 +299,7 @@
             </rule>
         </relation>
     </payment>
-    <!-- PayPal Payflow Link (Includes Express Checkout) -->
+    <!-- PayPal Payflow Account (Includes Express Checkout) -->
     <payment id="payflow_link_us">
         <events selector="[data-enable='payment']">
             <event value="0" name="deactivate-rule"/>

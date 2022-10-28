@@ -50,7 +50,7 @@ class Link implements DataFixtureInterface
 
     /**
      * {@inheritdoc}
-     * @param array $data Parameters. Same format as Link::DEFAULT_DATA.
+     * @param array $data Parameters. Same format as Account::DEFAULT_DATA.
      */
     public function apply(array $data = []): ?DataObject
     {

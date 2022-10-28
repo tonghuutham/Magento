@@ -16,7 +16,7 @@ use \Magento\ImportExport\Model\History;
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
     /**
-     * Link table name
+     * Account table name
      *
      * @var string
      */

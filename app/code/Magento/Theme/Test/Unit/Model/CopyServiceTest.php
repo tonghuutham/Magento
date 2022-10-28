@@ -200,7 +200,7 @@ class CopyServiceTest extends TestCase
             $this->updateCollection
         );
 
-        /* Init Link an Link_Collection model */
+        /* Init Account an Link_Collection model */
         $this->link = $this->createPartialMock(Link::class, ['__wakeup', 'getCollection']);
         $this->linkCollection = $this->createPartialMock(
             \Magento\Widget\Model\ResourceModel\Layout\Link\Collection::class,

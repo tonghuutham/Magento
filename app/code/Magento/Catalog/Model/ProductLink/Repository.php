@@ -242,7 +242,7 @@ class Repository implements \Magento\Catalog\Api\ProductLinkRepositoryInterface
     }
 
     /**
-     * Get Link resource instance.
+     * Get Account resource instance.
      *
      * @return \Magento\Catalog\Model\ResourceModel\Product\Link
      */

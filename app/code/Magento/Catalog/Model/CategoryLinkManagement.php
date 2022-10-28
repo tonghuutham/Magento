@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Magento\Catalog\Model;
 
 /**
- * Represents Category Product Link Management class
+ * Represents Category Product Account Management class
  */
 class CategoryLinkManagement implements \Magento\Catalog\Api\CategoryLinkManagementInterface
 {

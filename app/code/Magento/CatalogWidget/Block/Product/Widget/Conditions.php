@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Chooser for "Product Link" Cms Widget Plugin
+ * Product Chooser for "Product Account" Cms Widget Plugin
  */
 namespace Magento\CatalogWidget\Block\Product\Widget;
 

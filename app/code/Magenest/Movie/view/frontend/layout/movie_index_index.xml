@@ -7,6 +7,9 @@
     </head>
     <referenceContainer name="content">
 
+        <block class="Magenest\Movie\Block\Landingspage"
+               name="new_products" template="Magenest_Movie::landingspage.phtml"/>
+
 
         <block class="Magenest\Movie\Block\Newproducts"
                name="new_products" template="Magenest_Movie::newproducts.phtml"/>

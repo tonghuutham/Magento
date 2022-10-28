@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Category\Rss;
 
 /**
- * Class Link
+ * Class Account
  * @api
  * @package Magento\Catalog\Block\Category\Rss
  * @since 100.0.2

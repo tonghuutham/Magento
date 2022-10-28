@@ -1,0 +1,117 @@
+.btn {
+    color: red;
+}
+
+
+
+/*Modal*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    /*display: flex;*/
+}
+
+
+/* hiệu ứng */
+
+@keyframes modalFadeIn {
+    from {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.open {
+    display: flex !important;
+}
+
+.modal-container {
+    background-color: #fff;
+    width: 900px;
+    min-height: 200px;
+    position: relative;
+    animation: modalFadeIn ease 0.3s;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 16px;
+    background-color: #009688;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.modal-close:hover {
+    background-color: #aaa;
+    color: #000;
+}
+
+.modal-header {
+    background-color: #009688;
+    font-weight: 400;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 4px;
+}
+
+.modal-header ion-icon {
+    font-size: 40px;
+    top: 33px;
+    position: absolute;
+    left: 341px;
+}
+
+.modal-body {
+    flex-direction: column;
+    display: flex;
+    padding: 16px;
+}
+
+.modal-input {
+    padding: 8px;
+}
+
+
+.buy-tickets {
+    padding: 16px;
+    margin-top: 16px;
+    background-color: #009688;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+.buy-tickets:hover {
+    background-color: #aaa;
+    color: #000;
+}
+.modal-label {
+    margin: 15px 0;
+}
+
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a {
+    color: #2196f3;
+}

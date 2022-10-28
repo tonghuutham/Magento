@@ -20,12 +20,12 @@ use Magento\Framework\Exception\LocalizedException as CoreException;
 class Download extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**
-     * Link type for url
+     * Account type for url
      */
     public const LINK_TYPE_URL = 'url';
 
     /**
-     * Link type for file
+     * Account type for file
      */
     public const LINK_TYPE_FILE = 'file';
 

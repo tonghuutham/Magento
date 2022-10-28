@@ -45,7 +45,7 @@ class UpdateLinkPurchasedObserver implements ObserverInterface
     }
 
     /**
-     * Link customer_id to downloadable link purchased after update order
+     * Account customer_id to downloadable link purchased after update order
      *
      * @param Observer $observer
      * @return $this

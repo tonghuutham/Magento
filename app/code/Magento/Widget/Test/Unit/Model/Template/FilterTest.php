@@ -142,7 +142,7 @@ class FilterTest extends TestCase
         return [
             [
                 'construction' => [
-                    '{{widget type="Widget\\Link" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
+                    '{{widget type="Widget\\Account" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
                     'widget',
                     ' type="" anchor_text="Test" template="block.phtml" id_path="p/1"'
                 ],
@@ -157,7 +157,7 @@ class FilterTest extends TestCase
             ],
             [
                 'construction' => [
-                    '{{widget type="Widget\\Link" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
+                    '{{widget type="Widget\\Account" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
                     'widget',
                     ' type="" id="1" anchor_text="Test" template="block.phtml" id_path="p/1"'
                 ],
@@ -172,7 +172,7 @@ class FilterTest extends TestCase
             ],
             [
                 'construction' => [
-                    '{{widget type="Widget\\Link" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
+                    '{{widget type="Widget\\Account" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
                     'widget',
                     ' type="" name="testName" id="1" anchor_text="Test" template="block.phtml" id_path="p/1"'
                 ],
@@ -180,16 +180,16 @@ class FilterTest extends TestCase
                 'type' => 'Widget\Link',
                 'preConfigId' => 1,
                 'params' => ['id' => '1'],
-                'preconfigure' => ['widget_type' => "Widget\\Link", 'parameters' => ['id' => '1']],
+                'preconfigure' => ['widget_type' => "Widget\\Account", 'parameters' => ['id' => '1']],
                 'widgetXml' => 'some xml',
                 'widgetBlock' => $this->getBlockMock('widget text'),
                 'expectedResult' => 'widget text'
             ],
             [
                 'construction' => [
-                    '{{widget type="Widget\\Link" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
+                    '{{widget type="Widget\\Account" anchor_text="Test" template="block.phtml" id_path="p/1"}}',
                     'widget',
-                    ' type="Widget\\Link" name="testName" anchor_text="Test" template="block.phtml" id_path="p/1"'
+                    ' type="Widget\\Account" name="testName" anchor_text="Test" template="block.phtml" id_path="p/1"'
                 ],
                 'name' => 'testName',
                 'type' => 'Widget\Link',

@@ -74,7 +74,7 @@ $allowedAddressHtmlTags = ['b', 'br', 'em', 'i', 'li', 'ol', 'p', 'strong', 'sub
                 <?php endif; ?>
                 <?php if ($order->getRelationChildId()) : ?>
                     <tr>
-                        <th><?= $block->escapeHtml(__('Link to the New Order')) ?></th>
+                        <th><?= $block->escapeHtml(__('Account to the New Order')) ?></th>
                         <td>
                             <a href="<?= $block->escapeUrl($block->getViewUrl($order->getRelationChildId())) ?>">
                                 <?= $block->escapeHtml($order->getRelationChildRealId()) ?>
@@ -84,7 +84,7 @@ $allowedAddressHtmlTags = ['b', 'br', 'em', 'i', 'li', 'ol', 'p', 'strong', 'sub
                 <?php endif; ?>
                 <?php if ($order->getRelationParentId()) : ?>
                     <tr>
-                        <th><?= $block->escapeHtml(__('Link to the Previous Order')) ?></th>
+                        <th><?= $block->escapeHtml(__('Account to the Previous Order')) ?></th>
                         <td>
                             <a href="<?= $block->escapeUrl($block->getViewUrl($order->getRelationParentId())) ?>">
                                 <?= $block->escapeHtml($order->getRelationParentRealId()) ?>

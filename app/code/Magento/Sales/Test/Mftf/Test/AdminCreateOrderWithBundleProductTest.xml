@@ -37,7 +37,7 @@
                 <requiredEntity createDataKey="product"/>
             </createData>
 
-            <!--Link simple product 1 to bundle option with default quantity 2-->
+            <!--Account simple product 1 to bundle option with default quantity 2-->
             <createData entity="ApiBundleLink" stepKey="createBundleLink1">
                 <requiredEntity createDataKey="product"/>
                 <requiredEntity createDataKey="checkboxBundleOption"/>
@@ -46,7 +46,7 @@
                 <field key="is_default">1</field>
             </createData>
 
-            <!--Link simple product 2 to bundle option with default quantity 2-->
+            <!--Account simple product 2 to bundle option with default quantity 2-->
             <createData entity="ApiBundleLink" stepKey="createBundleLink2">
                 <requiredEntity createDataKey="product"/>
                 <requiredEntity createDataKey="checkboxBundleOption"/>
@@ -60,7 +60,7 @@
                 <requiredEntity createDataKey="product"/>
             </createData>
 
-            <!--Link simple product 1 to drop-down bundle option with default quantity 2-->
+            <!--Account simple product 1 to drop-down bundle option with default quantity 2-->
             <createData entity="ApiBundleLink" stepKey="createBundleLink3">
                 <requiredEntity createDataKey="product"/>
                 <requiredEntity createDataKey="dropDownBundleOption"/>
@@ -69,7 +69,7 @@
                 <field key="is_default">1</field>
             </createData>
 
-            <!--Link simple product 2 to drop-down bundle option with default quantity 2-->
+            <!--Account simple product 2 to drop-down bundle option with default quantity 2-->
             <createData entity="ApiBundleLink" stepKey="createBundleLink4">
                 <requiredEntity createDataKey="product"/>
                 <requiredEntity createDataKey="dropDownBundleOption"/>

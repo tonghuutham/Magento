@@ -9,7 +9,7 @@ use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * Class Link used for assign website to the product
+ * Class Account used for assign website to the product
  */
 class Link
 {
@@ -19,7 +19,7 @@ class Link
     private $resourceConnection;
 
     /**
-     * Link constructor.
+     * Account constructor.
      * @param ResourceConnection $resourceConnection
      */
     public function __construct(

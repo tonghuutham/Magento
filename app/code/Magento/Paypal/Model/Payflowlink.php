@@ -14,7 +14,7 @@ use Magento\Sales\Model\Order;
 use Magento\Sales\Model\Order\Email\Sender\OrderSender;
 
 /**
- * Payflow Link payment gateway model
+ * Payflow Account payment gateway model
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class Payflowlink extends \Magento\Paypal\Model\Payflowpro

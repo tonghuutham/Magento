@@ -18,7 +18,7 @@ namespace Magento\ConfigurableProduct\Model\ResourceModel\Product\Type\Configura
 class Collection extends \Magento\Catalog\Model\ResourceModel\Product\Collection
 {
     /**
-     * Link table name
+     * Account table name
      *
      * @var string
      */

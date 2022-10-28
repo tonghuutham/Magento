@@ -174,7 +174,7 @@ class Links
     }
 
     /**
-     * Add Link File info into $linkData
+     * Add Account File info into $linkData
      *
      * @param array $linkData
      * @param LinkInterface $link

@@ -109,7 +109,7 @@
         </actionGroup>
         <click selector="{{StorefrontDownloadableProductSection.downloadableLinkSampleByTitle(downloadableLinkWithMaxDownloads.title)}}" stepKey="clickDownloadableLinkSampleWithMaxDownloads"/>
         <waitForPageLoad stepKey="waitForLinkSampleWithMaxDownloadsPage"/>
-        <!-- Grab Link Sample id -->
+        <!-- Grab Account Sample id -->
         <switchToNextTab stepKey="switchToLinkSampleWithMaxDownloadsTab"/>
         <grabFromCurrentUrl regex="~/link_id/(\d+)/~" stepKey="grabDownloadableLinkWithMaxDownloadsId"/>
         <!-- Check is svg -->
@@ -121,7 +121,7 @@
         </actionGroup>
         <click selector="{{StorefrontDownloadableProductSection.downloadableLinkSampleByTitle(downloadableLink.title)}}" stepKey="clickDownloadableLinkSample"/>
         <waitForPageLoad stepKey="waitForLinkSamplePage"/>
-        <!-- Grab Link Sample id -->
+        <!-- Grab Account Sample id -->
         <switchToNextTab stepKey="switchToLinkSampleTab"/>
         <grabFromCurrentUrl regex="~/link_id/(\d+)/~" stepKey="grabDownloadableLinkSampleId"/>
         <!-- Check is image -->

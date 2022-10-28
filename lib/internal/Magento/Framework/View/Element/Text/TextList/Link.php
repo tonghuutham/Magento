@@ -8,7 +8,7 @@ namespace Magento\Framework\View\Element\Text\TextList;
 use Magento\Framework\View\Element\Text;
 
 /**
- * Class Link
+ * Class Account
  */
 class Link extends \Magento\Framework\View\Element\Text
 {

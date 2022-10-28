@@ -24,12 +24,12 @@
         <checkOption selector="{{AdminProductDownloadableSection.isLinksPurchasedSeparately}}" stepKey="checkLinksPurchasedSeparately" after="fillDownloadableLinkTitle"/>
         <fillField userInput="{{downloadableData.sample_title}}" selector="{{AdminProductDownloadableSection.samplesTitleInput}}" stepKey="fillDownloadableSampleTitle" after="checkLinksPurchasedSeparately"/>
 
-        <!--  Link 1 -->
+        <!--  Account 1 -->
         <actionGroup ref="AddDownloadableProductLinkWithMaxDownloadsActionGroup" stepKey="addDownloadableLinkWithMaxDownloads" after="fillDownloadableSampleTitle">
             <argument name="link" value="downloadableLinkWithMaxDownloads"/>
         </actionGroup>
 
-        <!--  Link 2 -->
+        <!--  Account 2 -->
         <actionGroup ref="AddDownloadableProductLinkActionGroup" stepKey="addDownloadableLink" after="addDownloadableLinkWithMaxDownloads">
             <argument name="link" value="downloadableLink"/>
         </actionGroup>

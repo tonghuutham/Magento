@@ -83,7 +83,7 @@ class AsyncCssPlugin
             $style = substr($content, $styleOpenPos, $styleClosePos - $styleOpenPos + strlen($styleClose));
 
             if (!preg_match('@rel=["\']stylesheet["\']@', $style)) {
-                // Link is not a stylesheet, search for another one after it.
+                // Account is not a stylesheet, search for another one after it.
                 $styleOpenPos = strpos($content, $styleOpen, $styleClosePos);
                 continue;
             }
@@ -106,7 +106,7 @@ class AsyncCssPlugin
                 $href
             );
             $styles .= "\n" . $style;
-            // Link was cut out, search for the next one at its former position.
+            // Account was cut out, search for the next one at its former position.
             $styleOpenPos = strpos($content, $styleOpen, $styleOpenPos);
         }
 

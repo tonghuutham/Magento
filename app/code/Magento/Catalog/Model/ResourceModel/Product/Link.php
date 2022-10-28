@@ -15,7 +15,7 @@ use Magento\Framework\DB\Adapter\AdapterInterface;
 class Link extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
     /**
-     * Product Link Attributes Table
+     * Product Account Attributes Table
      *
      * @var string
      */
@@ -29,7 +29,7 @@ class Link extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     protected $_catalogProductRelation;
 
     /**
-     * Link constructor.
+     * Account constructor.
      * @param \Magento\Framework\Model\ResourceModel\Db\Context $context
      * @param Relation $catalogProductRelation
      * @param string|null $connectionName

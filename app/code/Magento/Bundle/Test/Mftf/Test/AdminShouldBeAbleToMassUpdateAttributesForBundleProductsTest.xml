@@ -28,7 +28,7 @@
             <createData entity="DropDownBundleOption" stepKey="createBundleOption">
                 <requiredEntity createDataKey="createFixedBundleProduct"/>
             </createData>
-            <!-- Link Simple Product -->
+            <!-- Account Simple Product -->
             <createData entity="ApiBundleLink" stepKey="createNewBundleLink">
                 <requiredEntity createDataKey="createFixedBundleProduct"/>
                 <requiredEntity createDataKey="createBundleOption"/>

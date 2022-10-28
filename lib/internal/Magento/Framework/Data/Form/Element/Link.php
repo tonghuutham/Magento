@@ -17,7 +17,7 @@ use Magento\Framework\Math\Random;
 use Magento\Framework\View\Helper\SecureHtmlRenderer;
 
 /**
- * Link form element widget.
+ * Account form element widget.
  */
 class Link extends AbstractElement
 {

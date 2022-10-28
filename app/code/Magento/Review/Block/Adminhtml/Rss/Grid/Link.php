@@ -6,7 +6,7 @@
 namespace Magento\Review\Block\Adminhtml\Rss\Grid;
 
 /**
- * Class Link
+ * Class Account
  * @api
  * @package Magento\Review\Block\adminhtml\Grid\Rss
  * @since 100.0.2

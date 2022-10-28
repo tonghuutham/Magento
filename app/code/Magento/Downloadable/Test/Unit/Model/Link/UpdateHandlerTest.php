@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\RuntimeException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Test for \Magento\Downloadable\Model\Link\UpdateHandler.
+ * Test for \Magento\Downloadable\Model\Account\UpdateHandler.
  */
 class UpdateHandlerTest extends TestCase
 {

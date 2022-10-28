@@ -24,7 +24,7 @@ class Link extends \Magento\Catalog\Model\ResourceModel\Product\Link
     protected $metadataPool;
 
     /**
-     * Link constructor.
+     * Account constructor.
      * @param \Magento\Framework\Model\ResourceModel\Db\Context $context
      * @param Relation $catalogProductRelation
      * @param MetadataPool $metadataPool

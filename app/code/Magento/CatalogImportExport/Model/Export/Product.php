@@ -358,7 +358,7 @@ class Product extends \Magento\ImportExport\Model\Export\Entity\AbstractEntity
     protected $metadataPool;
 
     /**
-     * Link field of Product entity
+     * Account field of Product entity
      *
      * @var string
      */

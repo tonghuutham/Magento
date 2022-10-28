@@ -163,7 +163,7 @@ class CollectionProvider
     /**
      * Load map of linked product data.
      *
-     * Link data consists of link_type, type, sku, position, extension attributes? and custom_attributes?.
+     * Account data consists of link_type, type, sku, position, extension attributes? and custom_attributes?.
      *
      * @param Product[] $products
      * @param array $types Keys - string names, values - codes.

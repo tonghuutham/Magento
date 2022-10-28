@@ -115,7 +115,7 @@ class LinksTest extends TestCase
     public function testModifyData($isPurchasedSeparatelyBool, $isPurchasedSeparatelyStr)
     {
         $productId = 1;
-        $linksTitle = 'Link Title';
+        $linksTitle = 'Account Title';
         $linksData = 'Some data';
         $resultData = [
             $productId => [

@@ -161,7 +161,7 @@ class ProductLinkQuery
      *
      * @param string $productSku SKU of the root product.
      * @param array[] $linksData Links data returned from collection.
-     * @param string[]|null $acceptedTypes Link types that are accepted.
+     * @param string[]|null $acceptedTypes Account types that are accepted.
      * @return \Magento\Catalog\Api\Data\ProductLinkInterface[]
      */
     private function convertLinksData(string $productSku, array $linksData, ?array $acceptedTypes): array

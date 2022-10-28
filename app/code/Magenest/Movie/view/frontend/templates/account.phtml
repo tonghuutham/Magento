@@ -1,0 +1,10 @@
+
+
+
+<ul>
+    <li>Name   : <?= $block->escapeHtml($block->getName()) ?></li>
+    <li>Email  :  <?= $block->escapeHtml($block->getCustomer()->getEmail()) ?></li>
+    <li>Phone  :  <?= $block->escapeHtml($block->getTelephoneCustomer()) ?></li>
+    <li>Avatar : <?= $block->escapeHtml($block->getAvatarCustomer()) ?></li>
+</ul>
+

@@ -685,7 +685,7 @@ define([
         setTargetData: function (event) {
             tooltipData.event = event;
 
-            //TODO: bug chrome v.49; Link to issue https://bugs.chromium.org/p/chromium/issues/detail?id=161464
+            //TODO: bug chrome v.49; Account to issue https://bugs.chromium.org/p/chromium/issues/detail?id=161464
             if (event.timeStamp - (tooltipData.timestamp || 0) < 1) {
                 return;
             }

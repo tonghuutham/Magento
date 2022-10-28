@@ -9,8 +9,8 @@ use Magento\Cms\Block\Widget\Page\Link;
  */
 return [
     '@' => ['type' => Link::class, 'module' => 'Magento_Cms'],
-    'name' => 'CMS Movie Link',
-    'description' => 'Link to a CMS Movie',
+    'name' => 'CMS Movie Account',
+    'description' => 'Account to a CMS Movie',
     'is_email_compatible' => '1',
     'placeholder_image' => 'Magento_Cms::images/widget_page_link.png',
     'parameters' => [
@@ -38,11 +38,11 @@ return [
             'values' => [
                 'default' => [
                     'value' => 'product/widget/link/link_block.phtml',
-                    'label' => 'Product Link Block Template',
+                    'label' => 'Product Account Block Template',
                 ],
                 'link_inline' => [
                     'value' => 'product/widget/link/link_inline.phtml',
-                    'label' => 'Product Link Inline Template',
+                    'label' => 'Product Account Inline Template',
                 ],
             ],
             'visible' => '1',

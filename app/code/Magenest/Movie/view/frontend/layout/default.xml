@@ -2,17 +2,25 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
+
         <referenceBlock name="footer_links">
             <block class="Magento\Framework\View\Element\Html\Link\Current" name="movie-link">
                 <arguments>
-                    <argument name="label" translate="true"
-                              xsi:type="string">Movie landing
-                    </argument>
-                    <argument name="path"
-                              xsi:type="string">movie/index/index
-                    </argument>
+                    <argument name="label" translate="true" xsi:type="string">Movie landing</argument>
+                    <argument name="path" xsi:type="string">movie/index/index</argument>
                 </arguments>
             </block>
         </referenceBlock>
+
+        <referenceBlock name="customer_account_navigation">
+            <block class="Magento\Customer\Block\Account\SortLinkInterface" name="account_dashboard">
+                <arguments>
+                    <argument name="path" xsi:type="string">movie/account/index</argument>
+                    <argument name="label" xsi:type="string">Account Dashboard</argument>
+                    <argument name="sortOrder" xsi:type="number">1000</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
     </body>
 </page>

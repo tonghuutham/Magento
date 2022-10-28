@@ -175,7 +175,7 @@ class LinkProcessor
                     if ($linkedId == null) {
                         // Import file links to a SKU which is skipped for some reason, which leads to a "NULL"
                         // link causing fatal errors.
-                        $formatStr = 'WARNING: Orphaned link skipped: From SKU %s (ID %d) to SKU %s, Link type id: %d';
+                        $formatStr = 'WARNING: Orphaned link skipped: From SKU %s (ID %d) to SKU %s, Account type id: %d';
                         $exception = new \Exception(sprintf($formatStr, $sku, $productId, $linkedSku, $linkId));
                         $this->logger->critical($exception);
                         continue;

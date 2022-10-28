@@ -52,4 +52,17 @@
     </virtualType>
 
     <preference for="Magenest\Movie\Api\MovieRepositoryInterface" type="Magenest\Movie\Model\MovieRepository" />
+
+
+
+    <type name="Magento\Checkout\CustomerData\AbstractItem">
+        <plugin name="Magenest-movie-product-img" type="Magenest\Movie\Plugin\ProductMiniCartPlugin" sortOrder="5" disabled="false"/>
+    </type>
+
+    <type name="Magento\Catalog\Model\Product\Configuration\Item\ItemResolverComposite">
+        <plugin name="Magenest-movie-product-img-large" type="Magenest\Movie\Plugin\ProductShoppingCartPlugin" sortOrder="15" disabled="false"/>
+    </type>
+
+
+
 </config>

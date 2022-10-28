@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      layout="2columns-left"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+
+    <update handle="customer_account"/>
+    <body>
+        <referenceContainer name="content">
+
+            <block class="Magenest\Movie\Block\Account"
+                   name="account" template="Magenest_Movie::account.phtml"   cacheable="false"/>
+
+<!--            Recent Orders View All-->
+            <block class="Magento\Sales\Block\Order\Recent" name="customer_account_dashboard_top" template="Magento_Sales::order/recent.phtml"/>
+
+        </referenceContainer>
+    </body>
+
+</page>

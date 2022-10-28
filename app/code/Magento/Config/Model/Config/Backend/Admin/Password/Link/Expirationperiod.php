@@ -5,7 +5,7 @@
  */
 
 /**
- * Admin Reset Password Link Expiration period backend model
+ * Admin Reset Password Account Expiration period backend model
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

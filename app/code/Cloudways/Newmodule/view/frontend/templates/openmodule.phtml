@@ -1,0 +1,79 @@
+
+<div class="wrapper">
+   <div>
+       <button style="margin-left:20px" onclick=alert("HelloWorld!")>Open Modal</button>
+       <button  style="margin:35px">Open Magento Login Modal</button>
+       <button class="btn" onclick="showBuyTicker()">Open Custom Login Modal</button>
+
+   </div>
+    <div class="modal">
+        <div class="modal-container">
+            <div class="modal-close">
+<!--                <ion-icon name="close-outline"></ion-icon>-->
+                X
+            </div>
+            <div class="modal-header">
+                <ion-icon name="bag-handle"></ion-icon>
+                Login Modal
+            </div>
+            <div class="modal-body">
+                <label for="" class="modal-label">
+                    <ion-icon name="cart"></ion-icon>
+                    Username
+                </label>
+                <input type="text" class="modal-input" placeholder="Email...">
+
+                <label for="" class="modal-label">
+                    <ion-icon name="person"></ion-icon>
+                    Password
+                </label>
+                <input type="text" class="modal-input" placeholder="Password...">
+                <button class="buy-tickets">Login
+                    <ion-icon name="checkmark"></ion-icon>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="footer-help">Not registered <a href="">Create an account</a> </p>
+            </footer>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<script>
+    require(["Cloudways_Newmodule/js/openmodulerequire"], function (custom){
+        alert(custom.getText());
+    });
+
+
+
+   // const buyBtns = document.querySelectorAll('.js-buy-ticker')
+    const modal = document.querySelector('.modal')
+    const modalClose = document.querySelector('.modal-close')
+    const modalConTaiNer = document.querySelector('.modal-container')
+
+    //show
+    function showBuyTicker() {
+        modal.classList.add('open')
+    }
+
+    // for (const buyBtn of buyBtns) {
+    //     buyBtn.addEventListener('click', showBuyTicker)
+    // }
+
+    //ấn vào nút x
+     function closeBuyTicker() {
+         modal.classList.remove('open')
+     }
+
+     modalClose.addEventListener('click', closeBuyTicker)
+
+    //ấn toàn màn hình
+    modal.addEventListener('click', closeBuyTicker)
+    modalConTaiNer.addEventListener('click', function(event) {
+        event.stopPropagation() //ngăn sự nổi bọt
+    })
+</script>

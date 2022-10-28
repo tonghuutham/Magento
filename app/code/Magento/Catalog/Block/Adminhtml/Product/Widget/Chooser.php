@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Chooser for "Product Link" Cms Widget Plugin
+ * Product Chooser for "Product Account" Cms Widget Plugin
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

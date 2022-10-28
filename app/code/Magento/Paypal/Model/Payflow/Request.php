@@ -6,7 +6,7 @@
 namespace Magento\Paypal\Model\Payflow;
 
 /**
- * Payflow Link request model
+ * Payflow Account request model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

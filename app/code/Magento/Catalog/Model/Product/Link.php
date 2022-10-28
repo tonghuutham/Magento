@@ -44,7 +44,7 @@ class Link extends \Magento\Framework\Model\AbstractModel
     protected $_productCollectionFactory;
 
     /**
-     * Link collection factory
+     * Account collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Link\CollectionFactory
      */

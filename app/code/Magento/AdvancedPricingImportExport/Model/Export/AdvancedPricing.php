@@ -438,7 +438,7 @@ class AdvancedPricing extends \Magento\CatalogImportExport\Model\Export\Product
     /**
      * Load tier prices for given products.
      *
-     * @param string[] $productIds Link IDs of products to find tier prices for.
+     * @param string[] $productIds Account IDs of products to find tier prices for.
      *
      * @return array Tier prices data.
      *

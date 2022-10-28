@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Rss\Grid;
 
 /**
- * Class Link
+ * Class Account
  */
 class Link extends \Magento\Framework\View\Element\Template
 {

@@ -22,7 +22,7 @@ use Magento\Framework\DataObject;
 use Magento\Framework\Event\ManagerInterface;
 
 /**
- * Test Link widget.
+ * Test Account widget.
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

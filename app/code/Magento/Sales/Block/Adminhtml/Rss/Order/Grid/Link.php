@@ -6,7 +6,7 @@
 namespace Magento\Sales\Block\Adminhtml\Rss\Order\Grid;
 
 /**
- * Class Link
+ * Class Account
  *
  * @package Magento\Sales\Block\adminhtml\Rss\Order\Grid
  */

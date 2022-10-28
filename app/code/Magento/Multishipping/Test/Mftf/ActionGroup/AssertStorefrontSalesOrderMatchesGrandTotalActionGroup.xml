@@ -12,7 +12,7 @@
         <arguments>
             <argument name="dataHref" type="string"/>
         </arguments>
-        <!--Click on View Order Link-->
+        <!--Click on View Order Account-->
         <click selector="{{StorefrontSalesOrderSection.viewOrderLink(dataHref)}}" stepKey="viewOrderAction"/>
         <waitForPageLoad stepKey="waitForViewOrderPageToLoad"/>
         <grabTextFrom selector="{{StorefrontSalesOrderSection.salesOrderPrice('subtotal')}}" stepKey="grabValueForSubtotal"/>

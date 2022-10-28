@@ -12,7 +12,7 @@ namespace Magento\Wishlist\Block;
 use Magento\Customer\Block\Account\SortLinkInterface;
 
 /**
- * Class Link
+ * Class Account
  *
  * @api
  * @SuppressWarnings(PHPMD.DepthOfInheritance)

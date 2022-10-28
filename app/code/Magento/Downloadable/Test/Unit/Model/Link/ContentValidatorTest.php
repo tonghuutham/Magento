@@ -18,7 +18,7 @@ use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Unit tests for Magento\Downloadable\Model\Link\ContentValidator.
+ * Unit tests for Magento\Downloadable\Model\Account\ContentValidator.
  */
 class ContentValidatorTest extends TestCase
 {
@@ -189,7 +189,7 @@ class ContentValidatorTest extends TestCase
     public function testIsValidThrowsExceptionIfPriceIsInvalid($price)
     {
         $this->expectException('Magento\Framework\Exception\InputException');
-        $this->expectExceptionMessage('Link price must have numeric positive value.');
+        $this->expectExceptionMessage('Account price must have numeric positive value.');
         $linkContentData = [
             'title' => 'Title',
             'sort_order' => 1,

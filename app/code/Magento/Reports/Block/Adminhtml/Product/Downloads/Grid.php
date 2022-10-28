@@ -95,7 +95,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
             'link_title',
             [
-                'header' => __('Link'),
+                'header' => __('Account'),
                 'index' => 'link_title',
                 'header_css_class' => 'col-link',
                 'column_css_class' => 'col-link'
