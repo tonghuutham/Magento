@@ -63,6 +63,20 @@
         <plugin name="Magenest-movie-product-img-large" type="Magenest\Movie\Plugin\ProductShoppingCartPlugin" sortOrder="15" disabled="false"/>
     </type>
 
+    <virtualType name="Magento\Sales\Model\ResourceModel\Order\Grid" type="Magento\Sales\Model\ResourceModel\Grid">
+        <arguments>
+            <argument name="columns" xsi:type="array">
+                <item name="export_status" xsi:type="string">sales_order.export_status</item>
+            </argument>
+        </arguments>
+    </virtualType>
 
+
+    <type name="Magento\Customer\Model\Metadata\Form\Image">
+        <plugin name="Validate_Image" type="Magenest\Movie\Plugin\Metadata\Form\Image" sortOrder="5"/>
+    </type>
+    <type name="Magento\Customer\CustomerData\Customer">
+        <plugin name="customerData" type="Magenest\Movie\Plugin\CustomerData\Customer" sortOrder="15"/>
+    </type>
 
 </config>

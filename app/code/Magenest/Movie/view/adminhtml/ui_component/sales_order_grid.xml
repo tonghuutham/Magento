@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+<!--    <columns name="sales_order_columns">-->
+<!--        <column name="export_status" class="Magenest\Movie\Ui\Component\Listing\Column\Status">-->
+<!--            <argument name="data" xsi:type="array">-->
+<!--                <item name="config" xsi:type="array">-->
+<!--                    <item name="visible" xsi:type="boolean">true</item>-->
+<!--                    <item name="label" xsi:type="string" translate="true">Odd/Even</item>-->
+<!--                </item>-->
+<!--            </argument>-->
+<!--        </column>-->
+<!--    </columns>-->
+
+    <columns name="sales_order_columns">
+        <argument name="data" xsi:type="array">
+            <item name="config" xsi:type="array">
+                <item name="component" xsi:type="string">Magenest_Movie/js/grid/listing</item>
+            </item>
+        </argument>
+    </columns>
+
+</listing>
+
+
