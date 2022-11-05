@@ -168,7 +168,7 @@
 
 
 
-        <column name="rating">
+        <column name="rating" component="Magenest_Movie/js/grid/columns/rating">
             <settings>
                 <filter>text</filter>
                 <editor>
@@ -180,6 +180,9 @@
                 <label translate="true">Rating</label>
             </settings>
         </column>
+
+
+
 
         <column name="description">
             <settings>

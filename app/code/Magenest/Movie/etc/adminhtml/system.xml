@@ -12,13 +12,10 @@
             <label>MOVIE</label>
             <tab>tab_id</tab>
             <resource>VendorName_ModuleName::acl_path</resource>
-
-
             <group id="group_id" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
                    showInStore="1">
                 <label></label>
                 <attribute type="expanded">1</attribute>
-
                 <field id="field_id1" translate="label comment" type="text" sortOrder="10" showInDefault="1"
                        showInWebsite="1" showInStore="1">
                     <label>Text Field</label>
@@ -56,20 +53,10 @@
 
                 <field id="field_id6" translate="label" type="button" sortOrder="10" showInDefault="1"
                        showInWebsite="1" showInStore="1">
-
                     <label>Reload Page</label>
-<!--                    <depends>-->
-<!--                        <field id="field_id1">Ping</field>-->
-<!--                    </depends>-->
                     <frontend_model>Magenest\Movie\Block\Adminhtml\ReloadPage</frontend_model>
-
-
                 </field>
-
-
             </group>
-
-
         </section>
     </system>
 </config>

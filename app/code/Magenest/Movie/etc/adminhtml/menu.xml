@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-
         <add
             id="Magenest_Movie::home"
             title="MAGENEST"
@@ -35,8 +34,110 @@
             resource="Magenest_Movie::movie"
             action="magenest_movie/movie/index"/>
 
+<!--        Xero Integration-->
+
+        <add
+            id="Magenest_Movie::page"
+            title="INTEGRATION"
+            module="Magenest_Movie"
+            sortOrder="50"
+            resource="Magenest_Movie::page"
+        />
+        <add
+            id="Magenest_Movie::xero"
+            title="Xero Integration"
+            module="Magenest_Movie"
+            sortOrder="1000"
+            parent="Magenest_Movie::page"
+            resource="Magenest_Movie::xero"/>
+
+        <add
+            id="Magenest_Movie::view"
+            title="View Logs "
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::xero"
+            resource="Magenest_Movie::view"
+            action="magenest_movie/viewLog/index"/>
+
+        <add
+            id="Magenest_Movie::queue"
+            title="Queue List"
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::xero"
+            resource="Magenest_Movie::queue"
+            action="magenest_movie/viewLog/index"/>
+
+        <add
+            id="Magenest_Movie::request"
+            title="Request Daily Report"
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::xero"
+            resource="Magenest_Movie::request"
+            action="magenest_movie/viewLog/index"/>
+
+        <add
+            id="Magenest_Movie::config"
+            title="Configuration"
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::xero"
+            resource="Magenest_Movie::config"
+            action="magenest_movie/viewLog/index"/>
+
+
+
+
+<!--        Xero Bank Account Mapping-->
+        <add
+            id="Magenest_Movie::xero_bank"
+            title="Xero Bank Account Mapping"
+            module="Magenest_Movie"
+            sortOrder="1000"
+            parent="Magenest_Movie::page"
+            resource="Magenest_Movie::xero_bank"/>
+
+        <add
+            id="Magenest_Movie::payment"
+            title="Payment Mapping "
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::xero_bank"
+            resource="Magenest_Movie::payment"
+            action="magenest_movie/viewLog/index"/>
+
+
+
+<!--        Xero Store View,Tracking Category Mapping-->
+
+        <add
+            id="Magenest_Movie::xero_store"
+            title="Xero Store View,Tracking Category Mapping"
+            module="Magenest_Movie"
+            sortOrder="1000"
+            parent="Magenest_Movie::page"
+            resource="Magenest_Movie::xero_store"/>
+
+        <add
+            id="Magenest_Movie::store"
+            title="Store View Mapping"
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::xero_store"
+            resource="Magenest_Movie::store"
+            action="magenest_movie/viewLog/index"/>
+
+
+
+
+
 
     </menu>
+
+
+
 </config>
 
 

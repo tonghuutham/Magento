@@ -3,4 +3,15 @@
     <head>
         <css src="Magenest_Movie::css/style.css"/>
     </head>
+    <body>
+        <referenceContainer name="header">
+            <block class="Magento\Backend\Block\Page\Header" name="logo" before="-">
+                <arguments>
+                    <argument name="show_part" xsi:type="string">logo</argument>
+                    <argument name="edition" translate="true" xsi:type="string">Community Edition</argument>
+                    <argument name="logo_image_src" xsi:type="string">Magenest_Movie::images/newlogo.png</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
 </page>
