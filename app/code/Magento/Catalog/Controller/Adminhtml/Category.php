@@ -195,7 +195,7 @@ abstract class Category extends \Magento\Backend\App\Action
     }
 
     /**
-     * Datetime data preprocessing
+     * DatetimeStart data preprocessing
      *
      * @param \Magento\Catalog\Model\Category $category
      * @param array $postData

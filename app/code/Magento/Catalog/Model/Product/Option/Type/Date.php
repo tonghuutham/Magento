@@ -365,7 +365,7 @@ class Date extends \Magento\Catalog\Model\Product\Option\Type\DefaultType
     /**
      * Save internal value of option in infoBuy_request
      *
-     * @param string $internalValue Datetime value in internal format
+     * @param string $internalValue DatetimeStart value in internal format
      * @param string|null $originDate date value in origin format
      * @return void
      */

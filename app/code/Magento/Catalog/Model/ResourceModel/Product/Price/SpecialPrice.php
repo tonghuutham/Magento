@@ -27,7 +27,7 @@ class SpecialPrice implements SpecialPriceInterface
     private $priceTable = 'catalog_product_entity_decimal';
 
     /**
-     * Datetime storage table.
+     * DatetimeStart storage table.
      *
      * @var string
      */

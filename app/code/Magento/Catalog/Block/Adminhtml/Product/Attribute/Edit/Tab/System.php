@@ -43,7 +43,7 @@ class System extends Generic
                     'text' => __('Text'),
                     'varchar' => __('Varchar'),
                     'static' => __('Static'),
-                    'datetime' => __('Datetime'),
+                    'datetime' => __('DatetimeStart'),
                     'decimal' => __('Decimal'),
                     'int' => __('Integer'),
                 ]

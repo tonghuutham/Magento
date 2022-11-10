@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+
+    <columns name="product_columns" class="Magento\Catalog\Ui\Component\Listing\Columns">
+
+        <column name="start_date" sortOrder="50">
+
+            <settings>
+
+                <addField>true</addField>
+
+                <filter>dateRange</filter> <!-- Range component represents two input fields of date or text type-->
+
+                <label translate="true">Start Date</label>
+
+            </settings>
+
+        </column>
+
+    </columns>
+
+</listing>

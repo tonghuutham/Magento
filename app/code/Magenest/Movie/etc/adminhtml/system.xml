@@ -56,7 +56,37 @@
                     <label>Reload Page</label>
                     <frontend_model>Magenest\Movie\Block\Adminhtml\ReloadPage</frontend_model>
                 </field>
+
+
+
+            </group>
+        </section>
+        <section id="section_id1" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>COURSE</label>
+            <tab>tab_id</tab>
+            <resource>VendorName_ModuleName::acl_path</resource>
+            <group id="group_id1" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label></label>
+                <attribute type="expanded">1</attribute>
+
+
+
+                <field id="dynamic_field" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Course</label>
+                    <frontend_model>Magenest\Movie\Block\Adminhtml\Form\Field\Row</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                </field>
+
+
+
+
             </group>
         </section>
     </system>
+
+
 </config>

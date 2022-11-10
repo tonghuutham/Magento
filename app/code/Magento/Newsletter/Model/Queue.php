@@ -86,7 +86,7 @@ class Queue extends \Magento\Framework\Model\AbstractModel implements TemplateTy
     protected $_templateFilter;
 
     /**
-     * Datetime
+     * DatetimeStart
      *
      * @var \Magento\Framework\Stdlib\DateTime\DateTime
      */
