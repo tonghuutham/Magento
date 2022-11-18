@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <!-- Magenest Blog -->
+    <route url="/V1/movieBlog/:blogId" method="GET">
+        <service class="Magenest\Movie\Api\BlogRepositoryInterface" method="getById"/>
+        <resources>
+            <resource ref="Magenest_Movie::blog"/>
+        </resources>
+    </route>
+    <route url="/V1/movieBlog/search" method="GET">
+        <service class="Magenest\Movie\Api\BlogRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Magenest_Movie::blog"/>
+        </resources>
+    </route>
+    <route url="/V1/movieBlog" method="POST">
+        <service class="Magenest\Movie\Api\BlogRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Magenest_Movie::save"/>
+        </resources>
+    </route>
+    <route url="/V1/movieBlog/:id" method="PUT">
+        <service class="Magenest\Movie\Api\BlogRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Magenest_Movie::save"/>
+        </resources>
+    </route>
+    <route url="/V1/movieBlog/:blogId" method="DELETE">
+        <service class="Magenest\Movie\Api\BlogRepositoryInterface" method="deleteById"/>
+        <resources>
+            <resource ref="Magenest_Movie::blog_delete"/>
+        </resources>
+    </route>
+
+</routes>

@@ -9,6 +9,7 @@ namespace Magenest\Movie\Controller\Adminhtml\Actor;
 
 use Magenest\Movie\Api\ActorRepositoryInterface;
 use Magenest\Movie\Api\Data\ActorInterface;
+use Magenest\Movie\Controller\Adminhtml\Movie\PostDataProcessor;
 use Magenest\Movie\Model\Actor;
 use Magenest\Movie\Model\ActorFactory;
 use Magento\Backend\App\Action;

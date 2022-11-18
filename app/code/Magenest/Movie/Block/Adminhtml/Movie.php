@@ -23,7 +23,7 @@ class Movie extends \Magento\Backend\Block\Widget\Grid\Container
 
         parent::_construct();
 
-        if ($this->_isAllowedAction('Magenest_Moive::save')) {
+        if ($this->_isAllowedAction('Magenest_Movie::save')) {
             $this->buttonList->update('add', 'label', __('Add New Movie'));
         } else {
             $this->buttonList->remove('add');

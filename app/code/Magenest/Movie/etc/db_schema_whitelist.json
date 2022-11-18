@@ -1,0 +1,41 @@
+{
+    "magenest_blog": {
+        "column": {
+            "id": true,
+            "author_id": true,
+            "title": true,
+            "description": true,
+            "content": true,
+            "url_rewrite": true,
+            "status": true,
+            "create_at": true,
+            "update_at": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "MAGENEST_BLOG": true
+        }
+    },
+    "magenest_category": {
+        "column": {
+            "id": true,
+            "name": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "magenest_blog_category": {
+        "column": {
+            "blog_id": true,
+            "category_id": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "MAGENEST_BLOG_CATEGORY_BLOG": true,
+            "MAGENEST_BLOG_CATEGORY_CATEGORY": true
+        }
+    }
+    
+    
+}

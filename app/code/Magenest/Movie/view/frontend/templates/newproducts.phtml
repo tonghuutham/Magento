@@ -1,24 +1,16 @@
-
-<h3> Table: Magenest  : </h3>
+<h3> Table: Magenest : </h3>
 <table border="1">
     <tr>
-
-        <th><?= __("movie_id") ?></th>
-        <th><?= __("director_id") ?></th>
-        <th><?= __("description") ?></th>
-        <th><?= __("movie name") ?></th>
-        <th><?= __("name") ?></th>
-        <th><?= __("rating") ?></th>
-        <th><?= __("actor_name") ?></th>
-
-
-
+        <th><?= __("Movie_id") ?></th>
+        <th><?= __("Director_id") ?></th>
+        <th><?= __("Description") ?></th>
+        <th><?= __("Movie name") ?></th>
+        <th><?= __("Name") ?></th>
+        <th><?= __("Rating") ?></th>
+        <th><?= __("Actor_name") ?></th>
     </tr>
-
     <?php foreach ($block->getProducts() as $product): ?>
-
         <tr>
-
             <td><?= $product->getMovieId() ?>
             <td><?= $product->getDirectorId() ?>
             <td><?= $product->getDescription() ?>
@@ -26,8 +18,26 @@
             <td><?= $product->getName() ?>
             <td><?= $product->getRating() ?>
             <td><?= $block->getNameActor($product->getMovieId()) ?>
+        </tr>
 
+    <?php endforeach; ?>
 
+</table>
+</br>
+
+<table border="1">
+    <tr>
+        <th><?= __("Firstname") ?></th>
+        <th><?= __("Lastname") ?></th>
+        <th><?= __("Email") ?></th
+    </tr>
+
+    <?php foreach ($block->getAuthor() as $author): ?>
+
+        <tr>
+            <td><?= $author->getfirstname() ?>
+            <td><?= $author->getlastname() ?>
+            <td><?= $author->getemail() ?>
         </tr>
 
     <?php endforeach; ?>

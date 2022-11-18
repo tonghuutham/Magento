@@ -7,6 +7,7 @@ use Magento\Customer\Setup\CustomerSetupFactory;
 use Magento\Eav\Model\Config;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
+use Magenest\Movie\Model\Source\Telephone;
 
 class AddTelephoneAttributes implements DataPatchInterface
 {
@@ -53,11 +54,12 @@ class AddTelephoneAttributes implements DataPatchInterface
         $customerEntity = $customerSetup->getEavConfig()->getEntityType(Customer::ENTITY);
         $attributeSetId = $customerSetup->getDefaultAttributeSetId($customerEntity->getEntityTypeId());
         $attributeGroup = $customerSetup->getDefaultAttributeGroupId($customerEntity->getEntityTypeId(), $attributeSetId);
-        $customerSetup->addAttribute(Customer::ENTITY, 'new_attribute', [
+        $customerSetup->addAttribute(Customer::ENTITY, 'telephone', [
             'type' => 'varchar',
             'input' => 'text',
             'label' => 'Telephone',
-            'required' => true,
+            'backend' => \Magenest\Movie\Model\Source\Telephone::class,
+            'required' => false,
             'default' => 0,
             'visible' => true,
             'user_defined' => true,
@@ -68,7 +70,7 @@ class AddTelephoneAttributes implements DataPatchInterface
             'is_searchable_in_grid' => true,
             'position' => 333
         ]);
-        $newAttribute = $this->eavConfig->getAttribute(Customer::ENTITY, 'new_attribute');
+        $newAttribute = $this->eavConfig->getAttribute(Customer::ENTITY, 'telephone');
         $newAttribute->addData([
             'used_in_forms' => ['adminhtml_checkout', 'adminhtml_customer', 'customer_account_edit', 'customer_account_create'],
             'attribute_set_id' => $attributeSetId,

@@ -13,14 +13,14 @@ use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Exception\NoSuchEntityException;
 
 /**
- * MOVIE movie CRUD interface.
+ * ACTOR actor CRUD interface.
  * @api
  * @since 100.0.2
  */
 interface ActorRepositoryInterface
 {
     /**
-     * Save movie
+     * Save actor
      *
      * @param ActorInterface $actor
      * @return ActorInterface
@@ -29,7 +29,7 @@ interface ActorRepositoryInterface
     public function save(ActorInterface $actor);
 
     /**
-     * Retrieve actor
+     * Retrieve actor.
      *
      * @param int $actorId
      * @return ActorInterface
@@ -38,7 +38,7 @@ interface ActorRepositoryInterface
     public function getById($actorId);
 
     /**
-     * Retrieve movies matching the specified criteria.
+     * Retrieve actors matching the specified criteria.
      *
      * @param SearchCriteriaInterface $searchCriteria
      * @return ActorSearchResultsInterface
@@ -47,7 +47,7 @@ interface ActorRepositoryInterface
     public function getList(SearchCriteriaInterface $searchCriteria);
 
     /**
-     * Delete movie.
+     * Delete actor.
      *
      * @param ActorInterface $actor
      * @return bool true on success

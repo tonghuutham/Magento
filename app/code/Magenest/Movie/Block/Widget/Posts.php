@@ -6,6 +6,6 @@ use Magento\Widget\Block\BlockInterface;
 
 class Posts extends Template implements BlockInterface {
 
-    protected $_template = "widget/posts.phtml";
+    protected $_template = "widget/banner.phtml";
 
 }

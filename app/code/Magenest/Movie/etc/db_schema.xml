@@ -61,4 +61,55 @@
         <constraint xsi:type="foreign" referenceId="Fk3" table="magenest_movie_actor" column="actor_id" referenceTable="magenest_actor" referenceColumn="actor_id" onDelete="CASCADE"/>
     </table>
 
+
+    <table name="magenest_blog" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="id"  nullable="false"  identity="true"
+                comment="Id"/>
+        <column xsi:type="int" name="author_id" unsigned="true" nullable="false"
+                comment="author ID"/>
+        <column xsi:type="text" name="title"  nullable="false"
+                comment="title"/>
+            <column xsi:type="text" name="description"  nullable="false"
+                comment="description"/>
+        <column xsi:type="text" name="content"  nullable="false"
+                comment="content"/>
+        <column xsi:type="text" name="url_rewrite"  nullable="false"
+                comment="url rewrite"/>
+        <column xsi:type="text" name="status"  nullable="false"
+                comment="status"/>
+        <column xsi:type="date" name="create_at"  nullable="false"
+                comment="create_at"/>
+        <column xsi:type="date" name="update_at"  nullable="false"
+                comment="update_at"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <constraint xsi:type="foreign" referenceId="MAGENEST_BLOG" table="magenest_blog" column="author_id" referenceTable="admin_user" referenceColumn="user_id" onDelete="CASCADE"/>
+    </table>
+
+    <table name="magenest_category" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="id"  nullable="false" identity="true"
+                comment="Id"/>
+        <column xsi:type="text" name="name"  nullable="false"
+                comment="Name"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+
+
+    <table name="magenest_blog_category" resource="default" engine="innodb"
+           comment="Cron Schedule">
+        <column xsi:type="int" name="blog_id"  nullable="false" identity="true"
+                comment="blog Id"/>
+        <column xsi:type="int" name="category_id"  nullable="false"
+                comment="category Id"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="blog_id"/>
+        </constraint>
+        <constraint xsi:type="foreign" referenceId="MAGENEST_BLOG_CATEGORY_BLOG" table="magenest_blog_category" column="blog_id" referenceTable="magenest_blog" referenceColumn="id" onDelete="CASCADE"/>
+        <constraint xsi:type="foreign" referenceId="MAGENEST_BLOG_CATEGORY_CATEGORY" table="magenest_blog_category" column="category_id" referenceTable="magenest_category" referenceColumn="id" onDelete="CASCADE"/>
+    </table>
 </schema>

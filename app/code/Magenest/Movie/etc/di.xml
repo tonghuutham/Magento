@@ -4,8 +4,6 @@
     <type name="Dev\Grid\Ui\DataProvider\Category\ListingDataProvider">
         <plugin name="magenest_movie_attributes" type="Magenest\Movie\Plugin\AddAttributesToUiDataProvider"/>
     </type>
-
-
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
@@ -51,7 +49,43 @@
         </arguments>
     </virtualType>
 
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="magenest_movie_blog_listing_data_source" xsi:type="string">BlogCollection</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <virtualType name="BlogCollection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">magenest_blog</argument>
+            <argument name="resourceModel" xsi:type="string">Magenest\Movie\Model\ResourceModel\Blog</argument>
+        </arguments>
+    </virtualType>
+
     <preference for="Magenest\Movie\Api\MovieRepositoryInterface" type="Magenest\Movie\Model\MovieRepository" />
+    <preference for="Magenest\Movie\Api\ActorRepositoryInterface" type="Magenest\Movie\Model\ActorRepository" />
+    <preference for="Magenest\Movie\Api\BlogRepositoryInterface" type="Magenest\Movie\Model\BlogRepository" />
+    <preference for="Magenest\Movie\Api\Data\BlogSearchResultsInterface"
+                type="Magenest\Movie\Model\BlogSearchResults" />
+    <preference for="Magenest\Movie\Api\GetBlogByIdentifierInterface" type="Magenest\Movie\Model\GetBlogByIdentifier" />
+    <preference for="Magenest\Movie\Api\Data\BlogInterface" type="Magenest\Movie\Model\Blog" />
+
+    <virtualType name="Magenest\Movie\Model\Api\SearchCriteria\BlockCollectionProcessor" type="Magento\Framework\Api\SearchCriteria\CollectionProcessor">
+        <arguments>
+            <argument name="processors" xsi:type="array">
+                <item name="filters" xsi:type="object">Magento\Framework\Api\SearchCriteria\CollectionProcessor\FilterProcessor</item>
+                <item name="sorting" xsi:type="object">Magento\Framework\Api\SearchCriteria\CollectionProcessor\SortingProcessor</item>
+                <item name="pagination" xsi:type="object">Magento\Framework\Api\SearchCriteria\CollectionProcessor\PaginationProcessor</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <type name="Magenest\Movie\Model\BlogRepository">
+        <arguments>
+            <argument name="collectionProcessor" xsi:type="object">Magenest\Movie\Model\Api\SearchCriteria\BlockCollectionProcessor</argument>
+        </arguments>
+    </type>
 
 
 

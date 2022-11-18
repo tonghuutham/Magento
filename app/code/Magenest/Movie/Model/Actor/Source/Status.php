@@ -1,11 +1,11 @@
 <?php
-namespace Magenest\Movie\Model\Director\Source;
+namespace Magenest\Movie\Model\Actor\Source;
 
 class Status implements \Magento\Framework\Data\OptionSourceInterface
 {
     protected $emp;
 
-    public function __construct(\Magenest\Movie\Model\Director $emp)
+    public function __construct(\Magenest\Movie\Model\Actor $emp)
     {
         $this->emp = $emp;
     }

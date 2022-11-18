@@ -34,6 +34,15 @@
             resource="Magenest_Movie::movie"
             action="magenest_movie/movie/index"/>
 
+        <add
+            id="Magenest_Movie::blog"
+            title="Blog"
+            module="Magenest_Movie"
+            sortOrder="55"
+            parent="Magenest_Movie::home"
+            resource="Magenest_Movie::blog"
+            action="magenest_movie/blog/index"/>
+
 <!--        Xero Integration-->
 
         <add

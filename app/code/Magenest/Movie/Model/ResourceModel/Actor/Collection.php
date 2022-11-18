@@ -1,9 +1,10 @@
 <?php
 
 namespace Magenest\Movie\Model\ResourceModel\Actor;
-use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
+
 use Magenest\Movie\Model\Actor;
 use Magenest\Movie\Model\ResourceModel\Actor as ActorResourceModel;
+use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**
  * Director Collection
