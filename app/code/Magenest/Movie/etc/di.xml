@@ -67,10 +67,13 @@
     <preference for="Magenest\Movie\Api\MovieRepositoryInterface" type="Magenest\Movie\Model\MovieRepository" />
     <preference for="Magenest\Movie\Api\ActorRepositoryInterface" type="Magenest\Movie\Model\ActorRepository" />
     <preference for="Magenest\Movie\Api\BlogRepositoryInterface" type="Magenest\Movie\Model\BlogRepository" />
-    <preference for="Magenest\Movie\Api\Data\BlogSearchResultsInterface"
-                type="Magenest\Movie\Model\BlogSearchResults" />
+    <preference for="Magenest\Movie\Api\CategoryRepositoryInterface" type="Magenest\Movie\Model\CategoryRepository" />
+    <preference for="Magenest\Movie\Api\Data\BlogSearchResultsInterface" type="Magenest\Movie\Model\BlogSearchResults" />
+    <preference for="Magenest\Movie\Api\Data\CategorySearchResultsInterface" type="Magenest\Movie\Model\CategorySearchResults" />
     <preference for="Magenest\Movie\Api\GetBlogByIdentifierInterface" type="Magenest\Movie\Model\GetBlogByIdentifier" />
+    <preference for="Magenest\Movie\Api\GetCategoryByIdentifierInterface" type="Magenest\Movie\Model\GetCategoryByIdentifier" />
     <preference for="Magenest\Movie\Api\Data\BlogInterface" type="Magenest\Movie\Model\Blog" />
+    <preference for="Magenest\Movie\Api\Data\CategoryInterface" type="Magenest\Movie\Model\Category" />
 
     <virtualType name="Magenest\Movie\Model\Api\SearchCriteria\BlockCollectionProcessor" type="Magento\Framework\Api\SearchCriteria\CollectionProcessor">
         <arguments>

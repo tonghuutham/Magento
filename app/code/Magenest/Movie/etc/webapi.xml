@@ -39,4 +39,36 @@
         </resources>
     </route>
 
+    <!-- Magenest Category -->
+    <route url="/V1/movieCategory/:categoryId" method="GET">
+        <service class="Magenest\Movie\Api\CategoryRepositoryInterface" method="getById"/>
+        <resources>
+            <resource ref="Magenest_Movie::category"/>
+        </resources>
+    </route>
+    <route url="/V1/movieCategory/search" method="GET">
+        <service class="Magenest\Movie\Api\CategoryRepositoryInterface" method="getList"/>
+        <resources>
+            <resource ref="Magenest_Movie::category"/>
+        </resources>
+    </route>
+    <route url="/V1/movieCategory" method="POST">
+        <service class="Magenest\Movie\Api\CategoryRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Magenest_Movie::save"/>
+        </resources>
+    </route>
+    <route url="/V1/movieCategory/:id" method="PUT">
+        <service class="Magenest\Movie\Api\CategoryRepositoryInterface" method="save"/>
+        <resources>
+            <resource ref="Magenest_Movie::save"/>
+        </resources>
+    </route>
+    <route url="/V1/movieCategory/:categoryId" method="DELETE">
+        <service class="Magenest\Movie\Api\CategoryRepositoryInterface" method="deleteById"/>
+        <resources>
+            <resource ref="Magenest_Movie::category_delete"/>
+        </resources>
+    </route>
+
 </routes>
