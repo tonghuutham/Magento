@@ -18,7 +18,7 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
-        //$resultPage->getConfig()->getTitle()->prepend(__('Modal Test Page'));
+        //$resultPage->getConfig()->getTitle()->prepend(__('Modal Test Blog'));
         return $resultPage;
     }
 }

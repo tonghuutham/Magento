@@ -42,7 +42,7 @@ class Blog extends AbstractModel implements BlogInterface
      *
      * @return string
      */
-    public function getAuthorID()
+    public function getAuthorId()
     {
         return $this->getData(self::AUTHOR_ID);
     }

@@ -5,8 +5,7 @@
  * See COPYING.txt for license details.
  */
 -->
-<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
     <!-- Magenest Blog -->
     <route url="/V1/movieBlog/:blogId" method="GET">
         <service class="Magenest\Movie\Api\BlogRepositoryInterface" method="getById"/>
@@ -38,7 +37,6 @@
             <resource ref="Magenest_Movie::blog_delete"/>
         </resources>
     </route>
-
     <!-- Magenest Category -->
     <route url="/V1/movieCategory/:categoryId" method="GET">
         <service class="Magenest\Movie\Api\CategoryRepositoryInterface" method="getById"/>

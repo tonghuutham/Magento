@@ -11,7 +11,7 @@ use Magento\Framework\App\Helper\Context;
 use Magento\Sales\Model\OrderFactory;
 
 /**
- * CMS Page Helper
+ * CMS Blog Helper
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.CyclomaticComplexity)
  * @SuppressWarnings(PHPMD.NPathComplexity)

@@ -94,7 +94,7 @@ class View extends \Magento\Framework\App\Action\Action
             );
             $plain = true;
         } else {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Blog not found.'));
         }
 
         /** @var Filesystem $filesystem */
@@ -106,7 +106,7 @@ class View extends \Magento\Framework\App\Action\Action
         if (!$directory->isFile($fileName)
             && !$this->_objectManager->get(Storage::class)->processStorageFile($path)
         ) {
-            throw new NotFoundException(__('Page not found.'));
+            throw new NotFoundException(__('Blog not found.'));
         }
 
         if ($plain) {

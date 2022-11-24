@@ -1,0 +1,28 @@
+#Magenest Customer GraphQl Schema
+
+type Query {
+    movieBlog (
+        id: Int @doc(description: "The ID of the Movie Blog.") @deprecated(reason: "Use `author_id` instead.")
+        author_id: Int @doc(description: "author_id")
+    ): MovieBlogOutput @resolver(class: "Magenest\\Movie\\Model\\Resolver\\Blog") @doc(description: "Return details about a MOVIE blog.")
+    movieCategory (
+        id: Int @doc(description: "The ID of the Movie Blog.") @deprecated(reason: "Use `name` instead.")
+        name: String @doc(description: "name")
+    ): MovieCategoryOutput @resolver(class: "Magenest\\Movie\\Model\\Resolver\\Category") @doc(description: "Return details about a MOVIE blog.")
+}
+
+type MovieBlogOutput @doc(description: "Contains details about a Movie Blog.") {
+    author_id: Int @doc(description: "authorId")
+    title: String @doc(description: "title")
+    description: String @doc(description: "description")
+    content: String @doc(description: "content")
+    url_rewrite: String @doc(description: "urlRewrite")
+    status: String @doc(description: "status")
+    create_at: String @doc(description: "createAt")
+    update_at: String @doc(description: "updateAt")
+}
+
+type MovieCategoryOutput @doc(description: "Contains details about a Movie Blog.") {
+    id: Int @doc(description: "id")
+    name: String @doc(description: "name")
+}

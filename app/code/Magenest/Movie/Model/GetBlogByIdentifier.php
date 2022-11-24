@@ -44,7 +44,7 @@ class GetBlogByIdentifier implements GetBlogByIdentifierInterface
     {
         $blog = $this->blogFactory->create();
         $blog->setStoreId($storeId);
-        $this->blogResource->load($blog, $identifier, BlogInterface::IDENTIFIER);
+        $this->blogResource->load($blog, $identifier, BlogInterface::ID);
 
         if (!$blog->getId()) {
             throw new NoSuchEntityException(__('The CMS page with the "%1" ID doesn\'t exist.', $identifier));
